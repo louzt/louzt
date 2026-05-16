@@ -54,13 +54,6 @@
 	<a href="#core-stack">Core Stack</a>
 </p>
 
-## GitHub Snapshot
-
-<div align="center">
-	<img height="160em" src="https://github-readme-stats.vercel.app/api?username=louzt&show_icons=true&hide_border=true&include_all_commits=true&bg_color=020617&title_color=38bdf8&icon_color=67e8f9&text_color=cbd5e1&ring_color=38bdf8" alt="GitHub Stats" />
-	<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=louzt&layout=compact&hide_border=true&bg_color=020617&title_color=38bdf8&text_color=cbd5e1&langs_count=8" alt="Top Languages" />
-</div>
-
 ## Who I Am
 
 I spend most of my time turning operational complexity into software that can survive real use. I work with disciplined, AI-accelerated workflows, but the goal is still straightforward: clearer systems, better performance, stronger delivery, and fewer fragile handoffs.
