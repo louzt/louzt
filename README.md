@@ -1,9 +1,9 @@
 <div align="center">
 	<h1>David Mireles</h1>
 	<p><strong>Systems Architect · B2B Infrastructure Provider · AI Engineer</strong></p>
-	<p>I build production software across multi-protocol networking, product delivery, Linux infrastructure, and token-efficient agentic workflows.</p>
+	<p>I design and ship production systems for teams that need reliable B2B software, multi-protocol networking, Linux infrastructure, and AI-assisted execution without fragile handoffs.</p>
 	<p>
-		<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2600&pause=900&color=94A3B8&center=true&vCenter=true&width=920&lines=B2B+platforms+for+real+operations;TCP%2FUDP%2FQUIC+networking+%7C+infra+%7C+runtime+debugging;Token-efficient+agentic+flows%2C+adapters%2C+OSS+hardening" alt="Animated summary" />
+		<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2800&pause=1100&color=94A3B8&center=true&vCenter=true&width=1040&lines=B2B+software+for+real+operators%2C+not+demo+decks;TCP%2FUDP%2FQUIC+networking+%7C+Linux+infra+%7C+runtime+debugging;Agentic+systems%2C+adapters%2C+connectors%2C+OSS+hardening;Open+to+consulting%2C+platform+roles%2C+and+serious+systems+work" alt="Animated summary" />
 	</p>
 	<p>
 		<img src="https://komarev.com/ghpvc/?username=louzt&label=profile+views&color=1e293b&style=flat-square" alt="Profile Views" />
