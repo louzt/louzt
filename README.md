@@ -1,0 +1,209 @@
+<div align="center">
+	<h1>David Mireles</h1>
+	<p><strong>Systems Architect · B2B Infrastructure Provider · AI Engineer</strong></p>
+	<p>I build production software across multi-protocol networking, product delivery, Linux infrastructure, and token-efficient agentic workflows.</p>
+	<p>
+		<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2600&pause=900&color=94A3B8&center=true&vCenter=true&width=920&lines=B2B+platforms+for+real+operations;TCP%2FUDP%2FQUIC+networking+%7C+infra+%7C+runtime+debugging;Token-efficient+agentic+flows%2C+adapters%2C+OSS+hardening" alt="Animated summary" />
+	</p>
+	<p>
+		<img src="https://komarev.com/ghpvc/?username=louzt&label=profile+views&color=1e293b&style=flat-square" alt="Profile Views" />
+	</p>
+	<p>
+		<strong>Focus:</strong> B2B systems, infrastructure, AI
+		·
+		<strong>Base:</strong> Mexico
+		·
+		<strong>Workflow:</strong> PR-driven, collaborative review, policy-aware
+	</p>
+	<p>
+		<a href="https://www.loust.pro/DavidMireles">Portfolio</a>
+		·
+		<a href="https://www.loust.pro">LOUST Web</a>
+		·
+		<a href="https://github.com/LOUST-PRO">LOUST GitHub</a>
+		·
+		<a href="https://socialsphere.loust.pro">SocialSphere</a>
+		·
+		<a href="https://gist.github.com/louzt">Gists</a>
+		·
+		<a href="mailto:opensource@loust.pro">opensource@loust.pro</a>
+	</p>
+	<p>
+		<a href="https://www.loust.pro"><img src="https://img.shields.io/badge/LOUST-Web-020617?style=for-the-badge&logo=vercel&logoColor=38bdf8" alt="LOUST Web" /></a>
+		<a href="https://github.com/LOUST-PRO"><img src="https://img.shields.io/badge/LOUST-GitHub-0f172a?style=for-the-badge&logo=github&logoColor=67e8f9" alt="LOUST GitHub" /></a>
+		<a href="https://socialsphere.loust.pro"><img src="https://img.shields.io/badge/SocialSphere-0f172a?style=for-the-badge&logo=linkedin&logoColor=67e8f9" alt="SocialSphere" /></a>
+		<a href="https://gist.github.com/louzt"><img src="https://img.shields.io/badge/Public-Gists-111827?style=for-the-badge&logo=github&logoColor=cbd5e1" alt="Public Gists" /></a>
+	</p>
+</div>
+
+<p align="center">
+	<a href="#who-i-am">Who I Am</a>
+	·
+	<a href="#what-i-do">What I do</a>
+	·
+	<a href="#applied-systems-range">Applied Range</a>
+	·
+	<a href="#delivery-areas">Delivery Areas</a>
+	·
+	<a href="#selected-work">Selected Work</a>
+	·
+	<a href="#public-signal">Public Signal</a>
+	·
+	<a href="#collaboration-style">Collaboration</a>
+	·
+	<a href="#core-stack">Core Stack</a>
+</p>
+
+## GitHub Snapshot
+
+<div align="center">
+	<img height="160em" src="https://github-readme-stats.vercel.app/api?username=louzt&show_icons=true&hide_border=true&include_all_commits=true&bg_color=020617&title_color=38bdf8&icon_color=67e8f9&text_color=cbd5e1&ring_color=38bdf8" alt="GitHub Stats" />
+	<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=louzt&layout=compact&hide_border=true&bg_color=020617&title_color=38bdf8&text_color=cbd5e1&langs_count=8" alt="Top Languages" />
+</div>
+
+## Who I Am
+
+I spend most of my time turning operational complexity into software that can survive real use. I work with disciplined, AI-accelerated workflows, but the goal is still straightforward: clearer systems, better performance, stronger delivery, and fewer fragile handoffs.
+
+I also publish technical notes, case studies, and public gists. If you see a fit for consulting, a long-term role, or a learning-heavy collaboration where deep systems work matters, send me a message.
+
+I have spent years debugging, reading documentation, shipping project by project, and collaborating with agencies, production teams, operators, and opinionated technical people. I am most at home in the IDE: reading code, tracing behavior, and improving the metrics that actually move a system.
+
+Some of the strongest systems behind that work are still private or client-bound. I release the reusable hardening, tooling, and OSS-safe parts when the boundary is clean enough to be readable and genuinely useful to other engineers.
+
+## What I do
+
+I work on software that needs to survive real use, not just demos. Most of my work sits at the boundary between application delivery and systems engineering:
+
+- B2B platforms for sales, operations, booking, inventory, internal dashboards, and workflow automation.
+- Multi-protocol network architecture across TCP, UDP, and QUIC for low-latency, failover-aware, and anti-bufferbloat paths.
+- Linux infrastructure with VPS hardening, Docker and Kubernetes deployments, monitoring, backups, and stable release workflows.
+- AI-enabled systems: retrieval pipelines, agent tooling, vector search, GPU-backed processing, and spec-driven developer tooling.
+- Token-efficient agentic systems: MCP servers, context routers, execution loops, caching, and flow-first automation that optimize architecture instead of just spending more tokens.
+- Connector-driven automation engines for workflow graphs, async jobs, business integrations, and modular SaaS execution in the same problem space many teams reach for n8n to solve.
+- Reusable adapters, wrappers, and workspace tools that reduce glue code, improve reuse, and make future integrations easier to maintain.
+- Conversational systems ranging from Bayesian or decision-tree casuistry to agentic chatbots, tool-calling, MCP integrations, and ReAct-style flows for calls, messaging, and business APIs.
+- Real-time, graphics, and platform work spanning WebGL surfaces, coturn-backed communication, Go systems tooling, plugins, Linux and WSL hardening, Windows edge cases, ports, and Android-capable application work.
+- Systems debugging across CLI behavior, startup performance, Wayland/Linux runtime issues, cross-platform desktop apps, and network-sensitive software.
+
+<table>
+	<tr>
+		<td valign="top">
+			<strong>B2B Platforms</strong><br />
+			CRMs, ERP-style flows, booking, inventory, operations dashboards, and internal tooling.
+		</td>
+		<td valign="top">
+			<strong>Infrastructure</strong><br />
+			Linux deploys, VPS hardening, Docker, Kubernetes, observability, backups, and release hygiene.
+		</td>
+		<td valign="top">
+			<strong>AI & Systems</strong><br />
+			Retrieval workflows, process intelligence, runtime debugging, and performance-conscious automation.
+		</td>
+	</tr>
+</table>
+
+## Applied Systems Range
+
+| Track | Examples |
+| --- | --- |
+| Conversational and agent systems | Bayesian classifiers, decision trees for casuistry, agentic chatbots, MCP-connected tools, ReAct-style orchestration, and messaging/calling flows through APIs such as Meta Business |
+| Real-time and interactive systems | WebGL interfaces, coturn-aware communication paths, media and streaming surfaces, and latency-sensitive interaction design |
+| Data and platform engineering | Node-based workflow graphs, multi-protocol data streams, custom integration connectors, Redis pub/sub pipelines, idempotent execution, token-efficient context routers, and multi-tenant SaaS runtimes |
+| Systems and hardening | Multi-protocol routing across TCP, UDP, and QUIC, Go systems tooling, Linux/WSL/Windows edge cases, WebView/Tauri/Rust/Python hybrids, custom plugins, and subsystem runtime isolation |
+
+## Delivery Areas
+
+| Area | What I usually ship | Typical stack |
+| --- | --- | --- |
+| B2B software | CRM and ERP-style workflows, admin dashboards, booking, inventory, sales, reporting, and internal tools | Next.js, Astro, React, TypeScript, GraphQL, PostgreSQL, Redis |
+| Infrastructure and security | VPS provisioning, hardening, containerized deploys, monitoring, CI/CD, backup strategy, and operational automation | Linux, Docker, Kubernetes, systemd, Nginx, GitHub Actions, PM2 |
+| AI and automation | Retrieval workflows, local and remote model integration, semantic search, agent tools, content pipelines, and internal automation | Python, TypeScript, Redis, CUDA, Numba, WebSocket |
+| Systems and desktop | Runtime debugging, Linux desktop integration, startup and lifecycle fixes, ports and tooling around native or hybrid apps | Rust, Tauri, Python, shell, Wayland/Linux tooling |
+
+## Selected Work
+
+| Project | Focus | Why it matters |
+| --- | --- | --- |
+| [Nexus Engine](https://github.com/LOUST-PRO/nexus-engine) | Spec-driven generators and internal platform tooling | Reduces repeated scaffolding and keeps larger TypeScript ecosystems consistent across apps and services |
+| [SypremeMX](https://github.com/LOUST-PRO/syprememx) | Multi-tenant business platform | Combines product delivery, operational workflows, and production-grade scale across web, data, and admin tooling |
+| [NetBoozt](https://github.com/louzt/NetBoozt_InternetUpgrade) | Network tuning and performance engineering | Shows low-level systems thinking applied to latency, failover, and user-visible performance |
+| [SnapPipe](https://github.com/louzt/SnapPipe) | Identity-based transport and relay foundations | Shows interest in low-latency connectivity, signed-session control planes, and self-hosted operator infrastructure |
+| Workflow Automation Engine | Connector-driven orchestration, node graphs, and state-machine execution | Demonstrates how complex logistics can be mapped into asynchronous execution paths without turning edge cases into operational debt |
+| Validation and provenance labs | Deterministic simulation, auditability, and isolation workflows | Useful when correctness, reproducibility, and evidence chains matter more than raw feature count |
+| AI processing pipelines | Retrieval, embeddings, GPU-backed automation, and media workflows | Bridges practical product work with AI orchestration and performance-conscious compute usage |
+| Open-source systems fixes | Linux desktop, CLI behavior, runtime isolation, packaging, and startup reliability | Useful where correctness and maintainability matter more than adding another surface feature |
+
+## Recent Public Work
+
+- Upstream runtime and renderer hardening around Waypaper and linux-wallpaperengine, especially launch-path diagnostics, project-type handling, and Wayland-sensitive behavior.
+- CLI lifecycle isolation work in Bottles to remove startup side effects and keep ephemeral launches from mutating shared runtime state.
+- Tooling for AI-ready documentation snapshots and change-tracked corpora through [spec-snapshot-scraper](https://github.com/louzt/spec-snapshot-scraper).
+- Early public groundwork in [SnapPipe](https://github.com/louzt/SnapPipe) for identity-based transport, signed tickets, and self-hosted relay assumptions.
+
+## Public Signal
+
+| Execution Invariant | Technical Posture |
+| --- | --- |
+| **Upstream OSS hardening** | Scoped PRs, diagnostics-heavy issues, and isolation patches in complex systems such as Bottles, Waypaper, and linux-wallpaperengine instead of noisy commit volume. |
+| **Modular product depth** | Multi-tenant SaaS layers across CRM, e-commerce, analytics, distributed automation engines, community, media, and payment flows. |
+| **Systems posture** | Reverse-engineering edge cases down to runtime, then extracting cleaner decision planes, adapters, and reusable boundaries. |
+| **Release hygiene** | Core systems stay private until the abstraction boundary is legible, safe to expose, and genuinely useful to other engineers. |
+
+<details>
+<summary>Representative build signals from shipped systems</summary>
+
+- 9 packages and 391 TypeScript files in Nexus Engine.
+- 42 Prisma models and 600+ GraphQL endpoints in larger platform work.
+- 50K embeddings queried in 188ms in GPU-oriented retrieval work.
+- +15-20% throughput improvements in NetBoozt test cases.
+- Redis-heavy workloads tuned around cache-hit discipline and lower response-time overhead.
+
+</details>
+
+## Collaboration Style
+
+<table>
+	<tr>
+		<td valign="top">
+			<strong>Team Workflow</strong><br />
+			Comfortable working inside branch strategy, commit hygiene, CI gates, merge rules, and contribution policies that keep teams predictable. When a change uncovers broader opportunity, I prefer separating hardening, refactors, and features into readable branches or PRs.
+		</td>
+		<td valign="top">
+			<strong>Review Loop</strong><br />
+			I like thoughtful peer review in both directions: I can review carefully and explain trade-offs, and I also want strong review back so I keep learning how a codebase wants to evolve.
+		</td>
+		<td valign="top">
+			<strong>Adversarial Debugging</strong><br />
+			I test systems by asking how they break, where intuition diverges from runtime behavior, and what an ethical attacker or stressed operator would hit first, while still respecting product context and team opinions.
+		</td>
+	</tr>
+</table>
+
+## How I work
+
+- **Infrastructure as substrate:** I harden network and service layers before asking application code to carry business load.
+- **Decision plane first:** I reverse-engineer edge cases down to runtime behavior until the root cause and architectural boundary are explicit.
+- **Atomic abstraction:** I build with reusable adapters, wrappers, and isolated components so complexity does not decay into legacy glue.
+- **Paradigm-agnostic execution:** Languages are tools; I adapt to compiler, runtime, and concurrency constraints across C, Go, Rust, TypeScript, and Python.
+- **Flow-first AI:** I optimize context reuse, caching, and execution loops before paying for token bloat.
+- **Commercial leverage:** I treat infrastructure as a business enabler and can negotiate, subsidize, or provision dedicated environments and team toolchains when that unblocks delivery.
+- **KPI-driven optimization:** I benchmark and stress-test until throughput, cost, latency, and operational KPIs are genuinely competitive.
+- **Governance and review:** I keep sensitive infrastructure redacted, ship scoped PRs, and use review as a two-way learning loop.
+
+## Current Direction
+
+- Expanding spec-driven generation and reusable internal foundations.
+- Shipping cleaner B2B building blocks for agencies and long-lived client platforms.
+- Selectively open-sourcing hardened internal improvements, orchestration layers, and reusable tooling when the abstraction boundary is clean.
+- Tightening deployment, observability, and security baselines across Linux infrastructure.
+- Turning deeper systems work into public case studies, blogs, gists, and higher-signal open-source contributions.
+- Keeping room for consulting, long-term product roles, and serious learning loops with strong engineering teams.
+
+## Core Stack
+
+- Product and web: TypeScript, React, Next.js including frontier releases, Astro, Tailwind CSS, GraphQL
+- Backend and data: Python, Node.js, Bun, Prisma, PostgreSQL, Redis, SQLite
+- Infrastructure: Linux, Docker, Kubernetes, systemd, Nginx, GitHub Actions, PM2
+- Systems and desktop: Go, Rust, native C, Tauri, POSIX shell, multi-protocol networking (TCP/UDP/QUIC), WSL/Windows edge cases, Wayland/Linux troubleshooting, WebView hybrids
+- AI and performance: local and remote LLM tooling, context optimization, vector search, CUDA, Numba, flow-aware automation, connector orchestration, agentic ReAct loops
