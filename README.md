@@ -129,7 +129,7 @@ I work on software that needs to survive real use, not just demos. Most of my wo
 
 ## Recent Public Work
 
-- Upstream runtime and renderer hardening around Waypaper and linux-wallpaperengine, especially launch-path diagnostics, project-type handling, and Wayland-sensitive behavior.
+- Upstream runtime isolation and renderer hardening around Waypaper and linux-wallpaperengine; designed intent-based video routing for hardware acceleration, implemented tiling-safe GTK layout reflows, and built decoupled diagnostic layers.
 - CLI lifecycle isolation work in Bottles to remove startup side effects and keep ephemeral launches from mutating shared runtime state.
 - Tooling for AI-ready documentation snapshots and change-tracked corpora through [spec-snapshot-scraper](https://github.com/louzt/spec-snapshot-scraper).
 - Early public groundwork in [SnapPipe](https://github.com/louzt/SnapPipe) for identity-based transport, signed tickets, and self-hosted relay assumptions.
