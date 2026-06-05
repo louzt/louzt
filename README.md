@@ -36,23 +36,31 @@
 	</p>
 </div>
 
-<p align="center">
-	<a href="#who-i-am">Who I Am</a>
-	·
-	<a href="#what-i-do">What I do</a>
-	·
-	<a href="#applied-systems-range">Applied Range</a>
-	·
-	<a href="#delivery-areas">Delivery Areas</a>
-	·
-	<a href="#selected-work">Selected Work</a>
-	·
-	<a href="#public-signal">Public Signal</a>
-	·
-	<a href="#collaboration-style">Collaboration</a>
-	·
-	<a href="#core-stack">Core Stack</a>
-</p>
+<br />
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="#who-i-am">🚀 Who I Am</a> &nbsp;·&nbsp;
+        <a href="#what-i-do">⚙️ What I do</a> &nbsp;·&nbsp;
+        <a href="#applied-systems-range">🧠 Applied Range</a> &nbsp;·&nbsp;
+        <a href="#delivery-areas">📦 Delivery Areas</a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="#selected-work">📁 Selected Work</a> &nbsp;·&nbsp;
+        <a href="#public-signal">📡 Public Signal</a> &nbsp;·&nbsp;
+        <a href="#collaboration-style">🤝 Collaboration</a> &nbsp;·&nbsp;
+        <a href="#core-stack">⚡ Core Stack</a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="3">
 
 ## Who I Am
 
@@ -63,6 +71,8 @@ I also publish technical notes, case studies, and public gists. If you see a fit
 I have spent years debugging, reading documentation, shipping project by project, and collaborating with agencies, production teams, operators, and opinionated technical people. I am most at home in the IDE: reading code, tracing behavior, and improving the metrics that actually move a system.
 
 Some of the strongest systems behind that work are still private or client-bound. I release the reusable hardening, tooling, and OSS-safe parts when the boundary is clean enough to be readable and genuinely useful to other engineers.
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="3">
 
 ## What I do
 
@@ -79,22 +89,25 @@ I work on software that needs to survive real use, not just demos. Most of my wo
 - Real-time, graphics, and platform work spanning WebGL surfaces, coturn-backed communication, Go systems tooling, plugins, Linux and WSL hardening, Windows edge cases, ports, and Android-capable application work.
 - Systems debugging across CLI behavior, startup performance, Wayland/Linux runtime issues, cross-platform desktop apps, and network-sensitive software.
 
-<table>
+<br/>
+<table width="100%">
 	<tr>
-		<td valign="top">
-			<strong>B2B Platforms</strong><br />
-			CRMs, ERP-style flows, booking, inventory, operations dashboards, and internal tooling.
+		<td width="33%" valign="top" align="center">
+			<h3>🏢 B2B Platforms</h3>
+			<p align="left">CRMs, ERP-style flows, booking, inventory, operations dashboards, and internal tooling.</p>
 		</td>
-		<td valign="top">
-			<strong>Infrastructure</strong><br />
-			Linux deploys, VPS hardening, Docker, Kubernetes, observability, backups, and release hygiene.
+		<td width="33%" valign="top" align="center">
+			<h3>☁️ Infrastructure</h3>
+			<p align="left">Linux deploys, VPS hardening, Docker, Kubernetes, observability, backups, and release hygiene.</p>
 		</td>
-		<td valign="top">
-			<strong>AI & Systems</strong><br />
-			Retrieval workflows, process intelligence, runtime debugging, and performance-conscious automation.
+		<td width="33%" valign="top" align="center">
+			<h3>🤖 AI & Systems</h3>
+			<p align="left">Retrieval workflows, process intelligence, runtime debugging, and performance-conscious automation.</p>
 		</td>
 	</tr>
 </table>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="3">
 
 ## Applied Systems Range
 
@@ -134,6 +147,8 @@ I work on software that needs to survive real use, not just demos. Most of my wo
 - **Waypaper (Active Hardening):** Architectural refactoring of the backend controller to decouple launcher mechanics into a dedicated, isolated domain (`wallpaperengine.py`), introducing signal interceptors and explicit failure reporting for immediate-exit rendering processes.
 - **spec-snapshot-scraper:** Automated tooling for capturing change-tracked, clean documentation snapshots optimized for ingestion into AI context windows and technical corpora.
 
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="3">
+
 ## Public Signal
 
 | Execution Invariant | Technical Posture |
@@ -154,20 +169,22 @@ I work on software that needs to survive real use, not just demos. Most of my wo
 
 </details>
 
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="3">
+
 ## Collaboration Style
 
-<table>
+<table width="100%">
 	<tr>
-		<td valign="top">
-			<strong>Team Workflow</strong><br />
+		<td width="33%" valign="top">
+			<strong>👥 Team Workflow</strong><br />
 			Comfortable working inside branch strategy, commit hygiene, CI gates, merge rules, and contribution policies that keep teams predictable. When a change uncovers broader opportunity, I prefer separating hardening, refactors, and features into readable branches or PRs.
 		</td>
-		<td valign="top">
-			<strong>Review Loop</strong><br />
+		<td width="33%" valign="top">
+			<strong>🔄 Review Loop</strong><br />
 			I like thoughtful peer review in both directions: I can review carefully and explain trade-offs, and I also want strong review back so I keep learning how a codebase wants to evolve.
 		</td>
-		<td valign="top">
-			<strong>Adversarial Debugging</strong><br />
+		<td width="33%" valign="top">
+			<strong>🛡️ Adversarial Debugging</strong><br />
 			I test systems by asking how they break, where intuition diverges from runtime behavior, and what an ethical attacker or stressed operator would hit first, while still respecting product context and team opinions.
 		</td>
 	</tr>
@@ -192,6 +209,42 @@ I work on software that needs to survive real use, not just demos. Most of my wo
 - Tightening deployment, observability, and security baselines across Linux infrastructure.
 - Turning deeper systems work into public case studies, blogs, gists, and higher-signal open-source contributions.
 - Keeping room for consulting, long-term product roles, and serious learning loops with strong engineering teams.
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="3">
+
+## Core Stack
+
+<div align="center">
+  
+  <p><strong>Product & Web</strong></p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ts,react,nextjs,astro,tailwind,graphql&theme=dark" alt="Product and Web Stack" />
+  </a>
+
+  <br><br>
+
+  <p><strong>Backend & Data</strong></p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,nodejs,bun,prisma,postgres,redis,sqlite&theme=dark" alt="Backend and Data Stack" />
+  </a>
+
+  <br><br>
+
+  <p><strong>Infrastructure</strong></p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,nginx,githubactions&theme=dark" alt="Infrastructure Stack" />
+  </a>
+
+  <br><br>
+
+  <p><strong>Systems & AI Performance</strong></p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=go,rust,c,tauri,bash,windows,ubuntu&theme=dark" alt="Systems and Desktop Stack" />
+  </a>
+
+</div>
+
+> **Note:** Systems stack also includes multi-protocol networking (TCP/UDP/QUIC), Wayland troubleshooting, local/remote LLM tooling, vector search, CUDA, and agentic ReAct loops.
 
 ## Core Stack
 
