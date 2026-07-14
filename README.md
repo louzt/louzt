@@ -34,7 +34,7 @@
 <div align="center">
   <!-- Header SVG: /static/profile-header.svg is served by the preview server.
          Production host (raw.githubusercontent.com or gist) decided at publish time. -->
-  <img alt="loust.pro — Let's work together" src="/static/profile-header.svg" width="100%" />
+  <img alt="loust.pro — Let's work together" src="https://raw.githubusercontent.com/louzt/louzt/main/static/profile-header.svg" width="100%" />
 </div>
 
 <!-- ============================================================ -->
@@ -103,7 +103,7 @@
 
 I design and ship production systems where the boundary between application delivery and systems engineering has to hold. Most of my work is research-flavored engineering: the abstractions are reusable, the proofs are formal where they need to be, and the operational evidence is auditable end-to-end.
 
-<p align="center"><img src="/static/section-how-i-work.svg" width="100%" alt="How I work — section banner"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/section-how-i-work.svg" width="100%" alt="How I work — section banner"/></p>
 
 - **Infrastructure as substrate.** I harden network and service layers before asking application code to carry business load.
 - **Decision plane first.** I reverse-engineer edge cases down to runtime behaviour until root cause and architectural boundary are explicit.
@@ -112,7 +112,7 @@ I design and ship production systems where the boundary between application deli
 - **KPI-driven optimization.** I benchmark and stress-test until throughput, cost, latency, and operational KPIs are genuinely competitive.
 - **Governance and review.** I keep sensitive infrastructure redacted, ship scoped PRs, and use review as a two-way learning loop.
 
-<p align="center"><img src="/static/section-working-with-me.svg" width="100%" alt="Working with me — section banner"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/section-working-with-me.svg" width="100%" alt="Working with me — section banner"/></p>
 
 ### Working with me
 
@@ -123,7 +123,7 @@ I design and ship production systems where the boundary between application deli
 - **B2B platform work / partnerships** — long-horizon engagements only. No sprint theatre; we build the substrate, the observability, and the audit trail first. Reach out at [partnership@loust.pro](mailto:partnership@loust.pro).
 - **Reference policy** — I write public references for shipped work with measurable outcomes. Send the PR / artifact link and a 1-line outcome metric; I respond within a week.
 
-<p align="center"><img src="/static/section-selected-work.svg" width="100%" alt="Selected Work — section banner"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/section-selected-work.svg" width="100%" alt="Selected Work — section banner"/></p>
 
 Production systems that have either shipped to real users, merged into upstreams, or run as long-lived client platforms — plus the cross-cutting posture they map to. Public artefacts link out; private platforms are referenced by name only — the boundary between public proof and client-confidential work is deliberate, reviewable, and unchanged across engagements.
 
@@ -164,7 +164,7 @@ Production systems that have either shipped to real users, merged into upstreams
 </details>
 
 
-<p align="center"><img src="/static/section-what-we-ship.svg" width="100%" alt="What we ship at loust.pro — Software company section banner"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/section-what-we-ship.svg" width="100%" alt="What we ship at loust.pro — Software company section banner"/></p>
 
 The technology provider behind my work — multi-protocol transport, hardened Linux substrate, and B2B platforms that survive multi-year horizons. Public artefacts land in **Research & Publications** and **Investigations & Notes**; this section is the product surface I run day-to-day.
 
@@ -281,7 +281,7 @@ The technology provider behind my work — multi-protocol transport, hardened Li
 </table>
 
 
-<p align="center"><img src="/static/section-research-and-publications.svg" width="100%" alt="Research and Publications — section banner"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/section-research-and-publications.svg" width="100%" alt="Research and Publications — section banner"/></p>
 
 Long-form research notes, paper drafts, and proof chains I maintain as part of day-to-day work. Each entry has a concrete artifact (gist, draft, or measurement) — no abstract ambitions.
 
@@ -309,7 +309,7 @@ Cost-benefit gate for cache-warming probes against upstream GPU clusters. Three-
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:1e293b&height=2" width="100%"/></p>
 
-<p align="center"><img src="/static/section-investigations-and-notes.svg" width="100%" alt="Investigations and Notes — section banner"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/section-investigations-and-notes.svg" width="100%" alt="Investigations and Notes — section banner"/></p>
 
 Public research notes, snapshots, and audit logs from ongoing work. Updated as findings stabilize.
 
