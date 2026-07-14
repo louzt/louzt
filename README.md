@@ -332,18 +332,9 @@ Public research notes, snapshots, and audit logs from ongoing work. Updated as f
 
 <!-- ============================================================ -->
 <!-- FOOTER: animated squares grid + tagline (no operator name).  -->
-<!-- loust.pro production path serves the same SVG; local mirror  -->
-<!-- at .preview/static/profile-footer.svg until the upstream     -->
-<!-- routing for /assets/* is fixed.                              -->
+<!-- Served from profile-public static/ alongside the section     -->
+<!-- banners. Editor-only provenance; GitHub strips the comment.  -->
 <!-- ============================================================ -->
 <div align="center">
-  <img alt="Animated footer tagline" src="https://loust.pro/assets/profile-footer.svg" width="100%" style="display:block;margin:0 auto"/>
+  <img alt="Animated footer tagline" src="https://raw.githubusercontent.com/louzt/louzt/main/static/profile-footer.svg" width="100%" style="display:block;margin:0 auto"/>
 </div>
-
-<!-- ============================================================ -->
-<!-- DOC META — keeps engineering provenance visible               -->
-<!-- ============================================================ -->
-<sub>
-  <sup>Last validated: <a href="https://github.com/louzt/louzt/commits/main">commits</a> · <a href="https://gist.github.com/louzt">gists</a> · <a href="https://www.loust.pro/DavidMireles">portfolio</a></sup><br/>
-  <sup>Source repo: <code>~/Proyectos/OSS/louzt-profile/</code> · <code>make doctor</code> for status</sup>
-</sub>
