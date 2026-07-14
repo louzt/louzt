@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  profile-header.svg — local mirror (preview-only).
+  Original asset path: https://loust.pro/assets/profile-header.svg
+
+  Design language (iterative, 2026-07-13/14 per operator directives):
+    - Top-left: real loust logo PNG (downloaded from /brand/logos/LGOLST_WHITE_FIGURE.png)
+    - Below logo (left-aligned): "Let's work together," headline + LinkedIn / GitHub+GitLab pills
+    - Below pills (mini): "Reach me at" + partnership / research emails
+    - Right side: code-editor window illustration (no PC stand/desk) with
+        * pulsing green traffic light in the title bar (replaces the prior
+          external top-right status dot — operator: "el foquito parpadeando
+          verde daselo al foquito verde de la ilustracion, quita el de afuera")
+        * dark screen body, no URL pill (URL bar removed 2026-07-14 —
+          operator: "la ranura esa que se ve quitala")
+        * 2-line professional-role tagline on the LEFT of the screen + Mexican
+          flag SVG as location anchor. Role keywords, NOT tech-stack evidence,
+          per operator correction 2026-07-14: "deberían ser palabras clave
+          sobre mi rol profesional, no? CTO, Researcher, y quiza algo distinto".
+            Line 1: "CTO · Researcher · Architect"   (the three pillars + a
+                    third concrete role that frames design of hardened systems)
+            Line 2: "Hardener · Maintainer · Operator"  (the "algo distinto":
+                    verbs-as-roles matching the "Sovereign Systems Architect &
+                    Hardened Infrastructure Provider" framing)
+          Right side empty (info ring removed 2026-07-14 — operator: "la ranura
+          esa que se ve quitala" interpreted to also cover the visible ornament
+          on the right; cyan ambient gradient is the only accent there now).
+    - Animated diagonal light-sweep stack:
+        * two beams clipped to canvas, alternating visibility (only one visible
+          at a time, 20s cycle, beam A sweeps 0-50% left→right, beam B sweeps
+          50-100% right→left)
+        * bell-curve gradient (transparent leading + trailing edges, peak middle
+          — fixes "liso" leading edge flagged by operator)
+        * 5-tech-pool rotation (Matrix Green / Cyber Cyan / Synthwave Magenta /
+          Terminal Amber / Tron Blue), beam A starts tech-1, beam B starts tech-2
+          offset by 1, every 20s swaps to the next palette. So consecutive
+          sweeps ALWAYS show a different palette, no repeats. 100s full rotation.
+    - Animated diagonal mesh + grid patterns (top-left → bottom-right, slow)
+    - White particle-line streams drift across the canvas
+    - No Member-of row, no Find-me-at row, no OSI/ORCID pills in the SVG
+-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-label="loust.pro header">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="stream" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="80%" stop-color="#67e8f9" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#67e8f9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="stream-soft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#cbd5e1" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="canvas-clip">
+      <rect x="0" y="0" width="1200" height="200"/>
+    </clipPath>
+
+    <!--
+      Grid + mesh squares pattern (extracted/adapted from incognito-dev07 header.svg,
+      2026-07-14 per operator directive). 40px cells with a soft white stroke, plus
+      a 80px mesh overlay that adds a centered dot and slightly brighter lines. Both
+      are dimmed to keep focus on the CTA cluster and status dot.
+
+      Diagonal motion (top-left → bottom-right) via <animateTransform> on
+      patternTransform. The translation matches the pattern's cell size, so the loop
+      is seamless (end position = start position visually).
+    -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="translate(0,0)">
+      <path d="M40 0 L0 0 0 40" stroke="#ffffff" stroke-opacity="0.05" fill="none"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0,0" to="40,40" dur="30s" repeatCount="indefinite"/>
+    </pattern>
+    <pattern id="mesh" width="80" height="80" patternUnits="userSpaceOnUse" patternTransform="translate(0,0)">
+      <path d="M0 0 L80 0 L80 80 L0 80 Z" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+      <path d="M0 40 L80 40" stroke="#ffffff" stroke-opacity="0.06"/>
+      <path d="M40 0 L40 80" stroke="#ffffff" stroke-opacity="0.06"/>
+      <circle cx="40" cy="40" r="1.2" fill="#ffffff" fill-opacity="0.15"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0,0" to="80,80" dur="45s" repeatCount="indefinite"/>
+    </pattern>
+
+    <!--
+      Animated diagonal light-sweep stack (refined 2026-07-14 per operator directive).
+      The beams now use a "bell curve" gradient — leading AND trailing edges are fully
+      transparent, with the visible peak around the middle 50%. This avoids the
+      "liso" (solid-band) look at the leading edge that the operator flagged as too
+      flat in color.
+
+      Sequencing: beam A sweeps 0-50% of the cycle, beam B sweeps 50-100%. They
+      alternate so only one beam is visible at a time — when one exits, the other
+      enters from the opposite side (per directive "que entre una derecha, y cuando
+      salga, entre pero del otro lado"). 20s cycle gives more separation between
+      visible sweeps than the prior 9s/13s dual loop.
+    -->
+
+    <!--
+      Tech palette pool (5 gradients, 2026-07-14 per operator directive).
+      The beams now cycle through this pool so consecutive sweeps show different
+      colors instead of repeating the same gradient. Each gradient is a "bell curve"
+      with transparent edges and peak opacity ~0.40 in the middle.
+
+      Palette inspiration (operator asked for "techy hackerish"):
+        1. Matrix Green      — phosphor green (#22ff88), Mr. Robot terminal aesthetic
+        2. Cyber Cyan        — electric cyan (#22d3ee), Tron/cyber grid
+        3. Synthwave Magenta — hot pink (#ec4899) + purple (#a855f7), vaporwave
+        4. Terminal Amber    — amber (#fbbf24) + orange (#f97316), classic CRT terminal
+        5. Tron Blue         — sky blue (#38bdf8), grid / sci-fi HUD
+
+      Rotation: beam A starts at tech-1, beam B starts at tech-2 (offset by 1).
+      Each beam swaps to the next gradient every 20s (one full sweep cycle),
+      so at any moment both beams show DIFFERENT palettes, and each palette
+      circles through all 5 in 100s before repeating. No two consecutive
+      beam-sweeps share the same color — operator: "normalmente no salgan las
+      mismas".
+    -->
+    <linearGradient id="sweep-tech-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0a4d2e" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#22ff88" stop-opacity="0.10"/>
+      <stop offset="50%"  stop-color="#22ff88" stop-opacity="0.55"/>
+      <stop offset="80%"  stop-color="#22ff88" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#0a4d2e" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sweep-tech-2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0e7490" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#22d3ee" stop-opacity="0.10"/>
+      <stop offset="50%"  stop-color="#22d3ee" stop-opacity="0.55"/>
+      <stop offset="80%"  stop-color="#67e8f9" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#0e7490" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sweep-tech-3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#581c87" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#ec4899" stop-opacity="0.12"/>
+      <stop offset="50%"  stop-color="#ec4899" stop-opacity="0.55"/>
+      <stop offset="80%"  stop-color="#a855f7" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#831843" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sweep-tech-4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#7c2d12" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#fbbf24" stop-opacity="0.12"/>
+      <stop offset="50%"  stop-color="#fbbf24" stop-opacity="0.55"/>
+      <stop offset="80%"  stop-color="#f97316" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#451a03" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sweep-tech-5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#082f49" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#38bdf8" stop-opacity="0.12"/>
+      <stop offset="50%"  stop-color="#38bdf8" stop-opacity="0.55"/>
+      <stop offset="80%"  stop-color="#0ea5e9" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0c4a6e" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="sweep-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="200" fill="url(#bg)"/>
+  <!-- Squares/grid + mesh overlay (subtle so the CTA cluster stays the focal point).
+       Both patterns animate diagonally (top-left → bottom-right) via the
+       patternTransform <animateTransform> defined in <defs>. -->
+  <rect width="1200" height="200" fill="url(#mesh)" opacity="0.55"/>
+  <rect width="1200" height="200" fill="url(#grid)" opacity="0.75"/>
+
+  <!-- ====== Webgl-style white particle-line streams ====== -->
+  <g clip-path="url(#canvas-clip)" stroke-linecap="round">
+    <line x1="-200" y1="40" x2="200" y2="40" stroke="url(#stream-soft)" stroke-width="0.8" opacity="0.7">
+      <animate attributeName="x1" from="-200" to="1400" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="x2" from="200" to="1800" dur="9s" repeatCount="indefinite"/>
+    </line>
+    <line x1="-300" y1="96" x2="100" y2="96" stroke="url(#stream)" stroke-width="1.4" opacity="0.85">
+      <animate attributeName="x1" from="-300" to="1500" dur="7s" begin="0.4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" from="100" to="1900" dur="7s" begin="0.4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="-100" y1="156" x2="200" y2="156" stroke="url(#stream-soft)" stroke-width="0.6" opacity="0.55">
+      <animate attributeName="x1" from="-100" to="1400" dur="11s" begin="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="x2" from="200" to="1700" dur="11s" begin="1.2s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- ====== Animated diagonal light-sweep stack (sequenced + tech-pool rotation) ======
+       Two beams clipped to canvas, glowing via sweep-glow filter.
+         (a) Beam A: visible during 0-50% of cycle (left→right sweep, x:-320 → 1320).
+             The x animation runs continuously, but an opacity mask hides the
+             second-half return sweep (1320→-320) so the user only sees the
+             forward pass. More browser-robust than the keyTimes="0;0.5;0.5"
+             trick, which Chrome collapsed and rendered nothing visible.
+         (b) Beam B: idle during 0-50% (offscreen right), visible during 50-100%
+             (right→left sweep, x:1320 → -320). Same opacity-mask approach.
+       Together: "one enters, the other exits" — when beam A finishes on the
+       right, beam B starts from the right going left.
+
+       Tech-pool rotation (2026-07-14): each beam swaps fill through 5
+       gradients over 100s via <animate> with calcMode="discrete" (replaces
+       the earlier <set> URL-fill approach, which rendered unreliably in
+       Chrome). Beam A starts on tech-1, beam B starts on tech-2 (offset by
+       1), so consecutive visible sweeps ALWAYS show different palettes.
+       The fill swap happens every 20s, aligned with the cycle boundary
+       when the beam is invisible (idle/masked) — user never sees the swap.
+
+       Visibility fix 2026-07-14: peak stop-opacity raised 0.40 → 0.55 so
+       beams read clearly against the dark grid backdrop. -->
+  <g clip-path="url(#canvas-clip)" filter="url(#sweep-glow)">
+    <!-- Beam A: 0-50% visible (left→right), 50-100% masked. -->
+    <rect x="-320" y="0" width="340" height="200"
+          fill="url(#sweep-tech-1)"
+          transform="skewX(-22)">
+      <animate attributeName="x"
+               values="-320;1320;-320"
+               keyTimes="0;0.5;1"
+               dur="20s"
+               repeatCount="indefinite"/>
+      <animate attributeName="opacity"
+               values="1;1;0;0"
+               keyTimes="0;0.5;0.5;1"
+               dur="20s"
+               repeatCount="indefinite"/>
+      <animate attributeName="fill"
+               values="url(#sweep-tech-1);url(#sweep-tech-2);url(#sweep-tech-3);url(#sweep-tech-4);url(#sweep-tech-5);url(#sweep-tech-1)"
+               keyTimes="0;0.2;0.4;0.6;0.8;1"
+               dur="100s"
+               calcMode="discrete"
+               repeatCount="indefinite"/>
+    </rect>
+    <!-- Beam B: 0-50% masked, 50-100% visible (right→left).
+         Starts on tech-2 (offset by 1) so it always shows a different
+         palette than beam A in the same cycle. -->
+    <rect x="1320" y="0" width="340" height="200"
+          fill="url(#sweep-tech-2)"
+          transform="skewX(20)">
+      <animate attributeName="x"
+               values="1320;-320;1320"
+               keyTimes="0;0.5;1"
+               dur="20s"
+               repeatCount="indefinite"/>
+      <animate attributeName="opacity"
+               values="0;0;1;1"
+               keyTimes="0;0.5;0.5;1"
+               dur="20s"
+               repeatCount="indefinite"/>
+      <animate attributeName="fill"
+               values="url(#sweep-tech-2);url(#sweep-tech-3);url(#sweep-tech-4);url(#sweep-tech-5);url(#sweep-tech-1);url(#sweep-tech-2)"
+               keyTimes="0;0.2;0.4;0.6;0.8;1"
+               dur="100s"
+               calcMode="discrete"
+               repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- ====== Window / code-editor illustration (right side) ======
+       Adapted from a generic SVG window mockup (2026-07-14 per operator directive).
+       Reuses the original "code editor with traffic lights + content" concept
+       (drops the monitor stand + desk entirely — operator: "no la PC,
+       sí la ventana"). Inverts to the dark theme (#0f172a chrome, #020617 body,
+       #22d3ee cyan accents).
+
+       Content layout (refined 2026-07-14, applied specialist depth per
+       feedback-specialist-depth-not-superficial-2026-07-13):
+         - Title bar (y=0-28): red/yellow traffic lights + GREEN with pulse
+           animation (this replaces the external top-right status dot).
+         - (URL bar pill removed 2026-07-14 — operator: "la ranura esa que
+           se ve quitala". Title bar reads as just traffic lights.)
+         - Screen body (y=28-150):
+             - left  — 2-line specialist tagline + Mexican flag (location anchor)
+             - right — empty; faint cyan ambient gradient is the only accent
+         - (Info ring removed 2026-07-14 — the 8-pointed star + central cutout
+           at x≈200 was the only visible ornament on the right; removing it
+           gives the new specialist tagline + flag full horizontal room.)
+         - Subtle drop shadow for separation from the grid behind.
+       Layer: in front of the animated grid + sweep, behind the logo / CTA pills.
+       Opacity 0.78 keeps it from competing with the sweep lens-flare. -->
+  <g transform="translate(852, 22)" opacity="0.78">
+    <!-- Subtle outer drop shadow for separation from the grid behind -->
+    <rect x="2" y="3" width="280" height="150" rx="5" fill="#000000" opacity="0.35" filter="url(#sweep-glow)"/>
+
+    <!-- Title bar (dark chrome, faint cyan border) -->
+    <rect x="0" y="0" width="280" height="28" rx="5" fill="#0f172a" stroke="#22d3ee" stroke-width="0.6" stroke-opacity="0.40"/>
+
+    <!-- Traffic lights: muted red, muted yellow, green WITH pulsing animation.
+         The green light is the new home for the status pulse that used to live
+         at top-right of the canvas (translate(1148, 40) — now removed). -->
+    <circle cx="14" cy="14" r="3.5" fill="#f87171" opacity="0.65"/>
+    <circle cx="26" cy="14" r="3.5" fill="#fbbf24" opacity="0.65"/>
+    <circle cx="38" cy="14" r="3.5" fill="#34d399"/>
+    <circle cx="38" cy="14" r="3.5" fill="#34d399" opacity="0.45">
+      <animate attributeName="r" values="3.5;8;3.5" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;0;0.45" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- (URL bar pill removed 2026-07-14 — operator: "la ranura esa que se ve
+         quitala". The horizontal pill at x=55,y=9,w=200,h=10 was the most
+         slot-like element in the title bar; removing it cleans the chrome.) -->
+
+    <!-- Screen body (dark) -->
+    <rect x="0" y="28" width="280" height="122" fill="#020617" stroke="#22d3ee" stroke-width="0.6" stroke-opacity="0.25"/>
+
+    <!-- Tagline text inside window — PROFESSIONAL ROLE keywords, NOT tech
+         stack evidence. Operator correction 2026-07-14 (third pass): the
+         prior specialist-stack framing ("Linux kernel · PipeWire · Go")
+         was wrong because (a) the keywords are tech-stack evidence
+         (kernel, PipeWire, Go), not professional role descriptors,
+         and (b) PipeWire in particular names an upstream project Lou
+         contributes to but does NOT work for. Per Lou's directive:
+         "deberían ser palabras clave sobre mi rol profesional, no?
+          CTO, Researcher, y quiza algo distinto".
+
+         Operator correction 2026-07-14 (fourth pass): "architect hardener
+         no, que sea systems architect" — reject BOTH "Architect" AND
+         "Hardener"; the unified term "Systems Architect" replaces them.
+
+         Applied as a 6-word role stack in 2 lines, kept short enough
+         to fit the 280px-wide window body (slot is 250px wide
+         considering 15px inset on each side):
+
+           Line 1 (y=62, font-size=12): CTO · Researcher · Systems Architect
+             — the three pillars the operator named + the unified title
+               "Systems Architect" (replacing the bare "Architect" +
+               "Hardener" pair rejected on 2026-07-14). Systems Architect
+               frames both the design of hardened systems (lzt-router-proxy,
+               k3s, lzt-virtuoso) AND the hardening stance (kernel + DKMS +
+               protocol patches) under one professional title.
+
+           Line 2 (y=82, font-size=11): Maintainer · Operator · Builder
+             — the "algo distinto" the operator asked for, preserved
+               across the correction. Three verbs-as-roles matching the
+               "Sovereign Systems Architect & Hardened Infrastructure
+               Provider" framing: Maintainer = OSS upkeep cadence (mirror
+               forks, dependency hygiene, release tags); Operator =
+               production runtime ownership (router proxy, cloud cost
+               gate, bridge/tunnel, watchdog); Builder = the act of
+               shipping the substrate itself.
+
+         Reading order: roles → roles → location (flag in title bar).
+         Color #cbd5e1 (slate-300) is brighter than the previous #94a3b8
+         so the role text reads as primary, not as muted chrome. -->
+    <g font-family="Inter, ui-sans-serif, system-ui, sans-serif" fill="#cbd5e1">
+      <text x="15" y="62" font-size="12" font-weight="600" letter-spacing="0.4">CTO · Researcher · Systems Architect</text>
+      <text x="15" y="82" font-size="11" font-weight="600" letter-spacing="0.4">Maintainer · Operator · Builder</text>
+    </g>
+
+    <!-- Mexican flag SVG (relocated 2026-07-14 to title bar, right of dots).
+         Operator directive: "la bandera de mexico muevela a la derecha
+         de donde estan los 3 dots de su ventana". New position:
+         translate(232, 1) — right-aligned inside the 28px-tall title bar
+         (window is 280px wide, flag is 40px, so 280-40-8=232 for 8px right
+         padding; y=1 for vertical centering in the 28px title bar).
+         The flag becomes a chrome element that anchors location without
+         competing with the tagline in the screen body below.
+         Visual vertical tricolor (green/white/red) + simplified coat-of-arms
+         dot in center white stripe. -->
+    <g transform="translate(232, 1)">
+      <rect x="0" y="0" width="40" height="26" rx="2" fill="#020617" stroke="#475569" stroke-width="0.5" stroke-opacity="0.6"/>
+      <rect x="2"  y="2" width="12" height="22" fill="#006847"/>
+      <rect x="14" y="2" width="12" height="22" fill="#ffffff"/>
+      <rect x="26" y="2" width="12" height="22" fill="#ce1126"/>
+      <!-- Simplified coat of arms (eagle silhouette as a brown circle) -->
+      <circle cx="20" cy="13" r="3" fill="#5c3317"/>
+    </g>
+
+    <!-- (Info ring removed 2026-07-14 — operator: "la ranura esa que se ve
+         quitala". The 8-pointed star + central cutout at x≈200,y≈85 was
+         the only visible ornament on the right side; removing it gives the
+         new specialist tagline + flag full horizontal room on the left.) -->
+
+    <!-- Faint inner glow tying window into the sweep lens-flare.
+         Uses sweep-tech-2 (Cyber Cyan, the neutral default) as a static ambient
+         wash — the rotating beam colors vary but the window glow stays consistent
+         so the screen body has a fixed brand hue regardless of which palette the
+         current beam is showing. -->
+    <rect x="0" y="28" width="280" height="122" fill="url(#sweep-tech-2)" opacity="0.18" pointer-events="none"/>
+  </g>
+
+  <!-- ====== Real loust logo (top-left, downloaded asset) ====== -->
+  <g transform="translate(40, 32)">
+    <image href="/static/loust-logo.png" xlink:href="/static/loust-logo.png" width="100" height="100" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+
+  <!-- (External top-right status dot removed 2026-07-14 — the green pulse now
+       lives inside the window's traffic light, see the window group below.) -->
+
+  <!-- ====== CTA cluster (left-aligned, under the loust logo) ====== -->
+  <g font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <!-- Row 1: "Let's work together," headline
+         Refined 2026-07-14: font 20→23, letter-spacing 0.4→1.5 (much wider
+         kerning, "un poco mas grande"). Width approximately ~200px, ends
+         around x=356 — well before the GitHub+GitLab badge ends at x=462,
+         per directive "no este mas largo que donde termina badge github
+         y gitlab pero bueno hasta ahi". -->
+    <text x="156" y="56" font-size="23" font-weight="700" fill="#e2e8f0" letter-spacing="1.5">Let's work together,</text>
+
+    <!-- Row 2 (y=78): LinkedIn + GitHub + GitLab pills (real marks) -->
+    <!-- LinkedIn pill -->
+    <g transform="translate(156, 78)">
+      <rect x="0" y="0" width="148" height="30" rx="6" fill="#0a66c2"/>
+      <rect x="6" y="6" width="18" height="18" rx="2" fill="#ffffff"/>
+      <text x="15" y="20" text-anchor="middle" font-size="13" font-weight="900" fill="#0a66c2">in</text>
+      <text x="80" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="0.3">davidmirelesll</text>
+    </g>
+    <!--
+      One merged badge: GitLab logo + GitHub logo side-by-side (both white silhouettes on PNG),
+      followed by @louzt text. Replaces the two separate pills that both said "louzt".
+      Order requested by operator: gitlab → github → text.
+    -->
+    <g transform="translate(314, 78)">
+      <rect x="0" y="0" width="148" height="30" rx="6" fill="#0d1117" stroke="#22d3ee" stroke-width="1"/>
+      <!--
+        One merged badge: GitHub octocat + GitLab tanuki (both inline SVG paths,
+        white fill, scale 0.8333 to render 24x24 viewBox as 20x20 target).
+        Order per operator directive (2026-07-13): github → gitlab → text.
+        Text x=78 keeps ~13px gap from logos (was ~47px).
+      -->
+      <g transform="translate(7, 5) scale(0.83333)" fill="#ffffff">
+        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.4 3-.405 1.02.005 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+      </g>
+      <g transform="translate(29, 5) scale(0.83333)" fill="#ffffff">
+        <path d="m23.6004 9.5927-.0337-.0862L20.3.9814a.851.851 0 0 0-.3362-.405.8748.8748 0 0 0-.9997.0539.8748.8748 0 0 0-.29.4399l-2.2055 6.748H7.5375l-2.2057-6.748a.8573.8573 0 0 0-.29-.4412.8748.8748 0 0 0-.9997-.0537.8585.8585 0 0 0-.3362.4049L.4332 9.5015l-.0325.0862a6.0657 6.0657 0 0 0 2.0119 7.0105l.0113.0087.03.0213 4.976 3.7264 2.462 1.8633 1.4995 1.1321a1.0085 1.0085 0 0 0 1.2197 0l1.4995-1.1321 2.4619-1.8633 5.006-3.7489.0125-.01a6.0682 6.0682 0 0 0 2.0094-7.003z"/>
+      </g>
+      <text x="78" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="#e2e8f0" letter-spacing="0.3">@louzt</text>
+    </g>
+
+    <!--
+      X / Twitter badge (added 2026-07-14 per operator directive).
+      Handle: @lou_404x. Logo = the new X mark (post-2023 redesign), NOT the
+      legacy bird. Black fill to match X's brand identity. -->
+    <g transform="translate(472, 78)">
+      <rect x="0" y="0" width="120" height="30" rx="6" fill="#000000" stroke="#404040" stroke-width="1"/>
+      <g transform="translate(9, 5) scale(0.7)" fill="#ffffff">
+        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+      </g>
+      <text x="68" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff" letter-spacing="0.3">@lou_404x</text>
+    </g>
+
+    <!--
+      Matrix badge (added 2026-07-14 per operator directive).
+      Handle: @lou404x:matrix.org. Chat-bubble icon as a stand-in for the
+      Matrix.org foundation's messenger icon. Wider than the other badges
+      to fit the longer handle string. -->
+    <g transform="translate(602, 78)">
+      <rect x="0" y="0" width="170" height="30" rx="6" fill="#000000" stroke="#404040" stroke-width="1"/>
+      <g transform="translate(9, 5) scale(0.7)" fill="#ffffff">
+        <!-- Chat-bubble icon representing Matrix (messaging protocol) -->
+        <path d="M12 2C6.48 2 2 6.48 2 12c0 1.74.42 3.36 1.13 4.78L2 22l5.42-1.46C8.81 21.41 10.34 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.5 0-2.88-.41-4.07-1.13l-.29-.17-2.95.79.79-2.88-.19-.31C4.39 14.88 4 13.49 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8z"/>
+      </g>
+      <text x="92" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff" letter-spacing="0.3">@lou404x:matrix.org</text>
+    </g>
+
+    <!-- Row 3 (y=124): "Reach me at" + partnership + research pills.
+         REFINED 2026-07-14 per operator directive (was orange/teal accent
+         with "Reach me at" as a left-side header, now neutral white with
+         opacity 0.78 and "Reach me at" text moved to the RIGHT END of the
+         row — operator: "reach me at es texto a la derecha de partnership@
+         badge, pero osea todo eso va en una fila debajo del lado izquierdo,
+         no abajo a la derecha").
+
+         Layout: single horizontal row, left side of SVG, below CTA badges.
+           - partnership@loust.pro pill at translate(240, 122), w=186
+           - research@loust.pro pill    at translate(436, 122), w=170
+           - "Reach me at" text          at x=616, y=138 (right of both pills)
+         All wrapped in opacity="0.78" so the accent weight drops without
+         losing legibility. Border + text fill #ffffff (neutral white)
+         replaces the prior orange #fb923c / teal #14b8a6. -->
+    <g opacity="0.78">
+      <g transform="translate(240, 122)">
+        <rect x="0" y="0" width="186" height="22" rx="4" fill="#020617" stroke="#ffffff" stroke-width="1"/>
+        <text x="93" y="15" text-anchor="middle" font-size="10" font-weight="600" fill="#ffffff" letter-spacing="0.3">partnership@loust.pro</text>
+      </g>
+      <g transform="translate(436, 122)">
+        <rect x="0" y="0" width="170" height="22" rx="4" fill="#020617" stroke="#ffffff" stroke-width="1"/>
+        <text x="85" y="15" text-anchor="middle" font-size="10" font-weight="600" fill="#ffffff" letter-spacing="0.3">research@loust.pro</text>
+      </g>
+      <text x="616" y="138" font-size="11" font-weight="500" fill="#ffffff" letter-spacing="0.6">Reach me at</text>
+    </g>
+  </g>
+
+  </svg>

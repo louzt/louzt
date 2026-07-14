@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  section-how-i-work.svg — section title banner (1200x100).
+  Companion to profile-header.svg. Rebuilt 2026-07-14 per operator
+  directive: "solo el svg del hero tiene los squares correctos atras,
+  how i work selected work se ven distintos". Now uses the SAME
+  grid + mesh pattern as the hero (lines 73-83 of profile-header.svg)
+  — diagonal animation, soft white strokes, no colored sweep beam,
+  no colored accent cubes. Section title text remains.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" width="1200" height="100" role="img" aria-label="How I work — section banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="translate(0,0)">
+      <path d="M40 0 L0 0 0 40" stroke="#ffffff" stroke-opacity="0.05" fill="none"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0,0" to="40,40" dur="30s" repeatCount="indefinite"/>
+    </pattern>
+    <pattern id="mesh" width="80" height="80" patternUnits="userSpaceOnUse" patternTransform="translate(0,0)">
+      <path d="M0 0 L80 0 L80 80 L0 80 Z" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+      <path d="M0 40 L80 40" stroke="#ffffff" stroke-opacity="0.06"/>
+      <path d="M40 0 L40 80" stroke="#ffffff" stroke-opacity="0.06"/>
+      <circle cx="40" cy="40" r="1.2" fill="#ffffff" fill-opacity="0.15"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0,0" to="80,80" dur="45s" repeatCount="indefinite"/>
+    </pattern>
+  </defs>
+
+  <!-- Background + mesh + grid (matches hero pattern exactly) -->
+  <rect width="1200" height="100" fill="url(#bg)"/>
+  <rect width="1200" height="100" fill="url(#mesh)" opacity="0.55"/>
+  <rect width="1200" height="100" fill="url(#grid)" opacity="0.75"/>
+
+  <!-- Section title (slate text, no colored chrome) -->
+  <text x="600" y="58" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="600" fill="#e2e8f0" letter-spacing="0.5">How I work</text>
+</svg>
