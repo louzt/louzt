@@ -55,7 +55,6 @@
       <a href="https://calendar.app.google/XR7FkZXWVwfmZ57x6"><img src="https://img.shields.io/badge/Schedule_a_Meeting-34A853?style=flat-square&logo=googlecalendar&logoColor=white" alt="Schedule a Meeting (Google Calendar)"/></a>
       <a href="https://www.linkedin.com/in/davidmirelesll/?locale=es_ES"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
       <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab"/>
-      <a href="https://gist.github.com/louzt"><img src="https://img.shields.io/badge/Gists-181717?style=flat-square&logo=github&logoColor=white" alt="Gists"/></a>
       <img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X.com"/>
       <img src="https://img.shields.io/badge/Matrix-000000?style=flat-square&logo=matrix&logoColor=white" alt="Matrix"/>
     </td>
@@ -64,52 +63,86 @@
     <td align="left" valign="middle">
       <a href="https://komarev.com/ghpvc/?username=louzt&label=profile+views&color=1e293b&style=flat-square"><img src="https://komarev.com/ghpvc/?username=louzt&label=profile+views&color=1e293b&style=flat-square" alt="Profile Views"/></a>
       <a href="https://orcid.org/0009-0008-4374-2254"><img src="https://img.shields.io/badge/ORCID-0009--0008--4374--2254-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID iD 0009-0008-4374-2254"/></a>
+      <a href="https://gist.github.com/louzt"><img src="https://img.shields.io/badge/Gists-181717?style=flat-square&logo=github&logoColor=white" alt="Gists"/></a>
       <a href="https://opensource.org/"><img src="https://img.shields.io/badge/OSI-Member-3DA639?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="OSI Member"/></a>
       <a href="https://github.com/django-commons"><img src="https://img.shields.io/badge/Django_Commons-0C4B33?style=flat-square&logo=django&logoColor=white" alt="Django Commons Member"/></a>
       <a href="https://kernel.org/"><img src="https://img.shields.io/badge/Linux_Kernel-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux Kernel"/></a>
+      <a href="https://crates.io/users/louzt"><img src="https://img.shields.io/badge/crates.io-000000?style=flat-square&logo=rust&logoColor=e43717" alt="crates.io packages"/></a>
       <img src="https://img.shields.io/badge/%2b_many_more-1E293B?style=flat-square" alt="+ many more communities"/>
     </td>
   </tr>
   <tr>
+    <!-- Row 3: Core Programming Languages & Core Engine Technologies -->
     <td align="left" valign="middle">
       <img src="https://img.shields.io/badge/rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
       <img src="https://img.shields.io/badge/go-00add8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
       <img src="https://img.shields.io/badge/typescript-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
       <img src="https://img.shields.io/badge/python-3776ab?style=flat-square&logo=python&logoColor=ffd43b" alt="Python"/>
-      <img src="https://img.shields.io/badge/perl-0298c3?style=flat-square&logo=perl&logoColor=white" alt="Perl"/>
-      <img src="https://img.shields.io/badge/zig-F7A41D?style=flat-square&logo=zig&logoColor=white" alt="Zig"/>
-      <img src="https://img.shields.io/badge/graphql-e10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/>
-      <img src="https://img.shields.io/badge/postgresql-4169e1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-      <img src="https://img.shields.io/badge/redis-dc382d?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
-      <img src="https://img.shields.io/badge/k3s-ffc61c?style=flat-square&logo=kubernetes&logoColor=black" alt="k3s"/>
-      <img src="https://img.shields.io/badge/docker-2496ed?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
       <img src="https://img.shields.io/badge/c-A8B9CC?style=flat-square&logo=c&logoColor=white" alt="C"/>
       <img src="https://img.shields.io/badge/c++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++"/>
-      <img src="https://img.shields.io/badge/flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"/>
-      <img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC"/>
-      <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP"/>
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+      <img src="https://img.shields.io/badge/zig-F7A41D?style=flat-square&logo=zig&logoColor=white" alt="Zig"/>
+      <img src="https://img.shields.io/badge/perl-0298c3?style=flat-square&logo=perl&logoColor=white" alt="Perl"/>
       <img src="https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white" alt="Lua"/>
       <img src="https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white" alt="Ruby"/>
+      <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP"/>
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+      &nbsp;<b>|</b>&nbsp;
+      <img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white" alt="WebGL"/>
+      <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js"/>
+      <img src="https://img.shields.io/badge/Babylon.js_8-000000?style=flat-square&logo=babylondotjs&logoColor=white" alt="Babylon.js 8"/>
+      <img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC"/>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+      <img src="https://img.shields.io/badge/flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"/>
+      &nbsp;<b>|</b>&nbsp;
+      <img src="https://img.shields.io/badge/postgresql-4169e1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+      <img src="https://img.shields.io/badge/redis-dc382d?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
+      <img src="https://img.shields.io/badge/graphql-e10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/>
+      <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"/>
+      &nbsp;<b>|</b>&nbsp;
+      <img src="https://img.shields.io/badge/k3s-ffc61c?style=flat-square&logo=kubernetes&logoColor=black" alt="k3s"/>
+      <img src="https://img.shields.io/badge/docker-2496ed?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
       <img src="https://img.shields.io/badge/Always_curious_to_debug_in_another_language-8b5cf6?style=flat-square&logoColor=white" alt="Always curious to debug in another language"/>
     </td>
   </tr>
   <tr>
+    <!-- Row 4: MarTech & AdTech Infrastructure -->
     <td align="left" valign="middle">
-      <img src="https://img.shields.io/badge/google-4285f4?style=flat-square&logo=google&logoColor=white" alt="Google Ads"/>
-      <img src="https://img.shields.io/badge/meta-1877f2?style=flat-square&logo=meta&logoColor=white" alt="Meta Ads"/>
-      <img src="https://img.shields.io/badge/blockchain-121D33?style=flat-square&logo=blockchaindotcom&logoColor=white" alt="Blockchain"/>
+      <img src="https://img.shields.io/badge/MarTech_%26_AdTech-FF5722?style=flat-square&logo=googleanalytics&logoColor=white" alt="MarTech & AdTech"/>
+      <img src="https://img.shields.io/badge/Google_Ads_API-4285F4?style=flat-square&logo=googleads&logoColor=white" alt="Google Ads API"/>
+      <img src="https://img.shields.io/badge/Meta_CAPI-1877F2?style=flat-square&logo=meta&logoColor=white" alt="Meta Conversions API"/>
+      <img src="https://img.shields.io/badge/Server--Side_Tracking-00A1E0?style=flat-square&logo=salesforce&logoColor=white" alt="Server-Side Tracking"/>
       <img src="https://img.shields.io/badge/CRM-00A1E0?style=flat-square&logo=salesforce&logoColor=white" alt="CRM"/>
       <img src="https://img.shields.io/badge/ERP-714B67?style=flat-square" alt="ERP"/>
       <img src="https://img.shields.io/badge/SaaS--to--SaaS-2C3E50?style=flat-square" alt="SaaS-to-SaaS"/>
-      <img src="https://img.shields.io/badge/IA--Research-7c3aed?style=flat-square" alt="IA Research"/>
+    </td>
+  </tr>
+  <tr>
+    <!-- Row 5: Web3 & Decentralized Infrastructure -->
+    <td align="left" valign="middle">
+      <img src="https://img.shields.io/badge/Blockchain_%26_Web3-121D33?style=flat-square&logo=blockchaindotcom&logoColor=white" alt="Blockchain & Web3"/>
+      <img src="https://img.shields.io/badge/Ed25519_Identity-2C3E50?style=flat-square" alt="Ed25519 Identity"/>
+      <img src="https://img.shields.io/badge/Virtuoso_RDF_%2f_SPARQL-2C3E50?style=flat-square" alt="Virtuoso RDF / SPARQL"/>
+      <img src="https://img.shields.io/badge/Local--First_%26_CRDT-064E3B?style=flat-square" alt="Local-First & CRDT"/>
+    </td>
+  </tr>
+  <tr>
+    <!-- Row 6: Research Specializations, Engineering Categories & Community Call -->
+    <td align="left" valign="middle">
+      <a href="https://gist.github.com/louzt/3991f144c7d67726045af3cefc60f42a"><img src="https://img.shields.io/badge/Deterministic_Harnesses-8b5cf6?style=flat-square" alt="Deterministic Harnesses"/></a>
+      <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Sovereign_RAG-7c3aed?style=flat-square" alt="Sovereign RAG"/></a>
+      <img src="https://img.shields.io/badge/Zero--Egress_Security-1F2937?style=flat-square" alt="Zero-Egress Security"/>
+      <img src="https://img.shields.io/badge/Kernel_%26_Runtime_Hardening-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Kernel & Runtime Hardening"/>
+      <img src="https://img.shields.io/badge/Posture-Prophylactic_%C2%B7_Respectful_%C2%B7_Deterministic_%C2%B7_Calibrated-1E293B?style=flat-square" alt="Posture: Prophylactic · Respectful · Deterministic · Calibrated"/>
       <a href="mailto:partnership@loust.pro?subject=FOSS%20Community%20Collaboration"><img src="https://img.shields.io/badge/Open_to_contribute_to_FOSS%2FOSS_Communities-22d3ee?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="Open to contribute to FOSS/OSS Communities"/></a>
     </td>
   </tr>
 </table>
 
-I design and ship production systems where the boundary between application delivery and systems engineering has to hold. Most of my work is research-flavored engineering: the abstractions are reusable, the proofs are formal where they need to be, and the operational evidence is auditable end-to-end.
+<div align="center">
+  <img alt="Systems Architecture &amp; Operational Posture — section banner" src="https://raw.githubusercontent.com/louzt/louzt/main/static/section-tactical-posture.svg" width="100%" />
+</div>
+
+I maintain a prophylactic, respectful, and deterministic engineering posture — continuously calibrating reasoning, transport layers, and operational workflows against empirical evidence. I design and ship production systems where the boundary between application delivery and systems engineering has to hold. Most of my work is research-flavored engineering: the abstractions are reusable, the proofs are formal where they need to be, and the operational evidence is auditable end-to-end.
 
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/section-how-i-work.svg" width="100%" alt="How I work — section banner"/></p>
 
@@ -352,6 +385,8 @@ Public research notes, snapshots, and audit logs from ongoing work. Updated as f
 | [Waypaper image-filter PR #286](https://github.com/louzt/761e227ad8cfe55b29e79cf861214a62) | Upstream OSS | Scaling algorithms exposed across swww/awww backends; HiDPI + pixel-art artifact resolution |
 | [Zero-overhead observability](https://gist.github.com/louzt/b8349629b602a782ac98d0cbfd0df0c0) | Linux runtime | PSI over polling; inotify fork-bomb mitigation; Redis KEYS → SCAN/COUNT migration |
 | [Chromium 148 CSP regression audit](https://gist.github.com/louzt/77f0804ca11bad6636f0ac67928bd384) | Web security | Accepted upstream under Opera GB-80414; CSP Level 3 + srcdoc sandbox collision isolation |
+| [Self-scaling Minecraft Cluster on k3s](https://gist.github.com/louzt/b333b5601628a159630da13857834246) · [ES](https://gist.github.com/louzt/8e3b86c7398016964699e87d52222cf7) | Kubernetes · k3s · Automation | RCON-driven automated idle cluster teardown & auto-scaling for zero-cost standby game infrastructure on k3s. |
+| [OpenAL Soft & ALSA Audio Container Resilience](https://gist.github.com/louzt/c175973d8e8bae8c8fef6af4d9d6aca7) · [ES](https://gist.github.com/louzt/dbc83b2ac0f7fa0f3938b7705c36c719) | Linux Subsystems · Containerization | Resolving OpenAL Soft & ALSA device mismatches and audio buffer overruns under Distrobox / LXC containerized environments. |
 | [NVIDIA DKMS Kernel 7.0+ RFC](https://gist.github.com/louzt/1c85044d5090d19223c3f5edf426a19e) | Linux kernel · C | Forward-compat patch series for Kernel 7.0 API refactoring: VMA locking (`__is_vma_write_locked()` 2→1 args), DMA fence signal (`dma_fence_signal_locked()` int→void), `__vm_flags` removal in favor of `vm_flags_reset()`. 3-layer DKMS build-loop triage (`no-autoinstall` + `apt-mark hold` + unattended-upgrades blacklist). `NVreg_DynamicPowerManagement=0x02` modprobe rule for Optimus USB-C D3cold hotplug panics under hybrid GPUs. |
 
 <p align="right"><sub><em>LOUST · Leverage Opportunities Unleashing Success and Transformation</em></sub></p>
