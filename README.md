@@ -148,6 +148,10 @@
       <img src="https://img.shields.io/badge/Systems_Architect-0f172a?style=flat-square" alt="Systems Architect"/>
       <img src="https://img.shields.io/badge/DevOps_%26_SRE-2563eb?style=flat-square&logo=kubernetes&logoColor=white" alt="DevOps & SRE"/>
       <img src="https://img.shields.io/badge/Platform_Engineering-0891b2?style=flat-square" alt="Platform Engineering"/>
+      <img src="https://img.shields.io/badge/Security_Researcher-eb0029?style=flat-square&logo=hackerone&logoColor=white" alt="Security Researcher"/>
+      <img src="https://img.shields.io/badge/First--Principles_Engineering-6366f1?style=flat-square" alt="First-Principles Engineering"/>
+      <img src="https://img.shields.io/badge/Zero--Trust_Infrastructure-1e293b?style=flat-square" alt="Zero-Trust Infrastructure"/>
+      <img src="https://img.shields.io/badge/Kernel_%26_Systems_Research-0f172a?style=flat-square&logo=linux&logoColor=white" alt="Kernel & Systems Research"/>
       <img src="https://img.shields.io/badge/Lifelong_Student-7c3aed?style=flat-square" alt="Lifelong Student"/>
     </td>
   </tr>
