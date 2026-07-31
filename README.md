@@ -99,6 +99,7 @@
       <img src="https://img.shields.io/badge/flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"/>
       <img src="https://img.shields.io/badge/%7C-1e293b?style=flat-square" alt="|"/>
       <img src="https://img.shields.io/badge/postgresql-4169e1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+      <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"/>
       <img src="https://img.shields.io/badge/redis-dc382d?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
       <img src="https://img.shields.io/badge/graphql-e10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/>
       <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"/>
@@ -114,6 +115,9 @@
       <img src="https://img.shields.io/badge/MarTech_%26_AdTech-FF5722?style=flat-square&logo=googleanalytics&logoColor=white" alt="MarTech & AdTech"/>
       <img src="https://img.shields.io/badge/Google_Ads_API-4285F4?style=flat-square&logo=googleads&logoColor=white" alt="Google Ads API"/>
       <img src="https://img.shields.io/badge/Meta_CAPI-1877F2?style=flat-square&logo=meta&logoColor=white" alt="Meta Conversions API"/>
+      <img src="https://img.shields.io/badge/Stripe_API-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe API"/>
+      <img src="https://img.shields.io/badge/PayPal_API-003087?style=flat-square&logo=paypal&logoColor=white" alt="PayPal API"/>
+      <img src="https://img.shields.io/badge/Custom_REST_%26_GraphQL_APIs-00A1E0?style=flat-square" alt="Custom REST & GraphQL APIs"/>
       <img src="https://img.shields.io/badge/Server--Side_Tracking-00A1E0?style=flat-square&logo=salesforce&logoColor=white" alt="Server-Side Tracking"/>
       <img src="https://img.shields.io/badge/CRM-00A1E0?style=flat-square&logo=salesforce&logoColor=white" alt="CRM"/>
       <img src="https://img.shields.io/badge/ERP-714B67?style=flat-square" alt="ERP"/>
@@ -126,7 +130,8 @@
       <img src="https://img.shields.io/badge/Blockchain_%26_Web3-121D33?style=flat-square&logo=blockchaindotcom&logoColor=white" alt="Blockchain & Web3"/>
       <img src="https://img.shields.io/badge/MCP_%26_Agent_Protocols-000000?style=flat-square&logo=github&logoColor=white" alt="MCP & Agent Protocols"/>
       <img src="https://img.shields.io/badge/Ed25519_Identity-2C3E50?style=flat-square" alt="Ed25519 Identity"/>
-      <img src="https://img.shields.io/badge/Virtuoso_RDF_%2f_SPARQL-2C3E50?style=flat-square" alt="Virtuoso RDF / SPARQL"/>
+      <img src="https://img.shields.io/badge/Virtuoso_Triples_%2f_SPARQL-2C3E50?style=flat-square" alt="Virtuoso Triples / SPARQL"/>
+      <img src="https://img.shields.io/badge/Knowledge_Graphs-0f172a?style=flat-square" alt="Knowledge Graphs"/>
       <img src="https://img.shields.io/badge/Local--First_%26_CRDT-064E3B?style=flat-square" alt="Local-First & CRDT"/>
     </td>
   </tr>
@@ -139,7 +144,8 @@
       <img src="https://img.shields.io/badge/Zero--Egress_Security-1F2937?style=flat-square" alt="Zero-Egress Security"/>
       <img src="https://img.shields.io/badge/Kernel_%26_Runtime_Hardening-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Kernel & Runtime Hardening"/>
       <a href="mailto:partnership@loust.pro"><img src="https://img.shields.io/badge/partnership%40loust.pro-0A66C2?style=flat-square&logo=minutemailer&logoColor=white" alt="partnership@loust.pro"/></a>
-      <a href="mailto:partnership@loust.pro?subject=FOSS%20Community%20Collaboration"><img src="https://img.shields.io/badge/Open_to_contribute_to_FOSS%2FOSS_Communities-22d3ee?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="Open to contribute to FOSS/OSS Communities"/></a>
+      <a href="mailto:partnership@loust.pro?subject=FOSS%20Community%20Collaboration"><img src="https://img.shields.io/badge/Open_to_contribute_to_FOSS%2FOSS_Communities-34A853?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="Open to contribute to FOSS/OSS Communities"/></a>
+      <a href="mailto:partnership@loust.pro?subject=Peer%20Collaboration"><img src="https://img.shields.io/badge/Looking_for_peers_%26_exciting_projects-0284c7?style=flat-square" alt="Looking for peers & exciting projects"/></a>
     </td>
   </tr>
   <tr>
