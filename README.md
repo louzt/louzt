@@ -120,6 +120,7 @@
     <!-- Row 5: Web3 & Decentralized Infrastructure -->
     <td align="left" valign="middle">
       <img src="https://img.shields.io/badge/Blockchain_%26_Web3-121D33?style=flat-square&logo=blockchaindotcom&logoColor=white" alt="Blockchain & Web3"/>
+      <img src="https://img.shields.io/badge/MCP_%26_Agent_Protocols-000000?style=flat-square&logo=github&logoColor=white" alt="MCP & Agent Protocols"/>
       <img src="https://img.shields.io/badge/Ed25519_Identity-2C3E50?style=flat-square" alt="Ed25519 Identity"/>
       <img src="https://img.shields.io/badge/Virtuoso_RDF_%2f_SPARQL-2C3E50?style=flat-square" alt="Virtuoso RDF / SPARQL"/>
       <img src="https://img.shields.io/badge/Local--First_%26_CRDT-064E3B?style=flat-square" alt="Local-First & CRDT"/>
@@ -130,6 +131,7 @@
     <td align="left" valign="middle">
       <a href="https://gist.github.com/louzt/3991f144c7d67726045af3cefc60f42a"><img src="https://img.shields.io/badge/Deterministic_Harnesses-8b5cf6?style=flat-square" alt="Deterministic Harnesses"/></a>
       <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Sovereign_RAG-7c3aed?style=flat-square" alt="Sovereign RAG"/></a>
+      <img src="https://img.shields.io/badge/Spec--Driven_Engineering-0284c7?style=flat-square" alt="Spec-Driven Engineering"/>
       <img src="https://img.shields.io/badge/Zero--Egress_Security-1F2937?style=flat-square" alt="Zero-Egress Security"/>
       <img src="https://img.shields.io/badge/Kernel_%26_Runtime_Hardening-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Kernel & Runtime Hardening"/>
       <a href="mailto:partnership@loust.pro?subject=FOSS%20Community%20Collaboration"><img src="https://img.shields.io/badge/Open_to_contribute_to_FOSS%2FOSS_Communities-22d3ee?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="Open to contribute to FOSS/OSS Communities"/></a>
