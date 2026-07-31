@@ -25,7 +25,7 @@
       <path d="M0 40 L80 40" stroke="#ffffff" stroke-opacity="0.06"/>
       <path d="M40 0 L40 80" stroke="#ffffff" stroke-opacity="0.06"/>
       <circle cx="40" cy="40" r="1.2" fill="#ffffff" fill-opacity="0.15"/>
-      <animateTransform attributeName="patternTransform" type="translate" from="0,0" to="80,80" dur="45s" repeatCount="indefinite"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0,0" to="80,80" dur="60s" repeatCount="indefinite"/>
     </pattern>
   </defs>
 
