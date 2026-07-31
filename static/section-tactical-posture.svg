@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   section-tactical-posture.svg — Quantum Atomic Core Divider Banner (1200x110).
-  Features: Deep obsidian background, centered 3D quantum atomic core with 3 symmetrical,
-  independently rotating electron orbital rings, high-density energy nucleus, and zero star/moon clutter.
+  Option B: Ultra-subtle 3D isometric quantum mesh background texture, centered 3D quantum
+  atomic core with 3 symmetrical, independently rotating electron orbital rings and glowing nucleus.
 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="1200" height="110" role="img" aria-label="Quantum Atomic Core — Section Divider">
   <defs>
@@ -12,6 +12,12 @@
       <stop offset="50%" stop-color="#070d18"/>
       <stop offset="100%" stop-color="#020617"/>
     </linearGradient>
+
+    <!-- Option B: Ultra-Subtle 3D Isometric Quantum Mesh Pattern -->
+    <pattern id="iso-grid" width="60" height="34.641" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 60 17.32 L 30 34.64 L 0 17.32 Z M 30 0 L 30 34.64 M 0 17.32 L 60 17.32" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="0.8"/>
+      <circle cx="30" cy="17.32" r="0.8" fill="#38bdf8" fill-opacity="0.2"/>
+    </pattern>
 
     <!-- Subatomic Core Radial Gradient -->
     <radialGradient id="atomic-nucleus" cx="40%" cy="40%" r="60%">
@@ -51,8 +57,11 @@
     </linearGradient>
   </defs>
 
-  <!-- Clean Obsidian Background Canvas -->
+  <!-- Deep Obsidian Background Canvas -->
   <rect width="1200" height="110" fill="url(#quantum-bg)"/>
+
+  <!-- Option B: 3D Isometric Quantum Mesh Layer -->
+  <rect width="1200" height="110" fill="url(#iso-grid)"/>
 
   <!-- Ambient Subatomic Aura Layer -->
   <circle cx="600" cy="55" r="50" fill="#38bdf8" fill-opacity="0.08" filter="url(#nucleus-glow)">
