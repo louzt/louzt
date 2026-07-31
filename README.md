@@ -101,7 +101,7 @@
       <img src="https://img.shields.io/badge/%7C-1e293b?style=flat-square" alt="|"/>
       <img src="https://img.shields.io/badge/k3s-ffc61c?style=flat-square&logo=kubernetes&logoColor=black" alt="k3s"/>
       <img src="https://img.shields.io/badge/docker-2496ed?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-      <img src="https://img.shields.io/badge/Always_curious_to_debug_in_another_language-8b5cf6?style=flat-square&logoColor=white" alt="Always curious to debug in another language"/>
+      <img src="https://img.shields.io/badge/Always_curious_to_debug_in_another_tech_stack-8b5cf6?style=flat-square&logoColor=white" alt="Always curious to debug in another tech stack"/>
     </td>
   </tr>
   <tr>
