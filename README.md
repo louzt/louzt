@@ -86,19 +86,19 @@
       <img src="https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white" alt="Ruby"/>
       <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP"/>
       <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-      &nbsp;<b>|</b>&nbsp;
+      <img src="https://img.shields.io/badge/%7C-1e293b?style=flat-square" alt="|"/>
       <img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white" alt="WebGL"/>
       <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js"/>
       <img src="https://img.shields.io/badge/Babylon.js_8-000000?style=flat-square&logo=babylondotjs&logoColor=white" alt="Babylon.js 8"/>
       <img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC"/>
       <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
       <img src="https://img.shields.io/badge/flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"/>
-      &nbsp;<b>|</b>&nbsp;
+      <img src="https://img.shields.io/badge/%7C-1e293b?style=flat-square" alt="|"/>
       <img src="https://img.shields.io/badge/postgresql-4169e1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
       <img src="https://img.shields.io/badge/redis-dc382d?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
       <img src="https://img.shields.io/badge/graphql-e10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/>
       <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"/>
-      &nbsp;<b>|</b>&nbsp;
+      <img src="https://img.shields.io/badge/%7C-1e293b?style=flat-square" alt="|"/>
       <img src="https://img.shields.io/badge/k3s-ffc61c?style=flat-square&logo=kubernetes&logoColor=black" alt="k3s"/>
       <img src="https://img.shields.io/badge/docker-2496ed?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
       <img src="https://img.shields.io/badge/Always_curious_to_debug_in_another_language-8b5cf6?style=flat-square&logoColor=white" alt="Always curious to debug in another language"/>
@@ -132,7 +132,6 @@
       <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Sovereign_RAG-7c3aed?style=flat-square" alt="Sovereign RAG"/></a>
       <img src="https://img.shields.io/badge/Zero--Egress_Security-1F2937?style=flat-square" alt="Zero-Egress Security"/>
       <img src="https://img.shields.io/badge/Kernel_%26_Runtime_Hardening-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Kernel & Runtime Hardening"/>
-      <img src="https://img.shields.io/badge/Posture-Prophylactic_%C2%B7_Respectful_%C2%B7_Deterministic_%C2%B7_Calibrated-1E293B?style=flat-square" alt="Posture: Prophylactic · Respectful · Deterministic · Calibrated"/>
       <a href="mailto:partnership@loust.pro?subject=FOSS%20Community%20Collaboration"><img src="https://img.shields.io/badge/Open_to_contribute_to_FOSS%2FOSS_Communities-22d3ee?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="Open to contribute to FOSS/OSS Communities"/></a>
     </td>
   </tr>
