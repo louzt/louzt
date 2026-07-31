@@ -65,7 +65,9 @@
       <a href="https://komarev.com/ghpvc/?username=louzt&label=profile+views&color=1e293b&style=flat-square"><img src="https://komarev.com/ghpvc/?username=louzt&label=profile+views&color=1e293b&style=flat-square" alt="Profile Views"/></a>
       <a href="https://orcid.org/0009-0008-4374-2254"><img src="https://img.shields.io/badge/ORCID-0009--0008--4374--2254-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID iD 0009-0008-4374-2254"/></a>
       <a href="https://opensource.org/"><img src="https://img.shields.io/badge/OSI-Member-3DA639?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="OSI Member"/></a>
+      <a href="https://github.com/django-commons"><img src="https://img.shields.io/badge/Django_Commons-0C4B33?style=flat-square&logo=django&logoColor=white" alt="Django Commons Member"/></a>
       <a href="https://kernel.org/"><img src="https://img.shields.io/badge/Linux_Kernel-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux Kernel"/></a>
+      <img src="https://img.shields.io/badge/%2b_many_more-1E293B?style=flat-square" alt="+ many more communities"/>
     </td>
   </tr>
   <tr>
@@ -102,7 +104,7 @@
       <img src="https://img.shields.io/badge/ERP-714B67?style=flat-square" alt="ERP"/>
       <img src="https://img.shields.io/badge/SaaS--to--SaaS-2C3E50?style=flat-square" alt="SaaS-to-SaaS"/>
       <img src="https://img.shields.io/badge/IA--Research-7c3aed?style=flat-square" alt="IA Research"/>
-      <a href="mailto:partnership@loust.pro?subject=We'd%20like%20to%20contribute%20to%20your%20infrastructure"><img src="https://img.shields.io/badge/Open_to_contribute-22d3ee?style=flat-square&logoColor=020617" alt="Open to contribute — we'd like to support your infrastructure"/></a>
+      <a href="mailto:partnership@loust.pro?subject=FOSS%20Community%20Collaboration"><img src="https://img.shields.io/badge/Open_to_contribute_to_FOSS%2FOSS_Communities-22d3ee?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="Open to contribute to FOSS/OSS Communities"/></a>
     </td>
   </tr>
 </table>
