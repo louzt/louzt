@@ -184,6 +184,14 @@ I maintain a prophylactic, respectful, and deterministic engineering posture —
   <b>Rob Pike</b> <i>(Co-creator of Go &amp; UTF-8)</i>: <i>"Data dominates. If you've chosen the right data structures and organized things well, the algorithms will almost always be self-evident."</i>
 </blockquote>
 
+<blockquote style="border-left: 3px solid #8b5cf6; background: #0f172a; padding: 12px 16px; margin: 16px 0; border-radius: 0 6px 6px 0; color: #e2e8f0;">
+  <b>Rich Hickey</b> <i>(Creator of Clojure &amp; Datomic)</i>: <i>"Simplicity is a prerequisite for reliability."</i>
+</blockquote>
+
+<blockquote style="border-left: 3px solid #ec4899; background: #0f172a; padding: 12px 16px; margin: 16px 0; border-radius: 0 6px 6px 0; color: #e2e8f0;">
+  <b>Fred Brooks</b> <i>(Turing Award Winner &amp; Author of The Mythical Man-Month)</i>: <i>"Conceptual integrity is the most important consideration in system design. Good judgment comes from experience, and experience comes from bad judgment."</i>
+</blockquote>
+
 <blockquote style="border-left: 3px solid #f59e0b; background: #0f172a; padding: 12px 16px; margin: 16px 0; border-radius: 0 6px 6px 0; color: #e2e8f0;">
   <b>Werner Vogels</b> <i>(CTO of Amazon)</i>: <i>"Everything fails, all the time. Design for recovery, not perfection."</i>
 </blockquote>
@@ -191,6 +199,9 @@ I maintain a prophylactic, respectful, and deterministic engineering posture —
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/section-how-i-work.svg" width="100%" alt="How I work — section banner"/></p>
 
 - I approach systems engineering much like a craftsman in a workshop—studying product architecture, transport bottlenecks, and telemetry end-to-end before touching code or proposing refactors.
+- I maintain a devoted, methodical patience for extracting deterministic telemetry down to the last data point—building custom test harnesses, watchdog reapers, and verification suites whenever existing tooling leaves room for ambiguity.
+- I design self-healing, self-improving systems built around explicit opportunity-cost evaluation—recognizing early on that human vision has blind spots, so the system itself must auto-calibrate, prune stale specs, and enforce invariants.
+- I have operated at the intersection of systems engineering and AI agents long before commercial AI IDEs existed—building CLI-first terminal agent loops, custom MCP bridges, and publishing reproducible **Investigaciones** (detailed in the research section below).
 - I harden network, IPC, and service layers first, ensuring the underlying substrate is secure and resilient before asking application code to carry production workloads.
 - I trace edge cases directly back to runtime behavior until the underlying contract is explicit, fixing structural boundaries rather than applying superficial patches.
 - I run targeted triage, SAST, and benchmarks across C, Rust, Go, Bun, Zig, and Python in lab setups, evaluating real-world trade-offs in memory, latency, and state to build a practical pattern library.
