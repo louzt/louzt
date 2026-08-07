@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  divider.svg — zero-text cyber-industrial divider line (1200x16).
+  Uses exact grid + mesh pattern matching profile-header.svg (40px/30s & 80px/60s).
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 16" width="1200" height="16" role="img" aria-label="Visual divider">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#020617" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#10b981" stop-opacity="0.9"/>
+      <stop offset="85%" stop-color="#8b5cf6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#020617" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#38bdf8" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#10b981" stop-opacity="0.4"/>
+      <stop offset="80%" stop-color="#8b5cf6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Glow effect line -->
+  <rect x="50" y="6" width="1100" height="4" rx="2" fill="url(#glow)"/>
+  <!-- Primary gradient line -->
+  <rect x="100" y="7" width="1000" height="2" rx="1" fill="url(#bg)"/>
+  <!-- Center pulse node -->
+  <circle cx="600" cy="8" r="3" fill="#10b981">
+    <animate attributeName="r" values="2;4;2" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>
