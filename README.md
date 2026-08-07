@@ -266,32 +266,22 @@ Production systems that have shipped to real users, merged into upstreams, or ru
 
 <h3 align="center"><b>B2B MULTI-TENANT PLATFORMS &amp; SOVEREIGN SYSTEMS</b></h3>
 
-<p align="center"><sub>Production platforms, enterprise engines, and standalone desktop software shipped to end-users</sub></p>
+<p align="center"><sub>Production platforms, enterprise engines, autonomous agent control planes, and netcode substrates</sub></p>
 
-| System / Engine | Technical Focus & Architecture | Operational Impact |
+| System / Engine / Substrate | Technical Focus & Architecture | Operational Impact & ROI |
 | :--- | :--- | :--- |
 | **LOUST Multi-Tenant Engine**<br/>*(Current, 7y 6m)* | Multi-tenant Next.js 16 + Apollo Server v4 + Redis 7 Lua EVAL + cgroup v2 isolation on a 135k-line GraphQL schema. Case study: [English](https://gist.github.com/louzt/64715cb9c6ec6ffdd98c5712b8fb7bac) / [Español](https://gist.github.com/louzt/0c91771bf6370f0eb47e905934ab47e8). | **90.9% APQ cache hit rate**, $p95 = 12\text{ ms}$, $+125\%$ throughput lift at $0/\text{mo}$ incremental infrastructure cost. |
-| **h4kken 3D Rollback Engine**<br/>*(h4kken.loust.pro)* | GGPO-style rollback (30-frame window) + WebRTC/WebSocket dual transport + Babylon.js 8 WebGPU/WebGL rendering. | Sub-frame input prediction (>70% accurate) and seamless WebRTC DataChannel upgrades under restrictive NATs/DPI. |
-| **SnapPipe**<br/>([GitHub](https://github.com/LOUST-PRO/SnapPipe)) | Identity-anchored transport toolkit binding sessions to Ed25519 public keys instead of `ip:port` tuples. | Solves SSH/QUIC head-of-line blocking under strict NATs/firewalls with zero unauthenticated frame exposure. |
-| **NetBoozt**<br/>([GitHub](https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade)) | Tauri v3.1 (Rust) + Python CLI + systemd daemon enforcing Linux BBR-equivalent TCP optimizations on Windows. | $+15\text{--}20\%$ real-world throughput gains via queueing discipline, ECN negotiation, and Fast Open tuning. |
-| **LinkMarks**<br/>([GitHub](https://github.com/LOUST-PRO/LinkMarks)) | 2.5 MB single-binary bookmark engine in Rust with CRDT multi-device sync under AGPLv3 + Commercial dual license. | Replaces heavy containerized web tools with zero-telemetry egress and deterministic canonical URL deduplication. |
-| **Tren Maya Smart Credentials**<br/>*(2025 Contractor)* | Visual identity, graphic design system, badge layout hierarchy, and turnstile graphic artwork for regional mass-transit physical credentials. | High-density passenger visual recognition, multi-tier zoning clarity, and brand consistency across regional transit hubs. |
-| **TaxonRouter**<br/>([GitHub](https://github.com/LOUST-PRO/TaxonRouter)) | Dual-binary GitHub automation in Go: MCP stdio server + webhook auto-tagger. Listens to incoming issue/PR webhooks, auto-tags categories, reconciles labels, and manages GitHub Projects triage. | Automated GitHub issue/PR auto-tagging, label reconciliation, and zero-dependency webhook ingestion. |
-
-<p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/divider.svg" width="100%" alt="divider"/></p>
-
-<h3 align="center"><b>SOVEREIGN AI AGENT CONTROL PLANES &amp; SUBSTRATES</b></h3>
-
-<p align="center"><sub>Autonomous agent fleets, local-first RAG substrates, and AI protocol bridges</sub></p>
-
-| Substrate / Tooling | Architecture & Hardening | Value Proposition |
-| :--- | :--- | :--- |
-| **LZT SRE Harness**<br/>*(Private)* | Distributed data plane in Rust + Go: routing, cache control, and a hardened tool-call pipeline for autonomous agents. | Decouples agent reasoning from provider volatility; 3-way semantic sync + Bayesian Stream Guard (<0.5s kill-switch). |
+| **SocialSphereMX Multi-Tenant SaaS**<br/>([socialspheremx.loust.pro](https://socialspheremx.loust.pro)) | Multi-tenant SaaS fabric for creators, ERP for restaurants with QR menus/KDS, real-time PropTech inventory, and live Spotify/YouTube metadata streams. | **99.9% real uptime**, live API metadata ingestion, zero legacy PDF overhead, and sub-2 min lead workflows. |
+| **LZT SRE Harness**<br/>*(Private)* | Distributed data plane in Rust + Go: asymmetric cognitive routing, 3-way semantic sync + Bayesian Stream Guard (<0.5s kill-switch). | Decouples agent reasoning from provider volatility; **99.5% effective cache rate** and drastically reduced token burn-rate. |
+| **H5KKEN Fighting Game Engine**<br/>([h5kken.loust.pro](https://h5kken.loust.pro)) | GGPO-style 30-frame rollback netcode + WebRTC/WebSocket dual transport + Babylon.js 8 WebGPU rendering + k3s serverless match auto-scaling (<15s spin-up). | **Sub-frame input prediction (>70% accurate)**, seamless WebRTC DataChannel upgrades, and **100% idle infrastructure cost elimination**. |
+| **SnapPipe**<br/>([GitHub](https://github.com/LOUST-PRO/SnapPipe)) | Identity-anchored transport toolkit written in Rust, binding sessions to Ed25519 public keys instead of `ip:port` tuples. | Solves SSH/QUIC head-of-line blocking under strict NATs/firewalls with zero unauthenticated frame exposure. |
+| **NetBoozt**<br/>([GitHub](https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade)) | Tauri v3.1 (Rust) + native C netcode: TCP window autotuning, BBR/Cubic congestion provider selection, `TCP_NODELAY`, QoS DSCP, and MTU/MSS path discovery. | **$+15\text{--}20\%$ real-world throughput gains** via queueing discipline, ECN negotiation, and zero packet loss. |
 | **h3ph43st Agent Runtime**<br/>*(Private, AGPLv3)* | Closed-core agent runtime: pruned Rust CLI (`h3ph`) talking to a multi-tenant k3s sidecar for ephemeral SAST scans. | Locked egress and isolated reasoning — client nodes never see system prompts, tool contracts, or reasoning loops. |
 | **Multi-Protocol Agent Transport**<br/>*(Private)* | Go + Rust proxy racing QUIC / Hysteria2 / TLS / SSH, promoting the first-healthy stream under 200ms. | Keeps agent tool-call round-trips within budget even under captive portals, mobile NATs, or restrictive firewalls. |
 | **lzt-broker-stall-reaper**<br/>([GitHub](https://github.com/LOUST-PRO/lzt-broker-stall-reaper)) | TCP-level Linux OS watchdog in Go enumerating sockets via `ss -tnpi` and firing `tcp_diag` kernel RST on stalled long-polls. | Auto-recovers GitHub Actions runner fleets when upstream broker sockets hang indefinitely without manual intervention. |
+| **LinkMarks**<br/>([GitHub](https://github.com/LOUST-PRO/LinkMarks)) | 2.5 MB single-binary bookmark engine in Rust with CRDT multi-device sync under AGPLv3 + Commercial dual license. | Replaces heavy containerized web tools with zero-telemetry egress and deterministic canonical URL deduplication. |
 | **outlook-mcp-suite**<br/>([GitHub](https://github.com/LOUST-PRO/outlook-mcp-suite)) | Go 1.21 stdio MCP server wrapping 11 Microsoft Graph endpoints with OAuth 2.0 Device Code Flow and 25 MiB attachment caps. | Enables autonomous agent fleets to interact with Microsoft 365 mailboxes via clean stdio JSON-RPC without client secrets. |
-| **Spec-Watch Subagent Fleet**<br/>*(Private)* | Event-driven Rust scanners detecting breaking spec changes across MCP, OpenAI, Claude, and Gemini changelogs. | Auto-patches agent contract types before downstream tools observe spec drift outside the LLM's training window. |
+| **TaxonRouter**<br/>([GitHub](https://github.com/LOUST-PRO/TaxonRouter)) | Dual-binary GitHub automation in Go: MCP stdio server + webhook auto-tagger microservice managing issue/PR triage. | Automated GitHub issue/PR auto-tagging, label reconciliation, and zero-dependency webhook ingestion. |
 
 <p align="center">
   <a href="https://github.com/LOUST-PRO"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/banner-loust-pro-org.svg" width="100%" alt="LOUST-PRO Open Source &amp; Enterprise Substrates"/></a>
