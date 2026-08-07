@@ -355,112 +355,192 @@ The technology provider behind my work — multi-protocol transport, hardened Li
 
 <p align="right"><sub><em>LOUST · Leverage Opportunities Unleashing Success and Transformation</em></sub></p>
 
-<table>
+<table width="100%">
   <tr>
     <td valign="top" width="50%">
-      <strong>Enterprise CMS</strong><br/>
-      <sub>Multi-tenant content + commerce + operations platform with isolated Postgres/Redis namespaces per tenant. Single codebase runs marketing, ERP-lite flows, bookings, and storefronts.</sub><br/>
-      <sub>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
-        <img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" alt="Astro"/>
-        <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"/>
-        <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
-        <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare"/>
-      </sub>
+      <div style="background: #0f172a; border-left: 4px solid #38bdf8; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
+        <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
+          🏢 <b>Enterprise CMS</b>
+          <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" align="right" alt="Next.js"/>
+        </h4>
+        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
+          Multi-tenant content, commerce, and operations platform powering dynamic marketing, ERP-lite workflows, bookings, and storefronts from a single codebase with zero-downtime schema evolution.
+        </p>
+        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
+          ⚡ <b>Highlights:</b> Isolated Postgres/Redis namespaces per tenant · 135k-line Schema · APQ @ 90.9% hit rate.
+        </p>
+        <div>
+          <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+          <img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" alt="Astro"/>
+          <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"/>
+          <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/>
+          <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+          <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
+          <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare"/>
+        </div>
+      </div>
     </td>
     <td valign="top" width="50%">
-      <strong>Automations</strong><br/>
-      <sub>Rule + webhook engine for client operations. Connects Meta Ads, Google Ads, Stripe, MercadoPago, and CFDI 4.0 invoicing into auditable workflows with run history and replay.</sub><br/>
-      <sub>
-        <img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white" alt="Bun"/>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-        <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-        <img src="https://img.shields.io/badge/Redis_Streams-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis Streams"/>
-      </sub>
+      <div style="background: #0f172a; border-left: 4px solid #8b5cf6; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
+        <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
+          ⚡ <b>Automations Engine</b>
+          <img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white" align="right" alt="Bun"/>
+        </h4>
+        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
+          Event-driven rule and webhook engine for client operations. Connects Meta CAPI, Google Ads, Stripe, MercadoPago, and CFDI 4.0 invoicing into auditable pipelines with replay capability.
+        </p>
+        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
+          ⚡ <b>Highlights:</b> Zero data-loss tracking · Sub-second webhook ingestion · Event replay & audit logs.
+        </p>
+        <div>
+          <img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white" alt="Bun"/>
+          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+          <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/>
+          <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+          <img src="https://img.shields.io/badge/Redis_Streams-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis Streams"/>
+        </div>
+      </div>
     </td>
   </tr>
   <tr>
     <td valign="top" width="50%">
-      <strong>CRM Hub</strong><br/>
-      <sub>Pipeline + contact + closing surfaces for sales teams. Sub-2-minute lead-to-quote latency under exhibition pressure. Native multi-tenant isolation.</sub><br/>
-      <sub>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-        <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"/>
-        <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-      </sub>
+      <div style="background: #0f172a; border-left: 4px solid #10b981; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
+        <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
+          📊 <b>CRM Hub</b>
+          <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" align="right" alt="GraphQL"/>
+        </h4>
+        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
+          Pipeline, contact, and closing surfaces designed for high-pressure sales teams. Delivers real-time lead ingestion and multi-tenant pipeline isolation.
+        </p>
+        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
+          ⚡ <b>Highlights:</b> &lt;2 min lead-to-quote latency under exhibition load · Native multi-tenant isolation.
+        </p>
+        <div>
+          <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+          <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"/>
+          <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/>
+          <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+        </div>
+      </div>
     </td>
     <td valign="top" width="50%">
-      <strong><a href="https://loust.pro/socialsphere">SocialSphere</a></strong><br/>
-      <sub>PropTech + hospitality ERP. Multi-property booking, turnover calendars, and channel-manager hooks. CTO since Dec 2025.</sub><br/>
-      <sub>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-        <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"/>
-        <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-        <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe"/>
-        <img src="https://img.shields.io/badge/Tauri-FFC131?style=flat-square&logo=tauri&logoColor=black" alt="Tauri"/>
-      </sub>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
-      <strong>Nexus Apps</strong><br/>
-      <sub>Spec-driven generators and platform scaffolding. 9 packages and 391 TypeScript files keep multi-app ecosystems consistent from one source of truth instead of copy-paste.</sub><br/>
-      <sub>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-        <img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white" alt="Bun"/>
-        <img src="https://img.shields.io/badge/esbuild-FFCF00?style=flat-square&logo=esbuild&logoColor=black" alt="esbuild"/>
-        <img src="https://img.shields.io/badge/tsc-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="tsc"/>
-        <img src="https://img.shields.io/badge/vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="vitest"/>
-      </sub>
-    </td>
-    <td valign="top" width="50%">
-      <strong>Marketplace</strong><br/>
-      <sub>Multi-vendor e-commerce with CFDI 4.0 invoicing, Stripe + MercadoPago splits, and a verified directory for sellers. Atomic invoicing pipeline keeps the trail auditable end-to-end.</sub><br/>
-      <sub>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-        <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"/>
-        <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/>
-        <img src="https://img.shields.io/badge/Stripe_Connect-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe Connect"/>
-        <img src="https://img.shields.io/badge/CFDI_4.0-2C3E50?style=flat-square" alt="CFDI 4.0"/>
-      </sub>
+      <div style="background: #0f172a; border-left: 4px solid #f59e0b; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
+        <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
+          🏡 <a href="https://loust.pro/socialsphere" style="color: #38bdf8; text-decoration: none;"><b>SocialSphere</b></a>
+          <img src="https://img.shields.io/badge/PropTech_ERP-F59E0B?style=flat-square" align="right" alt="PropTech ERP"/>
+        </h4>
+        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
+          PropTech &amp; hospitality ERP running multi-property reservations, turnover scheduling, and channel-manager integrations. Serving as CTO since Dec 2025.
+        </p>
+        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
+          ⚡ <b>Highlights:</b> Real-time availability sync · Multi-currency payments · Desktop &amp; Web app.
+        </p>
+        <div>
+          <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+          <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"/>
+          <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/>
+          <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+          <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe"/>
+          <img src="https://img.shields.io/badge/Tauri-FFC131?style=flat-square&logo=tauri&logoColor=black" alt="Tauri"/>
+        </div>
+      </div>
     </td>
   </tr>
   <tr>
     <td valign="top" width="50%">
-      <strong>AI Chatbot</strong><br/>
-      <sub>Multi-tenant conversational surface for client ops. ReAct reasoning loop with provider-rotation across MiniMax M3, ChatGPT, Claude, DeepSeek, Gemini, Llama, and free-tier fallbacks; per-tenant retry budget keeps cost bounded. Routes to human handoff with full context, sessions in tenant-isolated Redis namespaces, exports to CRM Hub on close.</sub><br/>
-      <sub>
-        <img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white" alt="Bun"/>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-        <img src="https://img.shields.io/badge/MiniMax_M3-FF6B6B?style=flat-square" alt="MiniMax M3"/>
-        <img src="https://img.shields.io/badge/Pollinations-FF6B6B?style=flat-square" alt="Pollinations"/>
-        <img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=flat-square&logo=openai&logoColor=white" alt="ChatGPT"/>
-        <img src="https://img.shields.io/badge/Claude-CC785C?style=flat-square&logo=anthropic&logoColor=white" alt="Claude"/>
-        <img src="https://img.shields.io/badge/DeepSeek-1A4F8C?style=flat-square" alt="DeepSeek"/>
-        <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white" alt="Gemini"/>
-        <img src="https://img.shields.io/badge/Llama-0467DF?style=flat-square&logo=meta&logoColor=white" alt="Llama"/>
-        <img src="https://img.shields.io/badge/ReAct-7C3AED?style=flat-square" alt="ReAct"/>
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
-        <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/>
-      </sub>
+      <div style="background: #0f172a; border-left: 4px solid #6366f1; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
+        <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
+          🛠️ <b>Nexus Apps</b>
+          <img src="https://img.shields.io/badge/Monorepo_Scaffold-6366F1?style=flat-square" align="right" alt="Monorepo Scaffold"/>
+        </h4>
+        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
+          Spec-driven generator suite and monorepo scaffolding system maintaining structural consistency across multi-app deployments from a single source of truth.
+        </p>
+        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
+          ⚡ <b>Highlights:</b> 9 packages &amp; 391 TypeScript files · Deterministic code gen · Shared types.
+        </p>
+        <div>
+          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+          <img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white" alt="Bun"/>
+          <img src="https://img.shields.io/badge/esbuild-FFCF00?style=flat-square&logo=esbuild&logoColor=black" alt="esbuild"/>
+          <img src="https://img.shields.io/badge/tsc-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="tsc"/>
+          <img src="https://img.shields.io/badge/vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="vitest"/>
+        </div>
+      </div>
     </td>
     <td valign="top" width="50%">
-      <strong>Public Research Notes</strong><br/>
-      <sub>Long-form writeups on sovereign RAG, transport-layer hardening, kernel regressions, and infrastructure audits. Public-by-default where the abstraction boundary is legible.</sub><br/>
-      <sub>
-        <img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" alt="Astro"/>
-        <img src="https://img.shields.io/badge/MDX-1B1F24?style=flat-square&logo=mdx&logoColor=white" alt="MDX"/>
-        <img src="https://img.shields.io/badge/Gist-2C3E50?style=flat-square&logo=github&logoColor=white" alt="GitHub gist"/>
-        <img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID bridge"/>
-      </sub>
+      <div style="background: #0f172a; border-left: 4px solid #ec4899; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
+        <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
+          🛒 <b>Marketplace</b>
+          <img src="https://img.shields.io/badge/Stripe_Connect-635BFF?style=flat-square&logo=stripe&logoColor=white" align="right" alt="Stripe Connect"/>
+        </h4>
+        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
+          Multi-vendor e-commerce platform with automated CFDI 4.0 tax invoicing, split payouts via Stripe Connect and MercadoPago, and seller directory verification.
+        </p>
+        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
+          ⚡ <b>Highlights:</b> Atomic tax billing pipeline · Multi-currency payout splits · Auditable ledger.
+        </p>
+        <div>
+          <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+          <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"/>
+          <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/>
+          <img src="https://img.shields.io/badge/Stripe_Connect-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe Connect"/>
+          <img src="https://img.shields.io/badge/CFDI_4.0-2C3E50?style=flat-square" alt="CFDI 4.0"/>
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <div style="background: #0f172a; border-left: 4px solid #14b8a6; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
+        <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
+          🤖 <b>AI Chatbot</b>
+          <img src="https://img.shields.io/badge/ReAct_Loop-7C3AED?style=flat-square" align="right" alt="ReAct Loop"/>
+        </h4>
+        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
+          Multi-tenant conversational AI surface with ReAct reasoning loops, dynamic provider failover (MiniMax M3, ChatGPT, Claude, DeepSeek, Gemini, Llama), and CRM export.
+        </p>
+        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
+          ⚡ <b>Highlights:</b> Bounded token retry budgets · Tenant-isolated Redis memory · Live human handoff.
+        </p>
+        <div>
+          <img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white" alt="Bun"/>
+          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+          <img src="https://img.shields.io/badge/MiniMax_M3-FF6B6B?style=flat-square" alt="MiniMax M3"/>
+          <img src="https://img.shields.io/badge/Pollinations-FF6B6B?style=flat-square" alt="Pollinations"/>
+          <img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=flat-square&logo=openai&logoColor=white" alt="ChatGPT"/>
+          <img src="https://img.shields.io/badge/Claude-CC785C?style=flat-square&logo=anthropic&logoColor=white" alt="Claude"/>
+          <img src="https://img.shields.io/badge/DeepSeek-1A4F8C?style=flat-square" alt="DeepSeek"/>
+          <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white" alt="Gemini"/>
+          <img src="https://img.shields.io/badge/Llama-0467DF?style=flat-square&logo=meta&logoColor=white" alt="Llama"/>
+          <img src="https://img.shields.io/badge/ReAct-7C3AED?style=flat-square" alt="ReAct"/>
+          <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
+          <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/>
+        </div>
+      </div>
+    </td>
+    <td valign="top" width="50%">
+      <div style="background: #0f172a; border-left: 4px solid #a855f7; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
+        <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
+          📚 <b>Public Research Notes</b>
+          <img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white" align="right" alt="ORCID"/>
+        </h4>
+        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
+          Long-form research notes, paper drafts, and open-access security writeups on sovereign RAG, transport-layer hardening, kernel regressions, and infrastructure audits.
+        </p>
+        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
+          ⚡ <b>Highlights:</b> Public-by-default R&amp;D · Formal theorems &amp; PoCs · Machine-readable MDX.
+        </p>
+        <div>
+          <img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" alt="Astro"/>
+          <img src="https://img.shields.io/badge/MDX-1B1F24?style=flat-square&logo=mdx&logoColor=white" alt="MDX"/>
+          <img src="https://img.shields.io/badge/Gist-2C3E50?style=flat-square&logo=github&logoColor=white" alt="GitHub gist"/>
+          <img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID bridge"/>
+        </div>
+      </div>
     </td>
   </tr>
 </table>
