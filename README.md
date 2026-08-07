@@ -275,7 +275,7 @@ Production systems that have shipped to real users, merged into upstreams, or ru
 | **SnapPipe**<br/>([GitHub](https://github.com/LOUST-PRO/SnapPipe)) | Identity-anchored transport toolkit binding sessions to Ed25519 public keys instead of `ip:port` tuples. | Solves SSH/QUIC head-of-line blocking under strict NATs/firewalls with zero unauthenticated frame exposure. |
 | **NetBoozt**<br/>([GitHub](https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade)) | Tauri v3.1 (Rust) + Python CLI + systemd daemon enforcing Linux BBR-equivalent TCP optimizations on Windows. | $+15\text{--}20\%$ real-world throughput gains via queueing discipline, ECN negotiation, and Fast Open tuning. |
 | **LinkMarks**<br/>([GitHub](https://github.com/LOUST-PRO/LinkMarks)) | 2.5 MB single-binary bookmark engine in Rust with CRDT multi-device sync under AGPLv3 + Commercial dual license. | Replaces heavy containerized web tools with zero-telemetry egress and deterministic canonical URL deduplication. |
-| **Tren Maya Smart Credentials**<br/>*(2025 Contractor)* | Visual identity, access hierarchy, and turnstile validation layout for regional mass-transit credentials. | Sustained high-density passenger throughput and multi-tier zoning enforcement under strict security constraints. |
+| **Tren Maya Smart Credentials**<br/>*(2025 Contractor)* | Visual identity, graphic design system, badge layout hierarchy, and turnstile graphic artwork for regional mass-transit physical credentials. | High-density passenger visual recognition, multi-tier zoning clarity, and brand consistency across regional transit hubs. |
 | **TaxonRouter**<br/>([GitHub](https://github.com/LOUST-PRO/TaxonRouter)) | Dual-binary GitHub automation in Go: MCP stdio server + webhook auto-tagger. Listens to incoming issue/PR webhooks, auto-tags categories, reconciles labels, and manages GitHub Projects triage. | Automated GitHub issue/PR auto-tagging, label reconciliation, and zero-dependency webhook ingestion. |
 
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/divider.svg" width="100%" alt="divider"/></p>
@@ -305,6 +305,14 @@ Production systems that have shipped to real users, merged into upstreams, or ru
   <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade"><img src="https://img.shields.io/badge/NetBoozt-TCP_Optimization-FFC131?style=for-the-badge&logo=tauri&logoColor=black" alt="NetBoozt Repo"/></a>
   &nbsp;
   <a href="https://github.com/LOUST-PRO/LinkMarks"><img src="https://img.shields.io/badge/LinkMarks-Local_CRDT-064E3B?style=for-the-badge&logo=rust&logoColor=white" alt="LinkMarks Repo"/></a>
+  <br/>
+  <a href="https://github.com/LOUST-PRO/ical-to-caldav"><img src="https://img.shields.io/badge/ical--to--caldav-CalDAV_Bridge-4285F4?style=for-the-badge&logo=rust&logoColor=white" alt="ical-to-caldav Repo"/></a>
+  &nbsp;
+  <a href="https://github.com/LOUST-PRO/outlook-mcp-suite"><img src="https://img.shields.io/badge/outlook--mcp--suite-Microsoft_Graph_MCP-0078D4?style=for-the-badge&logo=go&logoColor=white" alt="outlook-mcp-suite Repo"/></a>
+  &nbsp;
+  <a href="https://github.com/LOUST-PRO/lzt-broker-stall-reaper"><img src="https://img.shields.io/badge/lzt--broker--stall--reaper-TCP_Watchdog-E6522C?style=for-the-badge&logo=go&logoColor=white" alt="lzt-broker-stall-reaper Repo"/></a>
+  &nbsp;
+  <a href="https://github.com/LOUST-PRO/deterministic-sovereign-rag"><img src="https://img.shields.io/badge/deterministic--sovereign--rag-Sovereign_RAG_Paper-7C3AED?style=for-the-badge&logo=rust&logoColor=white" alt="deterministic-sovereign-rag Repo"/></a>
 </p>
 
 <details>
