@@ -442,7 +442,7 @@ Empirical anchor for the theorems above: **90.9% cache hit rate, p95 12 ms laten
 
 ### Zero-Prefill Keep-Alive Protocol & Multi-Region Clock Drift (operator stack paper draft, 2026)
 
-Cost-benefit gate for cache-warming probes against upstream GPU clusters and multi-region agent control planes. Three-step procedure: **monitor** the upstream's TTL state via a single `max_tokens=0` probe, **trigger** an asymmetric EMA update based on the boolean cache-hit response, and **fire** the next probe only when the gate fires. 
+Cost-benefit gate for cache-warming probes against upstream GPU clusters and multi-region agent control planes. Three-step procedure: **monitor** the upstream's TTL state via a single `max_tokens=1` probe (5-minute heartbeat cadence dynamically calibrated via Weibull survival analysis), **trigger** an asymmetric EMA update based on the boolean cache-hit response, and **fire** the next probe only when the gate fires. 
 
 The protocol is **800× cheaper** than a cold start at `K=1` and **50× cheaper** than an evict-and-compress cycle at `K=16` under upstream rate limits (`5,000 req/hour`). Integrates **Marzullo's 1994 intersection algorithm** to bound multi-region clock drift ($\Delta t \le \epsilon_{\text{ntp}} + \delta_{\text{drift}}$), **Lamport happens-before ordering** (`CLOCK_MONOTONIC`), and a **Weibull survival distribution** ($\lambda(t) = \frac{k}{\lambda}\left(\frac{t}{\lambda}\right)^{k-1}$) modeling GPU VRAM cache eviction under non-stationary token loads.
 
@@ -457,6 +457,7 @@ Public research notes, snapshots, and audit logs from ongoing work. Updated as f
 | Topic | Type | Notes |
 | --- | --- | --- |
 | [lzt-* gist collection](https://gist.github.com/louzt) | Mixed · 9+ gists | Bash hardening snippets, systemd unit definitions, MCP surface designs, certificate chains, transport proxy configs |
+| [Agent Provenance & Meta-Telemetry Detection](https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f) | Agent Architecture · Telemetry | `agent_id` provenance tagging, `lzt-branch-claim` verification, working-tree author classification, and automated PR-slicing gates for multi-agent fleets. |
 | [APQ at Scale (135k-line GraphQL Schema)](https://gist.github.com/louzt/64715cb9c6ec6ffdd98c5712b8fb7bac) · [ES](https://gist.github.com/louzt/0c91771bf6370f0eb47e905934ab47e8) | GraphQL performance · Edge runtime · Self-hosted runners | 90.9% hit rate, p95 12 ms, +125% throughput, $0/mo. Seven diagnostic anchors + seven theorems; §3.8 cgroup v2 runner isolation (slice + Lua EVAL pre-warm + persistent `/opt/build-cache`). Companion to the APQ theorems in the Research and Publications section above. |
 | [Resilient Transport vs Stateful DPI](https://gist.github.com/louzt/3991f144c7d67726045af3cefc60f42a) | Network engineering | 5-tier QUIC/Hysteria2/TLS/SSH fallback proxy; Happy Eyeballs racing in <200 ms; CA-pinned topology |
 | [PipeWire handshake timeout (protocol-native)](https://github.com/louzt/pipewire/commit/2f747a7) | C / Linux core | 5s `spa timer` on `pw_protocol_native_connect_local_socket()`; prevents indefinite CLI hangs (`wpctl`/`pactl`) when daemon is alive but unresponsive. Published upstream on Freedesktop (PipeWire). |
