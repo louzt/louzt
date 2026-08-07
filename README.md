@@ -52,6 +52,7 @@
          then LinkedIn + GitLab + X.com + Matrix. Same shields.io ?style=flat-square
          as the other badges so they line up visually. -->
     <td align="left" valign="middle">
+      <a href="https://github.com/louzt/louzt/blob/main/README.es.md"><img src="https://img.shields.io/badge/Leer_en_Espa%C3%B1ol-Sobre_M%C3%AD-D97706?style=flat-square&logo=readme&logoColor=white" alt="Leer en Español sobre mí"/></a>
       <a href="https://calendar.app.google/XR7FkZXWVwfmZ57x6"><img src="https://img.shields.io/badge/Schedule_a_Meeting-34A853?style=flat-square&logo=googlecalendar&logoColor=white" alt="Schedule a Meeting (Google Calendar)"/></a>
       <a href="https://www.linkedin.com/in/davidmirelesll/?locale=es_ES"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
       <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab"/>
