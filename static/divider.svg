@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  divider.svg — sleek cyber-industrial divider line with subtle end accents (1200x16).
+  divider.svg — sleek cyber-industrial divider line with widely spaced end accents (1200x16).
 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 16" width="1200" height="16" role="img" aria-label="Visual divider">
   <defs>
@@ -23,17 +23,17 @@
   <!-- Glow effect line -->
   <rect x="50" y="6" width="1100" height="4" rx="2" fill="url(#glow)"/>
   <!-- Primary gradient line -->
-  <rect x="100" y="7" width="1000" height="2" rx="1" fill="url(#bg)"/>
+  <rect x="120" y="7" width="960" height="2" rx="1" fill="url(#bg)"/>
 
-  <!-- Left pulse node (Cyan) -->
-  <circle cx="150" cy="8" r="2.5" fill="#38bdf8">
-    <animate attributeName="r" values="1.8;3.2;1.8" dur="3s" repeatCount="indefinite"/>
+  <!-- Left pulse node (Cyan - spaced further out at cx=70) -->
+  <circle cx="70" cy="8" r="2.5" fill="#38bdf8">
+    <animate attributeName="r" values="1.8;3.5;1.8" dur="3s" repeatCount="indefinite"/>
     <animate attributeName="fill-opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Right pulse node (Violet) -->
-  <circle cx="1050" cy="8" r="2.5" fill="#8b5cf6">
-    <animate attributeName="r" values="1.8;3.2;1.8" dur="3s" repeatCount="indefinite"/>
+  <!-- Right pulse node (Violet - spaced further out at cx=1130) -->
+  <circle cx="1130" cy="8" r="2.5" fill="#8b5cf6">
+    <animate attributeName="r" values="1.8;3.5;1.8" dur="3s" repeatCount="indefinite"/>
     <animate attributeName="fill-opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
   </circle>
 </svg>

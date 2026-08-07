@@ -583,7 +583,7 @@ Public research notes, snapshots, and audit logs from ongoing work. Updated as f
 
 > _Public gists are linked individually above as they ship. For private work-in-progress and operational forensics, see [LinkedIn](https://www.linkedin.com/in/davidmirelesll/?locale=es_ES) for the curated view._
 
-<p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/divider.svg" width="100%" alt="divider"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/divider-bracket-closing.svg" width="100%" alt="closing bracket divider"/></p>
 
 <!-- ============================================================ -->
 <!-- FOOTER: animated squares grid + tagline (no operator name).  -->

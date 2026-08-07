@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  divider-bracket-closing.svg — zero-text cyber-industrial closing bracket divider (1200x32).
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 32" width="1200" height="32" role="img" aria-label="Closing bracket divider">
+  <defs>
+    <linearGradient id="bracket-bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#020617" stop-opacity="0"/>
+      <stop offset="10%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#10b981" stop-opacity="0.9"/>
+      <stop offset="90%" stop-color="#8b5cf6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bracket-glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#020617" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#10b981" stop-opacity="0.45"/>
+      <stop offset="85%" stop-color="#8b5cf6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ambient Glow Line -->
+  <rect x="40" y="10" width="1120" height="6" rx="3" fill="url(#bracket-glow)"/>
+
+  <!-- Main Horizontal Line -->
+  <rect x="80" y="12" width="1040" height="2" rx="1" fill="url(#bracket-bg)"/>
+
+  <!-- Left Bracket Terminal: Downward closing hook -->
+  <path d="M 50 4 L 50 12 L 80 12" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 50 20 L 50 12" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Right Bracket Terminal: Downward closing hook -->
+  <path d="M 1150 4 L 1150 12 L 1120 12" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 1150 20 L 1150 12" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Left Pulsing Bracket Node -->
+  <circle cx="50" cy="12" r="3" fill="#38bdf8">
+    <animate attributeName="r" values="2;4.2;2" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Center Pulsing Accent Node -->
+  <circle cx="600" cy="13" r="2.5" fill="#10b981">
+    <animate attributeName="r" values="1.8;3.5;1.8" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Right Pulsing Bracket Node -->
+  <circle cx="1150" cy="12" r="3" fill="#8b5cf6">
+    <animate attributeName="r" values="2;4.2;2" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>
