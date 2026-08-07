@@ -297,10 +297,6 @@ Production systems that have shipped to real users, merged into upstreams, or ru
   <a href="https://github.com/LOUST-PRO"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/banner-loust-pro-org.svg" width="100%" alt="LOUST-PRO Open Source &amp; Enterprise Substrates"/></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/LOUST-PRO"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/banner-loust-pro-org.svg" width="100%" alt="LOUST-PRO Open Source &amp; Enterprise Substrates"/></a>
-</p>
-
 <table width="100%">
   <tr>
     <td valign="top" width="50%">
