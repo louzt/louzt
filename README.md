@@ -270,18 +270,21 @@ Production systems that have shipped to real users, merged into upstreams, or ru
 | Compiler translating noisy LLM export payloads (ChatGPT, Claude, Gemini) into canonical JSONL + Markdown records<br/><br/><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/JSONL-1F2937?style=flat-square" alt="JSONL"/> <img src="https://img.shields.io/badge/Claude-CC785C?style=flat-square&logo=anthropic&logoColor=white" alt="Claude"/> <img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=flat-square&logo=openai&logoColor=white" alt="ChatGPT"/> | Normalizes fragmented vendor exports into a structured context stream, eliminating ~60% token bloat during prompt injection. | [LLMmempipe](https://github.com/LOUST-PRO/LLMmempipe) |
 
 <details>
-<summary>Representative build signals from shipped systems</summary>
+<summary>Representative build signals & internal observability metrics</summary>
 
-- 850K+ lines of production code shipped across 50+ delivered projects (2019–2026)
-- 9 packages and 391 TypeScript files in Nexus Engine
-- 42 Prisma models and 600+ GraphQL endpoints in larger platform work
-- Enterprise multi-tenant RBAC isolation & agentic workflows
-- FOSS community CLA, DMCA, and Acceptable Use (AUP) legal governance
-- 50K embeddings queried in 188 ms in GPU-oriented retrieval
-- 15-20% throughput improvements in NetBoozt test cases
-- <2 minute lead-to-quote response latency in SYPREME conversion-attribution pipeline
-- Atomic CFDI 4.0 invoicing pipeline (multi-tenant e-commerce + Stripe / MercadoPago / Crypto)
-- Redis channel count reduced 59 → 18 via SCAN/COUNT migration over KEYS
+- **850K+ lines of production code** shipped across 50+ delivered projects (2019–2026)
+- **Knowledge Graph Compaction & Triage**: SPARQL/TriG corpus indexation digesting historical issues, PRs, and commit diffs vs local forks for zero-overhead token budgeting and multi-branch differential analysis
+- **Custom SAST & OSINT Vulnerability Scanners**: Problem-tailored static analysis rules and public OSINT threat intelligence mapping documented regressions against local codebases before patch submission
+- **Cross-Fork Differential Test Harnesses**: Multi-branch simulation suites measuring execution latency, memory footprint, and state invariance across candidate patches vs upstream forks
+- **9 packages and 391 TypeScript files** in Nexus Engine monorepo
+- **42 Prisma models and 600+ GraphQL endpoints** in production B2B multi-tenant engines
+- **Enterprise multi-tenant RBAC isolation** & autonomous agentic workflows
+- **FOSS community CLA, DMCA, and Acceptable Use (AUP)** legal governance framework
+- **50K embeddings queried in 188 ms** in GPU-oriented RAG retrieval pipelines
+- **15-20% throughput gains** in NetBoozt TCP optimization benchmarks on Windows
+- **<2 minute lead-to-quote response latency** in SYPREME conversion-attribution pipeline
+- **Atomic CFDI 4.0 invoicing pipeline** (multi-tenant e-commerce + Stripe / MercadoPago / Crypto)
+- **Redis channel count reduced 59 → 18** via SCAN/COUNT migration over KEYS
 
 </details>
 
