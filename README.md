@@ -879,22 +879,38 @@ Public research notes, operational forensics, and upstream patch series — inde
 
 <table width="100%">
   <tr>
-    <td valign="top" width="100%">
+    <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #ec4899; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-pink.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/k3s_/_Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" align="right" alt="k3s Kubernetes"/>
-          🤖 <b>Agent Fleet Provenance &amp; k3s Auto-Scaling</b>
+          <img src="https://img.shields.io/badge/Agent_Fleet_/_Rust-EC4899?style=flat-square&logo=rust&logoColor=white" align="right" alt="Agent Fleet Rust"/>
+          🤖 <b>Sovereign Agent Fleet Provenance &amp; Git Claim Gates</b>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Designed <code>agent_id</code> provenance tagging, working-tree author classification, and multi-agent PR-slicing gates (<a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f">Gist</a>). Engineered RCON-driven automated idle cluster teardown &amp; auto-scaling for zero-cost standby game infrastructure on k3s (<a href="https://gist.github.com/louzt/b333b5601628a159630da13857834246">Gist</a>).
+          Designed deterministic <code>agent_id</code> provenance tagging and subagent conversation ID audit traces across hierarchical agentic workflows. Implemented working-tree author classification (mine / foreign / mixed / unknown) with automated author email attribution gates. Engineered F80.14-aware <code>lzt-branch-claim</code> verification, preventing parallel agent branch drift or race conditions during automated PR-slicing and multi-agent code generation pipelines (<a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f">Gist</a>).
         </p>
         <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Impact:</b> Zero-drift multi-agent git branch claim verification &amp; 100% idle infrastructure cost elimination.
+          ⚡ <b>Impact:</b> Zero-drift multi-agent git branch claim verification &amp; 100% auditable agent execution provenance.
         </p>
         <div>
           <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Agent_Provenance-Gist-EC4899?style=flat-square&logo=github&logoColor=white" alt="Provenance Gist"/></a>
-          &nbsp;
+        </div>
+      </div>
+    </td>
+    <td valign="top" width="50%">
+      <div style="background: #0f172a; border-left: 4px solid #326ce5; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
+        <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-cyan.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
+        <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
+          <img src="https://img.shields.io/badge/k3s_/_Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" align="right" alt="k3s Kubernetes"/>
+          ☸️ <b>k3s Kubernetes Standby Auto-Scaling &amp; RCON Teardowns</b>
+        </h4>
+        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
+          Engineered RCON-driven automated idle cluster detection and graceful worker node teardowns for zero-cost standby game and telemetry workloads on k3s / Lightweight Kubernetes (<a href="https://gist.github.com/louzt/b333b5601628a159630da13857834246">Gist</a>). Implemented event-driven pod scaling and node lifecycle controllers with fast warm-start initialization (&lt;15s container spin-up) under zero active player/connection load, eliminating 24/7 static VPS billings.
+        </p>
+        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
+          ⚡ <b>Impact:</b> 100% idle infrastructure cost elimination &amp; &lt;15s warm-start cluster recovery under zero load.
+        </p>
+        <div>
           <a href="https://gist.github.com/louzt/b333b5601628a159630da13857834246"><img src="https://img.shields.io/badge/k3s_Auto--Scaling-Gist-326CE5?style=flat-square&logo=github&logoColor=white" alt="k3s Gist"/></a>
         </div>
       </div>
