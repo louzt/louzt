@@ -9,8 +9,18 @@
 
 <table width="100%">
   <tr>
+    <!-- Fila 1: Selector de Idiomas Global -->
     <td align="left" valign="middle">
       <a href="https://github.com/louzt/louzt/blob/main/README.md"><img src="https://img.shields.io/badge/Read_in_English-About_Me-0093D0?style=flat-square&logo=readme&logoColor=white" alt="Read in English"/></a>
+      <a href="https://github.com/louzt/louzt/blob/main/README.es.md"><img src="https://img.shields.io/badge/Leer_en_Espa%C3%B1ol-Sobre_M%C3%AD-D97706?style=flat-square&logo=readme&logoColor=white" alt="Leer en Español sobre mí"/></a>
+      <a href="https://github.com/louzt/louzt/blob/main/README.it.md"><img src="https://img.shields.io/badge/Leggi_in_Italiano-Chi_Sono-009246?style=flat-square&logo=readme&logoColor=white" alt="Leggi in Italiano"/></a>
+      <a href="https://github.com/louzt/louzt/blob/main/README.pt.md"><img src="https://img.shields.io/badge/Ler_em_Portugu%C3%AAs-Sobre_Mim-009B3A?style=flat-square&logo=readme&logoColor=white" alt="Ler em Português sobre mim"/></a>
+      <a href="https://github.com/louzt/louzt/blob/main/README.de.md"><img src="https://img.shields.io/badge/Auf_Deutsch_lesen-%C3%9Cber_Mich-DD0000?style=flat-square&logo=readme&logoColor=white" alt="Auf Deutsch lesen über mich"/></a>
+    </td>
+  </tr>
+  <tr>
+    <!-- Fila 2: Canales de contacto y Agendar reunión -->
+    <td align="left" valign="middle">
       <a href="https://calendar.app.google/XR7FkZXWVwfmZ57x6"><img src="https://img.shields.io/badge/Agendar_una_Reuni%C3%B3n-34A853?style=flat-square&logo=googlecalendar&logoColor=white" alt="Agendar una reunión (Google Calendar)"/></a>
       <a href="https://www.linkedin.com/in/davidmirelesll/?locale=es_ES"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
       <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab"/>
@@ -226,14 +236,14 @@ Sistemas en producción que han sido enviados a usuarios reales, fusionados en u
 | **SocialSphereMX Multi-Tenant SaaS**<br/>([socialspheremx.loust.pro](https://socialspheremx.loust.pro)) | Tejido SaaS multi-tenant para creadores, ERP de restaurantes con menús QR/KDS, inventario PropTech en tiempo real e ingesta de metadatos de Spotify/YouTube. | **99.9% de disponibilidad real**, ingesta de metadatos en vivo y flujos de trabajo de prospectos sub-2 min. |
 | **LZT SRE Harness**<br/>*(Privado)* | Data plane distribuido en Rust + Go: ruteo cognitivo asimétrico, sincronización semántica de 3 vías y guardián estocástico (<0.5s kill-switch). | Desacopla el razonamiento de agentes de la volatilidad del proveedor; **99.5% hit rate de caché** y menor quema de tokens. |
 | **H5KKEN Fighting Game Engine**<br/>([h5kken.loust.pro](https://h5kken.loust.pro)) | Netcode rollback GGPO de 30 cuadros + transporte dual WebRTC/WebSocket + renderizado Babylon.js 8 WebGPU + auto-escalado k3s serverless (<15s spin-up). | **Predicción sub-cuadro de entrada (>70% precisión)** y **100% de eliminación de costos en infraestructura inactiva**. |
-| **SnapPipe**<br/>([GitHub](https://github.com/LOUST-PRO/SnapPipe)) | Toolkit de transporte orientado a identidad escrito en Rust, vinculando sesiones a claves públicas Ed25519 en lugar de tuplas `ip:port`. | Resuelve el bloqueo head-of-line en SSH/QUIC bajo NATs estrictos con cero exposición de tramas sin autenticar. |
-| **NetBoozt**<br/>([GitHub](https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade)) | Tauri v3.1 (Rust) + netcode nativo C: autotuning de ventanas TCP, selección de congestión BBR/Cubic, `TCP_NODELAY`, QoS DSCP y descubrimiento MTU/MSS. | **$+15\text{--}20\%$ de ganancias reales en rendimiento** mediante disciplina de colas y cero pérdida de paquetes. |
+| **SnapPipe**<br/>([Releases](https://github.com/LOUST-PRO/SnapPipe/releases) · [Repo](https://github.com/LOUST-PRO/SnapPipe)) | Toolkit de transporte orientado a identidad escrito en Rust, vinculando sesiones a claves públicas Ed25519 en lugar de tuplas `ip:port`. | Resuelve el bloqueo head-of-line en SSH/QUIC bajo NATs estrictos con cero exposición de tramas sin autenticar. |
+| **NetBoozt**<br/>([Releases](https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade/releases) · [Repo](https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade)) | Tauri v3.1 (Rust) + netcode C nativo + módulo Fallback DNS para Windows/Linux: recuperación de bloqueos DNS de proveedores y módems, autotuning TCP, BBR/Cubic, `TCP_NODELAY`, QoS DSCP y descubrimiento MTU/MSS. | **$+15\text{--}20\%$ de ganancias reales en rendimiento** mediante disciplina de colas, resiliencia DNS y cero pérdida de paquetes. |
 | **h3ph43st Agent Runtime**<br/>*(Privado, AGPLv3)* | Runtime de agentes de núcleo cerrado: CLI escueta en Rust (`h3ph`) comunicándose con sidecar k3s multi-tenant para escaneos SAST efímeros. | Egresos bloqueados y razonamiento aislado — los nodos clientes jamás ven prompts de sistema ni contratos de herramientas. |
 | **Multi-Protocol Agent Transport**<br/>*(Privado)* | Proxy Go + Rust compitiendo en transporte QUIC / Hysteria2 / TLS / SSH, promoviendo el primer flujo saludable bajo 200ms. | Mantiene los viajes redondos de llamadas de herramientas de agentes dentro del presupuesto en portales cautivos o NATs. |
-| **lzt-broker-stall-reaper**<br/>([GitHub](https://github.com/LOUST-PRO/lzt-broker-stall-reaper)) | Watchdog OS Linux a nivel TCP en Go enumerando sockets vía `ss -tnpi` y disparando RST kernel `tcp_diag` en consultas colgadas. | Auto-recupera flotas de runners de GitHub Actions cuando los sockets se cuelgan indefinidamente. |
-| **LinkMarks**<br/>([GitHub](https://github.com/LOUST-PRO/LinkMarks)) | Motor de marcadores binario único de 2.5 MB en Rust con sincronización CRDT multi-dispositivo bajo licencia dual AGPLv3 + Comercial. | Reemplaza herramientas web pesadas con cero egreso de telemetría y deduplicación determinista de URLs. |
-| **outlook-mcp-suite**<br/>([GitHub](https://github.com/LOUST-PRO/outlook-mcp-suite)) | Servidor MCP stdio Go 1.21 envolviendo 11 endpoints de Microsoft Graph con OAuth 2.0 Device Code Flow y límite de 25 MiB. | Permite a flotas de agentes interactuar con buzones Microsoft 365 vía JSON-RPC sin secretos de cliente. |
-| **TaxonRouter**<br/>([GitHub](https://github.com/LOUST-PRO/TaxonRouter)) | Automatización GitHub dual-binary en Go: servidor MCP stdio + microservicio de etiquetado automático de webhooks. | Etiquetado automático de issues/PRs en GitHub, reconciliación de etiquetas e ingesta de webhooks sin dependencias. |
+| **lzt-broker-stall-reaper**<br/>([Releases](https://github.com/LOUST-PRO/lzt-broker-stall-reaper/releases) · [Repo](https://github.com/LOUST-PRO/lzt-broker-stall-reaper)) | Watchdog OS Linux a nivel TCP en Go enumerando sockets vía `ss -tnpi` y disparando RST kernel `tcp_diag` en consultas colgadas. | Auto-recupera flotas de runners de GitHub Actions cuando los sockets se cuelgan indefinidamente. |
+| **LinkMarks**<br/>([Releases](https://github.com/LOUST-PRO/LinkMarks/releases) · [Repo](https://github.com/LOUST-PRO/LinkMarks)) | Motor de marcadores binario único de 2.5 MB en Rust con sincronización CRDT multi-dispositivo bajo licencia dual AGPLv3 + Comercial. | Reemplaza herramientas web pesadas con cero egreso de telemetría y deduplicación determinista de URLs. |
+| **outlook-mcp-suite**<br/>([Releases](https://github.com/LOUST-PRO/outlook-mcp-suite/releases) · [Repo](https://github.com/LOUST-PRO/outlook-mcp-suite)) | Servidor MCP stdio Go 1.21 envolviendo 11 endpoints de Microsoft Graph con OAuth 2.0 Device Code Flow y límite de 25 MiB. | Permite a flotas de agentes interactuar con buzones Microsoft 365 vía JSON-RPC sin secretos de cliente. |
+| **TaxonRouter**<br/>([Releases](https://github.com/LOUST-PRO/TaxonRouter/releases) · [Repo](https://github.com/LOUST-PRO/TaxonRouter)) | Automatización GitHub dual-binary en Go: servidor MCP stdio + microservicio de etiquetado automático de webhooks. | Etiquetado automático de issues/PRs en GitHub, reconciliación de etiquetas e ingesta de webhooks sin dependencias. |
 
 <p align="center">
   <a href="https://github.com/LOUST-PRO"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/banner-loust-pro-org.svg" width="100%" alt="Organización LOUST-PRO Substratos Open Source &amp; Empresariales"/></a>
@@ -246,16 +256,18 @@ Sistemas en producción que han sido enviados a usuarios reales, fusionados en u
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-amber.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
           <img src="https://img.shields.io/badge/Rust_/_Tauri-FFC131?style=flat-square&logo=tauri&logoColor=black" align="right" alt="Rust Tauri"/>
-          ⚡ <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade" style="color: #38bdf8; text-decoration: none;"><b>NetBoozt — Rendimiento de Red &amp; Ajuste de Sockets</b></a>
+          ⚡ <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade/releases" style="color: #38bdf8; text-decoration: none;"><b>NetBoozt — Rendimiento de Red, Fallback DNS &amp; Ajuste de Sockets</b></a>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Motor de ajuste de rendimiento de red y sockets multiplataforma desarrollado en Rust, Tauri y netcode C nativo. Automatiza el autotuning de ventanas TCP, selección de proveedores de congestión BBR/Cubic, supresión del algoritmo Nagle (<code>TCP_NODELAY</code>), priorización QoS DSCP y descubrimiento MTU/MSS.
+          Motor de ajuste de rendimiento de red y sockets multiplataforma desarrollado en Rust, Tauri y netcode C nativo. Cuenta con un <b>módulo experimental de Fallback DNS para Windows y Linux</b> diseñado para sobrepasar servidores DNS inestables de proveedores (ISP) y congelamientos de resolución en módems residenciales, además de autotuning TCP, BBR/Cubic, <code>TCP_NODELAY</code>, QoS DSCP y descubrimiento MTU/MSS.
         </p>
         <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Highlights:</b> +15-20% aumento de rendimiento · Cero pérdida de paquetes · Ajuste BBR/Cubic · Netcode Tauri &amp; C.
+          ⚡ <b>Highlights:</b> +15-20% aumento de rendimiento · Módulo Fallback DNS para ISP/Módems · Releases para Windows y Linux · Ajuste BBR/Cubic.
         </p>
         <div>
-          <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade"><img src="https://img.shields.io/badge/NetBoozt_Repo-Explorar-FFC131?style=flat-square&logo=github&logoColor=black" alt="Repo NetBoozt"/></a>
+          <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade/releases"><img src="https://img.shields.io/badge/NetBoozt-Releases-FFC131?style=flat-square&logo=github&logoColor=black" alt="NetBoozt Releases"/></a>
+          &nbsp;
+          <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade"><img src="https://img.shields.io/badge/NetBoozt_Repo-Explorar-1E293B?style=flat-square&logo=github&logoColor=white" alt="Repo NetBoozt"/></a>
         </div>
       </div>
     </td>

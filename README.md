@@ -283,13 +283,13 @@ Production systems that have shipped to real users, merged into upstreams, or ru
 | **LZT SRE Harness**<br/>*(Private)* | Distributed data plane in Rust + Go: asymmetric cognitive routing, 3-way semantic sync + Bayesian Stream Guard (<0.5s kill-switch). | Decouples agent reasoning from provider volatility; **99.5% effective cache rate** and drastically reduced token burn-rate. |
 | **H5KKEN Fighting Game Engine**<br/>([h5kken.loust.pro](https://h5kken.loust.pro)) | GGPO-style 30-frame rollback netcode + WebRTC/WebSocket dual transport + Babylon.js 8 WebGPU rendering + k3s serverless match auto-scaling (<15s spin-up). | **Sub-frame input prediction (>70% accurate)**, seamless WebRTC DataChannel upgrades, and **100% idle infrastructure cost elimination**. |
 | **SnapPipe**<br/>([GitHub](https://github.com/LOUST-PRO/SnapPipe)) | Identity-anchored transport toolkit written in Rust, binding sessions to Ed25519 public keys instead of `ip:port` tuples. | Solves SSH/QUIC head-of-line blocking under strict NATs/firewalls with zero unauthenticated frame exposure. |
-| **NetBoozt**<br/>([GitHub](https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade)) | Tauri v3.1 (Rust) + native C netcode: TCP window autotuning, BBR/Cubic congestion provider selection, `TCP_NODELAY`, QoS DSCP, and MTU/MSS path discovery. | **$+15\text{--}20\%$ real-world throughput gains** via queueing discipline, ECN negotiation, and zero packet loss. |
+| **NetBoozt**<br/>([Releases](https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade/releases) · [Repo](https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade)) | Tauri v3.1 (Rust) + native C netcode + Fallback DNS module for Windows/Linux: ISP & modem DNS stall recovery, TCP window autotuning, BBR/Cubic selection, `TCP_NODELAY`, QoS DSCP, and MTU/MSS discovery. | **$+15\text{--}20\%$ real-world throughput gains** via queueing discipline, fallback DNS resilience, and zero packet loss. |
 | **h3ph43st Agent Runtime**<br/>*(Private, AGPLv3)* | Closed-core agent runtime: pruned Rust CLI (`h3ph`) talking to a multi-tenant k3s sidecar for ephemeral SAST scans. | Locked egress and isolated reasoning — client nodes never see system prompts, tool contracts, or reasoning loops. |
 | **Multi-Protocol Agent Transport**<br/>*(Private)* | Go + Rust proxy racing QUIC / Hysteria2 / TLS / SSH, promoting the first-healthy stream under 200ms. | Keeps agent tool-call round-trips within budget even under captive portals, mobile NATs, or restrictive firewalls. |
-| **lzt-broker-stall-reaper**<br/>([GitHub](https://github.com/LOUST-PRO/lzt-broker-stall-reaper)) | TCP-level Linux OS watchdog in Go enumerating sockets via `ss -tnpi` and firing `tcp_diag` kernel RST on stalled long-polls. | Auto-recovers GitHub Actions runner fleets when upstream broker sockets hang indefinitely without manual intervention. |
-| **LinkMarks**<br/>([GitHub](https://github.com/LOUST-PRO/LinkMarks)) | 2.5 MB single-binary bookmark engine in Rust with CRDT multi-device sync under AGPLv3 + Commercial dual license. | Replaces heavy containerized web tools with zero-telemetry egress and deterministic canonical URL deduplication. |
-| **outlook-mcp-suite**<br/>([GitHub](https://github.com/LOUST-PRO/outlook-mcp-suite)) | Go 1.21 stdio MCP server wrapping 11 Microsoft Graph endpoints with OAuth 2.0 Device Code Flow and 25 MiB attachment caps. | Enables autonomous agent fleets to interact with Microsoft 365 mailboxes via clean stdio JSON-RPC without client secrets. |
-| **TaxonRouter**<br/>([GitHub](https://github.com/LOUST-PRO/TaxonRouter)) | Dual-binary GitHub automation in Go: MCP stdio server + webhook auto-tagger microservice managing issue/PR triage. | Automated GitHub issue/PR auto-tagging, label reconciliation, and zero-dependency webhook ingestion. |
+| **lzt-broker-stall-reaper**<br/>([Releases](https://github.com/LOUST-PRO/lzt-broker-stall-reaper/releases) · [Repo](https://github.com/LOUST-PRO/lzt-broker-stall-reaper)) | TCP-level Linux OS watchdog in Go enumerating sockets via `ss -tnpi` and firing `tcp_diag` kernel RST on stalled long-polls. | Auto-recovers GitHub Actions runner fleets when upstream broker sockets hang indefinitely without manual intervention. |
+| **LinkMarks**<br/>([Releases](https://github.com/LOUST-PRO/LinkMarks/releases) · [Repo](https://github.com/LOUST-PRO/LinkMarks)) | 2.5 MB single-binary bookmark engine in Rust with CRDT multi-device sync under AGPLv3 + Commercial dual license. | Replaces heavy containerized web tools with zero-telemetry egress and deterministic canonical URL deduplication. |
+| **outlook-mcp-suite**<br/>([Releases](https://github.com/LOUST-PRO/outlook-mcp-suite/releases) · [Repo](https://github.com/LOUST-PRO/outlook-mcp-suite)) | Go 1.21 stdio MCP server wrapping 11 Microsoft Graph endpoints with OAuth 2.0 Device Code Flow and 25 MiB attachment caps. | Enables autonomous agent fleets to interact with Microsoft 365 mailboxes via clean stdio JSON-RPC without client secrets. |
+| **TaxonRouter**<br/>([Releases](https://github.com/LOUST-PRO/TaxonRouter/releases) · [Repo](https://github.com/LOUST-PRO/TaxonRouter)) | Dual-binary GitHub automation in Go: MCP stdio server + webhook auto-tagger microservice managing issue/PR triage. | Automated GitHub issue/PR auto-tagging, label reconciliation, and zero-dependency webhook ingestion. |
 
 <p align="center">
   <a href="https://github.com/LOUST-PRO"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/banner-loust-pro-org.svg" width="100%" alt="LOUST-PRO Open Source &amp; Enterprise Substrates"/></a>
@@ -302,16 +302,18 @@ Production systems that have shipped to real users, merged into upstreams, or ru
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-amber.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
           <img src="https://img.shields.io/badge/Rust_/_Tauri-FFC131?style=flat-square&logo=tauri&logoColor=black" align="right" alt="Rust Tauri"/>
-          ⚡ <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade" style="color: #38bdf8; text-decoration: none;"><b>NetBoozt — Network Performance &amp; Socket Tuning</b></a>
+          ⚡ <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade/releases" style="color: #38bdf8; text-decoration: none;"><b>NetBoozt — Network Performance, DNS Fallback &amp; Socket Tuning</b></a>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Cross-platform network performance upgrade &amp; socket tuning engine built with Rust, Tauri, and native C netcode. Automates TCP window autotuning, BBR/Cubic congestion provider selection, Nagle algorithm suppression (<code>TCP_NODELAY</code>), QoS DSCP packet prioritization, and MTU/MSS path discovery.
+          Cross-platform network performance upgrade &amp; socket tuning engine built with Rust, Tauri, and native C netcode. Features an experimental <b>Fallback DNS module for Windows &amp; Linux</b> engineered to bypass unstable ISP DNS servers and carrier modem resolution stalls, alongside TCP window autotuning, BBR/Cubic congestion selection, <code>TCP_NODELAY</code>, QoS DSCP prioritization, and MTU/MSS discovery.
         </p>
         <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Highlights:</b> +15-20% throughput lift · Zero packet loss · BBR/Cubic tuning · Tauri &amp; C netcode.
+          ⚡ <b>Highlights:</b> +15-20% throughput lift · ISP/Modem Fallback DNS module · Windows &amp; Linux releases · BBR/Cubic tuning.
         </p>
         <div>
-          <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade"><img src="https://img.shields.io/badge/NetBoozt_Repo-Explore-FFC131?style=flat-square&logo=github&logoColor=black" alt="NetBoozt Repo"/></a>
+          <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade/releases"><img src="https://img.shields.io/badge/NetBoozt-Releases-FFC131?style=flat-square&logo=github&logoColor=black" alt="NetBoozt Releases"/></a>
+          &nbsp;
+          <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade"><img src="https://img.shields.io/badge/NetBoozt_Repo-Explore-1E293B?style=flat-square&logo=github&logoColor=white" alt="NetBoozt Repo"/></a>
         </div>
       </div>
     </td>
