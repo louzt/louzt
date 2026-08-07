@@ -291,6 +291,20 @@ Production systems that have shipped to real users, merged into upstreams, or ru
 | **outlook-mcp-suite**<br/>([GitHub](https://github.com/LOUST-PRO/outlook-mcp-suite)) | Go 1.21 stdio MCP server wrapping 11 Microsoft Graph endpoints with OAuth 2.0 Device Code Flow and 25 MiB attachment caps. | Enables autonomous agent fleets to interact with Microsoft 365 mailboxes via clean stdio JSON-RPC without client secrets. |
 | **Spec-Watch Subagent Fleet**<br/>*(Private)* | Event-driven Rust scanners detecting breaking spec changes across MCP, OpenAI, Claude, and Gemini changelogs. | Auto-patches agent contract types before downstream tools observe spec drift outside the LLM's training window. |
 
+<p align="center">
+  <a href="https://github.com/LOUST-PRO"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/banner-loust-pro-org.svg" width="100%" alt="LOUST-PRO Open Source &amp; Enterprise Substrates"/></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/LOUST-PRO"><img src="https://img.shields.io/badge/Explore_LOUST--PRO_Organization-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore LOUST-PRO GitHub Organization"/></a>
+  &nbsp;
+  <a href="https://github.com/LOUST-PRO/SnapPipe"><img src="https://img.shields.io/badge/SnapPipe-Identity_Transport-0093D0?style=for-the-badge&logo=rust&logoColor=white" alt="SnapPipe Repo"/></a>
+  &nbsp;
+  <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade"><img src="https://img.shields.io/badge/NetBoozt-TCP_Optimization-FFC131?style=for-the-badge&logo=tauri&logoColor=black" alt="NetBoozt Repo"/></a>
+  &nbsp;
+  <a href="https://github.com/LOUST-PRO/LinkMarks"><img src="https://img.shields.io/badge/LinkMarks-Local_CRDT-064E3B?style=for-the-badge&logo=rust&logoColor=white" alt="LinkMarks Repo"/></a>
+</p>
+
 <details>
 <summary>Representative build signals & internal observability metrics</summary>
 
