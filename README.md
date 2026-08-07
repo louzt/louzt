@@ -48,11 +48,18 @@
 <!-- ============================================================ -->
 <table width="100%">
   <tr>
-    <!-- Row 1: contact channels — Schedule a meeting (CTA, NEW 2026-07-15) FIRST,
-         then LinkedIn + GitLab + X.com + Matrix. Same shields.io ?style=flat-square
-         as the other badges so they line up visually. -->
+    <!-- Row 1: Language Switcher Row (Global Multi-Language Profile Navigation) -->
     <td align="left" valign="middle">
+      <a href="https://github.com/louzt/louzt/blob/main/README.md"><img src="https://img.shields.io/badge/Read_in_English-About_Me-0093D0?style=flat-square&logo=readme&logoColor=white" alt="Read in English"/></a>
       <a href="https://github.com/louzt/louzt/blob/main/README.es.md"><img src="https://img.shields.io/badge/Leer_en_Espa%C3%B1ol-Sobre_M%C3%AD-D97706?style=flat-square&logo=readme&logoColor=white" alt="Leer en Español sobre mí"/></a>
+      <a href="https://github.com/louzt/louzt/blob/main/README.it.md"><img src="https://img.shields.io/badge/Leggi_in_Italiano-Chi_Sono-009246?style=flat-square&logo=readme&logoColor=white" alt="Leggi in Italiano"/></a>
+      <a href="https://github.com/louzt/louzt/blob/main/README.pt.md"><img src="https://img.shields.io/badge/Ler_em_Portugu%C3%AAs-Sobre_Mim-009B3A?style=flat-square&logo=readme&logoColor=white" alt="Ler em Português sobre mim"/></a>
+      <a href="https://github.com/louzt/louzt/blob/main/README.de.md"><img src="https://img.shields.io/badge/Auf_Deutsch_lesen-%C3%9Cber_Mich-DD0000?style=flat-square&logo=readme&logoColor=white" alt="Auf Deutsch lesen über mich"/></a>
+    </td>
+  </tr>
+  <tr>
+    <!-- Row 2: Contact channels & Schedule a meeting -->
+    <td align="left" valign="middle">
       <a href="https://calendar.app.google/XR7FkZXWVwfmZ57x6"><img src="https://img.shields.io/badge/Schedule_a_Meeting-34A853?style=flat-square&logo=googlecalendar&logoColor=white" alt="Schedule a Meeting (Google Calendar)"/></a>
       <a href="https://www.linkedin.com/in/davidmirelesll/?locale=es_ES"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
       <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab"/>
