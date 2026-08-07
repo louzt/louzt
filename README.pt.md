@@ -9,13 +9,14 @@
 
 <table width="100%">
   <tr>
-    <!-- Linha 1: Seletor Global de Idioma -->
+    <!-- Linha 1: Seletor Global de Idioma (Ativo: Português) -->
     <td align="left" valign="middle">
-      <a href="https://github.com/louzt/louzt/blob/main/README.md"><img src="https://img.shields.io/badge/Read_in_English-About_Me-0093D0?style=flat-square&logo=readme&logoColor=white" alt="Read in English"/></a>
-      <a href="https://github.com/louzt/louzt/blob/main/README.es.md"><img src="https://img.shields.io/badge/Leer_en_Espa%C3%B1ol-Sobre_M%C3%AD-D97706?style=flat-square&logo=readme&logoColor=white" alt="Leer en Español"/></a>
-      <a href="https://github.com/louzt/louzt/blob/main/README.it.md"><img src="https://img.shields.io/badge/Leggi_in_Italiano-Chi_Sono-009246?style=flat-square&logo=readme&logoColor=white" alt="Leggi in Italiano"/></a>
-      <a href="https://github.com/louzt/louzt/blob/main/README.pt.md"><img src="https://img.shields.io/badge/Ler_em_Portugu%C3%AAs-Sobre_Mim-009B3A?style=flat-square&logo=readme&logoColor=white" alt="Ler em Português"/></a>
-      <a href="https://github.com/louzt/louzt/blob/main/README.de.md"><img src="https://img.shields.io/badge/Auf_Deutsch_lesen-%C3%9Cber_Mich-DD0000?style=flat-square&logo=readme&logoColor=white" alt="Auf Deutsch lesen"/></a>
+      <img src="https://img.shields.io/badge/Voc%C3%AA_est%C3%A1_lendo_em-Portugu%C3%AAs-009B3A?style=flat-square&logo=readme&logoColor=white" alt="Você está lendo em Português"/>
+      <a href="https://github.com/louzt/louzt/blob/main/README.md"><img src="https://img.shields.io/badge/Read_in-English-0093D0?style=flat-square&logo=readme&logoColor=white" alt="Read in English"/></a>
+      <a href="https://github.com/louzt/louzt/blob/main/README.es.md"><img src="https://img.shields.io/badge/Leer_en-Espa%C3%B1ol-D97706?style=flat-square&logo=readme&logoColor=white" alt="Leer en Español"/></a>
+      <a href="https://github.com/louzt/louzt/blob/main/README.it.md"><img src="https://img.shields.io/badge/Leggi_in-Italiano-009246?style=flat-square&logo=readme&logoColor=white" alt="Leggi in Italiano"/></a>
+      <a href="https://github.com/louzt/louzt/blob/main/README.de.md"><img src="https://img.shields.io/badge/Auf-Deutsch_lesen-DD0000?style=flat-square&logo=readme&logoColor=white" alt="Auf Deutsch lesen"/></a>
+      <a href="https://github.com/louzt/louzt/blob/main/README.ja.md"><img src="https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%A7-%E8%AA%AD%E3%82%80-BC002D?style=flat-square&logo=readme&logoColor=white" alt="日本語で読む"/></a>
     </td>
   </tr>
   <tr>
