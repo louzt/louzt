@@ -200,7 +200,11 @@ I maintain a prophylactic, respectful, and deterministic engineering posture —
 
 - I approach systems engineering much like a craftsman in a workshop—studying product architecture, transport bottlenecks, and telemetry end-to-end before touching code or proposing refactors.
 - I maintain a devoted, methodical patience for extracting deterministic telemetry down to the last data point—building custom test harnesses, watchdog reapers, and verification suites whenever existing tooling leaves room for ambiguity.
+- I digest and compile raw upstream artifacts—issues, PRs, historical commit trees, and vendor API specifications—into hyper-efficient knowledge graphs for zero-overhead token budgeting, context compaction, and multi-branch differential analysis.
 - I design self-healing, self-improving systems built around explicit opportunity-cost evaluation—recognizing early on that human vision has blind spots, so the system itself must auto-calibrate, prune stale specs, and enforce invariants.
+- I execute problem-tailored SAST triage and OSINT synthesis across publicly documented vulnerabilities and technical papers, synthesizing empirical findings into reproducible test suites before validating hypotheses against candidate implementations.
+- I balance rapid innovation cycles with long-term leverage—structuring technical breakthroughs into quarterly roadmap milestones, reusable pattern libraries, and durable architecture decisions that survive maintainer churn.
+- I respect and adopt maintainer vision when contributing to external codebases—framing proposals through clear architectural dimensions (orthogonal, horizontal, or vertical) and providing minimal-scope patches that minimize reviewer friction.
 - I have operated at the intersection of systems engineering and AI agents long before commercial AI IDEs existed—building CLI-first terminal agent loops, custom MCP bridges, and publishing reproducible **Investigaciones** (detailed in the research section below).
 - I harden network, IPC, and service layers first, ensuring the underlying substrate is secure and resilient before asking application code to carry production workloads.
 - I trace edge cases directly back to runtime behavior until the underlying contract is explicit, fixing structural boundaries rather than applying superficial patches.
