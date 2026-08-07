@@ -440,11 +440,13 @@ Empirical anchor for the theorems above: **90.9% cache hit rate, p95 12 ms laten
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:1e293b&height=2" width="100%"/></p>
 
-### Zero-Prefill Keep-Alive Protocol (operator stack, 2026)
+### Zero-Prefill Keep-Alive Protocol & Multi-Region Clock Drift (operator stack paper draft, 2026)
 
-Cost-benefit gate for cache-warming probes against upstream GPU clusters. Three-step procedure: **monitor** the upstream's TTL state via a single `max_tokens=0` probe, **trigger** an asymmetric EMA update based on the boolean cache-hit response, **fire** the next probe only when the gate fires. The protocol is **800× cheaper** than a cold start at `K=1` and still 50× cheaper than an evict-and-compress cycle at `K=16`. The cadence is asymptotically optimal under the upstream's `5,000 req/hour` rate-limit constraint.
+Cost-benefit gate for cache-warming probes against upstream GPU clusters and multi-region agent control planes. Three-step procedure: **monitor** the upstream's TTL state via a single `max_tokens=0` probe, **trigger** an asymmetric EMA update based on the boolean cache-hit response, and **fire** the next probe only when the gate fires. 
 
-<sub>Stack: Go (APG) + Lamport happens-before ordering + Marzullo 1994 intersection bound + CLOCK_MONOTONIC. Documented in §5 (clock drift) + §8 (DET protocol) + §9 (zero-prefill) of the operator-stack paper draft.</sub>
+The protocol is **800× cheaper** than a cold start at `K=1` and **50× cheaper** than an evict-and-compress cycle at `K=16` under upstream rate limits (`5,000 req/hour`). Integrates **Marzullo's 1994 intersection algorithm** to bound multi-region clock drift ($\Delta t \le \epsilon_{\text{ntp}} + \delta_{\text{drift}}$), **Lamport happens-before ordering** (`CLOCK_MONOTONIC`), and a **Weibull survival distribution** ($\lambda(t) = \frac{k}{\lambda}\left(\frac{t}{\lambda}\right)^{k-1}$) modeling GPU VRAM cache eviction under non-stationary token loads.
+
+<sub>Stack: Go (APG) + Rust (DSVH) + Lamport happens-before ordering + Marzullo 1994 intersection bound + CLOCK_MONOTONIC + Weibull survival bounds. Documented in §5 (clock drift), §8 (DET protocol), §9 (zero-prefill), and §12 (boundary conditions) of the Sovereign RAG operator paper.</sub>
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:1e293b&height=2" width="100%"/></p>
 
