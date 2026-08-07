@@ -702,6 +702,10 @@ if __name__ == "__main__":
 
 Public research notes, snapshots, and audit logs from ongoing work. Formatted as Bento Cards for rapid inspection.
 
+<p align="center" style="margin: 16px 0 8px 0;">
+  <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/banner-domain-systems-kernel.svg" width="100%" alt="Systems, Vulkan and Kernel Hardening Domain Banner"/>
+</p>
+
 <table width="100%">
   <tr>
     <td valign="top" width="50%">
@@ -726,6 +730,32 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
       </div>
     </td>
     <td valign="top" width="50%">
+      <div style="background: #0f172a; border-left: 4px solid #6366f1; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
+        <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
+          <img src="https://img.shields.io/badge/NVIDIA_/_Kernel-76B900?style=flat-square&logo=nvidia&logoColor=white" align="right" alt="NVIDIA Kernel"/>
+          🐧 <b>NVIDIA DKMS Kernel 7.0+ RFC &amp; Optimus Hotplug</b>
+        </h4>
+        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
+          Engineered forward-compat RFC patch series for Kernel 7.0 API refactoring: VMA locking (<code>__is_vma_write_locked()</code>), DMA fence signals (<code>dma_fence_signal_locked()</code>), and <code>vm_flags_reset()</code> (<a href="https://gist.github.com/louzt/1c85044d5090d19223c3f5edf426a19e">RFC Gist</a>). Added <code>NVreg_DynamicPowerManagement=0x02</code> modprobe rules resolving USB-C D3cold hotplug panics on hybrid laptops.
+        </p>
+        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
+          ⚡ <b>Impact:</b> Eradicated kernel panics and GPU suspend/resume lockups across hybrid Optimus laptops.
+        </p>
+        <div>
+          <a href="https://gist.github.com/louzt/1c85044d5090d19223c3f5edf426a19e"><img src="https://img.shields.io/badge/NVIDIA_Kernel_7.0-RFC_Gist-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA RFC Gist"/></a>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<p align="center" style="margin: 16px 0 8px 0;">
+  <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/banner-domain-audio-desktop.svg" width="100%" alt="Audio Subsystems and Desktop Compositors Domain Banner"/>
+</p>
+
+<table width="100%">
+  <tr>
+    <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #38bdf8; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
           <img src="https://img.shields.io/badge/C_/_Linux_Core-FCC624?style=flat-square&logo=linux&logoColor=black" align="right" alt="Linux Audio"/>
@@ -741,6 +771,27 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
           <a href="https://github.com/louzt/pipewire/commit/2f747a7"><img src="https://img.shields.io/badge/PipeWire_Commit-2f747a7-38BDF8?style=flat-square&logo=github&logoColor=white" alt="PipeWire Commit"/></a>
           &nbsp;
           <a href="https://gist.github.com/louzt/c175973d8e8bae8c8fef6af4d9d6aca7"><img src="https://img.shields.io/badge/OpenAL_Gist-Notes-7C3AED?style=flat-square&logo=github&logoColor=white" alt="OpenAL Gist"/></a>
+        </div>
+      </div>
+    </td>
+    <td valign="top" width="50%">
+      <div style="background: #0f172a; border-left: 4px solid #14b8a6; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
+        <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
+          <img src="https://img.shields.io/badge/Async_Rust-1DB954?style=flat-square&logo=spotify&logoColor=white" align="right" alt="Async Rust"/>
+          🎵 <b>spotify-player &amp; rspotify Terminal Ecosystem</b>
+        </h4>
+        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
+          Enabled headless terminal-native Spotify playback (TUI) with active session inheritance and zero GUI overhead. Disambiguated <code>is_active</code> Connect device presence from active playback (<code>is_playing</code>) in <code>spotify-player</code> (<a href="https://github.com/aome510/spotify-player/pull/1049">PR #1049</a>), unblocking <code>librespot</code> audio engine starvation on standby speakers. Serialized search requests (<a href="https://github.com/aome510/spotify-player/pull/1048">PR #1048</a>) eliminating 429 quota bursts. Proposed non-breaking Serde <code>#[serde(default)]</code> schema drift fallback in <code>rspotify</code> (<a href="https://github.com/ramsayleung/rspotify/issues/572">Issue #572</a>).
+        </p>
+        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
+          ⚡ <b>Impact:</b> Headless TUI session inheritance, 100% elimination of HTTP 429 rate-limit spikes &amp; standby speaker playback deadlocks.
+        </p>
+        <div>
+          <a href="https://github.com/aome510/spotify-player/pull/1049"><img src="https://img.shields.io/badge/PR_%231049-Merged-10B981?style=flat-square&logo=github&logoColor=white" alt="PR 1049"/></a>
+          &nbsp;
+          <a href="https://github.com/aome510/spotify-player/pull/1048"><img src="https://img.shields.io/badge/PR_%231048-Merged-10B981?style=flat-square&logo=github&logoColor=white" alt="PR 1048"/></a>
+          &nbsp;
+          <a href="https://github.com/ramsayleung/rspotify/issues/572"><img src="https://img.shields.io/badge/Issue_%23572-Triaged-38BDF8?style=flat-square&logo=github&logoColor=white" alt="Issue 572"/></a>
         </div>
       </div>
     </td>
@@ -785,29 +836,15 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
       </div>
     </td>
   </tr>
+</table>
+
+<p align="center" style="margin: 16px 0 8px 0;">
+  <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/banner-domain-network-security.svg" width="100%" alt="Resilient Network Transport and Web Security Domain Banner"/>
+</p>
+
+<table width="100%">
   <tr>
-    <td valign="top" width="50%">
-      <div style="background: #0f172a; border-left: 4px solid #14b8a6; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
-        <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Async_Rust-1DB954?style=flat-square&logo=spotify&logoColor=white" align="right" alt="Async Rust"/>
-          🎵 <b>spotify-player &amp; rspotify DTO Resiliency</b>
-        </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Disambiguated <code>is_active</code> Connect device presence from active playback (<code>is_playing</code>) in <code>spotify-player</code> (<a href="https://github.com/aome510/spotify-player/pull/1049">PR #1049</a>), unblocking audio engine starvation on standby speakers. Serialized search requests (<a href="https://github.com/aome510/spotify-player/pull/1048">PR #1048</a>) eliminating 429 quota spikes. Proposed non-breaking Serde <code>#[serde(default)]`</code> schema drift fallback in <code>rspotify</code> (<a href="https://github.com/ramsayleung/rspotify/issues/572">Issue #572</a>).
-        </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Impact:</b> 100% elimination of HTTP 429 quota exhaustion bursts and standby device playback deadlocks.
-        </p>
-        <div>
-          <a href="https://github.com/aome510/spotify-player/pull/1049"><img src="https://img.shields.io/badge/PR_%231049-Merged-10B981?style=flat-square&logo=github&logoColor=white" alt="PR 1049"/></a>
-          &nbsp;
-          <a href="https://github.com/aome510/spotify-player/pull/1048"><img src="https://img.shields.io/badge/PR_%231048-Merged-10B981?style=flat-square&logo=github&logoColor=white" alt="PR 1048"/></a>
-          &nbsp;
-          <a href="https://github.com/ramsayleung/rspotify/issues/572"><img src="https://img.shields.io/badge/Issue_%23572-Triaged-38BDF8?style=flat-square&logo=github&logoColor=white" alt="Issue 572"/></a>
-        </div>
-      </div>
-    </td>
-    <td valign="top" width="50%">
+    <td valign="top" width="100%">
       <div style="background: #0f172a; border-left: 4px solid #f59e0b; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
           <img src="https://img.shields.io/badge/Network_Eng-F59E0B?style=flat-square&logo=wireguard&logoColor=white" align="right" alt="Network Eng"/>
@@ -827,8 +864,15 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
       </div>
     </td>
   </tr>
+</table>
+
+<p align="center" style="margin: 16px 0 8px 0;">
+  <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/banner-domain-agents-cloud.svg" width="100%" alt="Sovereign Agent Fleets and Kubernetes Substrates Domain Banner"/>
+</p>
+
+<table width="100%">
   <tr>
-    <td valign="top" width="50%">
+    <td valign="top" width="100%">
       <div style="background: #0f172a; border-left: 4px solid #ec4899; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
           <img src="https://img.shields.io/badge/k3s_/_Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" align="right" alt="k3s Kubernetes"/>
@@ -844,23 +888,6 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
           <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Agent_Provenance-Gist-EC4899?style=flat-square&logo=github&logoColor=white" alt="Provenance Gist"/></a>
           &nbsp;
           <a href="https://gist.github.com/louzt/b333b5601628a159630da13857834246"><img src="https://img.shields.io/badge/k3s_Auto--Scaling-Gist-326CE5?style=flat-square&logo=github&logoColor=white" alt="k3s Gist"/></a>
-        </div>
-      </div>
-    </td>
-    <td valign="top" width="50%">
-      <div style="background: #0f172a; border-left: 4px solid #6366f1; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
-        <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/NVIDIA_/_Kernel-76B900?style=flat-square&logo=nvidia&logoColor=white" align="right" alt="NVIDIA Kernel"/>
-          🐧 <b>NVIDIA DKMS Kernel 7.0+ RFC &amp; Optimus Hotplug</b>
-        </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Engineered forward-compat RFC patch series for Kernel 7.0 API refactoring: VMA locking (<code>__is_vma_write_locked()</code>), DMA fence signals (<code>dma_fence_signal_locked()</code>), and <code>vm_flags_reset()</code> (<a href="https://gist.github.com/louzt/1c85044d5090d19223c3f5edf426a19e">RFC Gist</a>). Added <code>NVreg_DynamicPowerManagement=0x02</code> modprobe rules resolving USB-C D3cold hotplug panics on hybrid laptops.
-        </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Impact:</b> Eradicated kernel panics and GPU suspend/resume lockups across hybrid Optimus laptops.
-        </p>
-        <div>
-          <a href="https://gist.github.com/louzt/1c85044d5090d19223c3f5edf426a19e"><img src="https://img.shields.io/badge/NVIDIA_Kernel_7.0-RFC_Gist-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA RFC Gist"/></a>
         </div>
       </div>
     </td>
