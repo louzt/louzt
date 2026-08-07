@@ -50,14 +50,14 @@
   <tr>
   <tr>
     <td align="left" valign="middle">
-      <img src="https://img.shields.io/badge/Est%C3%A1s_leyendo_en-Espa%C3%B1ol-D97706?style=flat-square&logo=readme&logoColor=white" alt="Estás leyendo en Español"/>
+      <img src="https://img.shields.io/badge/Lire_en-Fran%C3%A7ais-0055A5?style=flat-square&logo=readme&logoColor=white" alt="Lire en Français"/>
       <a href="https://github.com/louzt/louzt/blob/main/README.md"><img src="https://img.shields.io/badge/Read_in-English-0093D0?style=flat-square&logo=readme&logoColor=white" alt="Read in English"/></a>
+      <a href="https://github.com/louzt/louzt/blob/main/README.es.md"><img src="https://img.shields.io/badge/Leer_en-Espa%C3%B1ol-D97706?style=flat-square&logo=readme&logoColor=white" alt="Leer en Español"/></a>
       <a href="https://github.com/louzt/louzt/blob/main/README.it.md"><img src="https://img.shields.io/badge/Leggi_in-Italiano-009246?style=flat-square&logo=readme&logoColor=white" alt="Leggi in Italiano"/></a>
       <a href="https://github.com/louzt/louzt/blob/main/README.pt.md"><img src="https://img.shields.io/badge/Ler_em-Portugu%C3%AAs-009B3A?style=flat-square&logo=readme&logoColor=white" alt="Ler em Português"/></a>
       <a href="https://github.com/louzt/louzt/blob/main/README.de.md"><img src="https://img.shields.io/badge/Auf-Deutsch_lesen-DD0000?style=flat-square&logo=readme&logoColor=white" alt="Auf Deutsch lesen"/></a>
       <a href="https://github.com/louzt/louzt/blob/main/README.ja.md"><img src="https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%A7-%E8%AA%AD%E3%82%80-BC002D?style=flat-square&logo=readme&logoColor=white" alt="日本語で読む"/></a>
       <a href="https://github.com/louzt/louzt/blob/main/README.ko.md"><img src="https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C-%EC%9D%BD%EA%B8%B0-0047A0?style=flat-square&logo=readme&logoColor=white" alt="한국어로 읽기"/></a>
-      <a href="https://github.com/louzt/louzt/blob/main/README.fr.md"><img src="https://img.shields.io/badge/Lire_en-Fran%C3%A7ais-0055A5?style=flat-square&logo=readme&logoColor=white" alt="Lire en Français"/></a>
       <a href="https://github.com/louzt/louzt/blob/main/README.nl.md"><img src="https://img.shields.io/badge/In_het_Nederlands-lezen-21468B?style=flat-square&logo=readme&logoColor=white" alt="In het Nederlands lezen"/></a>
       <a href="https://github.com/louzt/louzt/blob/main/README.sv.md"><img src="https://img.shields.io/badge/L%C3%A4s_p%C3%A5-Svenska-006AA7?style=flat-square&logo=readme&logoColor=white" alt="Läs på Svenska"/></a>
     </td>
@@ -65,7 +65,7 @@
   <tr>
     <!-- Row 2: Contact channels & Schedule a meeting -->
     <td align="left" valign="middle">
-      <a href="https://calendar.app.google/XR7FkZXWVwfmZ57x6"><img src="https://img.shields.io/badge/Agendar_una_Reuni%C3%B3n-34A853?style=flat-square&logo=googlecalendar&logoColor=white" alt="Agendar una reunión (Google Calendar)"/></a>
+      <a href="https://calendar.app.google/XR7FkZXWVwfmZ57x6"><img src="https://img.shields.io/badge/Planifier_un_Rendez--vous-34A853?style=flat-square&logo=googlecalendar&logoColor=white" alt="Planifier un rendez-vous (Google Calendar)"/></a>
       <a href="https://www.linkedin.com/in/davidmirelesll/?locale=es_ES"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
       <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab"/>
       <img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X.com"/>
@@ -77,12 +77,12 @@
       <a href="https://komarev.com/ghpvc/?username=louzt&label=profile+views&color=1e293b&style=flat-square"><img src="https://komarev.com/ghpvc/?username=louzt&label=profile+views&color=1e293b&style=flat-square" alt="Profile Views"/></a>
       <a href="https://orcid.org/0009-0008-4374-2254"><img src="https://img.shields.io/badge/ORCID-0009--0008--4374--2254-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID iD 0009-0008-4374-2254"/></a>
       <a href="https://gist.github.com/louzt"><img src="https://img.shields.io/badge/Gists-181717?style=flat-square&logo=github&logoColor=white" alt="Gists"/></a>
-      <a href="mailto:investigacion@loust.pro"><img src="https://img.shields.io/badge/research%40loust.pro-7C3AED?style=flat-square&logo=protonmail&logoColor=white" alt="investigacion@loust.pro"/></a>
-      <a href="https://opensource.org/"><img src="https://img.shields.io/badge/OSI-Miembro-3DA639?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="OSI Member"/></a>
+      <a href="mailto:recherche@loust.pro"><img src="https://img.shields.io/badge/research%40loust.pro-7C3AED?style=flat-square&logo=protonmail&logoColor=white" alt="recherche@loust.pro"/></a>
+      <a href="https://opensource.org/"><img src="https://img.shields.io/badge/OSI-Membre-3DA639?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="OSI Member"/></a>
       <a href="https://github.com/django-commons"><img src="https://img.shields.io/badge/Django_Commons-0C4B33?style=flat-square&logo=django&logoColor=white" alt="Django Commons Member"/></a>
       <a href="https://kernel.org/"><img src="https://img.shields.io/badge/Linux_Kernel-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux Kernel"/></a>
       <a href="https://crates.io/users/louzt"><img src="https://img.shields.io/badge/crates.io-000000?style=flat-square&logo=rust&logoColor=e43717" alt="crates.io packages"/></a>
-      <img src="https://img.shields.io/badge/%2b_muchas_m%C3%A1s-1E293B?style=flat-square" alt="+ many more communities"/>
+      <img src="https://img.shields.io/badge/%2b_beaucoup_d'autres-1E293B?style=flat-square" alt="+ many more communities"/>
     </td>
   </tr>
   <tr>
@@ -119,7 +119,7 @@
       <img src="https://img.shields.io/badge/%7C-1e293b?style=flat-square" alt="|"/>
       <img src="https://img.shields.io/badge/k3s-ffc61c?style=flat-square&logo=kubernetes&logoColor=black" alt="k3s"/>
       <img src="https://img.shields.io/badge/docker-2496ed?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-      <img src="https://img.shields.io/badge/Siempre_curioso_por_depurar_en_otro_stack-8b5cf6?style=flat-square&logoColor=white" alt="Always curious to debug in another tech stack"/>
+      <img src="https://img.shields.io/badge/Toujours_curieux_de_d%C3%A9boguer_dans_une_autre_stack-8b5cf6?style=flat-square&logoColor=white" alt="Always curious to debug in another tech stack"/>
     </td>
   </tr>
   <tr>
@@ -133,9 +133,9 @@
       <img src="https://img.shields.io/badge/Stripe_API-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe API"/>
       <img src="https://img.shields.io/badge/PayPal_API-003087?style=flat-square&logo=paypal&logoColor=white" alt="PayPal API"/>
       <img src="https://img.shields.io/badge/MercadoPago_API-009EE3?style=flat-square&logo=mercadopago&logoColor=white" alt="MercadoPago API"/>
-      <img src="https://img.shields.io/badge/Pagos_Cripto_(BTC%2fSOL)-121D33?style=flat-square&logo=solana&logoColor=white" alt="Crypto Payments"/>
-      <img src="https://img.shields.io/badge/APIs_Personalizadas_REST_%26_GraphQL-00A1E0?style=flat-square" alt="Custom REST & GraphQL APIs"/>
-      <img src="https://img.shields.io/badge/Rastreo_Server--Side-00A1E0?style=flat-square&logo=salesforce&logoColor=white" alt="Server-Side Tracking"/>
+      <img src="https://img.shields.io/badge/Paiements_Crypto_(BTC%2fSOL)-121D33?style=flat-square&logo=solana&logoColor=white" alt="Crypto Payments"/>
+      <img src="https://img.shields.io/badge/APIs_Personnalis%C3%A9es_REST_%26_GraphQL-00A1E0?style=flat-square" alt="Custom REST & GraphQL APIs"/>
+      <img src="https://img.shields.io/badge/Suivi_Server--Side-00A1E0?style=flat-square&logo=salesforce&logoColor=white" alt="Server-Side Tracking"/>
       <img src="https://img.shields.io/badge/CRM-00A1E0?style=flat-square&logo=salesforce&logoColor=white" alt="CRM"/>
       <img src="https://img.shields.io/badge/ERP-714B67?style=flat-square" alt="ERP"/>
       <img src="https://img.shields.io/badge/SaaS--to--SaaS-2C3E50?style=flat-square" alt="SaaS-to-SaaS"/>
@@ -145,40 +145,40 @@
     <!-- Row 5: Web3 & Decentralized Infrastructure -->
     <td align="left" valign="middle">
       <img src="https://img.shields.io/badge/Blockchain_%26_Web3-121D33?style=flat-square&logo=blockchaindotcom&logoColor=white" alt="Blockchain & Web3"/>
-      <img src="https://img.shields.io/badge/Protocolos_MCP_%26_Agentes-000000?style=flat-square&logo=github&logoColor=white" alt="MCP & Agent Protocols"/>
-      <img src="https://img.shields.io/badge/Flujos_de_Agentes-7c3aed?style=flat-square" alt="Agentic Workflows"/>
-      <img src="https://img.shields.io/badge/Aislamiento_RBAC_%26_Multi--Tenant-0f172a?style=flat-square" alt="RBAC & Multi-Tenant Isolation"/>
-      <img src="https://img.shields.io/badge/Identidad_Ed25519-2C3E50?style=flat-square" alt="Ed25519 Identity"/>
-      <img src="https://img.shields.io/badge/Triples_Virtuoso_%2f_SPARQL-2C3E50?style=flat-square" alt="Virtuoso Triples / SPARQL"/>
-      <img src="https://img.shields.io/badge/Grafos_de_Conocimiento-0f172a?style=flat-square" alt="Knowledge Graphs"/>
+      <img src="https://img.shields.io/badge/Protocoles_MCP_%26_Agents-000000?style=flat-square&logo=github&logoColor=white" alt="MCP & Agent Protocols"/>
+      <img src="https://img.shields.io/badge/Flux_d'Agents-7c3aed?style=flat-square" alt="Agentic Workflows"/>
+      <img src="https://img.shields.io/badge/Isolation_RBAC_%26_Multi--Tenant-0f172a?style=flat-square" alt="RBAC & Multi-Tenant Isolation"/>
+      <img src="https://img.shields.io/badge/Identit%C3%A9_Ed25519-2C3E50?style=flat-square" alt="Ed25519 Identity"/>
+      <img src="https://img.shields.io/badge/Triplets_Virtuoso_%2f_SPARQL-2C3E50?style=flat-square" alt="Virtuoso Triples / SPARQL"/>
+      <img src="https://img.shields.io/badge/Graphes_de_Connaissances-0f172a?style=flat-square" alt="Knowledge Graphs"/>
       <img src="https://img.shields.io/badge/Local--First_%26_CRDT-064E3B?style=flat-square" alt="Local-First & CRDT"/>
     </td>
   </tr>
   <tr>
     <!-- Row 6: Research Specializations, Engineering Categories & Community Call -->
     <td align="left" valign="middle">
-      <a href="https://gist.github.com/louzt/3991f144c7d67726045af3cefc60f42a"><img src="https://img.shields.io/badge/Arneses_Deterministas-8b5cf6?style=flat-square" alt="Deterministic Harnesses"/></a>
+      <a href="https://gist.github.com/louzt/3991f144c7d67726045af3cefc60f42a"><img src="https://img.shields.io/badge/Harnais_D%C3%A9terministes-8b5cf6?style=flat-square" alt="Deterministic Harnesses"/></a>
       <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Sovereign_RAG-7c3aed?style=flat-square" alt="Sovereign RAG"/></a>
-      <img src="https://img.shields.io/badge/Ingenier%C3%ADa_Basada_en_Especificaciones-0284c7?style=flat-square" alt="Spec-Driven Engineering"/>
-      <img src="https://img.shields.io/badge/Seguridad_Zero--Egress-1F2937?style=flat-square" alt="Zero-Egress Security"/>
-      <img src="https://img.shields.io/badge/Endurecimiento_de_Kernel_%26_Runtime-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Kernel & Runtime Hardening"/>
-      <img src="https://img.shields.io/badge/Gobernanza_CLA_%26_FOSS-004D40?style=flat-square" alt="CLA & FOSS Governance"/>
+      <img src="https://img.shields.io/badge/Ing%C3%A9nierie_Pilot%C3%A9e_par_Sp%C3%A9cification-0284c7?style=flat-square" alt="Spec-Driven Engineering"/>
+      <img src="https://img.shields.io/badge/S%C3%A9curit%C3%A9_Zero--Egress-1F2937?style=flat-square" alt="Zero-Egress Security"/>
+      <img src="https://img.shields.io/badge/Durcissement_Kernel_%26_Runtime-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Kernel & Runtime Hardening"/>
+      <img src="https://img.shields.io/badge/Gouvernance_CLA_%26_FOSS-004D40?style=flat-square" alt="CLA & FOSS Governance"/>
       <a href="mailto:partnership@loust.pro"><img src="https://img.shields.io/badge/partnership%40loust.pro-0A66C2?style=flat-square&logo=minutemailer&logoColor=white" alt="partnership@loust.pro"/></a>
       <a href="mailto:partnership@loust.pro?subject=FOSS%20Community%20Collaboration"><img src="https://img.shields.io/badge/Open_to_contribute_to_FOSS%2FOSS_Communities-34A853?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="Open to contribute to FOSS/OSS Communities"/></a>
-      <a href="mailto:partnership@loust.pro?subject=Peer%20Collaboration"><img src="https://img.shields.io/badge/Buscando_colegas_%26_proyectos_fascinantes-0284c7?style=flat-square" alt="Looking for peers & exciting projects"/></a>
+      <a href="mailto:partnership@loust.pro?subject=Peer%20Collaboration"><img src="https://img.shields.io/badge/Recherche_de_pairs_%26_projets_passionnants-0284c7?style=flat-square" alt="Looking for peers & exciting projects"/></a>
     </td>
   </tr>
   <tr>
     <!-- Row 7: Roles, Infrastructure & Mindset -->
     <td align="left" valign="middle">
-      <img src="https://img.shields.io/badge/Arquitecto_de_Sistemas-0f172a?style=flat-square" alt="Systems Architect"/>
+      <img src="https://img.shields.io/badge/Architecte_Syst%C3%A8mes-0f172a?style=flat-square" alt="Systems Architect"/>
       <img src="https://img.shields.io/badge/DevOps_%26_SRE-2563eb?style=flat-square&logo=kubernetes&logoColor=white" alt="DevOps & SRE"/>
-      <img src="https://img.shields.io/badge/Ingenier%C3%ADa_de_Plataformas-0891b2?style=flat-square" alt="Platform Engineering"/>
-      <img src="https://img.shields.io/badge/Investigador_de_Seguridad-eb0029?style=flat-square&logo=hackerone&logoColor=white" alt="Security Researcher"/>
-      <img src="https://img.shields.io/badge/Ingenier%C3%ADa_de_Primeros_Principios-6366f1?style=flat-square" alt="First-Principles Engineering"/>
-      <img src="https://img.shields.io/badge/Infraestructura_Zero--Trust-1e293b?style=flat-square" alt="Zero-Trust Infrastructure"/>
-      <img src="https://img.shields.io/badge/Investigaci%C3%B3n_de_Kernel_%26_Sistemas-0f172a?style=flat-square&logo=linux&logoColor=white" alt="Kernel & Systems Research"/>
-      <img src="https://img.shields.io/badge/Estudiante_de_por_Vida-7c3aed?style=flat-square" alt="Lifelong Student"/>
+      <img src="https://img.shields.io/badge/Ing%C3%A9nierie_de_Plateformes-0891b2?style=flat-square" alt="Platform Engineering"/>
+      <img src="https://img.shields.io/badge/Chercheur_en_S%C3%A9curit%C3%A9-eb0029?style=flat-square&logo=hackerone&logoColor=white" alt="Security Researcher"/>
+      <img src="https://img.shields.io/badge/Ing%C3%A9nierie_des_Premiers_Principes-6366f1?style=flat-square" alt="First-Principles Engineering"/>
+      <img src="https://img.shields.io/badge/Infrastructure_Zero--Trust-1e293b?style=flat-square" alt="Zero-Trust Infrastructure"/>
+      <img src="https://img.shields.io/badge/Recherche_Kernel_%26_Syst%C3%A8mes-0f172a?style=flat-square&logo=linux&logoColor=white" alt="Kernel & Systems Research"/>
+      <img src="https://img.shields.io/badge/%C3%89tudiant_A_Vie-7c3aed?style=flat-square" alt="Lifelong Student"/>
     </td>
   </tr>
 </table>
@@ -232,7 +232,7 @@ I maintain a prophylactic, respectful, and deterministic engineering posture —
 
 - **Feedback and learning** — if you see me somewhere learning to work better inside a software team, I'm interested. Senior reviewers, engineering leads, or teammates who have a specific technical observation — a code review thread, a shared codebase, a process friction — are welcome to reach out. I consider your opinion useful and treat feedback as a two-way loop, not a one-way deliverable; the best learning posture is to keep the audit trail legible on both sides.
 - **HackerOne disclosure track** — vulnerability reports and coordinated disclosure for infrastructure under our scope route through [security@loust.pro](mailto:security@loust.pro). Triaged within 72 hours; reproducible PoCs and a minimum-scope patch suggestion move reports to the front of the queue. Out-of-scope signals (DMS, PipeWire hardening) and known-busy triage windows are documented so reporters don't spin.
-- **Research collaborations** — formal proofs, deterministic systems, transport-layer hardening, sovereign AI infra. Best fit: university labs, independent PhD-track researchers, and private R&D teams working in applied-probability / IR / agent frameworks. Reach out at [investigacion@loust.pro](mailto:investigacion@loust.pro) with a 1-paragraph abstract and a concrete artifact (gist, paper draft, benchmark).
+- **Research collaborations** — formal proofs, deterministic systems, transport-layer hardening, sovereign AI infra. Best fit: university labs, independent PhD-track researchers, and private R&D teams working in applied-probability / IR / agent frameworks. Reach out at [recherche@loust.pro](mailto:recherche@loust.pro) with a 1-paragraph abstract and a concrete artifact (gist, paper draft, benchmark).
 - **OSS upstream hardening** — if you maintain an OSS project where the runtime model is well-bounded (lifecycle contracts, allocator hot paths, compositor or daemon boundaries), I'd like to talk. I take scoped PRs against the runtime boundary; bring a reproducer + a minimum-scope patch, not a slide deck. Open invite — long-running contributor or co-maintainer track.
 - **Communities and chat** — IRC, Discord, Matrix, and adjacent chat-based communities are my preferred channels over mainstream social networks. If you're active in OSS communities on those surfaces (Libera.Chat / OFTC, Matrix rooms, Discord OSS servers, project-specific channels), feel free to ping me. I read more than I write, but I value signal over volume.
 - **B2B platform work / partnerships** — long-horizon engagements only. We build the substrate, the observability, and the audit trail before declaring anything shipped — capacity for staged rollouts is the constraint, not the calendar. Reach out at [partnership@loust.pro](mailto:partnership@loust.pro).
@@ -1036,7 +1036,7 @@ Public research notes, operational forensics, and upstream patch series — inde
     &nbsp;
     <a href="mailto:security@loust.pro"><img src="https://img.shields.io/badge/Security_Triage-security%40loust.pro-38BDF8?style=for-the-badge&logo=hackerone&logoColor=white" alt="Security Triage"/></a>
     &nbsp;
-    <a href="mailto:investigacion@loust.pro"><img src="https://img.shields.io/badge/R%26D_Collaboration-research%40loust.pro-8B5CF6?style=for-the-badge&logo=orcid&logoColor=white" alt="R&D Collaboration"/></a>
+    <a href="mailto:recherche@loust.pro"><img src="https://img.shields.io/badge/R%26D_Collaboration-research%40loust.pro-8B5CF6?style=for-the-badge&logo=orcid&logoColor=white" alt="R&D Collaboration"/></a>
   </p>
 </blockquote>
 
