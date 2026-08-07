@@ -225,9 +225,11 @@ I maintain a prophylactic, respectful, and deterministic engineering posture —
 - **B2B platform work / partnerships** — long-horizon engagements only. We build the substrate, the observability, and the audit trail before declaring anything shipped — capacity for staged rollouts is the constraint, not the calendar. Reach out at [partnership@loust.pro](mailto:partnership@loust.pro).
 - **Reference policy** — I write public references for shipped work with measurable outcomes. Send the PR / artifact link and a 1-line outcome metric; I respond within a week.
 
-### 🛠️ Services & Engineering Solutions Matrix
+<p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/divider.svg" width="100%" alt="divider"/></p>
 
-High-rigor technical services and consulting backed by 850K+ lines of production code across 50+ delivered systems:
+<h3 align="center"><b>SERVICES &amp; ENGINEERING SOLUTIONS MATRIX</b></h3>
+
+<p align="center"><sub>High-rigor technical services and consulting backed by 850K+ lines of production code across 50+ delivered systems</sub></p>
 
 | Service Category | Engineering Capabilities & Tech Stack | Value Proposition & Deliverable |
 | :--- | :--- | :--- |
@@ -244,9 +246,11 @@ Production systems that have shipped to real users, merged into upstreams, or ru
 
 **How we stay current.** Release notes get read before installs. Spec changelogs (MCP, Claude, OpenAI, Gemini, every model API we depend on) get watched continuously. Triage goes multi-layer-deep before anything ships — the goal is to understand the *vision*, *scope*, and *future steps* of anything we depend on, so the operator inherits a solid system instead of a house of cards.
 
-### 🛠️ Public Upstream Hardening & Core Systems Invariants
+<p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/divider.svg" width="100%" alt="divider"/></p>
 
-Direct C/C++, Rust, and Linux kernel contributions merged into primary upstream repositories. Eliminating process leaks, race conditions, and out-of-bounds memory accesses in low-level graphics and audio infrastructure:
+<h3 align="center"><b>PUBLIC UPSTREAM HARDENING &amp; CORE SYSTEMS INVARIANTS</b></h3>
+
+<p align="center"><sub>Direct C/C++, Rust, and Linux kernel contributions merged into primary upstream repositories</sub></p>
 
 | Upstream Target | Technical Contribution & Verification | Role / Reach |
 | :--- | :--- | :--- |
@@ -258,9 +262,9 @@ Direct C/C++, Rust, and Linux kernel contributions merged into primary upstream 
 
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/divider.svg" width="100%" alt="divider"/></p>
 
-### 🏢 B2B Multi-Tenant Platforms & Sovereign Systems
+<h3 align="center"><b>B2B MULTI-TENANT PLATFORMS &amp; SOVEREIGN SYSTEMS</b></h3>
 
-Production platforms, enterprise engines, and standalone desktop software shipped to end-users:
+<p align="center"><sub>Production platforms, enterprise engines, and standalone desktop software shipped to end-users</sub></p>
 
 | System / Engine | Technical Focus & Architecture | Operational Impact |
 | :--- | :--- | :--- |
@@ -274,9 +278,9 @@ Production platforms, enterprise engines, and standalone desktop software shippe
 
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/divider.svg" width="100%" alt="divider"/></p>
 
-### 🧠 Sovereign AI Agent Control Planes & Substrates
+<h3 align="center"><b>SOVEREIGN AI AGENT CONTROL PLANES &amp; SUBSTRATES</b></h3>
 
-Autonomous agent fleets, local-first RAG substrates, and AI protocol bridges:
+<p align="center"><sub>Autonomous agent fleets, local-first RAG substrates, and AI protocol bridges</sub></p>
 
 | Substrate / Tooling | Architecture & Hardening | Value Proposition |
 | :--- | :--- | :--- |
