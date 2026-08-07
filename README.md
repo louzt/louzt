@@ -636,7 +636,10 @@ Long-form research notes, paper drafts, and proof chains I maintain as part of d
 </blockquote>
 
 <blockquote style="border-left: 4px solid #f59e0b; background: #0f172a; padding: 20px; margin: 24px 0; border-radius: 0 8px 8px 0; color: #e2e8f0;">
-  <h4 align="center">💰 <b>Economic Analysis &amp; Infrastructure Cost Avoidance Model</b></h4>
+  <h4 style="margin: 0 0 10px 0; color: #f8fafc;">
+    <img src="https://img.shields.io/badge/ROI_%26_Financial_Model-F59E0B?style=flat-square&logo=python&logoColor=white" align="right" alt="ROI &amp; Financial Model"/>
+    💰 <b>Economic Analysis &amp; Infrastructure Cost Avoidance Model</b>
+  </h4>
   <p style="margin: 0 0 10px 0; color: #cbd5e1; font-size: 14px; line-height: 1.6;">
     Beyond theoretical correctness, substrate hardening is an <b>economic lever for production engineering</b>. Under post-2026 metered-AI pricing regimes and metered CI/CD runner billings, substrate regressions compound directly into operational burn. Our empirical hardening stack delivers measurable, quantifiable cost avoidance across four primary vectors:
   </p>
@@ -680,6 +683,16 @@ if __name__ == "__main__":
     print(calculate_substrate_savings())
     # Expected Output: Total Annual Cost Avoidance ~ $78,520.00 / yr
 ```
+
+<p align="center" style="margin-top: 12px;">
+  <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Run_on-GitHub_Gist-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Run on GitHub Gist"/></a>
+  &nbsp;
+  <a href="https://colab.research.google.com/"><img src="https://img.shields.io/badge/Run_in-Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Run in Google Colab"/></a>
+  &nbsp;
+  <a href="https://replit.com/"><img src="https://img.shields.io/badge/Run_on-Replit-66788F?style=for-the-badge&logo=replit&logoColor=white" alt="Run on Replit"/></a>
+  &nbsp;
+  <a href="https://onecompiler.com/python"><img src="https://img.shields.io/badge/Run_on-OneCompiler-38BDF8?style=for-the-badge&logo=python&logoColor=white" alt="Run on OneCompiler"/></a>
+</p>
 </details>
 </blockquote>
 
