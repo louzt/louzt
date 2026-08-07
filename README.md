@@ -298,36 +298,127 @@ Production systems that have shipped to real users, merged into upstreams, or ru
 </p>
 
 <p align="center">
-  <a href="https://github.com/LOUST-PRO"><img src="https://img.shields.io/badge/Explore_LOUST--PRO_Organization-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore LOUST-PRO GitHub Organization"/></a>
-  &nbsp;
-  <a href="https://github.com/LOUST-PRO/SnapPipe"><img src="https://img.shields.io/badge/SnapPipe-Identity_Transport-0093D0?style=for-the-badge&logo=rust&logoColor=white" alt="SnapPipe Repo"/></a>
-  &nbsp;
-  <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade"><img src="https://img.shields.io/badge/NetBoozt-TCP_Optimization-FFC131?style=for-the-badge&logo=tauri&logoColor=black" alt="NetBoozt Repo"/></a>
-  &nbsp;
-  <a href="https://github.com/LOUST-PRO/LinkMarks"><img src="https://img.shields.io/badge/LinkMarks-Local_CRDT-064E3B?style=for-the-badge&logo=rust&logoColor=white" alt="LinkMarks Repo"/></a>
-  <br/>
-  <a href="https://github.com/LOUST-PRO/TaxonRouter"><img src="https://img.shields.io/badge/TaxonRouter-Webhook_Auto--Tagger-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="TaxonRouter Repo"/></a>
-  &nbsp;
-  <a href="https://github.com/LOUST-PRO/LLMmempipe"><img src="https://img.shields.io/badge/LLMmempipe-Zero--Alloc_Buffer-DE3A11?style=for-the-badge&logo=rust&logoColor=white" alt="LLMmempipe Repo"/></a>
-  &nbsp;
-  <a href="https://github.com/LOUST-PRO/paperforge"><img src="https://img.shields.io/badge/paperforge-Frontend_RAG_Ingestion-8B5CF6?style=for-the-badge&logo=rust&logoColor=white" alt="paperforge Repo"/></a>
-  &nbsp;
-  <a href="https://github.com/LOUST-PRO/storage-mount-rs"><img src="https://img.shields.io/badge/storage--mount--rs-NVMe_Isolation-0F172A?style=for-the-badge&logo=linux&logoColor=white" alt="storage-mount-rs Repo"/></a>
-  <br/>
-  <a href="https://github.com/LOUST-PRO/outlook-mcp-suite"><img src="https://img.shields.io/badge/outlook--mcp--suite-Microsoft_Graph_MCP-0078D4?style=for-the-badge&logo=go&logoColor=white" alt="outlook-mcp-suite Repo"/></a>
-  &nbsp;
-  <a href="https://github.com/LOUST-PRO/lzt-broker-stall-reaper"><img src="https://img.shields.io/badge/lzt--broker--stall--reaper-TCP_Watchdog-E6522C?style=for-the-badge&logo=go&logoColor=white" alt="lzt-broker-stall-reaper Repo"/></a>
-  &nbsp;
-  <a href="https://github.com/LOUST-PRO/deterministic-sovereign-rag"><img src="https://img.shields.io/badge/deterministic--sovereign--rag-Sovereign_RAG_Paper-7C3AED?style=for-the-badge&logo=rust&logoColor=white" alt="deterministic-sovereign-rag Repo"/></a>
-  &nbsp;
-  <a href="https://github.com/LOUST-PRO/ical-to-caldav"><img src="https://img.shields.io/badge/ical--to--caldav-CalDAV_Bridge-4285F4?style=for-the-badge&logo=rust&logoColor=white" alt="ical-to-caldav Repo"/></a>
-  <br/>
-  <a href="https://github.com/LOUST-PRO/LZT-Developers"><img src="https://img.shields.io/badge/Submit_YAML_to_LZT--Developers-Community_FOSS_Hub-10B981?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="LZT-Developers Community FOSS Hub"/></a>
-  &nbsp;
-  <a href="https://github.com/LOUST-PRO/spec-snapshot-scraper"><img src="https://img.shields.io/badge/spec--snapshot--scraper-Doc_Scraper-F59E0B?style=for-the-badge&logo=python&logoColor=white" alt="spec-snapshot-scraper Repo"/></a>
-  &nbsp;
-  <a href="https://github.com/LOUST-PRO/unattended-process-reaper"><img src="https://img.shields.io/badge/unattended--process--reaper-Process_Reaper-DC2626?style=for-the-badge&logo=linux&logoColor=white" alt="unattended-process-reaper Repo"/></a>
+  <a href="https://github.com/LOUST-PRO"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/banner-loust-pro-org.svg" width="100%" alt="LOUST-PRO Open Source &amp; Enterprise Substrates"/></a>
 </p>
+
+<table width="100%">
+  <tr>
+    <td valign="top" width="50%">
+      <div style="background: #0f172a; border-left: 4px solid #f59e0b; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
+        <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-amber.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
+        <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
+          <img src="https://img.shields.io/badge/Rust_/_Tauri-FFC131?style=flat-square&logo=tauri&logoColor=black" align="right" alt="Rust Tauri"/>
+          ⚡ <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade" style="color: #38bdf8; text-decoration: none;"><b>NetBoozt — Network Performance &amp; Socket Tuning</b></a>
+        </h4>
+        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
+          Cross-platform network performance upgrade &amp; socket tuning engine built with Rust, Tauri, and native C netcode. Automates TCP window autotuning, BBR/Cubic congestion provider selection, Nagle algorithm suppression (<code>TCP_NODELAY</code>), QoS DSCP packet prioritization, and MTU/MSS path discovery.
+        </p>
+        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
+          ⚡ <b>Highlights:</b> +15-20% throughput lift · Zero packet loss · BBR/Cubic tuning · Tauri &amp; C netcode.
+        </p>
+        <div>
+          <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade"><img src="https://img.shields.io/badge/NetBoozt_Repo-Explore-FFC131?style=flat-square&logo=github&logoColor=black" alt="NetBoozt Repo"/></a>
+        </div>
+      </div>
+    </td>
+    <td valign="top" width="50%">
+      <div style="background: #0f172a; border-left: 4px solid #0093d0; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
+        <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-cyan.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
+        <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
+          <img src="https://img.shields.io/badge/Rust_/_Security-0093D0?style=flat-square&logo=rust&logoColor=white" align="right" alt="Rust Security"/>
+          🔐 <a href="https://github.com/LOUST-PRO/SnapPipe" style="color: #38bdf8; text-decoration: none;"><b>SnapPipe — Identity &amp; Cryptographic Transport</b></a>
+        </h4>
+        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
+          High-performance identity transport &amp; key exchange protocol written in Rust. Enforces zero-trust cryptographic handshakes, peer-to-peer session isolation, and zero-egress state synchronization across unmanaged edge nodes.
+        </p>
+        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
+          ⚡ <b>Highlights:</b> Zero-trust cryptographic handshakes · P2P session isolation · Pure Rust core.
+        </p>
+        <div>
+          <a href="https://github.com/LOUST-PRO/SnapPipe"><img src="https://img.shields.io/badge/SnapPipe_Repo-Explore-0093D0?style=flat-square&logo=github&logoColor=white" alt="SnapPipe Repo"/></a>
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <div style="background: #0f172a; border-left: 4px solid #00add8; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
+        <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-emerald.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
+        <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
+          <img src="https://img.shields.io/badge/Go_/_Ingestion-00ADD8?style=flat-square&logo=go&logoColor=white" align="right" alt="Go Ingestion"/>
+          🏷️ <a href="https://github.com/LOUST-PRO/TaxonRouter" style="color: #38bdf8; text-decoration: none;"><b>TaxonRouter — Webhook Auto-Tagger Microservice</b></a>
+        </h4>
+        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
+          Concurrent Go microservice for real-time payload categorization, regex routing, and automated webhook tagging across high-throughput B2B event-driven pipelines with zero memory allocations.
+        </p>
+        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
+          ⚡ <b>Highlights:</b> Zero-alloc Go parser · Real-time payload categorization · High concurrency.
+        </p>
+        <div>
+          <a href="https://github.com/LOUST-PRO/TaxonRouter"><img src="https://img.shields.io/badge/TaxonRouter_Repo-Explore-00ADD8?style=flat-square&logo=github&logoColor=white" alt="TaxonRouter Repo"/></a>
+        </div>
+      </div>
+    </td>
+    <td valign="top" width="50%">
+      <div style="background: #0f172a; border-left: 4px solid #de3a11; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
+        <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-red.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
+        <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
+          <img src="https://img.shields.io/badge/Rust_/_Zero--Alloc-DE3A11?style=flat-square&logo=rust&logoColor=white" align="right" alt="Rust Zero Alloc"/>
+          🧠 <a href="https://github.com/LOUST-PRO/LLMmempipe" style="color: #38bdf8; text-decoration: none;"><b>LLMmempipe — Zero-Alloc VRAM &amp; Buffer Manager</b></a>
+        </h4>
+        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
+          Zero-allocation SIMD buffer pipeline written in Rust to feed token streams and vector embeddings directly into GPU VRAM without triggering NVMe I/O thrashing or garbage collection overhead.
+        </p>
+        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
+          ⚡ <b>Highlights:</b> SIMD zero-alloc buffer · Zero-GC overhead · High-throughput streaming.
+        </p>
+        <div>
+          <a href="https://github.com/LOUST-PRO/LLMmempipe"><img src="https://img.shields.io/badge/LLMmempipe_Repo-Explore-DE3A11?style=flat-square&logo=github&logoColor=white" alt="LLMmempipe Repo"/></a>
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <div style="background: #0f172a; border-left: 4px solid #8b5cf6; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
+        <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-violet.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
+        <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
+          <img src="https://img.shields.io/badge/Rust_/_RAG-8B5CF6?style=flat-square&logo=rust&logoColor=white" align="right" alt="Rust RAG"/>
+          📜 <a href="https://github.com/LOUST-PRO/paperforge" style="color: #38bdf8; text-decoration: none;"><b>paperforge &amp; Sovereign RAG Proofs</b></a>
+        </h4>
+        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
+          Front-end RAG ingestion pipeline and formal mathematical proof suite for O(D) deterministic local context compaction (64-bit FNV-1a feature hashing + L2 spherical normalization).
+        </p>
+        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
+          ⚡ <b>Highlights:</b> 64-bit FNV-1a projection · O(D) memory bounds · Model-free local RAG.
+        </p>
+        <div>
+          <a href="https://github.com/LOUST-PRO/paperforge"><img src="https://img.shields.io/badge/paperforge-Explore-8B5CF6?style=flat-square&logo=github&logoColor=white" alt="paperforge Repo"/></a>
+          &nbsp;
+          <a href="https://github.com/LOUST-PRO/deterministic-sovereign-rag"><img src="https://img.shields.io/badge/sovereign--rag-Explore-7C3AED?style=flat-square&logo=github&logoColor=white" alt="deterministic-sovereign-rag Repo"/></a>
+        </div>
+      </div>
+    </td>
+    <td valign="top" width="50%">
+      <div style="background: #0f172a; border-left: 4px solid #10b981; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
+        <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-emerald.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
+        <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
+          <img src="https://img.shields.io/badge/FOSS_Hub-10B981?style=flat-square&logo=opensourceinitiative&logoColor=white" align="right" alt="FOSS Hub"/>
+          🌐 <a href="https://github.com/LOUST-PRO/LZT-Developers" style="color: #38bdf8; text-decoration: none;"><b>LZT-Developers — Community FOSS Hub</b></a>
+        </h4>
+        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
+          Open-source developer hub containing LinkMarks (local CRDT), storage-mount-rs (NVMe isolation), outlook-mcp-suite (Go MCP server), spec-snapshot-scraper, and unattended-process-reaper.
+        </p>
+        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
+          ⚡ <b>Highlights:</b> Community FOSS hub · Governance CLA &amp; AUP · 15+ open-source toolkits.
+        </p>
+        <div>
+          <a href="https://github.com/LOUST-PRO/LZT-Developers"><img src="https://img.shields.io/badge/Submit_YAML_to_LZT--Developers-10B981?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="LZT-Developers FOSS Hub"/></a>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
 
 <details>
 <summary>Representative build signals & internal observability metrics</summary>
