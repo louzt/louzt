@@ -360,8 +360,8 @@ The technology provider behind my work — multi-protocol transport, hardened Li
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #38bdf8; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          🏢 <b>Enterprise CMS</b>
           <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" align="right" alt="Next.js"/>
+          🏢 <b>Enterprise CMS</b>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
           Multi-tenant content, commerce, and operations platform powering dynamic marketing, ERP-lite workflows, bookings, and storefronts from a single codebase with zero-downtime schema evolution.
@@ -383,8 +383,8 @@ The technology provider behind my work — multi-protocol transport, hardened Li
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #8b5cf6; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          ⚡ <b>Automations Engine</b>
           <img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white" align="right" alt="Bun"/>
+          ⚡ <b>Automations Engine</b>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
           Event-driven rule and webhook engine for client operations. Connects Meta CAPI, Google Ads, Stripe, MercadoPago, and CFDI 4.0 invoicing into auditable pipelines with replay capability.
@@ -406,8 +406,8 @@ The technology provider behind my work — multi-protocol transport, hardened Li
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #10b981; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          📊 <b>CRM Hub</b>
           <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" align="right" alt="GraphQL"/>
+          📊 <b>CRM Hub</b>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
           Pipeline, contact, and closing surfaces designed for high-pressure sales teams. Delivers real-time lead ingestion and multi-tenant pipeline isolation.
@@ -427,8 +427,8 @@ The technology provider behind my work — multi-protocol transport, hardened Li
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #f59e0b; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          🏡 <a href="https://loust.pro/socialsphere" style="color: #38bdf8; text-decoration: none;"><b>SocialSphere</b></a>
           <img src="https://img.shields.io/badge/PropTech_ERP-F59E0B?style=flat-square" align="right" alt="PropTech ERP"/>
+          🏡 <a href="https://loust.pro/socialsphere" style="color: #38bdf8; text-decoration: none;"><b>SocialSphere</b></a>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
           PropTech &amp; hospitality ERP running multi-property reservations, turnover scheduling, and channel-manager integrations. Serving as CTO since Dec 2025.
@@ -452,8 +452,8 @@ The technology provider behind my work — multi-protocol transport, hardened Li
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #6366f1; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          🛠️ <b>Nexus Apps</b>
           <img src="https://img.shields.io/badge/Monorepo_Scaffold-6366F1?style=flat-square" align="right" alt="Monorepo Scaffold"/>
+          🛠️ <b>Nexus Apps</b>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
           Spec-driven generator suite and monorepo scaffolding system maintaining structural consistency across multi-app deployments from a single source of truth.
@@ -473,8 +473,8 @@ The technology provider behind my work — multi-protocol transport, hardened Li
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #ec4899; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          🛒 <b>Marketplace</b>
           <img src="https://img.shields.io/badge/Stripe_Connect-635BFF?style=flat-square&logo=stripe&logoColor=white" align="right" alt="Stripe Connect"/>
+          🛒 <b>Marketplace</b>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
           Multi-vendor e-commerce platform with automated CFDI 4.0 tax invoicing, split payouts via Stripe Connect and MercadoPago, and seller directory verification.
@@ -497,8 +497,8 @@ The technology provider behind my work — multi-protocol transport, hardened Li
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #14b8a6; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          🤖 <b>AI Chatbot</b>
           <img src="https://img.shields.io/badge/ReAct_Loop-7C3AED?style=flat-square" align="right" alt="ReAct Loop"/>
+          🤖 <b>AI Chatbot</b>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
           Multi-tenant conversational AI surface with ReAct reasoning loops, dynamic provider failover (MiniMax M3, ChatGPT, Claude, DeepSeek, Gemini, Llama), and CRM export.
@@ -525,8 +525,8 @@ The technology provider behind my work — multi-protocol transport, hardened Li
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #a855f7; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          📚 <b>Public Research Notes</b>
           <img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white" align="right" alt="ORCID"/>
+          📚 <b>Public Research Notes</b>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
           Long-form research notes, paper drafts, and open-access security writeups on sovereign RAG, transport-layer hardening, kernel regressions, and infrastructure audits.
@@ -694,8 +694,8 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #eb0029; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          🎮 <b>Valve/Fossilize Shader Replayer Hardening</b>
           <img src="https://img.shields.io/badge/C%2B%2B_/_Vulkan-00599C?style=flat-square&logo=cplusplus&logoColor=white" align="right" alt="C++ Vulkan"/>
+          🎮 <b>Valve/Fossilize Shader Replayer Hardening</b>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
           Authored <code>PR_SET_PDEATHSIG</code> + <code>getppid()</code> race check (<a href="https://github.com/ValveSoftware/Fossilize/pull/305">PR #305</a>) terminating orphan Vulkan shader replayers immediately on Steam/Proton crashes. Eradicated 100% CPU worker leaks &amp; battery drain across millions of Steam Deck / Linux gaming devices worldwide. Authored <a href="https://github.com/ValveSoftware/Fossilize/pull/311">PR #311</a> <code>static_assert</code> unblocking Valve's +7,913 LOC Mesa CI audit suite (<a href="https://github.com/ValveSoftware/Fossilize/pull/310">PR #310</a>).
@@ -705,7 +705,9 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
         </p>
         <div>
           <a href="https://github.com/ValveSoftware/Fossilize/pull/305"><img src="https://img.shields.io/badge/PR_%23305-Merged-10B981?style=flat-square&logo=github&logoColor=white" alt="PR 305"/></a>
+          &nbsp;
           <a href="https://github.com/ValveSoftware/Fossilize/pull/308"><img src="https://img.shields.io/badge/PR_%23308-Merged-10B981?style=flat-square&logo=github&logoColor=white" alt="PR 308"/></a>
+          &nbsp;
           <a href="https://github.com/ValveSoftware/Fossilize/pull/311"><img src="https://img.shields.io/badge/PR_%23311-Merged-10B981?style=flat-square&logo=github&logoColor=white" alt="PR 311"/></a>
         </div>
       </div>
@@ -713,8 +715,8 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #38bdf8; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          🔊 <b>PipeWire &amp; Audio Subsystem Hardening</b>
           <img src="https://img.shields.io/badge/C_/_Linux_Core-FCC624?style=flat-square&logo=linux&logoColor=black" align="right" alt="Linux Audio"/>
+          🔊 <b>PipeWire &amp; Audio Subsystem Hardening</b>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
           Engineered 5s <code>spa timer</code> protocol-native connection timeout on <code>pw_protocol_native_connect_local_socket()</code> (<a href="https://github.com/louzt/pipewire/commit/2f747a7">commit 2f747a7</a>), eliminating permanent audio CLI deadlocks (<code>wpctl</code>/<code>pactl</code> hanging). Documented OpenAL Soft &amp; ALSA container buffer overrun resolutions under Distrobox/LXC.
@@ -724,7 +726,8 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
         </p>
         <div>
           <a href="https://github.com/louzt/pipewire/commit/2f747a7"><img src="https://img.shields.io/badge/PipeWire_Commit-2f747a7-38BDF8?style=flat-square&logo=github&logoColor=white" alt="PipeWire Commit"/></a>
-          <a href="https://gist.github.com/louzt/c175973d8e8bae8c8fef6af4d9d6aca7"><img src="https://img.shields.io/badge/OpenAL_Gist-Notes-7C3AED?style=flat-square" alt="OpenAL Gist"/></a>
+          &nbsp;
+          <a href="https://gist.github.com/louzt/c175973d8e8bae8c8fef6af4d9d6aca7"><img src="https://img.shields.io/badge/OpenAL_Gist-Notes-7C3AED?style=flat-square&logo=github&logoColor=white" alt="OpenAL Gist"/></a>
         </div>
       </div>
     </td>
@@ -733,8 +736,8 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #10b981; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          🖼️ <b>Wayland Compositor &amp; Display IPC Diagnostics</b>
           <img src="https://img.shields.io/badge/Rust_IPC-000000?style=flat-square&logo=rust&logoColor=white" align="right" alt="Rust IPC"/>
+          🖼️ <b>Wayland Compositor &amp; Display IPC Diagnostics</b>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
           Authored pull-based typed IPC diagnostics, semantic asset labeling, and per-output mutex thread isolation across Niri Wayland display pipelines (<a href="https://gist.github.com/louzt/1c5230a2e9471faf9ce4243314361fa1">5 PRs Gist</a>). Exposed scaling filter matrix across swww/awww backends in Waypaper (<a href="https://github.com/louzt/761e227ad8cfe55b29e79cf861214a62">PR #286</a>).
@@ -743,16 +746,17 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
           ⚡ <b>Impact:</b> Zero-drop frame pacing across multi-monitor displays with heterogeneous refresh rates.
         </p>
         <div>
-          <a href="https://gist.github.com/louzt/1c5230a2e9471faf9ce4243314361fa1"><img src="https://img.shields.io/badge/Niri_IPC-5_PRs_Gist-10B981?style=flat-square" alt="Niri Gist"/></a>
-          <a href="https://github.com/louzt/761e227ad8cfe55b29e79cf861214a62"><img src="https://img.shields.io/badge/Waypaper-PR_%23286-38BDF8?style=flat-square" alt="Waypaper PR"/></a>
+          <a href="https://gist.github.com/louzt/1c5230a2e9471faf9ce4243314361fa1"><img src="https://img.shields.io/badge/Niri_IPC-5_PRs_Gist-10B981?style=flat-square&logo=github&logoColor=white" alt="Niri Gist"/></a>
+          &nbsp;
+          <a href="https://github.com/louzt/761e227ad8cfe55b29e79cf861214a62"><img src="https://img.shields.io/badge/Waypaper-PR_%23286-38BDF8?style=flat-square&logo=github&logoColor=white" alt="Waypaper PR"/></a>
         </div>
       </div>
     </td>
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #8b5cf6; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          🌐 <b>Chromium 148 CSP Audit &amp; Web Security</b>
           <img src="https://img.shields.io/badge/Web_Security-4285F4?style=flat-square&logo=googlechrome&logoColor=white" align="right" alt="Chromium Security"/>
+          🌐 <b>Chromium 148 CSP Audit &amp; Web Security</b>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
           Identified cross-origin <code>srcdoc</code> sandbox CSP Level 3 policy collision regressions in Chromium 148 (<a href="https://gist.github.com/louzt/77f0804ca11bad6636f0ac67928bd384">Gist</a>). Accepted upstream under Opera security disclosure tracking GB-80414.
@@ -761,8 +765,9 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
           ⚡ <b>Impact:</b> Auditable security triage, CSP sandbox collision isolation, and upstream browser patch validation.
         </p>
         <div>
-          <a href="https://gist.github.com/louzt/77f0804ca11bad6636f0ac67928bd384"><img src="https://img.shields.io/badge/Chromium_CSP-Audit_Gist-8B5CF6?style=flat-square" alt="Chromium Gist"/></a>
-          <img src="https://img.shields.io/badge/Opera_Tracking-GB--80414-000000?style=flat-square" alt="Opera GB-80414"/>
+          <a href="https://gist.github.com/louzt/77f0804ca11bad6636f0ac67928bd384"><img src="https://img.shields.io/badge/Chromium_CSP-Audit_Gist-8B5CF6?style=flat-square&logo=github&logoColor=white" alt="Chromium Gist"/></a>
+          &nbsp;
+          <img src="https://img.shields.io/badge/Opera_Tracking-GB--80414-FF1B2D?style=flat-square&logo=opera&logoColor=white" alt="Opera GB-80414"/>
         </div>
       </div>
     </td>
@@ -771,8 +776,8 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #14b8a6; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          🎵 <b>spotify-player &amp; rspotify DTO Resiliency</b>
           <img src="https://img.shields.io/badge/Async_Rust-1DB954?style=flat-square&logo=spotify&logoColor=white" align="right" alt="Async Rust"/>
+          🎵 <b>spotify-player &amp; rspotify DTO Resiliency</b>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
           Disambiguated <code>is_active</code> Connect device presence from active playback (<code>is_playing</code>) in <code>spotify-player</code> (<a href="https://github.com/aome510/spotify-player/pull/1049">PR #1049</a>), unblocking audio engine starvation on standby speakers. Serialized search requests (<a href="https://github.com/aome510/spotify-player/pull/1048">PR #1048</a>) eliminating 429 quota spikes. Proposed non-breaking Serde <code>#[serde(default)]`</code> schema drift fallback in <code>rspotify</code> (<a href="https://github.com/ramsayleung/rspotify/issues/572">Issue #572</a>).
@@ -781,17 +786,19 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
           ⚡ <b>Impact:</b> 100% elimination of HTTP 429 quota exhaustion bursts and standby device playback deadlocks.
         </p>
         <div>
-          <a href="https://github.com/aome510/spotify-player/pull/1049"><img src="https://img.shields.io/badge/PR_%231049-Merged-10B981?style=flat-square" alt="PR 1049"/></a>
-          <a href="https://github.com/aome510/spotify-player/pull/1048"><img src="https://img.shields.io/badge/PR_%231048-Merged-10B981?style=flat-square" alt="PR 1048"/></a>
-          <a href="https://github.com/ramsayleung/rspotify/issues/572"><img src="https://img.shields.io/badge/Issue_%23572-Triaged-38BDF8?style=flat-square" alt="Issue 572"/></a>
+          <a href="https://github.com/aome510/spotify-player/pull/1049"><img src="https://img.shields.io/badge/PR_%231049-Merged-10B981?style=flat-square&logo=github&logoColor=white" alt="PR 1049"/></a>
+          &nbsp;
+          <a href="https://github.com/aome510/spotify-player/pull/1048"><img src="https://img.shields.io/badge/PR_%231048-Merged-10B981?style=flat-square&logo=github&logoColor=white" alt="PR 1048"/></a>
+          &nbsp;
+          <a href="https://github.com/ramsayleung/rspotify/issues/572"><img src="https://img.shields.io/badge/Issue_%23572-Triaged-38BDF8?style=flat-square&logo=github&logoColor=white" alt="Issue 572"/></a>
         </div>
       </div>
     </td>
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #f59e0b; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          🛰️ <b>Resilient Transport Proxy &amp; Linux Telemetry</b>
           <img src="https://img.shields.io/badge/Network_Eng-F59E0B?style=flat-square&logo=wireguard&logoColor=white" align="right" alt="Network Eng"/>
+          🛰️ <b>Resilient Transport Proxy &amp; Linux Telemetry</b>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
           Engineered 5-tier fallback transport proxy racing QUIC / Hysteria2 / TLS / SSH in &lt;200 ms with CA-pinned topology (<a href="https://gist.github.com/louzt/3991f144c7d67726045af3cefc60f42a">Gist</a>). Documented Linux PSI over polling and Redis <code>KEYS</code> → <code>SCAN/COUNT</code> zero-overhead observability (<a href="https://gist.github.com/louzt/b8349629b602a782ac98d0cbfd0df0c0">Gist</a>).
@@ -800,8 +807,9 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
           ⚡ <b>Impact:</b> Sub-200ms transport racing across restrictive firewalls &amp; 70% reduction in Redis channel bloat.
         </p>
         <div>
-          <a href="https://gist.github.com/louzt/3991f144c7d67726045af3cefc60f42a"><img src="https://img.shields.io/badge/Transport-Proxy_Gist-F59E0B?style=flat-square" alt="Transport Gist"/></a>
-          <a href="https://gist.github.com/louzt/b8349629b602a782ac98d0cbfd0df0c0"><img src="https://img.shields.io/badge/Observability-PSI_Gist-10B981?style=flat-square" alt="Observability Gist"/></a>
+          <a href="https://gist.github.com/louzt/3991f144c7d67726045af3cefc60f42a"><img src="https://img.shields.io/badge/Transport-Proxy_Gist-F59E0B?style=flat-square&logo=github&logoColor=white" alt="Transport Gist"/></a>
+          &nbsp;
+          <a href="https://gist.github.com/louzt/b8349629b602a782ac98d0cbfd0df0c0"><img src="https://img.shields.io/badge/Observability-PSI_Gist-10B981?style=flat-square&logo=github&logoColor=white" alt="Observability Gist"/></a>
         </div>
       </div>
     </td>
@@ -810,8 +818,8 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #ec4899; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          🤖 <b>Agent Fleet Provenance &amp; k3s Auto-Scaling</b>
           <img src="https://img.shields.io/badge/k3s_/_Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" align="right" alt="k3s Kubernetes"/>
+          🤖 <b>Agent Fleet Provenance &amp; k3s Auto-Scaling</b>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
           Designed <code>agent_id</code> provenance tagging, working-tree author classification, and multi-agent PR-slicing gates (<a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f">Gist</a>). Engineered RCON-driven automated idle cluster teardown &amp; auto-scaling for zero-cost standby game infrastructure on k3s (<a href="https://gist.github.com/louzt/b333b5601628a159630da13857834246">Gist</a>).
@@ -820,16 +828,17 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
           ⚡ <b>Impact:</b> Zero-drift multi-agent git branch claim verification &amp; 100% idle infrastructure cost elimination.
         </p>
         <div>
-          <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Agent_Provenance-Gist-EC4899?style=flat-square" alt="Provenance Gist"/></a>
-          <a href="https://gist.github.com/louzt/b333b5601628a159630da13857834246"><img src="https://img.shields.io/badge/k3s_Auto--Scaling-Gist-326CE5?style=flat-square" alt="k3s Gist"/></a>
+          <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Agent_Provenance-Gist-EC4899?style=flat-square&logo=github&logoColor=white" alt="Provenance Gist"/></a>
+          &nbsp;
+          <a href="https://gist.github.com/louzt/b333b5601628a159630da13857834246"><img src="https://img.shields.io/badge/k3s_Auto--Scaling-Gist-326CE5?style=flat-square&logo=github&logoColor=white" alt="k3s Gist"/></a>
         </div>
       </div>
     </td>
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #6366f1; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          🐧 <b>NVIDIA DKMS Kernel 7.0+ RFC &amp; Optimus Hotplug</b>
           <img src="https://img.shields.io/badge/NVIDIA_/_Kernel-76B900?style=flat-square&logo=nvidia&logoColor=white" align="right" alt="NVIDIA Kernel"/>
+          🐧 <b>NVIDIA DKMS Kernel 7.0+ RFC &amp; Optimus Hotplug</b>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
           Engineered forward-compat RFC patch series for Kernel 7.0 API refactoring: VMA locking (<code>__is_vma_write_locked()</code>), DMA fence signals (<code>dma_fence_signal_locked()</code>), and <code>vm_flags_reset()</code> (<a href="https://gist.github.com/louzt/1c85044d5090d19223c3f5edf426a19e">RFC Gist</a>). Added <code>NVreg_DynamicPowerManagement=0x02</code> modprobe rules resolving USB-C D3cold hotplug panics on hybrid laptops.
