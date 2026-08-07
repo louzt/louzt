@@ -428,45 +428,42 @@ The technology provider behind my work — multi-protocol transport, hardened Li
 
 Long-form research notes, paper drafts, and proof chains I maintain as part of day-to-day work. Each entry has a concrete artifact (gist, draft, or measurement) — no abstract ambitions.
 
-### Deterministic Sovereign RAG via Signed-Hash Projection (paper draft, 2026)
+<blockquote style="border-left: 3px solid #8b5cf6; background: #0f172a; padding: 16px; margin: 16px 0; border-radius: 0 8px 8px 0; color: #e2e8f0;">
+  <h4>🔬 Deterministic Sovereign RAG via Signed-Hash Projection (paper draft, 2026)</h4>
+  <p>A four-formula operator stack for reproducible retrieval on sovereign cloud corpora: FNV-1a 64-bit feature hashing into a fixed <code>D = 128</code> vector, <code>L2</code> spherical normalization, cosine reduced to a dot product on the unit hypersphere, and a pagination throughput window for upstream API rate-limit optimization. <b>Seven theorems</b> bound estimator unbiasedness, variance via Weinberger 2009, exponential collision concentration via the non-asymptotic Hanson–Wright inequality, <code>O(D)</code> storage/matching, scale invariance under <code>L2</code> normalization, the cosine/dot equivalence, and the <code>R_throughput</code> operational bound.</p>
+  <p>Validated empirically on a <b>4,458-document operator corpus</b> — indexed in 4.14 s (σ=0.18 s) with 640 ns match latency (σ=85 ns) and 0.78 top-5 recall. A 25/25 concurrency stress test on the production Rust implementation (<code>DSVH</code>) demonstrates stable operation under sustained workload.</p>
+  <p align="center">
+    <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Read_the_math_gist-English-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Read the Sovereign RAG math gist (English)"/></a>
+    &nbsp;
+    <a href="https://gist.github.com/louzt/a75f9cf1a2f2edbd5af0e8d23526871d"><img src="https://img.shields.io/badge/Leer_las_matemáticas-Español-D97706?style=for-the-badge&logo=github&logoColor=white" alt="Leer las matemáticas del Sovereign RAG (Español)"/></a>
+  </p>
+  <sub>Stack: Rust (DSVH) + Go (APG) + Virtuoso 7.2.6 + FNV-1a 64-bit + L2 normalization. Open question: empirical head-to-head against dense embedders (BGE-M3, multilingual) — left for future work.</sub>
+</blockquote>
 
-A four-formula operator stack for reproducible retrieval on sovereign cloud corpora: FNV-1a 64-bit feature hashing into a fixed `D = 128` vector, `L2` spherical normalization, cosine reduced to a dot product on the unit hypersphere, and a pagination throughput window for upstream API rate-limit optimization. **Seven theorems** bound estimator unbiasedness, variance via Weinberger 2009, exponential collision concentration via the non-asymptotic Hanson–Wright inequality, `O(D)` storage/matching, scale invariance under `L2` normalization, the cosine/dot equivalence, and the `R_throughput` operational bound.
+<p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/divider.svg" width="100%" alt="divider"/></p>
 
-Validated empirically on a **4,458-document operator corpus** (MANIFESTs, memory entries, subagent specs, skill specs, hardening fragments) — indexed in 4.14 s on the operator's laptop with σ=0.18 s, 640 ns match latency (σ=85 ns) on the production virtualized substrate, and 0.78 top-5 recall. A 25/25 concurrency stress test on the production Rust implementation (`DSVH`) demonstrates stable operation under sustained workload. / _Cuatro fórmulas, siete teoremas. Retrieval soberano y determinista sobre infraestructura en la nube local._
+<blockquote style="border-left: 3px solid #38bdf8; background: #0f172a; padding: 16px; margin: 16px 0; border-radius: 0 8px 8px 0; color: #e2e8f0;">
+  <h4>⚡ APQ at Scale on a 135k-Line GraphQL Schema (case study, 2026)</h4>
+  <p>Empirical anchor for the theorems above: <b>90.9% cache hit rate, p95 12 ms latency, +125% throughput lift, $0/mo incremental infra cost</b> on the LOUST multi-tenant Next.js 16 + Apollo Server v4 stack against a 135k-line Prisma-derived GraphQL schema. The case study is the production evidence the formal results lean on — same $\lambda T \approx 389$ regime cited in Theorem A.1, same $r_1 \approx 0.25$ APQ compression ratio in Theorem B.1, and the same +125% throughput lift that compounds with Brotli q11 in the production measurements.</p>
+  <p>Eight diagnostic anchors (cgroup v2 isolation, CB convergence, Zipf coverage, PSI pressure detection) and seven theorems make the case study reviewable as a small formal dossier rather than a benchmark dump.</p>
+  <p align="center">
+    <a href="https://gist.github.com/louzt/64715cb9c6ec6ffdd98c5712b8fb7bac"><img src="https://img.shields.io/badge/Read_the_case_study-English-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Read the APQ case study (English)"/></a>
+    &nbsp;
+    <a href="https://gist.github.com/louzt/0c91771bf6370f0eb47e905934ab47e8"><img src="https://img.shields.io/badge/Leer_el_caso_de_estudio-Español-D97706?style=for-the-badge&logo=github&logoColor=white" alt="Leer el caso de estudio APQ (Español)"/></a>
+  </p>
+  <sub>Stack: Next.js 16 <code>cacheComponents</code> + Apollo Server v4 + <code>ApolloAPQCache</code> + Redis 7 <code>ioredis</code> keyPrefix + Lua EVAL atomic + cgroup v2 <code>compile-runner.slice</code> + self-hosted GitHub Actions runner with persistent <code>/opt/build-cache</code> volume.</sub>
+</blockquote>
 
-<p align="center">
-  <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Read_the_math_gist-English-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Read the Sovereign RAG math gist (English)"/></a>
-  &nbsp;
-  <a href="https://gist.github.com/louzt/a75f9cf1a2f2edbd5af0e8d23526871d"><img src="https://img.shields.io/badge/Leer_las_matemáticas-Español-D97706?style=for-the-badge&logo=github&logoColor=white" alt="Leer las matemáticas del Sovereign RAG (Español)"/></a>
-</p>
+<p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/divider.svg" width="100%" alt="divider"/></p>
 
-<sub>Stack: Rust (DSVH) + Go (APG) + Virtuoso 7.2.6 + FNV-1a 64-bit + L2 normalization. Open question: empirical head-to-head against dense embedders (BGE-M3, multilingual) — left for future work.</sub>
+<blockquote style="border-left: 3px solid #10b981; background: #0f172a; padding: 16px; margin: 16px 0; border-radius: 0 8px 8px 0; color: #e2e8f0;">
+  <h4>📡 Zero-Prefill Keep-Alive Protocol &amp; Multi-Region Clock Drift (operator stack paper draft, 2026)</h4>
+  <p>Cost-benefit gate for cache-warming probes against upstream GPU clusters and multi-region agent control planes. Three-step procedure: <b>monitor</b> the upstream's TTL state via a single <code>max_tokens=1</code> probe (5-minute heartbeat cadence dynamically calibrated via Weibull survival analysis), <b>trigger</b> an asymmetric EMA update based on the boolean cache-hit response, and <b>fire</b> the next probe only when the gate fires.</p>
+  <p>The protocol is <b>800× cheaper</b> than a cold start at <code>K=1</code> and <b>50× cheaper</b> than an evict-and-compress cycle at <code>K=16</code> under upstream rate limits (<code>5,000 req/hour</code>). Integrates <b>Marzullo's 1994 intersection algorithm</b> to bound multi-region clock drift ($\Delta t \le \epsilon_{\text{ntp}} + \delta_{\text{drift}}$), <b>Lamport happens-before ordering</b> (<code>CLOCK_MONOTONIC</code>), and a <b>Weibull survival distribution</b> ($\lambda(t) = \frac{k}{\lambda}\left(\frac{t}{\lambda}\right)^{k-1}$) modeling GPU VRAM cache eviction under non-stationary token loads.</p>
+  <sub>Stack: Go (APG) + Rust (DSVH) + Lamport happens-before ordering + Marzullo 1994 intersection bound + CLOCK_MONOTONIC + Weibull survival bounds. Documented in §5 (clock drift), §8 (DET protocol), §9 (zero-prefill), and §12 (boundary conditions) of the Sovereign RAG operator paper.</sub>
+</blockquote>
 
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:1e293b&height=2" width="100%"/></p>
-
-### APQ at Scale on a 135k-Line GraphQL Schema (case study, 2026)
-
-Empirical anchor for the theorems above: **90.9% cache hit rate, p95 12 ms latency, +125% throughput lift, $0/mo incremental infra cost** on the LOUST multi-tenant Next.js 16 + Apollo Server v4 stack against a 135k-line Prisma-derived GraphQL schema. The case study is the production evidence the formal results lean on — same $\lambda T \approx 389$ regime cited in Theorem A.1, same $r_1 \approx 0.25$ APQ compression ratio in Theorem B.1, and the same +125% throughput lift that compounds with Brotli q11 in the production measurements. Eight diagnostic anchors (cgroup v2 isolation, CB convergence, Zipf coverage, PSI pressure detection) and seven theorems ($H \leq 1 - \exp(-\lambda T)$, throughput gain $G = \frac{1 + \rho \cdot \frac{W_o}{W_r}}{1 + \rho \cdot \frac{W_o}{W_r'}}$, $R_{\text{total}} \approx 0.075$ end-to-end bandwidth) make the case study reviewable as a small formal dossier rather than a benchmark dump. Operator's diagnostic posture: if any of the seven anchors fire in production, the recipe (pre-warm + Redis Lua EVAL + cgroup v2 slice + persistent runner volume) is named and measurable in the document.
-
-<p align="center">
-  <a href="https://gist.github.com/louzt/64715cb9c6ec6ffdd98c5712b8fb7bac"><img src="https://img.shields.io/badge/Read_the_case_study-English-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Read the APQ case study (English)"/></a>
-  &nbsp;
-  <a href="https://gist.github.com/louzt/0c91771bf6370f0eb47e905934ab47e8"><img src="https://img.shields.io/badge/Leer_el_caso_de_estudio-Español-D97706?style=for-the-badge&logo=github&logoColor=white" alt="Leer el caso de estudio APQ (Español)"/></a>
-</p>
-
-<sub>Stack: Next.js 16 `cacheComponents` + Apollo Server v4 + `ApolloAPQCache` + Redis 7 `ioredis` keyPrefix + Lua EVAL atomic + cgroup v2 `compile-runner.slice` + self-hosted GitHub Actions runner with persistent `/opt/build-cache` volume. Diagnostic anchors: §3.8 cgroup v2 runner isolation, Appendix F slice + hooks, Theorem E.8 throughput gain under cgroup contention. Public artefact, no host infra numbers exposed.</sub>
-
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:1e293b&height=2" width="100%"/></p>
-
-### Zero-Prefill Keep-Alive Protocol & Multi-Region Clock Drift (operator stack paper draft, 2026)
-
-Cost-benefit gate for cache-warming probes against upstream GPU clusters and multi-region agent control planes. Three-step procedure: **monitor** the upstream's TTL state via a single `max_tokens=1` probe (5-minute heartbeat cadence dynamically calibrated via Weibull survival analysis), **trigger** an asymmetric EMA update based on the boolean cache-hit response, and **fire** the next probe only when the gate fires. 
-
-The protocol is **800× cheaper** than a cold start at `K=1` and **50× cheaper** than an evict-and-compress cycle at `K=16` under upstream rate limits (`5,000 req/hour`). Integrates **Marzullo's 1994 intersection algorithm** to bound multi-region clock drift ($\Delta t \le \epsilon_{\text{ntp}} + \delta_{\text{drift}}$), **Lamport happens-before ordering** (`CLOCK_MONOTONIC`), and a **Weibull survival distribution** ($\lambda(t) = \frac{k}{\lambda}\left(\frac{t}{\lambda}\right)^{k-1}$) modeling GPU VRAM cache eviction under non-stationary token loads.
-
-<sub>Stack: Go (APG) + Rust (DSVH) + Lamport happens-before ordering + Marzullo 1994 intersection bound + CLOCK_MONOTONIC + Weibull survival bounds. Documented in §5 (clock drift), §8 (DET protocol), §9 (zero-prefill), and §12 (boundary conditions) of the Sovereign RAG operator paper.</sub>
-
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:1e293b&height=2" width="100%"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/divider.svg" width="100%" alt="divider"/></p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/section-investigations-and-notes.svg" width="100%" alt="Investigations and Notes — section banner"/></p>
 
@@ -495,7 +492,7 @@ Public research notes, snapshots, and audit logs from ongoing work. Updated as f
 
 > _Public gists are linked individually above as they ship. For private work-in-progress and operational forensics, see [LinkedIn](https://www.linkedin.com/in/davidmirelesll/?locale=es_ES) for the curated view._
 
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:1e293b&height=2" width="100%"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/divider.svg" width="100%" alt="divider"/></p>
 
 <!-- ============================================================ -->
 <!-- FOOTER: animated squares grid + tagline (no operator name).  -->
