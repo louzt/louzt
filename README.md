@@ -424,26 +424,27 @@ The technology provider behind my work — multi-protocol transport, hardened Li
         </div>
       </div>
     </td>
-    <td valign="top" width="50%">
+<td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #f59e0b; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/PropTech_ERP-F59E0B?style=flat-square" align="right" alt="PropTech ERP"/>
-          🏡 <a href="https://loust.pro/socialsphere" style="color: #38bdf8; text-decoration: none;"><b>SocialSphere</b></a>
+          <img src="https://img.shields.io/badge/SaaS_/_ERP_/_MarTech-F59E0B?style=flat-square&logo=nextdotjs&logoColor=white" align="right" alt="SaaS ERP MarTech"/>
+          🌐 <a href="https://socialspheremx.loust.pro" style="color: #38bdf8; text-decoration: none;"><b>SocialSphereMX — Multi-Tenant SaaS, ERP &amp; MarTech Fabric</b></a>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          PropTech &amp; hospitality ERP running multi-property reservations, turnover scheduling, and channel-manager integrations. Serving as CTO since Dec 2025.
+          Multi-tenant SaaS fabric &amp; MarTech ecosystem for agencies, content creators, PropTech real estate, and hospitality enterprises. Features interactive Digital MediaKits with live API metadata streams (Spotify/YouTube), cloud-native restaurant ERP (QR menus, real-time KDS, waiter UI), real-time property inventory tracking, and low-latency lead workflows. Serving as CTO &amp; Lead SaaS Architect.
         </p>
         <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Highlights:</b> Real-time availability sync · Multi-currency payments · Desktop &amp; Web app.
+          ⚡ <b>Highlights:</b> Multi-tenant SaaS core · Live Spotify/YouTube ingestion · Restaurant KDS &amp; QR ERP · PropTech inventory · 99.9% uptime.
         </p>
         <div>
-          <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+          <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js 16"/>
+          <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
           <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
           <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"/>
           <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/>
           <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
           <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe"/>
-          <img src="https://img.shields.io/badge/Tauri-FFC131?style=flat-square&logo=tauri&logoColor=black" alt="Tauri"/>
+          <img src="https://img.shields.io/badge/Cloudflare_Edge-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Edge"/>
         </div>
       </div>
     </td>
