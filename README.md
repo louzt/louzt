@@ -700,7 +700,7 @@ if __name__ == "__main__":
 
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/section-investigations-and-notes.svg" width="100%" alt="Investigations and Notes — section banner"/></p>
 
-Public research notes, snapshots, and audit logs from ongoing work. Formatted as Bento Cards for rapid inspection.
+Public research notes, operational forensics, and upstream patch series — indexed by technical domain with auditable code proofs and performance metrics.
 
 <p align="center" style="margin: 16px 0 8px 0;">
   <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/banner-domain-systems-kernel.svg" width="100%" alt="Systems, Vulkan and Kernel Hardening Domain Banner"/>
@@ -710,7 +710,8 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
   <tr>
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #eb0029; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
-        <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
+        <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-red.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
+        <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
           <img src="https://img.shields.io/badge/C%2B%2B_/_Vulkan-00599C?style=flat-square&logo=cplusplus&logoColor=white" align="right" alt="C++ Vulkan"/>
           🎮 <b>Valve/Fossilize Shader Replayer Hardening</b>
         </h4>
@@ -731,7 +732,8 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
     </td>
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #6366f1; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
-        <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
+        <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-cyan.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
+        <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
           <img src="https://img.shields.io/badge/NVIDIA_/_Kernel-76B900?style=flat-square&logo=nvidia&logoColor=white" align="right" alt="NVIDIA Kernel"/>
           🐧 <b>NVIDIA DKMS Kernel 7.0+ RFC &amp; Optimus Hotplug</b>
         </h4>
@@ -757,7 +759,8 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
   <tr>
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #38bdf8; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
-        <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
+        <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-emerald.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
+        <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
           <img src="https://img.shields.io/badge/C_/_Linux_Core-FCC624?style=flat-square&logo=linux&logoColor=black" align="right" alt="Linux Audio"/>
           🔊 <b>PipeWire &amp; Audio Subsystem Hardening</b>
         </h4>
@@ -776,7 +779,8 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
     </td>
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #14b8a6; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
-        <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
+        <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-pink.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
+        <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
           <img src="https://img.shields.io/badge/Async_Rust-1DB954?style=flat-square&logo=spotify&logoColor=white" align="right" alt="Async Rust"/>
           🎵 <b>spotify-player &amp; rspotify Terminal Ecosystem</b>
         </h4>
@@ -799,7 +803,8 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
   <tr>
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #10b981; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
-        <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
+        <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-emerald.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
+        <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
           <img src="https://img.shields.io/badge/Rust_IPC-000000?style=flat-square&logo=rust&logoColor=white" align="right" alt="Rust IPC"/>
           🖼️ <b>Wayland Compositor &amp; Display IPC Diagnostics</b>
         </h4>
@@ -818,7 +823,8 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
     </td>
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #8b5cf6; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
-        <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
+        <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-violet.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
+        <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
           <img src="https://img.shields.io/badge/Web_Security-4285F4?style=flat-square&logo=googlechrome&logoColor=white" align="right" alt="Chromium Security"/>
           🌐 <b>Chromium 148 CSP Audit &amp; Web Security</b>
         </h4>
@@ -846,7 +852,8 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
   <tr>
     <td valign="top" width="100%">
       <div style="background: #0f172a; border-left: 4px solid #f59e0b; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
-        <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
+        <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-amber.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
+        <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
           <img src="https://img.shields.io/badge/Network_Eng-F59E0B?style=flat-square&logo=wireguard&logoColor=white" align="right" alt="Network Eng"/>
           🛰️ <b>Resilient Transport Proxy &amp; Linux Telemetry</b>
         </h4>
@@ -874,7 +881,8 @@ Public research notes, snapshots, and audit logs from ongoing work. Formatted as
   <tr>
     <td valign="top" width="100%">
       <div style="background: #0f172a; border-left: 4px solid #ec4899; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
-        <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
+        <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-pink.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
+        <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
           <img src="https://img.shields.io/badge/k3s_/_Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" align="right" alt="k3s Kubernetes"/>
           🤖 <b>Agent Fleet Provenance &amp; k3s Auto-Scaling</b>
         </h4>

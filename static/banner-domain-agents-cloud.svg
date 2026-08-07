@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   banner-domain-agents-cloud.svg — Agents & Cloud Infrastructure Domain Banner (1200x65).
-  Velocity lockstep grid (30s/60s) matching profile-header.svg.
+  Velocity lockstep grid (30s/60s) + SMIL animated lava-lamp cyber border glow.
 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 65" width="1200" height="65" role="img" aria-label="Sovereign Agent Fleets and Kubernetes Substrates Domain Banner">
   <defs>
@@ -20,9 +20,15 @@
       <stop offset="100%" stop-color="#020617"/>
     </linearGradient>
     <linearGradient id="border-glow4" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ec4899"/>
-      <stop offset="50%" stop-color="#7c3aed"/>
-      <stop offset="100%" stop-color="#14b8a6"/>
+      <stop offset="0%" stop-color="#ec4899">
+        <animate attributeName="stop-color" values="#ec4899;#8b5cf6;#14b8a6;#ec4899" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#7c3aed">
+        <animate attributeName="stop-color" values="#7c3aed;#ec4899;#326ce5;#7c3aed" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#14b8a6">
+        <animate attributeName="stop-color" values="#14b8a6;#326ce5;#ec4899;#14b8a6" dur="10s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
   </defs>
 
