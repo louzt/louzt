@@ -993,17 +993,17 @@ Public research notes, operational forensics, and upstream patch series — inde
       <div style="background: #0f172a; border-left: 4px solid #326ce5; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-cyan.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/k3s_/_Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" align="right" alt="k3s Kubernetes"/>
-          ☸️ <b>k3s Kubernetes Standby Auto-Scaling &amp; RCON Teardowns</b>
+          <img src="https://img.shields.io/badge/Netcode_/_k3s-326CE5?style=flat-square&logo=kubernetes&logoColor=white" align="right" alt="k3s Netcode"/>
+          🎮 <b>H5KKEN Fighting Game Engine &amp; k3s Standby Auto-Scaling</b>
         </h4>
         <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Engineered RCON-driven automated idle cluster detection and graceful worker node teardowns for zero-cost standby game and telemetry workloads on k3s / Lightweight Kubernetes (<a href="https://gist.github.com/louzt/b333b5601628a159630da13857834246">Gist</a>). Implemented event-driven pod scaling and node lifecycle controllers with fast warm-start initialization (&lt;15s container spin-up) under zero active player/connection load, eliminating 24/7 static VPS billings.
+          Architected serverless standby infrastructure &amp; RCON-driven auto-scaling for <b>H5KKEN</b> (online fighting game project with GGPO-style rollback netcode and real-time P2P/serverless match orchestration). Engineered automated RCON state polling, atomic save/flushes, and graceful node teardowns on k3s / Lightweight Kubernetes (<a href="https://gist.github.com/louzt/b333b5601628a159630da13857834246">Gist</a>). When zero players are active, match pods auto-scale to 0 replicas (reclaiming 8 GB+ RSS RAM), achieving fast warm-start spin-up (&lt;15s) upon new player connection probes.
         </p>
         <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Impact:</b> 100% idle infrastructure cost elimination &amp; &lt;15s warm-start cluster recovery under zero load.
+          ⚡ <b>Impact:</b> H5KKEN rollback netcode &amp; game infra · &lt;15s warm-start match spin-up · 100% idle cost elimination.
         </p>
         <div>
-          <a href="https://gist.github.com/louzt/b333b5601628a159630da13857834246"><img src="https://img.shields.io/badge/k3s_Auto--Scaling-Gist-326CE5?style=flat-square&logo=github&logoColor=white" alt="k3s Gist"/></a>
+          <a href="https://gist.github.com/louzt/b333b5601628a159630da13857834246"><img src="https://img.shields.io/badge/H5KKEN_k3s_Gist-326CE5?style=flat-square&logo=github&logoColor=white" alt="H5KKEN k3s Gist"/></a>
         </div>
       </div>
     </td>
