@@ -306,13 +306,27 @@ Production systems that have shipped to real users, merged into upstreams, or ru
   &nbsp;
   <a href="https://github.com/LOUST-PRO/LinkMarks"><img src="https://img.shields.io/badge/LinkMarks-Local_CRDT-064E3B?style=for-the-badge&logo=rust&logoColor=white" alt="LinkMarks Repo"/></a>
   <br/>
-  <a href="https://github.com/LOUST-PRO/ical-to-caldav"><img src="https://img.shields.io/badge/ical--to--caldav-CalDAV_Bridge-4285F4?style=for-the-badge&logo=rust&logoColor=white" alt="ical-to-caldav Repo"/></a>
+  <a href="https://github.com/LOUST-PRO/TaxonRouter"><img src="https://img.shields.io/badge/TaxonRouter-Webhook_Auto--Tagger-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="TaxonRouter Repo"/></a>
   &nbsp;
+  <a href="https://github.com/LOUST-PRO/LLMmempipe"><img src="https://img.shields.io/badge/LLMmempipe-Zero--Alloc_Buffer-DE3A11?style=for-the-badge&logo=rust&logoColor=white" alt="LLMmempipe Repo"/></a>
+  &nbsp;
+  <a href="https://github.com/LOUST-PRO/paperforge"><img src="https://img.shields.io/badge/paperforge-Frontend_RAG_Ingestion-8B5CF6?style=for-the-badge&logo=rust&logoColor=white" alt="paperforge Repo"/></a>
+  &nbsp;
+  <a href="https://github.com/LOUST-PRO/storage-mount-rs"><img src="https://img.shields.io/badge/storage--mount--rs-NVMe_Isolation-0F172A?style=for-the-badge&logo=linux&logoColor=white" alt="storage-mount-rs Repo"/></a>
+  <br/>
   <a href="https://github.com/LOUST-PRO/outlook-mcp-suite"><img src="https://img.shields.io/badge/outlook--mcp--suite-Microsoft_Graph_MCP-0078D4?style=for-the-badge&logo=go&logoColor=white" alt="outlook-mcp-suite Repo"/></a>
   &nbsp;
   <a href="https://github.com/LOUST-PRO/lzt-broker-stall-reaper"><img src="https://img.shields.io/badge/lzt--broker--stall--reaper-TCP_Watchdog-E6522C?style=for-the-badge&logo=go&logoColor=white" alt="lzt-broker-stall-reaper Repo"/></a>
   &nbsp;
   <a href="https://github.com/LOUST-PRO/deterministic-sovereign-rag"><img src="https://img.shields.io/badge/deterministic--sovereign--rag-Sovereign_RAG_Paper-7C3AED?style=for-the-badge&logo=rust&logoColor=white" alt="deterministic-sovereign-rag Repo"/></a>
+  &nbsp;
+  <a href="https://github.com/LOUST-PRO/ical-to-caldav"><img src="https://img.shields.io/badge/ical--to--caldav-CalDAV_Bridge-4285F4?style=for-the-badge&logo=rust&logoColor=white" alt="ical-to-caldav Repo"/></a>
+  <br/>
+  <a href="https://github.com/LOUST-PRO/LZT-Developers"><img src="https://img.shields.io/badge/Submit_YAML_to_LZT--Developers-Community_FOSS_Hub-10B981?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="LZT-Developers Community FOSS Hub"/></a>
+  &nbsp;
+  <a href="https://github.com/LOUST-PRO/spec-snapshot-scraper"><img src="https://img.shields.io/badge/spec--snapshot--scraper-Doc_Scraper-F59E0B?style=for-the-badge&logo=python&logoColor=white" alt="spec-snapshot-scraper Repo"/></a>
+  &nbsp;
+  <a href="https://github.com/LOUST-PRO/unattended-process-reaper"><img src="https://img.shields.io/badge/unattended--process--reaper-Process_Reaper-DC2626?style=for-the-badge&logo=linux&logoColor=white" alt="unattended-process-reaper Repo"/></a>
 </p>
 
 <details>
