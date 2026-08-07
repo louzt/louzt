@@ -50,17 +50,17 @@
   <tr>
   <tr>
     <td align="left" valign="middle">
-      <img src="https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C-%EC%9D%BD%EA%B8%B0-0047A0?style=flat-square&logo=readme&logoColor=white" alt="한국어로 읽기"/>
+      <img src="https://img.shields.io/badge/%E9%96%B1%E8%AE%80%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-(%E5%8F%B0%E7%81%A3)-D97706?style=flat-square&logo=readme&logoColor=white" alt="閱讀繁體中文 (台灣)"/>
       <a href="https://github.com/louzt/louzt/blob/main/README.md"><img src="https://img.shields.io/badge/Read_in-English-0093D0?style=flat-square&logo=readme&logoColor=white" alt="Read in English"/></a>
       <a href="https://github.com/louzt/louzt/blob/main/README.es.md"><img src="https://img.shields.io/badge/Leer_en-Espa%C3%B1ol-D97706?style=flat-square&logo=readme&logoColor=white" alt="Leer en Español"/></a>
       <a href="https://github.com/louzt/louzt/blob/main/README.it.md"><img src="https://img.shields.io/badge/Leggi_in-Italiano-009246?style=flat-square&logo=readme&logoColor=white" alt="Leggi in Italiano"/></a>
       <a href="https://github.com/louzt/louzt/blob/main/README.pt.md"><img src="https://img.shields.io/badge/Ler_em-Portugu%C3%AAs-009B3A?style=flat-square&logo=readme&logoColor=white" alt="Ler em Português"/></a>
       <a href="https://github.com/louzt/louzt/blob/main/README.de.md"><img src="https://img.shields.io/badge/Auf-Deutsch_lesen-DD0000?style=flat-square&logo=readme&logoColor=white" alt="Auf Deutsch lesen"/></a>
       <a href="https://github.com/louzt/louzt/blob/main/README.ja.md"><img src="https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%A7-%E8%AA%AD%E3%82%80-BC002D?style=flat-square&logo=readme&logoColor=white" alt="日本語で読む"/></a>
+      <a href="https://github.com/louzt/louzt/blob/main/README.ko.md"><img src="https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4%EB%A1%9C-%EC%9D%BD%EA%B8%B0-0047A0?style=flat-square&logo=readme&logoColor=white" alt="한국어로 읽기"/></a>
       <a href="https://github.com/louzt/louzt/blob/main/README.fr.md"><img src="https://img.shields.io/badge/Lire_en-Fran%C3%A7ais-0055A5?style=flat-square&logo=readme&logoColor=white" alt="Lire en Français"/></a>
       <a href="https://github.com/louzt/louzt/blob/main/README.nl.md"><img src="https://img.shields.io/badge/In_het_Nederlands-lezen-21468B?style=flat-square&logo=readme&logoColor=white" alt="In het Nederlands lesen"/></a>
       <a href="https://github.com/louzt/louzt/blob/main/README.sv.md"><img src="https://img.shields.io/badge/L%C3%A4s_p%C3%A5-Svenska-006AA7?style=flat-square&logo=readme&logoColor=white" alt="Läs på Svenska"/></a>
-      <a href="https://github.com/louzt/louzt/blob/main/README.zh-TW.md"><img src="https://img.shields.io/badge/%E9%96%B1%E8%AE%80%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-(%E5%8F%B0%E7%81%A3)-D97706?style=flat-square&logo=readme&logoColor=white" alt="閱讀繁體中文 (台灣)"/></a>
       <a href="https://github.com/louzt/louzt/blob/main/README.pl.md"><img src="https://img.shields.io/badge/Czytaj_po-Polsku-DC143C?style=flat-square&logo=readme&logoColor=white" alt="Czytaj po Polsku"/></a>
       <a href="https://github.com/louzt/louzt/blob/main/README.tr.md"><img src="https://img.shields.io/badge/T%C3%BCrk%C3%A7e-okuyun-E30A17?style=flat-square&logo=readme&logoColor=white" alt="Türkçe okuyun"/></a>
     </td>
@@ -68,7 +68,7 @@
   <tr>
     <!-- Row 2: Contact channels & Schedule a meeting -->
     <td align="left" valign="middle">
-      <a href="https://calendar.app.google/XR7FkZXWVwfmZ57x6"><img src="https://img.shields.io/badge/%EB%AF%B8%ED%8C%85_%EC%98%88%EC%95%BD%ED%95%98%EA%B8%B0-34A853?style=flat-square&logo=googlecalendar&logoColor=white" alt="미팅 예약하기 (Google Calendar)"/></a>
+      <a href="https://calendar.app.google/XR7FkZXWVwfmZ57x6"><img src="https://img.shields.io/badge/%E9%A0%90%E7%B4%84%E6 me2%9B%E8 me2%AE-34A853?style=flat-square&logo=googlecalendar&logoColor=white" alt="預約會議 (Google Calendar)"/></a>
       <a href="https://www.linkedin.com/in/davidmirelesll/?locale=es_ES"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
       <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab"/>
       <img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X.com"/>
@@ -81,11 +81,11 @@
       <a href="https://orcid.org/0009-0008-4374-2254"><img src="https://img.shields.io/badge/ORCID-0009--0008--4374--2254-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID iD 0009-0008-4374-2254"/></a>
       <a href="https://gist.github.com/louzt"><img src="https://img.shields.io/badge/Gists-181717?style=flat-square&logo=github&logoColor=white" alt="Gists"/></a>
       <a href="mailto:research@loust.pro"><img src="https://img.shields.io/badge/research%40loust.pro-7C3AED?style=flat-square&logo=protonmail&logoColor=white" alt="research@loust.pro"/></a>
-      <a href="https://opensource.org/"><img src="https://img.shields.io/badge/OSI-%ED%9A%8C%EC%9B%90-3DA639?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="OSI Member"/></a>
+      <a href="https://opensource.org/"><img src="https://img.shields.io/badge/OSI-%E4%BC%9A%E5%93%A1-3DA639?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="OSI Member"/></a>
       <a href="https://github.com/django-commons"><img src="https://img.shields.io/badge/Django_Commons-0C4B33?style=flat-square&logo=django&logoColor=white" alt="Django Commons Member"/></a>
       <a href="https://kernel.org/"><img src="https://img.shields.io/badge/Linux_Kernel-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux Kernel"/></a>
       <a href="https://crates.io/users/louzt"><img src="https://img.shields.io/badge/crates.io-000000?style=flat-square&logo=rust&logoColor=e43717" alt="crates.io packages"/></a>
-      <img src="https://img.shields.io/badge/%2b_%EA%B7%B8_%EC%99%B8_%EB%8B%A4%EC%88%98-1E293B?style=flat-square" alt="+ many more communities"/>
+      <img src="https://img.shields.io/badge/%2b_%E5%85%B6%E4%BB%96%E8%A8%B1%E5%A4%9A-1E293B?style=flat-square" alt="+ many more communities"/>
     </td>
   </tr>
   <tr>
@@ -122,7 +122,7 @@
       <img src="https://img.shields.io/badge/%7C-1e293b?style=flat-square" alt="|"/>
       <img src="https://img.shields.io/badge/k3s-ffc61c?style=flat-square&logo=kubernetes&logoColor=black" alt="k3s"/>
       <img src="https://img.shields.io/badge/docker-2496ed?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-      <img src="https://img.shields.io/badge/다른_기술_스택_디버깅에도_항상_관심이_있습니다-8b5cf6?style=flat-square&logoColor=white" alt="Always curious to debug in another tech stack"/>
+      <img src="https://img.shields.io/badge/%E7%B4%94%E7%B2 me2%B7%E5%B0%8D%E5%85%B6%E4%BB%96%E6%8A%80%E8%A1%93%E7%96 me2%B3%E8%AA%BF%E8 me2%A6%E4%BF%9D%E6 me2%81%E5 me2%BD%E8%B6%A3-8b5cf6?style=flat-square&logoColor=white" alt="Always curious to debug in another tech stack"/>
     </td>
   </tr>
   <tr>
@@ -136,9 +136,9 @@
       <img src="https://img.shields.io/badge/Stripe_API-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe API"/>
       <img src="https://img.shields.io/badge/PayPal_API-003087?style=flat-square&logo=paypal&logoColor=white" alt="PayPal API"/>
       <img src="https://img.shields.io/badge/MercadoPago_API-009EE3?style=flat-square&logo=mercadopago&logoColor=white" alt="MercadoPago API"/>
-      <img src="https://img.shields.io/badge/암호화폐_결제_(BTC%2fSOL)-121D33?style=flat-square&logo=solana&logoColor=white" alt="Crypto Payments"/>
-      <img src="https://img.shields.io/badge/커스텀_REST_%26_GraphQL_APIs-00A1E0?style=flat-square" alt="Custom REST & GraphQL APIs"/>
-      <img src="https://img.shields.io/badge/서버사이드_트래킹-00A1E0?style=flat-square&logo=salesforce&logoColor=white" alt="Server-Side Tracking"/>
+      <img src="https://img.shields.io/badge/%E5%8A%A0%E5%AF%86%E8%B2%A8%E5%B9%A3%E6%94%AF%E4%BB%98_(BTC%2fSOL)-121D33?style=flat-square&logo=solana&logoColor=white" alt="Crypto Payments"/>
+      <img src="https://img.shields.io/badge/%E8 me2%AA%E5%AE%9A_REST_%26_GraphQL_APIs-00A1E0?style=flat-square" alt="Custom REST & GraphQL APIs"/>
+      <img src="https://img.shields.io/badge/%E4%BC%BA%E6%9C%8D%E7%AB%AF%E8%BF%BD%E8%B9%A4-00A1E0?style=flat-square&logo=salesforce&logoColor=white" alt="Server-Side Tracking"/>
       <img src="https://img.shields.io/badge/CRM-00A1E0?style=flat-square&logo=salesforce&logoColor=white" alt="CRM"/>
       <img src="https://img.shields.io/badge/ERP-714B67?style=flat-square" alt="ERP"/>
       <img src="https://img.shields.io/badge/SaaS--to--SaaS-2C3E50?style=flat-square" alt="SaaS-to-SaaS"/>
@@ -148,40 +148,40 @@
     <!-- Row 5: Web3 & Decentralized Infrastructure -->
     <td align="left" valign="middle">
       <img src="https://img.shields.io/badge/Blockchain_%26_Web3-121D33?style=flat-square&logo=blockchaindotcom&logoColor=white" alt="Blockchain & Web3"/>
-      <img src="https://img.shields.io/badge/MCP_%26_에이전트_프로토콜-000000?style=flat-square&logo=github&logoColor=white" alt="MCP & Agent Protocols"/>
-      <img src="https://img.shields.io/badge/에이전트_워크플로우-7c3aed?style=flat-square" alt="Agentic Workflows"/>
-      <img src="https://img.shields.io/badge/RBAC_%26_멀티테넌트_격리-0f172a?style=flat-square" alt="RBAC & Multi-Tenant Isolation"/>
-      <img src="https://img.shields.io/badge/Ed25519_식별자-2C3E50?style=flat-square" alt="Ed25519 Identity"/>
+      <img src="https://img.shields.io/badge/MCP_%26_%E4%BB%A3%E7%90%86%E5%8D%9F%E8%AD%B0-000000?style=flat-square&logo=github&logoColor=white" alt="MCP & Agent Protocols"/>
+      <img src="https://img.shields.io/badge/%E4%BB%A3%E7%90%86%E5%B7%A5%E4%BD%9C%E6%B5 me2%E7%A8%8B-7c3aed?style=flat-square" alt="Agentic Workflows"/>
+      <img src="https://img.shields.io/badge/RBAC_%26_%E5%A4%9A%E7%A7%9F me2%B6%E9%9A%94%E9%9B me2-0f172a?style=flat-square" alt="RBAC & Multi-Tenant Isolation"/>
+      <img src="https://img.shields.io/badge/Ed25519_%E8%BA%AB%E4%BB%BD-2C3E50?style=flat-square" alt="Ed25519 Identity"/>
       <img src="https://img.shields.io/badge/Virtuoso_Triples_%2f_SPARQL-2C3E50?style=flat-square" alt="Virtuoso Triples / SPARQL"/>
-      <img src="https://img.shields.io/badge/지식_그래프-0f172a?style=flat-square" alt="Knowledge Graphs"/>
+      <img src="https://img.shields.io/badge/%E7%9F%A5%E8%AD%98%E5%9C%96%E8%AD me2-0f172a?style=flat-square" alt="Knowledge Graphs"/>
       <img src="https://img.shields.io/badge/Local--First_%26_CRDT-064E3B?style=flat-square" alt="Local-First & CRDT"/>
     </td>
   </tr>
   <tr>
     <!-- Row 6: Research Specializations, Engineering Categories & Community Call -->
     <td align="left" valign="middle">
-      <a href="https://gist.github.com/louzt/3991f144c7d67726045af3cefc60f42a"><img src="https://img.shields.io/badge/결정론적_하네스-8b5cf6?style=flat-square" alt="Deterministic Harnesses"/></a>
+      <a href="https://gist.github.com/louzt/3991f144c7d67726045af3cefc60f42a"><img src="https://img.shields.io/badge/%E7%A2%BA%E5%AE%9A%E6%80%A7%E6%B8%AC%E8%A9 me2%E5%A5%97%E4%BB%B6-8b5cf6?style=flat-square" alt="Deterministic Harnesses"/></a>
       <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Sovereign_RAG-7c3aed?style=flat-square" alt="Sovereign RAG"/></a>
-      <img src="https://img.shields.io/badge/명세_기반_엔지니어링-0284c7?style=flat-square" alt="Spec-Driven Engineering"/>
-      <img src="https://img.shields.io/badge/Zero--Egress_보안-1F2937?style=flat-square" alt="Zero-Egress Security"/>
-      <img src="https://img.shields.io/badge/커널_%26_런타임_경화-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Kernel & Runtime Hardening"/>
-      <img src="https://img.shields.io/badge/CLA_%26_FOSS_거버넌스-004D40?style=flat-square" alt="CLA & FOSS Governance"/>
+      <img src="https://img.shields.io/badge/%E8%A6%8F%E6%A0%BC%E9 me2%B1%E5%B0 me2%E5%B7%A5%E7%A8%8B-0284c7?style=flat-square" alt="Spec-Driven Engineering"/>
+      <img src="https://img.shields.io/badge/Zero--Egress_%E5%AE%89%E5%85%A8-1F2937?style=flat-square" alt="Zero-Egress Security"/>
+      <img src="https://img.shields.io/badge/%E6%A0%B8%E5%BF%83%E8%88%87%E5%9F%B7%E8%A1%8C%E9%9A me2%E5%98 me2%E5%8C%96-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Kernel & Runtime Hardening"/>
+      <img src="https://img.shields.io/badge/CLA_%26_FOSS_%E6%B2%BB%E7%90%86-004D40?style=flat-square" alt="CLA & FOSS Governance"/>
       <a href="mailto:partnership@loust.pro"><img src="https://img.shields.io/badge/partnership%40loust.pro-0A66C2?style=flat-square&logo=minutemailer&logoColor=white" alt="partnership@loust.pro"/></a>
       <a href="mailto:partnership@loust.pro?subject=FOSS%20Community%20Collaboration"><img src="https://img.shields.io/badge/Open_to_contribute_to_FOSS%2FOSS_Communities-34A853?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="Open to contribute to FOSS/OSS Communities"/></a>
-      <a href="mailto:partnership@loust.pro?subject=Peer%20Collaboration"><img src="https://img.shields.io/badge/동료_및_흥미로운_프로젝트를_찾는_중-0284c7?style=flat-square" alt="Looking for peers & exciting projects"/></a>
+      <a href="mailto:partnership@loust.pro?subject=Peer%20Collaboration"><img src="https://img.shields.io/badge/%E5%B0%8B%E6 me2%82%E5%90%8C%E4%BC%B4%E8%88%87%E4%BB%A4%E4%BA%BA%E8%88%B4%E5%A5 me2%E7%9A%84%E5%B0%88%E6%A1%88-0284c7?style=flat-square" alt="Looking for peers & exciting projects"/></a>
     </td>
   </tr>
   <tr>
     <!-- Row 7: Roles, Infrastructure & Mindset -->
     <td align="left" valign="middle">
-      <img src="https://img.shields.io/badge/시스템_아키텍트-0f172a?style=flat-square" alt="Systems Architect"/>
+      <img src="https://img.shields.io/badge/%E7%B3%BB%E7%B5%B1%E6 me2%B6%E8%A8%88%E5%B8%AB-0f172a?style=flat-square" alt="Systems Architect"/>
       <img src="https://img.shields.io/badge/DevOps_%26_SRE-2563eb?style=flat-square&logo=kubernetes&logoColor=white" alt="DevOps & SRE"/>
-      <img src="https://img.shields.io/badge/플랫폼_엔지니어링-0891b2?style=flat-square" alt="Platform Engineering"/>
-      <img src="https://img.shields.io/badge/보안_연구원-eb0029?style=flat-square&logo=hackerone&logoColor=white" alt="Security Researcher"/>
-      <img src="https://img.shields.io/badge/제1원리_엔지니어링-6366f1?style=flat-square" alt="First-Principles Engineering"/>
-      <img src="https://img.shields.io/badge/Zero--Trust_인프라-1e293b?style=flat-square" alt="Zero-Trust Infrastructure"/>
-      <img src="https://img.shields.io/badge/커널_%26_시스템_연구-0f172a?style=flat-square&logo=linux&logoColor=white" alt="Kernel & Systems Research"/>
-      <img src="https://img.shields.io/badge/평생_학습자-7c3aed?style=flat-square" alt="Lifelong Student"/>
+      <img src="https://img.shields.io/badge/%E5%B9 me2%E8%87%BA%E5%B7%A5%E7%A8%8B-0891b2?style=flat-square" alt="Platform Engineering"/>
+      <img src="https://img.shields.io/badge/%E5%AE%89%E5%85%A8%E7%A0%94%E7%A9%B6%E5%93%A1-eb0029?style=flat-square&logo=hackerone&logoColor=white" alt="Security Researcher"/>
+      <img src="https://img.shields.io/badge/%E7%AC%AC%E4%B8%80%E5%8E%9F%E5%89%87%E5%B7%A5%E7%A8%8B-6366f1?style=flat-square" alt="First-Principles Engineering"/>
+      <img src="https://img.shields.io/badge/Zero--Trust_%E5%9F%BA%E7%A4%8D%E8%A8%AD%E6%96%BD-1e293b?style=flat-square" alt="Zero-Trust Infrastructure"/>
+      <img src="https://img.shields.io/badge/%E6%A0%B8%E5%BF%83%E8%88%87%E7%B3%BB%E7%B5%B1%E7%A0%94%E7%A9%B6-0f172a?style=flat-square&logo=linux&logoColor=white" alt="Kernel & Systems Research"/>
+      <img src="https://img.shields.io/badge/%E7 me2%9F%E8%BA%AB%E5%AD%B8%E7%BF%92%E8%80%85-7c3aed?style=flat-square" alt="Lifelong Student"/>
     </td>
   </tr>
 </table>
