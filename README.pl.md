@@ -52,7 +52,7 @@
 <!-- ============================================================ -->
 <table width="100%">
   <tr>
-  <tr>
+    <!-- Row 1: Language Switcher Row (Active: English) -->
     <td align="left" valign="middle">
       <img src="https://img.shields.io/badge/Czytaj_po-Polsku-DC143C?style=flat-square&logo=readme&logoColor=white" alt="Czytaj po Polsku"/>
       <a href="https://github.com/louzt/louzt/blob/main/README.md"><img src="https://img.shields.io/badge/Read_in-English-0093D0?style=flat-square&logo=readme&logoColor=white" alt="Read in English"/></a>
@@ -70,8 +70,8 @@
       <a href="https://github.com/louzt/louzt/blob/main/README.hi.md"><img src="https://img.shields.io/badge/%E0%A4%A8%E0%A5%80%E0%A4%9A%E0%A5%87_%E0%A4%A5%E0%A5%80-%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80-%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80-FF9933?style=flat-square&logo=readme&logoColor=white" alt="हिन्दी में पढ़ें"/></a>
     </td>
   </tr>
-  <tr>
     <!-- Row 2: Contact channels & Schedule a meeting & Spoken Languages -->
+    <td align="left" valign="middle">
     <td align="left" valign="middle">
       <a href="https://calendar.app.google/XR7FkZXWVwfmZ57x6"><img src="https://img.shields.io/badge/Zaplanuj_Spotkanie-34A853?style=flat-square&logo=googlecalendar&logoColor=white" alt="Zaplanuj spotkanie (Google Calendar)"/></a>
       <a href="https://www.linkedin.com/in/davidmirelesll/?locale=es_ES"><img src="https://img.shields.io/badge/Write_me_%26_Connect-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Write me & Connect on LinkedIn"/></a>
@@ -98,8 +98,8 @@
       <img src="https://img.shields.io/badge/%2b_wiele_innych-1E293B?style=flat-square" alt="+ many more communities"/>
     </td>
   </tr>
-  <tr>
     <!-- Row 3: Core Programming Languages & Core Engine Technologies -->
+    <td align="left" valign="middle">
     <td align="left" valign="middle">
       <img src="https://img.shields.io/badge/rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
       <img src="https://img.shields.io/badge/go-00add8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
@@ -135,8 +135,8 @@
       <img src="https://img.shields.io/badge/Zawsze_ciekawy_debugowania_w_innych_stackach-8b5cf6?style=flat-square&logoColor=white" alt="Always curious to debug in another tech stack"/>
     </td>
   </tr>
-  <tr>
     <!-- Row 4: MarTech, AdTech, PropTech, Hospitality & Commercial Tech Infrastructure -->
+    <td align="left" valign="middle">
     <td align="left" valign="middle">
       <img src="https://img.shields.io/badge/MarTech_%26_AdTech-FF5722?style=flat-square&logo=googleanalytics&logoColor=white" alt="MarTech & AdTech"/>
       <img src="https://img.shields.io/badge/PropTech_%26_Real_Estate-00897B?style=flat-square&logo=homeassistant&logoColor=white" alt="PropTech & Real Estate Tech"/>
@@ -156,8 +156,8 @@
       <img src="https://img.shields.io/badge/SaaS--to--SaaS-2C3E50?style=flat-square" alt="SaaS-to-SaaS"/>
     </td>
   </tr>
-  <tr>
     <!-- Row 5: Web3 & Decentralized Infrastructure -->
+    <td align="left" valign="middle">
     <td align="left" valign="middle">
       <img src="https://img.shields.io/badge/Blockchain_%26_Web3-121D33?style=flat-square&logo=blockchaindotcom&logoColor=white" alt="Blockchain & Web3"/>
       <img src="https://img.shields.io/badge/Protok%C5%82y_MCP_%26_Agent%C3%B3w-000000?style=flat-square&logo=github&logoColor=white" alt="MCP & Agent Protocols"/>
@@ -169,8 +169,8 @@
       <img src="https://img.shields.io/badge/Local--First_%26_CRDT-064E3B?style=flat-square" alt="Local-First & CRDT"/>
     </td>
   </tr>
-  <tr>
     <!-- Row 6: Research Specializations, Engineering Categories & Community Call -->
+    <td align="left" valign="middle">
     <td align="left" valign="middle">
       <a href="https://gist.github.com/louzt/376f48c722d4a15d7e78f940818cbade"><img src="https://img.shields.io/badge/Deterministyczne_Uprz%C4%99%C5%BCe-8b5cf6?style=flat-square" alt="Deterministic Harnesses"/></a>
       <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Sovereign_RAG-7c3aed?style=flat-square" alt="Sovereign RAG"/></a>
@@ -183,8 +183,8 @@
       <a href="mailto:partnership@loust.pro?subject=Peer%20Collaboration"><img src="https://img.shields.io/badge/Poszukuj%C4%85cy_wsp%C3%B3%C5%82pracownik%C3%B3w_%26_ciekawych_projekt%C3%B3w-0284c7?style=flat-square" alt="Looking for peers & exciting projects"/></a>
     </td>
   </tr>
-  <tr>
     <!-- Row 7: Roles, Infrastructure & Mindset -->
+    <td align="left" valign="middle">
     <td align="left" valign="middle">
       <img src="https://img.shields.io/badge/Architekt_Systemowy-0f172a?style=flat-square" alt="Systems Architect"/>
       <img src="https://img.shields.io/badge/DevOps_%26_SRE-2563eb?style=flat-square&logo=kubernetes&logoColor=white" alt="DevOps & SRE"/>
@@ -196,62 +196,61 @@
       <img src="https://img.shields.io/badge/Nauczyciel_i_Ucze%C5%84_na_Ca%C5%82e_Życie-7c3aed?style=flat-square" alt="Lifelong Student"/>
     </td>
   </tr>
-</table>
 
 <div align="center">
+<div align="center">
   <img alt="Systems Architecture &amp; Operational Posture — section banner" src="https://raw.githubusercontent.com/louzt/louzt/main/static/section-tactical-posture.svg" width="100%" />
-</div>
 
-I maintain a prophylactic, respectful, and deterministic engineering posture — continuously calibrating reasoning, transport layers, and operational workflows against empirical evidence. I design and ship production systems where the boundary between application delivery and systems engineering has to hold. Most of my work is research-flavored engineering: the abstractions are reusable, the proofs are formal where they need to be, and the operational evidence is auditable end-to-end.
+Utrzymuję prewencyjną, pełną szacunku i deterministyczną postawę inżynierską — nieustannie kalibrując rozumowanie, warstwy transportowe i procedury operacyjne na podstawie dowodów empirycznych. Projektuję i dostarczam systemy produkcyjne, w których granica między dostarczaniem aplikacji a inżynierią systemową musi pozostać nienaruszona. Większość mojej pracy do inżynieria o profilu badawczym: abstrakcje są wielokrotnego użytku, dowody formalne tam, gdzie powinny być, a dowody operacyjne audytowalne od początku do końca.
 
 <blockquote style="border-left: 3px solid #10b981; background: #0f172a; padding: 12px 16px; margin: 16px 0; border-radius: 0 6px 6px 0; color: #e2e8f0;">
+<blockquote style="border-left: 3px solid #10b981; background: #0f172a; padding: 12px 16px; margin: 16px 0; border-radius: 0 6px 6px 0; color: #e2e8f0;">
   <b>Confucius</b> <i>(Philosopher)</i>: <i>"Choose a job you love, and you will never have to work a day in your life."</i>
-</blockquote>
 
 <blockquote style="border-left: 3px solid #38bdf8; background: #0f172a; padding: 12px 16px; margin: 16px 0; border-radius: 0 6px 6px 0; color: #e2e8f0;">
+<blockquote style="border-left: 3px solid #38bdf8; background: #0f172a; padding: 12px 16px; margin: 16px 0; border-radius: 0 6px 6px 0; color: #e2e8f0;">
   <b>Rob Pike</b> <i>(Co-creator of Go &amp; UTF-8)</i>: <i>"Data dominates. If you've chosen the right data structures and organized things well, the algorithms will almost always be self-evident."</i>
-</blockquote>
 
 <blockquote style="border-left: 3px solid #8b5cf6; background: #0f172a; padding: 12px 16px; margin: 16px 0; border-radius: 0 6px 6px 0; color: #e2e8f0;">
+<blockquote style="border-left: 3px solid #8b5cf6; background: #0f172a; padding: 12px 16px; margin: 16px 0; border-radius: 0 6px 6px 0; color: #e2e8f0;">
   <b>Rich Hickey</b> <i>(Creator of Clojure &amp; Datomic)</i>: <i>"Simplicity is a prerequisite for reliability."</i>
-</blockquote>
 
 <blockquote style="border-left: 3px solid #ec4899; background: #0f172a; padding: 12px 16px; margin: 16px 0; border-radius: 0 6px 6px 0; color: #e2e8f0;">
+<blockquote style="border-left: 3px solid #ec4899; background: #0f172a; padding: 12px 16px; margin: 16px 0; border-radius: 0 6px 6px 0; color: #e2e8f0;">
   <b>Fred Brooks</b> <i>(Turing Award Winner &amp; Author of The Mythical Man-Month)</i>: <i>"Conceptual integrity is the most important consideration in system design. Good judgment comes from experience, and experience comes from bad judgment."</i>
-</blockquote>
 
 <blockquote style="border-left: 3px solid #f59e0b; background: #0f172a; padding: 12px 16px; margin: 16px 0; border-radius: 0 6px 6px 0; color: #e2e8f0;">
+<blockquote style="border-left: 3px solid #f59e0b; background: #0f172a; padding: 12px 16px; margin: 16px 0; border-radius: 0 6px 6px 0; color: #e2e8f0;">
   <b>Werner Vogels</b> <i>(CTO of Amazon)</i>: <i>"Everything fails, all the time. Design for recovery, not perfection."</i>
-</blockquote>
 
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/section-how-i-work.svg" width="100%" alt="How I work — section banner"/></p>
 
-- I approach systems engineering much like a craftsman in a workshop—studying product architecture, transport bottlenecks, and telemetry end-to-end before touching code or proposing refactors.
-- I maintain a devoted, methodical patience for extracting deterministic telemetry down to the last data point—building custom test harnesses, watchdog reapers, and verification suites whenever existing tooling leaves room for ambiguity.
-- I digest and compile raw upstream artifacts—issues, PRs, historical commit trees, and vendor API specifications—into hyper-efficient knowledge graphs for zero-overhead token budgeting, context compaction, and multi-branch differential analysis.
-- I design self-healing, self-improving systems built around explicit opportunity-cost evaluation—recognizing early on that human vision has blind spots, so the system itself must auto-calibrate, prune stale specs, and enforce invariants.
-- I execute problem-tailored SAST triage and OSINT synthesis across publicly documented vulnerabilities and technical papers, synthesizing empirical findings into reproducible test suites before validating hypotheses against candidate implementations.
-- I balance rapid innovation cycles with long-term leverage—structuring technical breakthroughs into quarterly roadmap milestones, reusable pattern libraries, and durable architecture decisions that survive maintainer churn.
-- I respect and adopt maintainer vision when contributing to external codebases—framing proposals through clear architectural dimensions (orthogonal, horizontal, or vertical) and providing minimal-scope patches that minimize reviewer friction.
-- I have operated at the intersection of systems engineering and AI agents long before commercial AI IDEs existed—building CLI-first terminal agent loops, custom MCP bridges, and publishing reproducible **Investigaciones** (detailed in the research section below).
-- I harden network, IPC, and service layers first, ensuring the underlying substrate is secure and resilient before asking application code to carry production workloads.
-- I trace edge cases directly back to runtime behavior until the underlying contract is explicit, fixing structural boundaries rather than applying superficial patches.
-- I run targeted triage, SAST, and benchmarks across C, Rust, Go, Bun, Zig, and Python in lab setups, evaluating real-world trade-offs in memory, latency, and state to build a practical pattern library.
-- I integrate new capabilities through clean, isolated adapters that respect working production logic, allowing established platforms to scale safely without breaking core business flows.
-- I address AI scaling inefficiencies at the root—optimizing local RAG substrates, execution loops, and context compaction from the bare-metal up before paying for raw model overhead.
-- I maintain a self-reliant, transparent posture: sensitive infrastructure redacted, pull requests tightly scoped, and code reviews handled as a constructive, two-way technical dialogue.
+- Ja approach systems inżynieria much like a craftsman w a pracashop—studying product architecture, transport bottlenecks, i telemetry end-to-end przed touching code or proposing refactors.
+- Ja maintain a devoted, methodical patience dla extracting deterministyczny telemetry down do ten last data point—building custom test harnesses, watchdog reapers, i verification suites whenever existing tooling leaves room dla ambiguity.
+- Ja digest i compile raw upstream artifacts—issues, PRs, historical commit trees, i vendor API specifications—w hyper-efficient knowledge graphs dla zero-overhead token budgeting, context compaction, i multi-branch differential analysis.
+- Ja design self-healing, self-improving systems built around explicit opportunity-cost evaluation—recognizing early na that human vision ma blind spots, so ten system itself must auto-calibrate, prune stale specs, i enforce invariants.
+- Ja execute problem-tailored SAST triage i OSINT synthesis w całym publicly documented vulnerabilities i technical papers, synthesizing empirical findings w reproducible test suites przed validating hypotheses against candidate implementations.
+- Ja balance rapid innovation cycles z long-term leverage—structuring technical breakthroughs w quarterly roadmap milestones, reusable pattern libraries, i durable architecture decisions that survive maintainer churn.
+- Ja respect i adopt maintainer vision gdy contributing do external codebases—framing proposals poprzez clear architectural dimensions (orthogonal, horizontal, or vertical) i providing minimal-scope patches that minimize reviewer friction.
+- Ja mają operated at ten intersection z systems inżynieria i AI agents long przed commercial AI IDEs existed—building CLI-first terminal agent loops, custom MCP bridges, i publishing reproducible **Investigaciones** (detailed w ten badania section below).
+- Ja harden netpraca, IPC, i service layers first, ensuring ten underlying substrate jest secure i resilient przed asking application code do carry produkcyjny pracaloads.
+- Ja trace edge cases directly back do środowisko uruchomieniowe behavior until ten underlying contract jest explicit, fixing structural boundaries rather than applying superficial patches.
+- Ja run targeted triage, SAST, i benchmarks w całym C, Rust, Go, Bun, Zig, i Python w lab setups, evaluating real-world trade-offs w pamięć, opóźnienie, i state do build a practical pattern library.
+- Ja integrate new capabilities poprzez clean, isolated adapters that respect pracaing produkcyjny logic, allowing established platformas do scale safely bez breaking core business flows.
+- Ja address AI scaling inefficiencies at ten root—optimizing local RAG substrates, execution loops, i context compaction z ten bare-metal up przed paying dla raw model overhead.
+- Ja maintain a self-reliant, transparent posture: sensitive infrastruktura redacted, pull requests tightly scoped, i code reviews handled as a constructive, two-way technical dialogue.
 
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/section-working-with-me.svg" width="100%" alt="Working with me — section banner"/></p>
 
-### Working with me
+[PL] ### Współpraca ze mną
 
-- **Feedback and learning** — if you see me somewhere learning to work better inside a software team, I'm interested. Senior reviewers, engineering leads, or teammates who have a specific technical observation — a code review thread, a shared codebase, a process friction — are welcome to reach out. I consider your opinion useful and treat feedback as a two-way loop, not a one-way deliverable; the best learning posture is to keep the audit trail legible on both sides.
-- **HackerOne disclosure track** — vulnerability reports and coordinated disclosure for infrastructure under our scope route through [security@loust.pro](mailto:security@loust.pro). Triaged within 72 hours; reproducible PoCs and a minimum-scope patch suggestion move reports to the front of the queue. Out-of-scope signals (DMS, PipeWire hardening) and known-busy triage windows are documented so reporters don't spin.
-- **Research collaborations** — formal proofs, deterministic systems, transport-layer hardening, sovereign AI infra. Best fit: university labs, independent PhD-track researchers, and private R&D teams working in applied-probability / IR / agent frameworks. Reach out at [badania@loust.pro](mailto:badania@loust.pro) with a 1-paragraph abstract and a concrete artifact (gist, paper draft, benchmark).
-- **OSS upstream hardening** — if you maintain an OSS project where the runtime model is well-bounded (lifecycle contracts, allocator hot paths, compositor or daemon boundaries), I'd like to talk. I take scoped PRs against the runtime boundary; bring a reproducer + a minimum-scope patch, not a slide deck. Open invite — long-running contributor or co-maintainer track.
-- **Communities and chat** — IRC, Discord, Matrix, and adjacent chat-based communities are my preferred channels over mainstream social networks. If you're active in OSS communities on those surfaces (Libera.Chat / OFTC, Matrix rooms, Discord OSS servers, project-specific channels), feel free to ping me. I read more than I write, but I value signal over volume.
-- **B2B platform work / partnerships** — long-horizon engagements only. We build the substrate, the observability, and the audit trail before declaring anything shipped — capacity for staged rollouts is the constraint, not the calendar. Reach out at [partnership@loust.pro](mailto:partnership@loust.pro).
-- **Reference policy** — I write public references for shipped work with measurable outcomes. Send the PR / artifact link and a 1-line outcome metric; I respond within a week.
+- **Feedback i learning** — if you see me somegdzie learning do praca better inside a software team, I'm interested. Senior reviewers, inżynieria leads, or teammates who mają a specific technical observation — a code review thread, a shared codebase, a process friction — są welcome do reach out. Ja consider your opinion useful i treat feedback as a two-way loop, not a one-way deliverable; ten best learning posture jest do keep ten audit trail legible na both sides.
+- **HackerOne disclosure track** — vulnerability reports i coordinated disclosure dla infrastruktura under our scope route poprzez [bezpieczeństwo@loust.pro](mailto:bezpieczeństwo@loust.pro). Triaged within 72 hours; reproducible PoCs i a minimum-scope patch suggestion move reports do ten front z ten queue. Out-of-scope signals (DMS, PipeWire hardening) i known-busy triage windows są documented so reporters don't spin.
+- **Research collaborations** — formal proofs, deterministyczny systems, transport-layer hardening, sovereign AI infra. Best fit: university labs, independent PhD-track badaniaers, i prywatne R&D teams pracaing w applied-probability / IR / agent framepracas. Reach out at [badania@loust.pro](mailto:badania@loust.pro) z a 1-paragraph abstract i a concrete artifact (gist, paper draft, benchmark).
+- **OSS upstream hardening** — if you maintain an OSS project gdzie ten środowisko uruchomieniowe model jest well-bounded (lifecycle contracts, allocator hot paths, compositor or daemon boundaries), I'd like do talk. Ja take scoped PRs against ten środowisko uruchomieniowe boundary; bring a reproducer + a minimum-scope patch, not a slide deck. Open invite — long-running contributor or co-maintainer track.
+- **Communities i chat** — IRC, Discord, Matrix, i adjacent chat-based communities są my preferred channels over mainstream social netpracas. If you're active w OSS communities na those surfaces (Libera.Chat / OFTC, Matrix rooms, Discord OSS serwers, project-specific channels), feel free do ping me. Ja read more than Ja write, but Ja value signal over volume.
+- **B2B platforma praca / partnerships** — long-horizon engagements only. We build ten substrate, ten observability, i ten audit trail przed declaring anything shipped — capacity dla staged rollouts jest ten constraint, not ten calendar. Reach out at [partnership@loust.pro](mailto:partnership@loust.pro).
+- **Reference policy** — Ja write publiczne references dla shipped praca z measurable outcomes. Send ten PR / artifact link i a 1-line outcome metric; Ja respond within a week.
 
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/divider.svg" width="100%" alt="divider"/></p>
 
@@ -260,19 +259,19 @@ I maintain a prophylactic, respectful, and deterministic engineering posture —
 <p align="center"><sub>High-rigor technical services and consulting backed by 850K+ lines of production code across 50+ delivered systems</sub></p>
 
 | Service Category | Engineering Capabilities & Tech Stack | Value Proposition & Deliverable |
+| Service Category | Engineering Capabilities & Tech Stack | Value Proposition & Deliverable |
 | :--- | :--- | :--- |
 | **Systems & Kernel Hardening** | POSIX `prctl`, C/C++, Rust, IPC, Linux daemons, container isolation, eBPF / `tcp_diag` | Eliminates memory/CPU leaks, zombie process loops, and daemon IPC hangs under heavy production loads. |
 | **Custom REST & GraphQL APIs** | TypeScript, Next.js, Apollo Server v4, Prisma, PostgreSQL, Redis Lua, APQ at scale | Sub-15ms p95 query latency, multi-tenant RBAC namespace isolation, and zero-downtime schema evolution. |
 | **MarTech & AdTech Infrastructure** | Google Ads API, Meta CAPI, TikTok Ads API, X Ads API, Server-Side Tracking, CRM/ERP | Server-side conversion attribution, zero data-loss tracking, and CFDI 4.0 automated billing integrations. |
 | **SaaS & Payment Gateway Integrations** | Stripe, PayPal, MercadoPago, Crypto (BTC/Solana), Webhooks, Microservices | Multi-currency, multi-gateway resilient billing pipelines with automated reconciliation and zero retry amplification. |
 | **Sovereign AI & Agent Control Planes** | Model Context Protocol (MCP), Sovereign RAG, Local Vector Substrates, Zero-Egress Agents | Local-first agentic workflows with bounded latency, VRAM budgeting, and continuous contract verification. |
-| **Security Audits & Zero-Trust Architecture** | SAST, CSP Level 3, Ed25519 identity transport, CA-pinning, HackerOne disclosure track | Hardened network transport, zero-egress sandboxing, and auditable vulnerability mitigation. |
 
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/section-selected-work.svg" width="100%" alt="Selected Work — section banner"/></p>
 
-Production systems that have shipped to real users, merged into upstreams, or run as long-lived client platforms. Public artefacts link out; private platforms are referenced by name only — the boundary between public proof and client-confidential work is deliberate, reviewable, and unchanged across engagements.
+Systemy produkcyjne wdrożone u rzeczywistych użytkowników, zmergowane upstream lub działające jako długowieczne platformay klienckie. Publiczne artefakty są linkowane; prywatne platformay przywołuję wyłącznie z nazwy — granica między publicznym dowodem a pracą poufną klienta jest zamierzona, możliwa do weryfikacji i niezmienna między zleceniami.
 
-**How we stay current.** Release notes get read before installs. Spec changelogs (MCP, Claude, OpenAI, Gemini, every model API we depend on) get watched continuously. Triage goes multi-layer-deep before anything ships — the goal is to understand the *vision*, *scope*, and *future steps* of anything we depend on, so the operator inherits a solid system instead of a house of cards.
+[PL] **Jak pozostajemy na bieżąco.** Przed instalacją czytam informacje o wydaniach. Dzienniki zmian specyfikacji (MCP, Claude, OpenAI, Gemini oraz każdego API modeli, od którego zależymy) są stale monitorowane. Przed wdrożeniem triage sięga wielu warstw — celem jest zrozumienie *wizji*, *zakresu* i *dalszych kroków* wszystkiego, od czego zależymy, aby operator otrzymał solidny system zamiast domku z kart.
 
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/divider.svg" width="100%" alt="divider"/></p>
 
@@ -280,6 +279,7 @@ Production systems that have shipped to real users, merged into upstreams, or ru
 
 <p align="center"><sub>Direct C/C++, Rust, and Linux kernel contributions merged into primary upstream repositories</sub></p>
 
+| Upstream Target | Technical Contribution & Global Impact | Pain Point Solved & Verification |
 | Upstream Target | Technical Contribution & Global Impact | Pain Point Solved & Verification |
 | :--- | :--- | :--- |
 | **Valve Software**<br/>`ValveSoftware/Fossilize`<br/>([PR #305](https://github.com/ValveSoftware/Fossilize/pull/305) · [#308](https://github.com/ValveSoftware/Fossilize/pull/308) · [#311](https://github.com/ValveSoftware/Fossilize/pull/311) · [#310](https://github.com/ValveSoftware/Fossilize/pull/310)) | **Eradicated 100% CPU runaway zombie processes & battery drain across millions of Steam Deck / SteamOS devices worldwide** via `PR_SET_PDEATHSIG` + `getppid` race mitigation (#305). Catalyzed multi-GPU manifest schema (#308) and authored compile-time `static_assert` type-safety guard (#311) that unblocked Valve's **+7,913 LOC `fossilize-feature-sifter` Mesa CI silicon audit suite (#310)**. | **Ranked among the only 12 contributors worldwide** to `master` (2024–2026) alongside Valve Vulkan lead Hans-Kristian Arntzen, DXVK lead Philip Rebohle, and Mesa driver leads. Benchmark: 100% elimination of orphan Vulkan shader replayers on Proton crashes. |
@@ -290,33 +290,33 @@ Production systems that have shipped to real users, merged into upstreams, or ru
 | **NVIDIA DKMS Kernel 7.0+ RFC**<br/>([Gist RFC](https://gist.github.com/louzt/1c85044d5090d19223c3f5edf426a19e)) | **Engineered forward-compat patch series for Kernel 7.0 API refactoring** (VMA locking, DMA fence signals) and `NVreg_DynamicPowerManagement=0x02` modprobe rules for Optimus USB-C D3cold hotplug panics. | Eradicates kernel panics and GPU suspend/resume lockups on hybrid laptops. Benchmark: 100% clean D3cold state transitions. |
 | **DankMaterialShell (DMS)**<br/>([PR #2972](https://github.com/AvengeMedia/DankMaterialShell/pull/2972) · [#2312](https://github.com/AvengeMedia/DankMaterialShell/pull/2312) · [#2690](https://github.com/AvengeMedia/DankMaterialShell/pull/2690) · [#1887](https://github.com/AvengeMedia/DankMaterialShell/pull/1887) · [#2311](https://github.com/AvengeMedia/DankMaterialShell/pull/2311)) | **Redesigned the plugin & theme registry subsystem** enabling user-configurable multi-source aggregation with ID-based deduplication & declaration-order priority (#2972 — adopted by maintainer for CLI, IPC server & QML UI). **Engineered Quickshell / QML Wayland shell component hardening** — VPN transient active entry leak resolution (#2312), thermal widget routing & status unification (#2690), notification auto-reload IPC hooks (#1887), multi-bar entrypoint state isolation (#2311). | Solves plugin source isolation & legacy cache migration, Wayland shell RAM bloat, transient state memory leaks, and QML rendering freezes. Benchmark: zero memory drift over multi-day continuous desktop sessions. |
 | **NGINX**<br/>([Evidence &amp; branch-split Gist](https://gist.github.com/louzt/7bdf370a28126718e7e7b69d53b0ae86)) | **Documented runtime CRLF injection vector** in NGINX via `$uri` propagation through `proxy_pass`, `proxy_set_header`, `add_header`, and `add_trailer` directives — enabling arbitrary HTTP header injection through malformed upstream variables ([nginx#590](https://github.com/nginx/nginx/pull/590) · [#1414](https://github.com/nginx/nginx/pull/1414) · [nginx-tests#55](https://github.com/nginx/nginx-tests/pull/55) · [#58](https://github.com/nginx/nginx-tests/pull/58)). | Hardens `ngx_http_proxy_module.c` + `ngx_http_headers_filter_module.c` against header smuggling. Benchmark: 4.6k–4.9k req/s on ApacheBench for valid requests with sanitization active. |
-| **Epic Games Zen Storage Server**<br/>([PR #711](https://github.com/EpicGames/zen-server/pull/711)) | **Engineered <code>--no-log-file</code> + <code>--log-json</code> runtime flags** in the Unreal Engine 5 Derived Data Cache (DDC) and asset cooking pipeline — neutralizing overlay2 page-cache thrashing + block write amplification (CoW metadata bloat) on headless Linux systemd containers. Decoupled <code>FileSink</code>/<code>ConsoleSink</code> initialization lifecycles to eliminate user-space mutex contention propagating into kernel-level <code>fdatasync</code> I/O waits. | Offloads super-linear log regex backtracking from external collectors (Loki/Vector) to native O(1) field extraction. Validated across 139 native unit test vectors with zero behavioral regressions (xmake). |
 
 <details>
-<summary><b>🏗️ Architectural Patterns Extracted from Public Upstream Hardening</b> — <i>reusable design heuristics I apply repeatedly across contributions, distilled from concrete merged patches (not abstract theory). Each pattern traces to ≥1 upstream PR where the tradeoff was tested in production.</i></summary>
+<details>
 
+<table width="100%">
 <table width="100%">
 <tr>
 <td valign="top" width="50%">
 <div style="background: #0f172a; border-left: 4px solid #38bdf8; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
 <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">🎯 Env-var-first, config-file-later</h4>
-<p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-When shipping an override flag, start with an environment variable (<code>DMS_PLUGIN_REGISTRIES</code>) instead of a config file. Zero friction for scripting, containerized deploys, and CI. Migrate to a config file only when state must persist or a UI must edit it.
+Wprowadzając flagę nadpisania, zacznij od zmiennej środowiskowej (<code>DMS_PLUGIN_REGISTRIES</code>), a nie od pliku konfiguracyjnego. Zapewnia do zerowe tarcie w skryptach, wdrożeniach kontenerowych i CI. Przenieś konfigurację do pliku dopiero wtedy, gdy stan musi być trwały lub edytowalny przez UI.
 </p>
-<p style="margin: 0; color: #94a3b8; font-size: 12px;">
-⚠️ <b>Tradeoff:</b> no validation layer until persistence arrives.<br>
-🚫 <b>When NOT to apply:</b> state-heavy config with multiple correlated fields.
+</p>
+⚠️ <b>Kompromis:</b> no walidacja layer until persistence arrives.<br>
+🚫 <b>When NOT do apply:</b> state-heavy config z multiple correlated fields.
+</p>
 </p>
 </div>
 </td>
 <td valign="top" width="50%">
 <div style="background: #0f172a; border-left: 4px solid #f472b6; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
 <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">🪜 Third-caller applies</h4>
-<p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-Duplicate code OK across 2 packages. Extract a shared abstraction only when ≥3 callers need the same shape (e.g. plugins + themes + server handlers + CLI = 4 → time to extract <code>core/internal/registries</code>). Forces honest naming and shared validation, defers over-abstraction.
+Duplikacja kodu jest akceptowalna w 2 pakietach. Wydziel wspólną abstrakcję dopiero, gdy ≥3 wywołujących potrzebuje tego samego kształtu (np. plugins + themes + serwer handlers + CLI = 4 → czas wydzielić <code>core/internal/registries</code>). Wymusza do uczciwe nazewnictwo i wspólną walidację oraz odracza nadmierną abstrakcję.
 </p>
-<p style="margin: 0; color: #94a3b8; font-size: 12px;">
-⚠️ <b>Tradeoff:</b> brief duplication tax; eliminates premature abstraction.
+</p>
+⚠️ <b>Kompromis:</b> brief duplication tax; eliminates premature abstraction.
+</p>
 </p>
 </div>
 </td>
@@ -325,22 +325,22 @@ Duplicate code OK across 2 packages. Extract a shared abstraction only when ≥3
 <td valign="top" width="50%">
 <div style="background: #0f172a; border-left: 4px solid #34d399; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
 <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">🔁 Idempotent cache migration by signature</h4>
-<p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-When restructuring on-disk state, detect legacy by <b>what it looks like</b> (e.g. <code>&lt;cache&gt;/.git</code> present, or flat <code>&lt;cache&gt;/plugins/</code> directory) — not by version number. Migration must be a no-op when the new layout already exists, so re-runs are safe and concurrent processes don't corrupt state.
+When restructuring on-disk state, detect legacy by <b>what it looks like</b> (e.g. <code>&lt;cache&gt;/.git</code> present, or flat <code>&lt;cache&gt;/plugins/</code> directory) — not by version number. Migration must be a no-op gdy ten new layout already exists, so re-runs są safe i współbieżny processes don't corrupt state.
 </p>
-<p style="margin: 0; color: #94a3b8; font-size: 12px;">
-⚠️ <b>Tradeoff:</b> heuristic detection requires defensive <code>os.IsNotExist</code> handling.
+</p>
+⚠️ <b>Kompromis:</b> heuristic detection requires defensive <code>os.IsNotExist</code> handling.
+</p>
 </p>
 </div>
 </td>
 <td valign="top" width="50%">
 <div style="background: #0f172a; border-left: 4px solid #facc15; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
 <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">⚖️ Declaration order = priority</h4>
-<p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-When composing multiple sources, "first hit wins" via ordered iteration. Avoid adding <code>priority: int</code> or <code>disabled: bool</code> fields — the list order <i>is</i> the priority contract. Power users can layer registries naturally: <code>official → personal → experimental</code>.
+[PL] Przy łączeniu wielu źródeł stosuj zasadę „pierwsze trafienie wygrywa” poprzez iterację w ustalonej kolejności. Unikaj dodawania pól <code>priority: int</code> lub <code>disabled: bool</code> — kolejność listy <i>jest</i> kontraktem priorytetów. Zaawansowani użytkownicy mogą naturalnie warstwować rejestry: <code>official → personal → experimental</code>.
 </p>
-<p style="margin: 0; color: #94a3b8; font-size: 12px;">
-⚠️ <b>Tradeoff:</b> no way to "skip" a registry without removing it from the list.
+</p>
+⚠️ <b>Kompromis:</b> no way do "skip" a registry bez removing it z ten list.
+</p>
 </p>
 </div>
 </td>
@@ -349,27 +349,26 @@ When composing multiple sources, "first hit wins" via ordered iteration. Avoid a
 <td valign="top" width="50%">
 <div style="background: #0f172a; border-left: 4px solid #a78bfa; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
 <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">🧩 Errors.Join for partial-failure aggregation</h4>
-<p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-When aggregating from N sources, return <code>errors.Join(errs...)</code> instead of aborting on the first error. One broken registry should not block the others. Surfacing partial state is more honest than silent failure and more useful than total abort. Traced directly from the maintainer's rewrite of <a href="https://github.com/AvengeMedia/DankMaterialShell/pull/2972">DMS #2972</a> after my first iteration aborted on first failure.
+When aggregating z N sources, return <code>errors.Join(errs...)</code> instead z aborting na ten first error. One broken registry should not block ten others. Surfacing partial state jest more honest than silent failure i more useful than total abort. Traced directly z ten maintainer's rewrite z <a href="https://github.com/AvengeMedia/DankMaterialShell/pull/2972">DMS #2972</a> po my first iteration aborted na first failure.
 </p>
-<p style="margin: 0; color: #94a3b8; font-size: 12px;">
-⚠️ <b>Tradeoff:</b> callers must inspect the joined error to know which sources failed.
+</p>
+⚠️ <b>Kompromis:</b> callers must inspect ten joined error do know which sources failed.
+</p>
 </p>
 </div>
 </td>
 <td valign="top" width="50%">
 <div style="background: #0f172a; border-left: 4px solid #fb7185; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
 <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">🛡️ Reserved name + validation regex</h4>
-<p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-Any "default + custom list" feature (registries, themes, profiles, agent fleets) needs a reserved name for the official default (<code>"official"</code>) plus a strict validation regex (<code>^[a-z0-9][a-z0-9-]{0,31}$</code>). Prevents spoofing, path traversal, and silently shadowed defaults when a config file overrides env defaults.
+Any "default + custom list" feature (registries, themes, profiles, agent fleets) needs a reserved name dla ten official default (<code>"official"</code>) plus a strict walidacja regex (<code>^[a-z0-9][a-z0-9-]{0,31}$</code>). Prevents spoofing, path traversal, i silently shadowed defaults gdy a config file overrides env defaults.
 </p>
-<p style="margin: 0; color: #94a3b8; font-size: 12px;">
-⚠️ <b>Tradeoff:</b> more upfront validation cost; eliminates an entire class of "why is my default gone" bugs.
+</p>
+⚠️ <b>Kompromis:</b> more upfront walidacja cost; eliminates an entire class z "why jest my default gone" bugs.
+</p>
 </p>
 </div>
 </td>
 </tr>
-</table>
 
 </details>
 
@@ -380,13 +379,14 @@ Any "default + custom list" feature (registries, themes, profiles, agent fleets)
 <p align="center"><sub>Production platforms, enterprise engines, autonomous agent control planes, and netcode substrates</sub></p>
 
 | System / Engine / Substrate | Technical Focus & Architecture | Operational Impact & ROI |
-| :--- | :--- | :--- |
+| System / Engine / Substrate | Technical Focus & Architecture | Operational Impact & ROI |
 | **LOUST Multi-Tenant Engine**<br/>*(Current, 7y 6m)* | Multi-tenant Next.js 16 + Apollo Server v4 + Redis 7 Lua EVAL + cgroup v2 isolation on a 135k-line GraphQL schema. Case study: [English](https://gist.github.com/louzt/64715cb9c6ec6ffdd98c5712b8fb7bac) / [Español](https://gist.github.com/louzt/0c91771bf6370f0eb47e905934ab47e8). | **90.9% APQ cache hit rate**, $p95 = 12\text{ ms}$, $+125\%$ throughput lift at $0/\text{mo}$ incremental infrastructure cost. |
+| **SocialSphereMX Multi-Tenant SaaS**<br/>([socialspheremx.loust.pro](https://socialspheremx.loust.pro)) | Multi-tenant SaaS fabric for creators, ERP for restaurants with QR menus/KDS, real-time PropTech inventory, and live Spotify/YouTube metadata streams. | **99.9% real uptime**, live API metadata ingestion, zero legacy PDF overhead, and sub-2 min lead workflows. |
 | **SocialSphereMX Multi-Tenant SaaS**<br/>([socialspheremx.loust.pro](https://socialspheremx.loust.pro)) | Multi-tenant SaaS fabric for creators, ERP for restaurants with QR menus/KDS, real-time PropTech inventory, and live Spotify/YouTube metadata streams. | **99.9% real uptime**, live API metadata ingestion, zero legacy PDF overhead, and sub-2 min lead workflows. |
 | **LZT SRE Harness**<br/>*(Private)* | Distributed data plane in Rust + Go: asymmetric cognitive routing, 3-way semantic sync + Bayesian Stream Guard (<0.5s kill-switch). | Decouples agent reasoning from provider volatility; **99.5% effective cache rate** and drastically reduced token burn-rate. |
 | **H4KKEN Fighting Game Engine**<br/>([h4kken.loust.pro](https://h4kken.loust.pro)) | GGPO-style 30-frame rollback netcode + WebRTC/WebSocket dual transport + Babylon.js 8 WebGPU rendering. Deployed on a private VPS. | **Sub-frame input prediction (>70% accurate)**, seamless WebRTC DataChannel upgrades, and zero unauthenticated frame exposure at the transport layer. |
-| **SnapPipe**<br/>([GitHub](https://github.com/LOUST-PRO/SnapPipe)) | Identity-anchored transport toolkit written in Rust, binding sessions to Ed25519 public keys instead of `ip:port` tuples. | Solves SSH/QUIC head-of-line blocking under strict NATs/firewalls with zero unauthenticated frame exposure. |
 | **NetBoozt**<br/>([Releases](https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade/releases) · [Repo](https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade)) | Tauri v3.1 (Rust) + native C netcode + Fallback DNS module for Windows/Linux: ISP & modem DNS stall recovery, TCP window autotuning, BBR/Cubic selection, `TCP_NODELAY`, QoS DSCP, and MTU/MSS discovery. | **$+15\text{--}20\%$ real-world throughput gains** via queueing discipline, fallback DNS resilience, and zero packet loss. |
+| **h3ph43st Agent Runtime**<br/>*(Private, AGPLv3)* | Closed-core agent runtime: pruned Rust CLI (`h3ph`) talking to a multi-tenant k3s sidecar for ephemeral SAST scans. | Locked egress and isolated reasoning — client nodes never see system prompts, tool contracts, or reasoning loops. |
 | **h3ph43st Agent Runtime**<br/>*(Private, AGPLv3)* | Closed-core agent runtime: pruned Rust CLI (`h3ph`) talking to a multi-tenant k3s sidecar for ephemeral SAST scans. | Locked egress and isolated reasoning — client nodes never see system prompts, tool contracts, or reasoning loops. |
 | **Multi-Protocol Agent Transport**<br/>*(Private)* | Go + Rust proxy racing QUIC / Hysteria2 / TLS / SSH, promoting the first-healthy stream under 200ms. | Keeps agent tool-call round-trips within budget even under captive portals, mobile NATs, or restrictive firewalls. |
 | **lzt-broker-stall-reaper**<br/>([Releases](https://github.com/LOUST-PRO/lzt-broker-stall-reaper/releases) · [Repo](https://github.com/LOUST-PRO/lzt-broker-stall-reaper)) | TCP-level Linux OS watchdog in Go enumerating sockets via `ss -tnpi` and firing `tcp_diag` kernel RST on stalled long-polls. | Auto-recovers GitHub Actions runner fleets when upstream broker sockets hang indefinitely without manual intervention. |
@@ -394,30 +394,30 @@ Any "default + custom list" feature (registries, themes, profiles, agent fleets)
 | **outlook-mcp-suite**<br/>([Repo](https://github.com/LOUST-PRO/outlook-mcp-suite)) | Go 1.21 stdio MCP server with **22 tools** spanning Path A (Microsoft Graph API + OAuth 2.0 Device Code Flow) and Path C (web.outlook.com Playwright automation, ToS-sensitive), plus a defense-in-depth hook chain. | Multi-path agent access to Microsoft 365 mailboxes via clean stdio JSON-RPC — no client secrets required in Path A. |
 | **TaxonRouter**<br/>([Releases](https://github.com/LOUST-PRO/TaxonRouter/releases) · [Repo](https://github.com/LOUST-PRO/TaxonRouter)) | Dual-binary GitHub automation in Go: MCP stdio server + webhook auto-tagger microservice managing issue/PR triage. | Automated GitHub issue/PR auto-tagging, label reconciliation, and zero-dependency webhook ingestion. |
 | **nexus-engine**<br/>*(Private, multi-tenant recovery)* | Single-tenant recovery plane and backend orchestrator backing the LOUST multi-tenant SaaS — handles tenant snapshots, schema migrations, and rollback drills. | Self-healing infrastructure substrate for client-facing SaaS deployments (not a public artifact). |
-| **serpapi-mcp**<br/>([Repo](https://github.com/louzt/serpapi-mcp)) | Go stdio MCP server exposing SerpApi multi-engine search (Google + 20+ engines) behind an OAuth 2.0 / JWT handshake, dynamic <code>ResourceTemplate</code> instantiation per RFC 6570, and Anthropic Research protocol compliance. | Cuts protocol initialization handshake payload by ~97.5% via <code>ResourceTemplate</code> lazy expansion — enables frontier LLM agents to retrieve structured search context without upfront engine enumeration. |
 
 <p align="center">
+<p align="center">
   <a href="https://github.com/LOUST-PRO"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/banner-loust-pro-org.svg" width="100%" alt="LOUST-PRO Open Source &amp; Enterprise Substrates"/></a>
-</p>
 
+<table width="100%">
 <table width="100%">
   <tr>
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #f59e0b; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-amber.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Rust_/_Tauri-FFC131?style=flat-square&logo=tauri&logoColor=black" align="right" alt="Rust Tauri"/>
-          ⚡ <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade/releases" style="color: #38bdf8; text-decoration: none;"><b>NetBoozt — Network Performance, DNS Fallback &amp; Socket Tuning</b></a>
+          ⚡ <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade/releases" style="color: #38bdf8; text-decoration: none;"><b>NetBoozt — Wydajność Sieci, DNS Fallback &amp; Tuning Socketów</b></a>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Cross-platform network performance upgrade &amp; socket tuning engine built with Rust, Tauri, and native C netcode. Features an experimental <b>Fallback DNS module for Windows &amp; Linux</b> engineered to bypass unstable ISP DNS servers and carrier modem resolution stalls, alongside TCP window autotuning, BBR/Cubic congestion selection, <code>TCP_NODELAY</code>, QoS DSCP prioritization, and MTU/MSS discovery.
+        </h4>
+          Cross-platforma netpraca wydajność upgrade &amp; socket tuning engine built z Rust, Tauri, i native C netcode. Features an experimental <b>moduł zapasowego DNS dla Windows i Linux</b> engineered do bypass unstable ISP DNS serwers i carrier modem resolution stalls, alongside TCP window autotuning, BBR/Cubic congestion selection, <code>TCP_NODELAY</code>, QoS DSCP prioritization, i MTU/MSS discovery.
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Highlights:</b> +15-20% throughput lift · ISP/Modem Fallback DNS module · Windows &amp; Linux releases · BBR/Cubic tuning.
+        </p>
+[PL]           ⚡ <b>Najważniejsze cechy:</b> +15-20% throughput lift · ISP/Modem Fallback DNS module · Windows &amp; Linux releases · BBR/Cubic tuning.
+        </p>
         </p>
         <div>
-          <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade/releases"><img src="https://img.shields.io/badge/NetBoozt-Releases-FFC131?style=flat-square&logo=github&logoColor=black" alt="NetBoozt Releases"/></a>
           &nbsp;
+          <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade"><img src="https://img.shields.io/badge/NetBoozt_Repo-Explore-1E293B?style=flat-square&logo=github&logoColor=white" alt="NetBoozt Repo"/></a>
           <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade"><img src="https://img.shields.io/badge/NetBoozt_Repo-Explore-1E293B?style=flat-square&logo=github&logoColor=white" alt="NetBoozt Repo"/></a>
         </div>
       </div>
@@ -426,14 +426,14 @@ Any "default + custom list" feature (registries, themes, profiles, agent fleets)
       <div style="background: #0f172a; border-left: 4px solid #0093d0; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-cyan.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Rust_/_Security-0093D0?style=flat-square&logo=rust&logoColor=white" align="right" alt="Rust Security"/>
-          🔐 <a href="https://github.com/LOUST-PRO/SnapPipe" style="color: #38bdf8; text-decoration: none;"><b>SnapPipe — Identity &amp; Cryptographic Transport</b></a>
+          🔐 <a href="https://github.com/LOUST-PRO/SnapPipe" style="color: #38bdf8; text-decoration: none;"><b>SnapPipe — Transport Tożsamości &amp; Kryptograficzny</b></a>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          High-performance identity transport &amp; key exchange protocol written in Rust. Enforces zero-trust cryptographic handshakes, peer-to-peer session isolation, and zero-egress state synchronization across unmanaged edge nodes.
+        </h4>
+          High-wydajność identity transport &amp; key exchange protocol written w Rust. Enforces zero-trust cryptographic handshakes, peer-to-peer session isolation, i zero-egress state synchronization w całym unmanaged edge nodes.
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Highlights:</b> Zero-trust cryptographic handshakes · P2P session isolation · Pure Rust core.
+        </p>
+[PL]           ⚡ <b>Najważniejsze cechy:</b> Zero-trust cryptographic handshakes · P2P session isolation · Pure Rust core.
+        </p>
         </p>
         <div>
           <a href="https://github.com/LOUST-PRO/SnapPipe"><img src="https://img.shields.io/badge/SnapPipe_Repo-Explore-0093D0?style=flat-square&logo=github&logoColor=white" alt="SnapPipe Repo"/></a>
@@ -446,14 +446,14 @@ Any "default + custom list" feature (registries, themes, profiles, agent fleets)
       <div style="background: #0f172a; border-left: 4px solid #00add8; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-emerald.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Go_/_Ingestion-00ADD8?style=flat-square&logo=go&logoColor=white" align="right" alt="Go Ingestion"/>
-          🏷️ <a href="https://github.com/LOUST-PRO/TaxonRouter" style="color: #38bdf8; text-decoration: none;"><b>TaxonRouter — Webhook Auto-Tagger Microservice</b></a>
+          🏷️ <a href="https://github.com/LOUST-PRO/TaxonRouter" style="color: #38bdf8; text-decoration: none;"><b>TaxonRouter — Mikroserwis Auto-Tagujący Webhooki</b></a>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Concurrent Go microservice for real-time payload categorization, regex routing, and automated webhook tagging across high-throughput B2B event-driven pipelines with zero memory allocations.
+        </h4>
+          Concurrent Go microservice dla czasu rzeczywistego payload categorization, regex routing, i zautomatyzowany webhook tagging w całym wysokoprzepustowy B2B event-driven potoks z zero pamięć allocations.
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Highlights:</b> Zero-alloc Go parser · Real-time payload categorization · High concurrency.
+        </p>
+[PL]           ⚡ <b>Najważniejsze cechy:</b> Zero-alloc Go parser · Real-time payload categorization · High concurrency.
+        </p>
         </p>
         <div>
           <a href="https://github.com/LOUST-PRO/TaxonRouter"><img src="https://img.shields.io/badge/TaxonRouter_Repo-Explore-00ADD8?style=flat-square&logo=github&logoColor=white" alt="TaxonRouter Repo"/></a>
@@ -464,14 +464,14 @@ Any "default + custom list" feature (registries, themes, profiles, agent fleets)
       <div style="background: #0f172a; border-left: 4px solid #de3a11; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-red.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Rust_/_CLI-DE3A11?style=flat-square&logo=rust&logoColor=white" align="right" alt="Rust CLI"/>
-          🧹 <a href="https://github.com/LOUST-PRO/LLMmempipe" style="color: #38bdf8; text-decoration: none;"><b>LLMmempipe — LLM Export Cleaner &amp; Token-Efficient Markdown</b></a>
+          🧹 <a href="https://github.com/LOUST-PRO/LLMmempipe" style="color: #38bdf8; text-decoration: none;"><b>LLMmempipe — Czyszczalnia Eksportów LLM &amp; Markdown Efektywny Tokenowo</b></a>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Compile noisy LLM exports (ChatGPT, Claude, Gemini) into token-efficient JSONL and Markdown tailored for Claude Code, Claude Projects, and downstream agent runtimes. Deterministic schema, idempotent re-ingestion, and reproducible rebuilds across multi-provider corpora.
+        </h4>
+          Compile noisy LLM exports (ChatGPT, Claude, Gemini) w token-efficient JSONL i Markdown tailored dla Claude Code, Claude Projects, i downstream agent środowisko uruchomieniowes. Deterministic schema, idempotent re-ingestion, i reproducible rebuilds w całym multi-provider corpora.
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Highlights:</b> Token-efficient JSONL/Markdown · Multi-provider normalization · Idempotent re-ingestion for agent pipelines.
+        </p>
+          ⚡ <b>Najważniejsze cechy:</b> Token-efficient JSONL/Markdown · Multi-provider normalization · Idempotent re-ingestion dla agent potoks.
+        </p>
         </p>
         <div>
           <a href="https://github.com/LOUST-PRO/LLMmempipe"><img src="https://img.shields.io/badge/LLMmempipe_Repo-Explore-DE3A11?style=flat-square&logo=github&logoColor=white" alt="LLMmempipe Repo"/></a>
@@ -484,14 +484,14 @@ Any "default + custom list" feature (registries, themes, profiles, agent fleets)
       <div style="background: #0f172a; border-left: 4px solid #8b5cf6; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-violet.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Rust_/_GTK4-8B5CF6?style=flat-square&logo=rust&logoColor=white" align="right" alt="Rust GTK4"/>
-          🖼️ <a href="https://github.com/LOUST-PRO/paperforge" style="color: #38bdf8; text-decoration: none;"><b>paperforge — Linux Wallpaper Engine Frontend</b></a>
+          🖼️ <a href="https://github.com/LOUST-PRO/paperforge" style="color: #38bdf8; text-decoration: none;"><b>paperforge — Frontend Silnika Tapet Linux</b></a>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          MIT-licensed Rust frontend for the <b>linux-wallpaperengine Workshop</b>. Wraps Steam Workshop assets into a native Linux rendering surface with deterministic shader playback, offline scene cache, and Vulkan-backed compositor integration. Standalone desktop application — not a RAG pipeline.
+        </h4>
+          MIT-licensed Rust frontend dla ten <b>linux-wallpaperengine Workshop</b>. Wraps Steam Workshop assets w a native Linux rendering surface z deterministyczny shader playback, offline scene cache, i Vulkan-backed compositor integration. Standalone desktop application — not a RAG potok.
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Highlights:</b> Steam Workshop asset ingestion · Rust GTK4 native UI · Deterministic shader playback &amp; offline cache.
+        </p>
+[PL]           ⚡ <b>Najważniejsze cechy:</b> Steam Workshop asset ingestion · Rust GTK4 native UI · Deterministic shader playback &amp; offline cache.
+        </p>
         </p>
         <div>
           <a href="https://github.com/LOUST-PRO/paperforge"><img src="https://img.shields.io/badge/paperforge-Explore-8B5CF6?style=flat-square&logo=github&logoColor=white" alt="paperforge Repo"/></a>
@@ -502,14 +502,14 @@ Any "default + custom list" feature (registries, themes, profiles, agent fleets)
       <div style="background: #0f172a; border-left: 4px solid #10b981; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-emerald.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Dev_Directory-10B981?style=flat-square&logo=opensourceinitiative&logoColor=white" align="right" alt="Dev Directory"/>
-          🤝 <a href="https://github.com/LOUST-PRO/LZT-Developers" style="color: #38bdf8; text-decoration: none;"><b>LZT-Developers — YAML Dev Directory</b></a>
+          🤝 <a href="https://github.com/LOUST-PRO/LZT-Developers" style="color: #38bdf8; text-decoration: none;"><b>LZT-Developers — Katalog Deweloperów YAML</b></a>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Declarative developer directory at <a href="https://devs-github.loust.pro">devs-github.loust.pro</a>. Contributors add a single YAML file under <code>/members</code> and open a PR — zero-conflict ingestion into the public community roster. Reviewed when sourcing talent for open-source initiatives, internal CRM, and B2B contracts.
+        </h4>
+          Declarative developer directory at <a href="https://devs-github.loust.pro">devs-github.loust.pro</a>. Contributors add a single YAML file under <code>/members</code> i open a PR — zero-conflict ingestion w ten publiczne community roster. Reviewed gdy sourcing talent dla open-source initiatives, internal CRM, i B2B contracts.
         </p>
-        <p style="margin: 0 0 6px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Highlights:</b> YAML <code>/members</code> directory · Zero-conflict onboarding · devs-github.loust.pro public surface.
+        </p>
+          ⚡ <b>Najważniejsze cechy:</b> YAML <code>/members</code> directory · Zero-conflict onboarding · devs-github.loust.pro publiczne surface.
+        </p>
         </p>
         <p style="margin: 0 0 6px 0; color: #cbd5e1; font-size: 12px; line-height: 1.4;">
           <b>How to join:</b>
@@ -520,8 +520,8 @@ Any "default + custom list" feature (registries, themes, profiles, agent fleets)
           <li>Once merged, your profile surfaces on <a href="https://devs-github.loust.pro">devs-github.loust.pro</a> within the next sync window.</li>
         </ol>
         <div>
-          <a href="https://devs-github.loust.pro"><img src="https://img.shields.io/badge/Live_Directory-devs--github.loust.pro-10B981?style=flat-square&logo=googlechrome&logoColor=white" alt="Live Directory"/></a>
           &nbsp;
+          <a href="https://github.com/LOUST-PRO/LZT-Developers"><img src="https://img.shields.io/badge/Submit_YAML-PR-181717?style=flat-square&logo=github&logoColor=white" alt="Submit YAML PR"/></a>
           <a href="https://github.com/LOUST-PRO/LZT-Developers"><img src="https://img.shields.io/badge/Submit_YAML-PR-181717?style=flat-square&logo=github&logoColor=white" alt="Submit YAML PR"/></a>
         </div>
       </div>
@@ -532,14 +532,14 @@ Any "default + custom list" feature (registries, themes, profiles, agent fleets)
       <div style="background: #0f172a; border-left: 4px solid #0093d0; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-cyan.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Go_/_CalDAV-0093D0?style=flat-square&logo=apache&logoColor=white" align="right" alt="Go CalDAV Apache"/>
-          📅 <a href="https://github.com/LOUST-PRO/ical-to-caldav" style="color: #38bdf8; text-decoration: none;"><b>ical-to-caldav — iCal → CalDAV Bridge Daemon</b></a>
+          📅 <a href="https://github.com/LOUST-PRO/ical-to-caldav" style="color: #38bdf8; text-decoration: none;"><b>ical-to-caldav — Demon Mostkujący iCal → CalDAV</b></a>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Lightweight Apache-2.0 daemon that converts public iCal (<code>.ics</code>) subscription URLs into a fully-functional CalDAV server. Plugs into <code>khal</code>, DankCalendar, Evolution, Thunderbird, GNOME Calendar, and any standards-compliant CalDAV client — no vendor lock-in, no SaaS round-trips.
+        </h4>
+          Lightweight Apache-2.0 daemon that converts publiczne iCal (<code>.ics</code>) subscription URLs w a fully-functional CalDAV serwer. Plugs w <code>khal</code>, DankCalendar, Evolution, Thunderbird, GNOME Calendar, i any standards-compliant CalDAV klient — no vendor lock-in, no SaaS round-trips.
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Highlights:</b> Pure Go stdlib · Apache-2.0 · Drop-in CalDAV bridge for any <code>.ics</code> URL.
+        </p>
+          ⚡ <b>Najważniejsze cechy:</b> Pure Go stdlib · Apache-2.0 · Drop-in CalDAV bridge dla any <code>.ics</code> URL.
+        </p>
         </p>
         <div>
           <a href="https://github.com/LOUST-PRO/ical-to-caldav"><img src="https://img.shields.io/badge/ical--to--caldav-Repo-0093D0?style=flat-square&logo=github&logoColor=white" alt="ical-to-caldav Repo"/></a>
@@ -550,14 +550,14 @@ Any "default + custom list" feature (registries, themes, profiles, agent fleets)
       <div style="background: #0f172a; border-left: 4px solid #7c3aed; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-violet.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Snapshot_/_YAML-7C3AED?style=flat-square&logo=yaml&logoColor=white" align="right" alt="Snapshot YAML"/>
-          📚 <a href="https://github.com/LOUST-PRO/spec-snapshot-scraper" style="color: #38bdf8; text-decoration: none;"><b>spec-snapshot-scraper — AI-Ready Docs Corpora</b></a>
+          📚 <a href="https://github.com/LOUST-PRO/spec-snapshot-scraper" style="color: #38bdf8; text-decoration: none;"><b>spec-snapshot-scraper — Korpusy Dokumentacji Gotowe dla AI</b></a>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Snapshot tool for creating AI-ready documentation corpora. Supports web crawling, GitHub trees, and URL lists with deterministic versioning, change tracking, and YAML metadata headers. Engineered as upstream substrate for Sovereign RAG ingestion pipelines and offline spec mirrors.
+        </h4>
+          Snapshot tool dla creating AI-ready documentation corpora. Supports web crawling, GitHub trees, i URL lists z deterministyczny versioning, change tracking, i YAML metadata headers. Engineered as upstream substrate dla Sovereign RAG ingestion potoks i offline spec mirrors.
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Highlights:</b> Web/GitHub/URL ingestion · YAML metadata headers · Versioned snapshots for offline RAG.
+        </p>
+          ⚡ <b>Najważniejsze cechy:</b> Web/GitHub/URL ingestion · YAML metadata headers · Versioned snapshots dla offline RAG.
+        </p>
         </p>
         <div>
           <a href="https://github.com/LOUST-PRO/spec-snapshot-scraper"><img src="https://img.shields.io/badge/spec--snapshot--scraper-Repo-7C3AED?style=flat-square&logo=github&logoColor=white" alt="spec-snapshot-scraper Repo"/></a>
@@ -570,14 +570,14 @@ Any "default + custom list" feature (registries, themes, profiles, agent fleets)
       <div style="background: #0f172a; border-left: 4px solid #e91e63; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-pink.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Go_/_MCP-E91E63?style=flat-square&logo=go&logoColor=white" align="right" alt="Go MCP"/>
-          🔎 <a href="https://github.com/louzt/serpapi-mcp" style="color: #38bdf8; text-decoration: none;"><b>serpapi-mcp — Multi-Engine Search MCP Server</b></a>
+          🔎 <a href="https://github.com/louzt/serpapi-mcp" style="color: #38bdf8; text-decoration: none;"><b>serpapi-mcp — Serwer MCP Wielosilnikowego Wyszukiwania</b></a>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Go stdio MCP server exposing <b>SerpApi multi-engine search</b> (Google + 20+ engines) behind an OAuth 2.0 + JWT authentication pipeline, dynamic <code>ResourceTemplate</code> instantiation per RFC 6570, and Anthropic Research protocol compliance. Engineered OIDC proxy, cryptographic state mapping for discovery validation, deterministic garbage collection rules, and memory priority constraints to optimize active context thresholds.
+        </h4>
+          Go stdio MCP serwer exposing <b>SerpApi multi-engine search</b> (Google + 20+ engines) behind an OAuth 2.0 + JWT authentication potok, dynamic <code>ResourceTemplate</code> instantiation per RFC 6570, i Anthropic Research protocol compliance. Engineered OIDC proxy, cryptographic state mapping dla discovery walidacja, deterministyczny garbage collection rules, i pamięć priority constraints do optimize active context thresholds.
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Highlights:</b> ~97.5% handshake payload reduction via <code>ResourceTemplate</code> lazy expansion · OAuth 2.0 + JWT · Anthropic Research protocol · Multi-engine fan-out.
+        </p>
+[PL]           ⚡ <b>Najważniejsze cechy:</b> ~97.5% handshake payload reduction via <code>ResourceTemplate</code> lazy expansion · OAuth 2.0 + JWT · Anthropic Research protocol · Multi-engine fan-out.
+        </p>
         </p>
         <div>
           <a href="https://github.com/louzt/serpapi-mcp"><img src="https://img.shields.io/badge/serpapi--mcp-Repo-E91E63?style=flat-square&logo=github&logoColor=white" alt="serpapi-mcp Repo"/></a>
@@ -585,23 +585,22 @@ Any "default + custom list" feature (registries, themes, profiles, agent fleets)
       </div>
     </td>
   </tr>
-</table>
 
 <details>
-<summary>Representative build signals & internal observability metrics</summary>
+<details>
 
-- **850K+ lines of production code** shipped across 50+ delivered projects (2019–2026)
-- **Knowledge Graph Compaction & Triage**: SPARQL/TriG corpus indexation digesting historical issues, PRs, and commit diffs vs local forks for zero-overhead token budgeting and multi-branch differential analysis
-- **Custom SAST & OSINT Vulnerability Scanners**: Problem-tailored static analysis rules and public OSINT threat intelligence mapping documented regressions against local codebases before patch submission
-- **Cross-Fork Differential Test Harnesses**: Multi-branch simulation suites measuring execution latency, memory footprint, and state invariance across candidate patches vs upstream forks
-- **9 packages and 391 TypeScript files** in Nexus Engine monorepo
-- **42 Prisma models and 600+ GraphQL endpoints** in production B2B multi-tenant engines
-- **Enterprise multi-tenant RBAC isolation** & autonomous agentic workflows
-- **FOSS community CLA, DMCA, and Acceptable Use (AUP)** legal governance framework
-- **50K embeddings queried in 188 ms** in GPU-oriented RAG retrieval pipelines
-- **15-20% throughput gains** in NetBoozt TCP optimization benchmarks on Windows
-- **<2 minute lead-to-quote response latency** in SYPREME conversion-attribution pipeline
-- **Atomic CFDI 4.0 invoicing pipeline** (multi-tenant e-commerce + Stripe / MercadoPago / Crypto)
+- **850K+ lines z produkcyjny code** shipped w całym 50+ delivered projects (2019–2026)
+- **Knowledge Graph Compaction & Triage**: SPARQL/TriG corpus indexation digesting historical issues, PRs, i commit diffs vs local forks dla zero-overhead token budgeting i multi-branch differential analysis
+- **Custom SAST & OSINT Vulnerability Scanners**: Problem-tailored static analysis rules i publiczne OSINT threat intelligence mapping documented regressions against local codebases przed patch submission
+- **Cross-Fork Differential Test Harnesses**: Multi-branch simulation suites measuring execution opóźnienie, pamięć footprint, i state invariance w całym candidate patches vs upstream forks
+- **9 packages i 391 TypeScript files** w Nexus Engine monorepo
+- **42 Prisma models i 600+ GraphQL endpoints** w produkcyjny B2B multi-tenant engines
+- **Enterprise multi-tenant RBAC isolation** & autonomous agentic pracaflows
+- **FOSS community CLA, DMCA, i Acceptable Use (AUP)** legal governance framepraca
+- **50K embeddings queried w 188 ms** w GPU-oriented RAG retrieval potoks
+- **15-20% throughput gains** w NetBoozt TCP optimization benchmarks na Windows
+- **<2 minute lead-to-quote response opóźnienie** w SYPREME conversion-attribution potok
+- **Atomic CFDI 4.0 invoicing potok** (multi-tenant e-commerce + Stripe / MercadoPago / Crypto)
 - **Redis channel count reduced 59 → 18** via SCAN/COUNT migration over KEYS
 
 </details>
@@ -609,23 +608,24 @@ Any "default + custom list" feature (registries, themes, profiles, agent fleets)
 
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/section-what-we-ship.svg" width="100%" alt="What we ship at loust.pro — Software company section banner"/></p>
 
-The technology provider behind my work — multi-protocol transport, hardened Linux substrate, and B2B platforms that survive multi-year horizons. Public artefacts land in **Research & Publications** and **Investigations & Notes**; this section is the product surface I run day-to-day.
+Ten technology provider behind my praca — multi-protocol transport, hardened Linux substrate, i B2B platformas that survive multi-year horizons. Public artefacts li w **Research & Publications** i **Investigations & Notes**; this section jest ten product surface Ja run day-to-day.
 
 <p align="right"><sub><em>LOUST · Leverage Opportunities Unleashing Success and Transformation</em></sub></p>
 
+<table width="100%">
 <table width="100%">
   <tr>
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #38bdf8; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" align="right" alt="Next.js"/>
           🏢 <b>Enterprise CMS</b>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Multi-tenant content, commerce, and operations platform powering dynamic marketing, ERP-lite workflows, bookings, and storefronts from a single codebase with zero-downtime schema evolution.
+        </h4>
+          Multi-tenant content, commerce, i operations platforma powering dynamic marketing, ERP-lite pracaflows, bookings, i storefronts z a single codebase z zero-downtime schema evolution.
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Highlights:</b> Isolated Postgres/Redis namespaces per tenant · 135k-line Schema · APQ @ 90.9% hit rate.
+        </p>
+[PL]           ⚡ <b>Najważniejsze cechy:</b> Isolated Postgres/Redis namespaces per tenant · 135k-line Schema · APQ @ 90.9% hit rate.
+        </p>
         </p>
         <div>
           <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
@@ -641,14 +641,14 @@ The technology provider behind my work — multi-protocol transport, hardened Li
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #8b5cf6; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white" align="right" alt="Bun"/>
           ⚡ <b>Automations Engine</b>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Event-driven rule and webhook engine for client operations. Connects Meta CAPI, Google Ads, Stripe, MercadoPago, and CFDI 4.0 invoicing into auditable pipelines with replay capability.
+        </h4>
+          Event-driven rule i webhook engine dla klient operations. Connects Meta CAPI, Google Ads, Stripe, MercadoPago, i CFDI 4.0 invoicing w auditable potoks z replay capability.
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Highlights:</b> Zero data-loss tracking · Sub-second webhook ingestion · Event replay & audit logs.
+        </p>
+[PL]           ⚡ <b>Najważniejsze cechy:</b> Zero data-loss tracking · Sub-second webhook ingestion · Event replay & audit logs.
+        </p>
         </p>
         <div>
           <img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white" alt="Bun"/>
@@ -664,14 +664,14 @@ The technology provider behind my work — multi-protocol transport, hardened Li
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #10b981; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" align="right" alt="GraphQL"/>
           📊 <b>CRM Hub</b>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Pipeline, contact, and closing surfaces designed for high-pressure sales teams. Delivers real-time lead ingestion and multi-tenant pipeline isolation.
+        </h4>
+          Pipeline, contact, i closing surfaces designed dla high-pressure sales teams. Delivers czasu rzeczywistego lead ingestion i multi-tenant potok isolation.
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Highlights:</b> &lt;2 min lead-to-quote latency under exhibition load · Native multi-tenant isolation.
+        </p>
+          ⚡ <b>Najważniejsze cechy:</b> &lt;2 min lead-to-quote opóźnienie under exhibition load · Native multi-tenant isolation.
+        </p>
         </p>
         <div>
           <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
@@ -685,14 +685,14 @@ The technology provider behind my work — multi-protocol transport, hardened Li
 <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #f59e0b; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/SaaS_/_ERP_/_MarTech-F59E0B?style=flat-square&logo=nextdotjs&logoColor=white" align="right" alt="SaaS ERP MarTech"/>
-          🌐 <a href="https://socialspheremx.loust.pro" style="color: #38bdf8; text-decoration: none;"><b>SocialSphereMX — Multi-Tenant SaaS, ERP &amp; MarTech Fabric</b></a>
+          🌐 <a href="https://socialspheremx.loust.pro" style="color: #38bdf8; text-decoration: none;"><b>SocialSphereMX — Wielodostępny SaaS, ERP &amp; MarTech</b></a>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Multi-tenant SaaS fabric &amp; MarTech ecosystem for agencies, content creators, PropTech real estate, and hospitality enterprises. Features interactive Digital MediaKits with live API metadata streams (Spotify/YouTube), cloud-native restaurant ERP (QR menus, real-time KDS, waiter UI), real-time property inventory tracking, and low-latency lead workflows. Serving as CTO &amp; Lead SaaS Architect.
+        </h4>
+          Multi-tenant SaaS fabric &amp; MarTech ecosystem dla agencies, content creators, PropTech real estate, i hospitality enterprises. Features interactive Digital MediaKits z live API metadata streams (Spotify/YouTube), cloud-native restaurant ERP (QR menus, czasu rzeczywistego KDS, waiter UI), czasu rzeczywistego property inventory tracking, i low-opóźnienie lead pracaflows. Serving as CTO &amp; Lead SaaS Architect.
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Highlights:</b> Multi-tenant SaaS core · Live Spotify/YouTube ingestion · Restaurant KDS &amp; QR ERP · PropTech inventory · 99.9% uptime.
+        </p>
+[PL]           ⚡ <b>Najważniejsze cechy:</b> Multi-tenant SaaS core · Live Spotify/YouTube ingestion · Restaurant KDS &amp; QR ERP · PropTech inventory · 99.9% uptime.
+        </p>
         </p>
         <div>
           <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js 16"/>
@@ -711,14 +711,14 @@ The technology provider behind my work — multi-protocol transport, hardened Li
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #6366f1; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Monorepo_Scaffold-6366F1?style=flat-square" align="right" alt="Monorepo Scaffold"/>
           🛠️ <b>Nexus Apps</b>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Spec-driven generator suite and monorepo scaffolding system maintaining structural consistency across multi-app deployments from a single source of truth.
+        </h4>
+          Spec-driven generator suite i monorepo scaffolding system maintaining structural consistency w całym multi-app deployments z a single source z truth.
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Highlights:</b> 9 packages &amp; 391 TypeScript files · Deterministic code gen · Shared types.
+        </p>
+[PL]           ⚡ <b>Najważniejsze cechy:</b> 9 packages &amp; 391 TypeScript files · Deterministic code gen · Shared types.
+        </p>
         </p>
         <div>
           <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
@@ -732,14 +732,14 @@ The technology provider behind my work — multi-protocol transport, hardened Li
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #ec4899; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Stripe_Connect-635BFF?style=flat-square&logo=stripe&logoColor=white" align="right" alt="Stripe Connect"/>
           🛒 <b>Marketplace</b>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Multi-vendor e-commerce platform with automated CFDI 4.0 tax invoicing, split payouts via Stripe Connect and MercadoPago, and seller directory verification.
+        </h4>
+          Multi-vendor e-commerce platforma z zautomatyzowany CFDI 4.0 tax invoicing, split payouts via Stripe Connect i MercadoPago, i seller directory verification.
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Highlights:</b> Atomic tax billing pipeline · Multi-currency payout splits · Auditable ledger.
+        </p>
+          ⚡ <b>Najważniejsze cechy:</b> Atomic tax billing potok · Multi-currency payout splits · Auditable ledger.
+        </p>
         </p>
         <div>
           <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
@@ -756,14 +756,14 @@ The technology provider behind my work — multi-protocol transport, hardened Li
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #14b8a6; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/ReAct_Loop-7C3AED?style=flat-square" align="right" alt="ReAct Loop"/>
           🤖 <b>AI Chatbot</b>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Multi-tenant conversational AI surface with ReAct reasoning loops, dynamic provider failover (MiniMax M3, ChatGPT, Claude, DeepSeek, Gemini, Llama), and CRM export.
+        </h4>
+          Multi-tenant conversational AI surface z ReAct reasoning loops, dynamic provider failover (MiniMax M3, ChatGPT, Claude, DeepSeek, Gemini, Llama), i CRM export.
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Highlights:</b> Bounded token retry budgets · Tenant-isolated Redis memory · Live human handoff.
+        </p>
+          ⚡ <b>Najważniejsze cechy:</b> Bounded token retry budgets · Tenant-isolated Redis pamięć · Live human handoff.
+        </p>
         </p>
         <div>
           <img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white" alt="Bun"/>
@@ -784,14 +784,14 @@ The technology provider behind my work — multi-protocol transport, hardened Li
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #a855f7; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <h4 style="margin: 0 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white" align="right" alt="ORCID"/>
           📚 <b>Public Research Notes</b>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Long-form research notes, paper drafts, and open-access security writeups on sovereign RAG, transport-layer hardening, kernel regressions, and infrastructure audits.
+        </h4>
+          Long-form badania notes, paper drafts, i open-access bezpieczeństwo writeups na sovereign RAG, transport-layer hardening, kernel regressions, i infrastruktura audits.
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Highlights:</b> Public-by-default R&amp;D · Formal theorems &amp; PoCs · Machine-readable MDX.
+        </p>
+[PL]           ⚡ <b>Najważniejsze cechy:</b> Public-by-default R&amp;D · Formal theorems &amp; PoCs · Machine-readable MDX.
+        </p>
         </p>
         <div>
           <img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" alt="Astro"/>
@@ -802,128 +802,129 @@ The technology provider behind my work — multi-protocol transport, hardened Li
       </div>
     </td>
   </tr>
-</table>
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/section-research-and-publications.svg" width="100%" alt="Research and Publications — section banner"/></p>
 
-Long-form research notes, paper drafts, and proof chains I maintain as part of day-to-day work. Each entry has a concrete artifact (gist, draft, or measurement) — no abstract ambitions.
+[PL] Obszerne notatki badawcze, szkice artykułów i łańcuchy dowodowe, które tworzę w codziennej pracy. Każdy wpis ma konkretny artefakt (gist, szkic lub pomiar) — bez abstrakcyjnych ambicji.
 
 <blockquote style="border-left: 4px solid #8b5cf6; background: #0f172a; padding: 20px; margin: 20px 0; border-radius: 0 8px 8px 0; color: #e2e8f0;">
-  <h4 style="margin: 0 0 10px 0; color: #f8fafc;">
-    🔬 <b>Deterministic Sovereign RAG via Signed-Hash Projection</b> (paper draft, 2026)
+<blockquote style="border-left: 4px solid #8b5cf6; background: #0f172a; padding: 20px; margin: 20px 0; border-radius: 0 8px 8px 0; color: #e2e8f0;">
+[PL]     🔬 <b>Deterministic Sovereign RAG via Signed-Hash Projection</b> (paper draft, 2026)
+    <img src="https://img.shields.io/badge/Paper_Draft-7C3AED?style=flat-square&logo=latex&logoColor=white" align="right" alt="Paper Draft"/>
     <img src="https://img.shields.io/badge/Paper_Draft-7C3AED?style=flat-square&logo=latex&logoColor=white" align="right" alt="Paper Draft"/>
   </h4>
-  <p style="margin: 0 0 10px 0; color: #cbd5e1; font-size: 14px; line-height: 1.6;">
     A formal four-formula operator stack for zero-prefill, reproducible retrieval across sovereign cloud corpora without third-party vector database dependencies: <b>FNV-1a 64-bit feature hashing</b> into a fixed <code>D = 128</code> vector space, <b>$L_2$ spherical normalization</b>, cosine distance reduced to a direct dot product on the unit hypersphere $\mathbb{S}^{D-1}$, and a <b>pagination throughput window</b> ($R_{\text{throughput}}$) for upstream API rate-limit optimization.
+  </p>
   </p>
   <p style="margin: 0 0 10px 0; color: #cbd5e1; font-size: 13px; line-height: 1.5;">
     <b>Mathematical Foundations &amp; Seven Theorems:</b>
   </p>
-  <ul style="margin: 0 0 12px 0; padding-left: 20px; color: #94a3b8; font-size: 13px; line-height: 1.5;">
+    <li><b>Theorem 1 (Estimator Unbiasedness):</b> Proves $\mathbb{E}[\langle \mathbf{v}, \mathbf{w} \rangle] = \langle \mathbf{x}, \mathbf{y} \rangle$, ensuring feature hashing preserves expected inner products across unigram/bigram document tokens.</li>
     <li><b>Theorem 1 (Estimator Unbiasedness):</b> Proves $\mathbb{E}[\langle \mathbf{v}, \mathbf{w} \rangle] = \langle \mathbf{x}, \mathbf{y} \rangle$, ensuring feature hashing preserves expected inner products across unigram/bigram document tokens.</li>
     <li><b>Theorem 2 (Variance Bounds via Weinberger 2009):</b> Bounds variance $\text{Var}(\langle \mathbf{v}, \mathbf{w} \rangle) \le \frac{2}{D} \|\mathbf{x}\|_2^2 \|\mathbf{y}\|_2^2$, demonstrating linear variance decay as projection dimension $D$ scales.</li>
     <li><b>Theorem 3 (Exponential Concentration via Hanson–Wright):</b> Establishes non-asymptotic sub-exponential tail bounds $\mathbb{P}(|\langle \mathbf{v}, \mathbf{w} \rangle - \langle \mathbf{x}, \mathbf{y} \rangle| > \epsilon) \le 2 \exp(-c \min(\frac{\epsilon^2 D}{K^4}, \frac{\epsilon D}{K^2}))$, guaranteeing collision suppression without dense neural embeddings.</li>
     <li><b>Theorem 4 (Spatial Complexity):</b> Proves fixed $O(D)$ memory allocation per document vector, eliminating unbounded vector DB index bloat.</li>
     <li><b>Theorem 5 &amp; 6 (Spherical Equivalence &amp; Scale Invariance):</b> Demonstrates $1 - \cos(\mathbf{v}, \mathbf{w}) = 1 - \langle \mathbf{v}, \mathbf{w} \rangle$ on $\mathbb{S}^{D-1}$, transforming cosine search into hyper-fast SIMD dot products.</li>
-    <li><b>Theorem 7 (Operational Throughput Bound $R_{\text{throughput}}$):</b> Bounds maximum retrieval throughput under rate-limited upstream APIs ($5,000\text{ req/hour}$) to prevent quota exhaustion.</li>
   </ul>
-  <p style="margin: 0 0 10px 0; color: #e2e8f0; font-size: 13px; background: #1e293b; padding: 10px; border-radius: 4px; border-left: 3px solid #7c3aed;">
-    💡 <b>Executive Summary &amp; Financial Impact Translation:</b><br/>
+  </ul>
+    💡 <b>Streszczenie Wykonawcze &amp; Tłumaczenie Wpływu Finansowego:</b><br/>
     <i>Why this matters for your organization:</i> This mathematical stack enables your platform to query millions of internal enterprise documents locally with <b>zero third-party vector database bills</b> (saving $2K–$10K/mo on Pinecone/Weaviate) and sub-microsecond retrieval (<b>640 nanoseconds</b>). For engineering leadership, it proves an ability to architect mathematical, zero-cost, model-free AI systems that never crash under traffic bursts and keep 100% of proprietary enterprise data strictly sovereign within your infrastructure.
   </p>
-  <p style="margin: 0 0 12px 0; color: #cbd5e1; font-size: 13px;">
+  </p>
     <b>Empirical Production Benchmarks:</b> Tested on a <b>4,458-document operator corpus</b> — full index creation completed in <b>4.14 s</b> ($\sigma = 0.18\text{ s}$), top-5 vector match latency of <b>640 ns</b> ($\sigma = 85\text{ ns}$), achieving <b>0.78 top-5 recall</b>. A 25-worker concurrent stress test on the production Rust implementation (<code>DSVH</code>) validated zero lock contention and stable memory usage.
   </p>
+  </p>
   <p align="center" style="margin: 12px 0;">
-    <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Read_the_math_gist-English-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Read the Sovereign RAG math gist (English)"/></a>
+    <a href="https://gist.github.com/louzt/3063245e9e42b2a5b100e0f72bc4387a"><img src="https://img.shields.io/badge/HexCortex-Edge_Deployment_Kit-7C3AED?style=for-the-badge&logo=c&logoColor=white" alt="HexCortex Edge Deployment Kit"/></a>
     &nbsp;
     <a href="https://gist.github.com/louzt/a75f9cf1a2f2edbd5af0e8d23526871d"><img src="https://img.shields.io/badge/Leer_las_matem%C3%A1ticas-Espa%C3%B1ol-D97706?style=for-the-badge&logo=github&logoColor=white" alt="Leer las matemáticas del Sovereign RAG (Español)"/></a>
     &nbsp;
     <a href="https://github.com/LOUST-PRO/deterministic-sovereign-rag"><img src="https://img.shields.io/badge/Rust_Implementation-DSVH-0093D0?style=for-the-badge&logo=rust&logoColor=white" alt="DSVH Rust Repo"/></a>
+    <a href="https://github.com/LOUST-PRO/deterministic-sovereign-rag"><img src="https://img.shields.io/badge/Rust_Implementation-DSVH-0093D0?style=for-the-badge&logo=rust&logoColor=white" alt="DSVH Rust Repo"/></a>
   </p>
-  <p style="margin: 0; color: #64748b; font-size: 11px;">
-    Stack: Rust (DSVH) + Go (APG) + Virtuoso 7.2.6 + FNV-1a 64-bit + L2 normalization. Open question: empirical head-to-head against dense embedders (BGE-M3, multilingual) — left for future work.
+    Stack: Rust (DSVH) + Go (APG) + Virtuoso 7.2.6 + FNV-1a 64-bit + L2 normalization. Open question: empirical head-to-head against dense embedders (BGE-M3, multilingual) — left dla future praca.
   </p>
-</blockquote>
+  </p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/divider.svg" width="100%" alt="divider"/></p>
 
 <blockquote style="border-left: 4px solid #38bdf8; background: #0f172a; padding: 20px; margin: 20px 0; border-radius: 0 8px 8px 0; color: #e2e8f0;">
-  <h4 style="margin: 0 0 10px 0; color: #f8fafc;">
-    ⚡ <b>APQ at Scale on a 135k-Line GraphQL Schema</b> (case study, 2026)
+<blockquote style="border-left: 4px solid #38bdf8; background: #0f172a; padding: 20px; margin: 20px 0; border-radius: 0 8px 8px 0; color: #e2e8f0;">
+    ⚡ <b>APQ at Scale na a 135k-Line GraphQL Schema</b> (case study, 2026)
+    <img src="https://img.shields.io/badge/Case_Study-0284C7?style=flat-square&logo=graphql&logoColor=white" align="right" alt="Case Study"/>
     <img src="https://img.shields.io/badge/Case_Study-0284C7?style=flat-square&logo=graphql&logoColor=white" align="right" alt="Case Study"/>
   </h4>
-  <p style="margin: 0 0 10px 0; color: #cbd5e1; font-size: 14px; line-height: 1.6;">
-    Production empirical proof for high-throughput GraphQL APIs: <b>90.9% cache hit rate, p95 12 ms latency, +125% throughput lift, $0/mo incremental infrastructure spend</b> on the LOUST multi-tenant Next.js 16 + Apollo Server v4 stack against a massive 135k-line Prisma-derived GraphQL schema.
+    Production empirical proof dla wysokoprzepustowy GraphQL APIs: <b>90.9% cache hit rate, p95 12 ms opóźnienie, +125% throughput lift, $0/mo incremental infrastruktura spend</b> na ten LOUST multi-tenant Next.js 16 + Apollo Server v4 stack against a massive 135k-line Prisma-derived GraphQL schema.
+  </p>
   </p>
   <p style="margin: 0 0 10px 0; color: #cbd5e1; font-size: 13px; line-height: 1.5;">
     <b>Architecture &amp; Seven Formal Theorems:</b>
   </p>
-  <ul style="margin: 0 0 12px 0; padding-left: 20px; color: #94a3b8; font-size: 13px; line-height: 1.5;">
     <li><b>Theorem A.1 (APQ Hit Rate Under Zipf Traffic):</b> Derives $P(\text{hit}) \ge 1 - \frac{\zeta(s, N_{uncached}+1)}{\zeta(s)}$, proving why edge query hashing converges to >90% hit rates under realistic user access distributions.</li>
-    <li><b>Theorem B.1 (Payload Compression Bounds):</b> Proves payload reduction ratio $r_1 = \frac{\text{len}(SHA256)}{\text{len}(Query)} \approx 0.25$ for large queries, eliminating network serialization overhead.</li>
+    <li><b>Theorem A.1 (APQ Hit Rate Under Zipf Traffic):</b> Derives $P(\text{hit}) \ge 1 - \frac{\zeta(s, N_{uncached}+1)}{\zeta(s)}$, proving why edge query hashing converges to >90% hit rates under realistic user access distributions.</li>
+    <li><b>Eight Diagnostic Anchors:</b> Evaluates cgroup v2 <code>compile-runner.slice</code> CPU isolation, Circuit Breaker convergence, Zipf coverage, and Linux PSI memory pressure detection.</li>
     <li><b>Eight Diagnostic Anchors:</b> Evaluates cgroup v2 <code>compile-runner.slice</code> CPU isolation, Circuit Breaker convergence, Zipf coverage, and Linux PSI memory pressure detection.</li>
   </ul>
-  <p style="margin: 0 0 10px 0; color: #e2e8f0; font-size: 13px; background: #1e293b; padding: 10px; border-radius: 4px; border-left: 3px solid #38bdf8;">
-    💡 <b>Executive Summary &amp; Financial Impact Translation:</b><br/>
+    💡 <b>Streszczenie Wykonawcze &amp; Tłumaczenie Wpływu Finansowego:</b><br/>
     <i>Why this matters for your organization:</i> Large enterprise schemas (700+ models, 2,000+ endpoints) typically require forced multi-server database upgrades ($15K–$50K/yr) due to server-side query parsing overhead and massive JSON payloads. By persist-hashing queries at the edge (90.9% hit rate) and applying cgroup v2 build isolation, we achieved a <b>+125% capacity increase at $0/mo incremental cloud spend</b>. For engineering directors and CTOs, this demonstrates elite systems mastery that directly protects company profit margins.
   </p>
+  </p>
   <p align="center" style="margin: 12px 0;">
-    <a href="https://gist.github.com/louzt/64715cb9c6ec6ffdd98c5712b8fb7bac"><img src="https://img.shields.io/badge/Read_the_case_study-English-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Read the APQ case study (English)"/></a>
     &nbsp;
     <a href="https://gist.github.com/louzt/0c91771bf6370f0eb47e905934ab47e8"><img src="https://img.shields.io/badge/Leer_el_caso_de_estudio-Espa%C3%B1ol-D97706?style=for-the-badge&logo=github&logoColor=white" alt="Leer el caso de estudio APQ (Español)"/></a>
+    <a href="https://gist.github.com/louzt/0c91771bf6370f0eb47e905934ab47e8"><img src="https://img.shields.io/badge/Leer_el_caso_de_estudio-Espa%C3%B1ol-D97706?style=for-the-badge&logo=github&logoColor=white" alt="Leer el caso de estudio APQ (Español)"/></a>
   </p>
-  <p style="margin: 0; color: #64748b; font-size: 11px;">
-    Stack: Next.js 16 <code>cacheComponents</code> + Apollo Server v4 + <code>ApolloAPQCache</code> + Redis 7 <code>ioredis</code> keyPrefix + Lua EVAL atomic + cgroup v2 <code>compile-runner.slice</code> + self-hosted GitHub Actions runner with persistent <code>/opt/build-cache</code> volume.
+    Stack: Next.js 16 <code>cacheComponents</code> + Apollo Server v4 + <code>ApolloAPQCache</code> + Redis 7 <code>ioredis</code> keyPrefix + Lua EVAL atomic + cgroup v2 <code>compile-runner.slice</code> + self-hosted GitHub Actions runner z persistent <code>/opt/build-cache</code> volume.
   </p>
-</blockquote>
+  </p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/divider.svg" width="100%" alt="divider"/></p>
 
 <blockquote style="border-left: 4px solid #10b981; background: #0f172a; padding: 20px; margin: 20px 0; border-radius: 0 8px 8px 0; color: #e2e8f0;">
-  <h4 style="margin: 0 0 10px 0; color: #f8fafc;">
-    📡 <b>Zero-Prefill Keep-Alive Protocol &amp; Multi-Region Clock Drift</b> (operator stack paper draft, 2026)
+<blockquote style="border-left: 4px solid #10b981; background: #0f172a; padding: 20px; margin: 20px 0; border-radius: 0 8px 8px 0; color: #e2e8f0;">
+[PL]     📡 <b>Protokół Keep-Alive Zero-Prefill &amp; Dryf Zegara Multi-Region</b> (operator stack paper draft, 2026)
+    <img src="https://img.shields.io/badge/Protocol_Spec-10B981?style=flat-square&logo=go&logoColor=white" align="right" alt="Protocol Spec"/>
     <img src="https://img.shields.io/badge/Protocol_Spec-10B981?style=flat-square&logo=go&logoColor=white" align="right" alt="Protocol Spec"/>
   </h4>
-  <p style="margin: 0 0 10px 0; color: #cbd5e1; font-size: 14px; line-height: 1.6;">
-    A lightweight, deterministic keep-alive probe protocol for upstream GPU clusters and multi-region AI agent control planes. Evaluates cache-warming TTL states using a single <code>max_tokens=1</code> probe on a dynamic 5-minute Weibull heartbeat cadence, reducing VRAM re-prefill costs by <b>800× vs cold starts</b> and <b>50× vs re-compression cycles</b> under <code>5,000 req/hour</code> rate limits.
+    A lightweight, deterministyczny keep-alive probe protocol dla upstream GPU clusters i multi-region AI agent control planes. Evaluates cache-warming TTL states using a single <code>max_tokens=1</code> probe na a dynamic 5-minute Weibull heartbeat cadence, reducing VRAM re-prefill costs by <b>800× vs cold starts</b> i <b>50× vs re-compression cycles</b> under <code>5,000 req/hour</code> rate limits.
+  </p>
   </p>
   <p style="margin: 0 0 10px 0; color: #cbd5e1; font-size: 13px; line-height: 1.5;">
     <b>Core Theoretical &amp; Systems Bounds:</b>
   </p>
-  <ul style="margin: 0 0 12px 0; padding-left: 20px; color: #94a3b8; font-size: 13px; line-height: 1.5;">
     <li><b>Marzullo's 1994 Intersection Algorithm:</b> Bounds multi-region clock drift $\Delta t \le \epsilon_{\text{ntp}} + \delta_{\text{drift}}$ across distributed agent nodes.</li>
     <li><b>Lamport Monotonic Happened-Before Ordering:</b> Enforces Strict POSIX <code>CLOCK_MONOTONIC</code> clock synchronization across RPC spans.</li>
     <li><b>Weibull Survival Distribution:</b> Models VRAM cache eviction probability $\lambda(t) = \frac{k}{\lambda}\left(\frac{t}{\lambda}\right)^{k-1}$ under non-stationary LLM token workloads.</li>
   </ul>
-  <p style="margin: 0 0 10px 0; color: #e2e8f0; font-size: 13px; background: #1e293b; padding: 10px; border-radius: 4px; border-left: 3px solid #10b981;">
-    💡 <b>Executive Summary &amp; Financial Impact Translation:</b><br/>
+  </ul>
+    💡 <b>Streszczenie Wykonawcze &amp; Tłumaczenie Wpływu Finansowego:</b><br/>
+    <i>Why this matters for your organization:</i> Upstream LLM APIs and GPU clusters suffer from high "cold start" latency and expensive context re-prefilling when idle. By running a 5-minute Weibull heartbeat probe (<code>max_tokens=1</code>), we keep GPU VRAM context hot for <b>800× cheaper than cold starts</b> and <b>50× cheaper than re-compression cycles</b>. For VPs of Engineering and HR leadership, this proves rare operational maturity: zero wasted token burn, sub-second AI response times, and clock-drift-immune multi-region deployments.
     <i>Why this matters for your organization:</i> Upstream LLM APIs and GPU clusters suffer from high "cold start" latency and expensive context re-prefilling when idle. By running a 5-minute Weibull heartbeat probe (<code>max_tokens=1</code>), we keep GPU VRAM context hot for <b>800× cheaper than cold starts</b> and <b>50× cheaper than re-compression cycles</b>. For VPs of Engineering and HR leadership, this proves rare operational maturity: zero wasted token burn, sub-second AI response times, and clock-drift-immune multi-region deployments.
   </p>
-  <p style="margin: 0; color: #64748b; font-size: 11px;">
-    Stack: Go (APG) + Rust (DSVH) + Lamport happens-before ordering + Marzullo 1994 intersection bound + CLOCK_MONOTONIC + Weibull survival bounds. Documented in §5, §8, §9, and §12 of the Sovereign RAG operator paper.
+    Stack: Go (APG) + Rust (DSVH) + Lamport happens-przed ordering + Marzullo 1994 intersection bound + CLOCK_MONOTONIC + Weibull survival bounds. Documented w §5, §8, §9, i §12 z ten Sovereign RAG operator paper.
   </p>
-</blockquote>
+  </p>
 
 <blockquote style="border-left: 4px solid #f59e0b; background: #0f172a; padding: 20px; margin: 24px 0; border-radius: 0 8px 8px 0; color: #e2e8f0;">
+<blockquote style="border-left: 4px solid #f59e0b; background: #0f172a; padding: 20px; margin: 24px 0; border-radius: 0 8px 8px 0; color: #e2e8f0;">
   <h4 style="margin: 0 0 10px 0; color: #f8fafc;">
-    <img src="https://img.shields.io/badge/ROI_%26_Financial_Model-F59E0B?style=flat-square&logo=python&logoColor=white" align="right" alt="ROI &amp; Financial Model"/>
-    💰 <b>Economic Analysis &amp; Infrastructure Cost Avoidance Model</b>
+    💰 <b>Analiza Ekonomiczna &amp; Model Unikania Kosztów Infrastruktury</b>
   </h4>
-  <p style="margin: 0 0 10px 0; color: #cbd5e1; font-size: 14px; line-height: 1.6;">
-    Beyond theoretical correctness, substrate hardening is an <b>economic lever for production engineering</b>. Under post-2026 metered-AI pricing regimes and metered CI/CD runner billings, substrate regressions compound directly into operational burn. Our empirical hardening stack delivers measurable, quantifiable cost avoidance across four primary vectors:
+  </h4>
+    Beyond theoretical correctness, substrate hardening jest an <b>economic lever dla produkcyjny inżynieria</b>. Under post-2026 metered-AI pricing regimes i metered CI/CD runner billings, substrate regressions compound directly w operational burn. Our empirical hardening stack delivers measurable, quantifiable cost avoidance w całym four primary vectors:
+  </p>
   </p>
   <ul style="margin: 0 0 12px 0; padding-left: 20px; color: #94a3b8; font-size: 13px; line-height: 1.5;">
     <li><b>Metered-AI API &amp; Token Avoidance:</b> Deterministic Sovereign RAG (<code>DSVH</code>) bounds vector projection costs as a function of corpus size rather than token throughput or third-party rate cards. The <code>Zero-Prefill Keep-Alive Protocol</code> reduces token probe burn by <b>800× vs cold starts</b> and <b>50× vs re-compression cycles</b> under <code>5,000 req/hour</code> rate limits.</li>
     <li><b>Database &amp; Edge Compute Capacity Lift:</b> Persisted GraphQL (APQ at 90.9% hit rate) + Brotli q11 compression achieves a <b>+125% throughput lift at $0/mo incremental infrastructure spend</b> on 135k-line schemas, eliminating the need for database scale-ups or serverless instance multiplier tiers.</li>
     <li><b>CI/CD Build-Runner Hours Reclaim:</b> Watchdog kernel RST (<code>lzt-broker-stall-reaper</code>) and POSIX process reapers (<code>PR_SET_PDEATHSIG</code>) eliminate zombie long-poll socket hangs and runaway worker processes, reclaiming <b>hundreds of billable runner hours per month</b> across GitHub Actions fleets.</li>
-  </ul>
 
 <details>
-<summary><b>Executable Python ROI &amp; Substrate Savings Calculator</b> (click to expand)</summary>
+<details>
 
 ```python
+# Substrate ROI & Financial Cost Avoidance Calculator
 # Substrate ROI & Financial Cost Avoidance Calculator
 def calculate_substrate_savings(
     daily_queries: int = 50_000,
@@ -936,44 +937,44 @@ def calculate_substrate_savings(
     """Calculates annual financial cost avoidance from substrate hardening."""
     # 1. Local Vector RAG & Zero-Prefill Token Avoidance
     token_cost_avoided = (daily_queries * avg_tokens_per_query / 1_000) * token_api_rate_per_1k * 365
-    
+    # 2. CI/CD Runner Reclaim (preventing socket hangs & zombie leaks)
     # 2. CI/CD Runner Reclaim (preventing socket hangs & zombie leaks)
     runner_cost_reclaimed = (ci_runner_hours_monthly * 60) * ci_runner_minute_rate * 12
-    
+    # 3. Total Financial Savings
     # 3. Total Financial Savings
     total_cost_avoidance = token_cost_avoided + runner_cost_reclaimed + apq_baseline_serverless_cost
-    
+    return {
     return {
         "Token_API_Avoidance": f"${token_cost_avoided:,.2f}/yr",
         "CI_Runner_Reclaim": f"${runner_cost_reclaimed:,.2f}/yr",
         "APQ_Infra_Capacity_Lift": f"${apq_baseline_serverless_cost:,.2f}/yr",
         "Total_Annual_Cost_Avoidance": f"${total_cost_avoidance:,.2f}/yr"
     }
-
+if __name__ == "__main__":
 if __name__ == "__main__":
     print(calculate_substrate_savings())
-    # Expected Output: Total Annual Cost Avoidance ~ $78,520.00 / yr
 ```
 
 <p align="center" style="margin-top: 12px;">
-  <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Run_on-GitHub_Gist-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Run on GitHub Gist"/></a>
+<p align="center" style="margin-top: 12px;">
   &nbsp;
   <a href="https://colab.research.google.com/"><img src="https://img.shields.io/badge/Run_in-Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Run in Google Colab"/></a>
   &nbsp;
   <a href="https://replit.com/"><img src="https://img.shields.io/badge/Run_on-Replit-66788F?style=for-the-badge&logo=replit&logoColor=white" alt="Run on Replit"/></a>
   &nbsp;
   <a href="https://onecompiler.com/python"><img src="https://img.shields.io/badge/Run_on-OneCompiler-38BDF8?style=for-the-badge&logo=python&logoColor=white" alt="Run on OneCompiler"/></a>
+  <a href="https://onecompiler.com/python"><img src="https://img.shields.io/badge/Run_on-OneCompiler-38BDF8?style=for-the-badge&logo=python&logoColor=white" alt="Run on OneCompiler"/></a>
 </p>
 </details>
-</blockquote>
 
 <blockquote style="border-left: 4px solid #06b6d4; background: #0f172a; padding: 20px; margin: 20px 0; border-radius: 0 8px 8px 0; color: #e2e8f0;">
-  <h4 style="margin: 0 0 10px 0; color: #f8fafc;">
-    🧬 <b>HexCortex-H4-LRS — Class-4 Hexagonal Cellular Automata Research Suite</b> (INDAUTOR-registered, 2026)
+<blockquote style="border-left: 4px solid #06b6d4; background: #0f172a; padding: 20px; margin: 20px 0; border-radius: 0 8px 8px 0; color: #e2e8f0;">
+[PL]     🧬 <b>HexCortex-H4-LRS — Class-4 Hexagonal Cellular Automata Research Suite</b> (INDAUTOR-registered, 2026)
+    <img src="https://img.shields.io/badge/INDAUTOR-Registered-8B5CF6?style=flat-square&logo=googlescholar&logoColor=white" align="right" alt="INDAUTOR Registered"/>
     <img src="https://img.shields.io/badge/INDAUTOR-Registered-8B5CF6?style=flat-square&logo=googlescholar&logoColor=white" align="right" alt="INDAUTOR Registered"/>
   </h4>
-  <p style="margin: 0 0 10px 0; color: #cbd5e1; font-size: 14px; line-height: 1.6;">
-    Local research suite engineered for the analysis, validation, and telemetry of <b>Class-4 hexagonal cellular automata</b>, structured as a formal scientific software artifact for IP registration (INDAUTOR). Ultra-compact C99 engine mastering Shannon Entropy tracking, Floyd cycle-finding, logarithmic avalanche histograms, and runtime memory isolation — high-fidelity mathematical telemetry with zero-overhead execution and zero third-party dependencies. Foundational seed for the cybersecurity AST ecosystem currently under active development.
+    Local badania suite engineered dla ten analysis, walidacja, i telemetry z <b>Class-4 hexagonal cellular automata</b>, structured as a formal scientific software artifact dla IP registration (INDAUTOR). Ultra-compact C99 engine mastering Shannon Entropy tracking, Floyd cycle-finding, logarithmic avalanche histograms, i środowisko uruchomieniowe pamięć isolation — high-fidelity mathematical telemetry z zero-overhead execution i zero third-party dependencies. Foundational seed dla ten cyberbezpieczeństwo AST ecosystem currently under active development.
+  </p>
   </p>
   <p style="margin: 0 0 10px 0; color: #cbd5e1; font-size: 13px; line-height: 1.5;">
     <b>System Architecture &amp; Empirical Methods:</b>
@@ -985,24 +986,24 @@ if __name__ == "__main__":
     <li><b>Process isolation &amp; portable probes:</b> Strict shell scripting dynamically compiles portable C probes to evaluate cellular reservoir signatures, event routing, and state collisions in complete isolation.</li>
   </ul>
   <p align="center" style="margin: 12px 0;">
-    <a href="https://gist.github.com/louzt/3063245e9e42b2a5b100e0f72bc4387a"><img src="https://img.shields.io/badge/HexCortex-Edge_Deployment_Kit-7C3AED?style=for-the-badge&logo=c&logoColor=white" alt="HexCortex Edge Deployment Kit"/></a>
     &nbsp;
     <a href="https://gist.github.com/louzt/079e249ae2452603088863037fc9c8d1"><img src="https://img.shields.io/badge/HexCortex-CART_Decision_Tree_C99-0EA5E9?style=for-the-badge&logo=c&logoColor=white" alt="HexCortex CART C99"/></a>
     &nbsp;
     <a href="https://gist.github.com/louzt/2b2cb125abaf6ee2df9deab03ff47a72"><img src="https://img.shields.io/badge/HexCortex-Split_Criteria_Comparison-22C55E?style=for-the-badge&logo=c&logoColor=white" alt="HexCortex Split Criteria Comparison"/></a>
+    <a href="https://gist.github.com/louzt/2b2cb125abaf6ee2df9deab03ff47a72"><img src="https://img.shields.io/badge/HexCortex-Split_Criteria_Comparison-22C55E?style=for-the-badge&logo=c&logoColor=white" alt="HexCortex Split Criteria Comparison"/></a>
   </p>
-  <p style="margin: 0; color: #64748b; font-size: 11px;">
-    Stack: C99 (no heap, embedded-friendly) + Bun + TypeScript + BM25/TF-IDF + Floyd cycle-finding + Shannon Entropy + RDF triple export. Registered under INDAUTOR as the formal scientific software artifact preceding the AST ecosystem IP filings.
+    Stack: C99 (no heap, embedded-friendly) + Bun + TypeScript + BM25/TF-IDF + Floyd cycle-finding + Shannon Entropy + RDF triple export. Registered under INDAUTOR as ten formal scientific software artifact preceding ten AST ecosystem IP filings.
   </p>
-</blockquote>
+  </p>
 
 <blockquote style="border-left: 4px solid #e11d48; background: #0f172a; padding: 20px; margin: 20px 0; border-radius: 0 8px 8px 0; color: #e2e8f0;">
-  <h4 style="margin: 0 0 10px 0; color: #f8fafc;">
-    🎮 <b>Epic Games Zen Storage Server — I/O Suppression &amp; JSON Stream Architecture</b> (<a href="https://github.com/EpicGames/zen-server/pull/711">PR #711</a>, Unreal Engine 5 DDC)
+<blockquote style="border-left: 4px solid #e11d48; background: #0f172a; padding: 20px; margin: 20px 0; border-radius: 0 8px 8px 0; color: #e2e8f0;">
+    🎮 <b>Epic Games Zen Storage Server — Supresja I/O &amp; Architektura Strumieni JSON</b> (<a href="https://github.com/EpicGames/zen-server/pull/711">PR #711</a>, Unreal Engine 5 DDC)
+    <img src="https://img.shields.io/badge/Upstream_Contribution-E11D48?style=flat-square&logo=unrealengine&logoColor=white" align="right" alt="Upstream Contribution"/>
     <img src="https://img.shields.io/badge/Upstream_Contribution-E11D48?style=flat-square&logo=unrealengine&logoColor=white" align="right" alt="Upstream Contribution"/>
   </h4>
-  <p style="margin: 0 0 10px 0; color: #cbd5e1; font-size: 14px; line-height: 1.6;">
-    Contributed to <b>Epic Games' Zen Storage Server</b> — the C++20 distributed object engine powering Unreal Engine 5 <b>Derived Data Cache (DDC)</b> and asset cooking pipelines. Resolved deep structural code drift on upstream <code>main</code> (v5.8.18-pre3) to engineer a critical diagnostics isolation layer for headless Linux container and systemd environments, eliminating <b>page-cache thrashing, block write amplification (CoW metadata bloat), and worker starvation</b> during heavy asset transformations on overlay2 filesystems.
+    Contributed do <b>Epic Games' Zen Storage Server</b> — ten C++20 distributed object engine powering Unreal Engine 5 <b>Derived Data Cache (DDC)</b> i asset cooking potoks. Resolved deep structural code drift na upstream <code>main</code> (v5.8.18-pre3) do engineer a critical diagnostics isolation layer dla headless Linux container i systemd environments, eliminating <b>page-cache thrashing, block write amplification (CoW metadata bloat), i pracaer starvation</b> during heavy asset transformations na overlay2 filesystems.
+  </p>
   </p>
   <p style="margin: 0 0 10px 0; color: #cbd5e1; font-size: 13px; line-height: 1.5;">
     <b>Structural Re-architecture &amp; Validation:</b>
@@ -1013,45 +1014,45 @@ if __name__ == "__main__":
     <li><b>O(1) JSON telemetry:</b> <code>--log-json</code> offloads super-linear regex backtracking from external log collectors (Loki/Vector) into the native binary core, routing through <code>AsyncSink</code> to guarantee zero main-thread block regressions.</li>
     <li><b>API diff forensics:</b> Reconstructed stale telemetry configurations from archived public PRs to resolve complex git merge blocks on long-drifted upstream main.</li>
   </ul>
-  <p style="margin: 0 0 10px 0; color: #e2e8f0; font-size: 13px; background: #1e293b; padding: 10px; border-radius: 4px; border-left: 3px solid #e11d48;">
-    💡 <b>Executive Summary &amp; Performance Translation:</b><br/>
+    💡 <b>Streszczenie Wykonawcze &amp; Tłumaczenie Wydajności:</b><br/>
+    <i>Why this matters for your organization:</i> Heavy Unreal Engine 5 asset cooking pipelines routinely saturate Linux overlay2 storage with Copy-on-Write metadata churn, causing parallel build workers to stall in uninterruptible I/O Wait. By forcing write-zero log files and decoupling sink lifecycles, we eliminated the amplification at the OS level rather than fighting it at the application level. For VPs of Engineering and CTOs, this delivers <b>stable CI throughput under heavy DDC loads, zero worker starvation, and zero behavioral regressions across 139 native unit test vectors</b>.
     <i>Why this matters for your organization:</i> Heavy Unreal Engine 5 asset cooking pipelines routinely saturate Linux overlay2 storage with Copy-on-Write metadata churn, causing parallel build workers to stall in uninterruptible I/O Wait. By forcing write-zero log files and decoupling sink lifecycles, we eliminated the amplification at the OS level rather than fighting it at the application level. For VPs of Engineering and CTOs, this delivers <b>stable CI throughput under heavy DDC loads, zero worker starvation, and zero behavioral regressions across 139 native unit test vectors</b>.
   </p>
-  <p style="margin: 0; color: #64748b; font-size: 11px;">
-    Stack: C++20 + ZenLoggingCmdLineOptions + AsyncSink + xmake + 139 native unit test vectors + overlay2-aware I/O semantics.
+[PL]     Stack: C++20 + ZenLoggingCmdLineOptions + AsyncSink + xmake + 139 native unit test vectors + overlay2-aware I/O semantics.
   </p>
-</blockquote>
+  </p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/divider.svg" width="100%" alt="divider"/></p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/section-investigations-and-notes.svg" width="100%" alt="Investigations and Notes — section banner"/></p>
 
-Public research notes, operational forensics, and upstream patch series — indexed by technical domain with auditable code proofs and performance metrics.
+[PL] Publiczne notatki badawcze, analizy operacyjne i serie poprawek upstream — indeksowane według domen technicznych, z audytowalnymi dowodami w kodzie i metrykami wydajności.
 
 <p align="center" style="margin: 16px 0 8px 0;">
+<p align="center" style="margin: 16px 0 8px 0;">
   <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/banner-domain-systems-kernel.svg" width="100%" alt="Systems, Vulkan and Kernel Hardening Domain Banner"/>
-</p>
 
+<table width="100%">
 <table width="100%">
   <tr>
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #eb0029; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-red.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/C%2B%2B_/_Vulkan-00599C?style=flat-square&logo=cplusplus&logoColor=white" align="right" alt="C++ Vulkan"/>
-          🎮 <b>Valve/Fossilize Shader Replayer Hardening</b>
+          🎮 <b>Utwardzanie Shader Replayera Valve/Fossilize</b>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Authored <code>PR_SET_PDEATHSIG</code> + <code>getppid()</code> race check (<a href="https://github.com/ValveSoftware/Fossilize/pull/305">PR #305</a>) terminating orphan Vulkan shader replayers immediately on Steam/Proton crashes. Eradicated 100% CPU worker leaks &amp; battery drain across millions of Steam Deck / Linux gaming devices worldwide. Authored <a href="https://github.com/ValveSoftware/Fossilize/pull/311">PR #311</a> <code>static_assert</code> unblocking Valve's +7,913 LOC Mesa CI audit suite (<a href="https://github.com/ValveSoftware/Fossilize/pull/310">PR #310</a>).
+        </h4>
+          Autor weryfikacji race condition <code>PR_SET_PDEATHSIG</code> + <code>getppid()</code> (<a href="https://github.com/ValveSoftware/Fossilize/pull/305">PR #305</a>) kończącej natychmiast osierocone replayery shaderów Vulkan przy crashach Steam/Proton. Wyeliminowane 100% wycieków CPU worker i rozładowania baterii na milionach urządzeń Steam Deck / Linux gaming na całym świecie. Autor <code>static_assert</code> w <a href="https://github.com/ValveSoftware/Fossilize/pull/311">PR #311</a> odblokowującego pakiet audytu CI Mesa Valve'a z +7 913 LOC (<a href="https://github.com/ValveSoftware/Fossilize/pull/310">PR #310</a>).
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Impact:</b> Ranked #7 worldwide to <code>ValveSoftware/Fossilize</code> master (2024–2026) alongside DXVK and Mesa leads.
+        </p>
+          ⚡ <b>Wpływ:</b> Ranked #7 worldwide do <code>ValveSoftware/Fossilize</code> master (2024–2026) alongside DXVK i Mesa leads.
+        </p>
         </p>
         <div>
-          <a href="https://github.com/ValveSoftware/Fossilize/pull/305"><img src="https://img.shields.io/badge/PR_%23305-Merged-10B981?style=flat-square&logo=github&logoColor=white" alt="PR 305"/></a>
           &nbsp;
           <a href="https://github.com/ValveSoftware/Fossilize/pull/308"><img src="https://img.shields.io/badge/PR_%23308-Merged-10B981?style=flat-square&logo=github&logoColor=white" alt="PR 308"/></a>
           &nbsp;
+          <a href="https://github.com/ValveSoftware/Fossilize/pull/311"><img src="https://img.shields.io/badge/PR_%23311-Merged-10B981?style=flat-square&logo=github&logoColor=white" alt="PR 311"/></a>
           <a href="https://github.com/ValveSoftware/Fossilize/pull/311"><img src="https://img.shields.io/badge/PR_%23311-Merged-10B981?style=flat-square&logo=github&logoColor=white" alt="PR 311"/></a>
         </div>
       </div>
@@ -1060,14 +1061,14 @@ Public research notes, operational forensics, and upstream patch series — inde
       <div style="background: #0f172a; border-left: 4px solid #6366f1; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-cyan.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/NVIDIA_/_Kernel-76B900?style=flat-square&logo=nvidia&logoColor=white" align="right" alt="NVIDIA Kernel"/>
-          🐧 <b>NVIDIA DKMS Kernel 7.0+ RFC &amp; Optimus Hotplug</b>
+          🐧 <b>NVIDIA DKMS Kernel 7.0+ RFC &amp; Hotplug Optimus</b>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Engineered forward-compat RFC patch series for Kernel 7.0 API refactoring: VMA locking (<code>__is_vma_write_locked()</code>), DMA fence signals (<code>dma_fence_signal_locked()</code>), and <code>vm_flags_reset()</code> (<a href="https://gist.github.com/louzt/1c85044d5090d19223c3f5edf426a19e">RFC Gist</a>). Added <code>NVreg_DynamicPowerManagement=0x02</code> modprobe rules resolving USB-C D3cold hotplug panics on hybrid laptops.
+        </h4>
+          Engineered forward-compat RFC patch series dla Kernel 7.0 API refactoring: VMA locking (<code>__is_vma_write_locked()</code>), DMA fence signals (<code>dma_fence_signal_locked()</code>), i <code>vm_flags_reset()</code> (<a href="https://gist.github.com/louzt/1c85044d5090d19223c3f5edf426a19e">RFC Gist</a>). Added <code>NVreg_DynamicPowerManagement=0x02</code> modprobe rules resolving USB-C D3cold hotplug panics na hybrid laptops.
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Impact:</b> Eradicated kernel panics and GPU suspend/resume lockups across hybrid Optimus laptops.
+        </p>
+          ⚡ <b>Wpływ:</b> Eradicated kernel panics i GPU suspend/resume lockups w całym hybrid Optimus laptops.
+        </p>
         </p>
         <div>
           <a href="https://gist.github.com/louzt/1c85044d5090d19223c3f5edf426a19e"><img src="https://img.shields.io/badge/NVIDIA_Kernel_7.0-RFC_Gist-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA RFC Gist"/></a>
@@ -1075,30 +1076,30 @@ Public research notes, operational forensics, and upstream patch series — inde
       </div>
     </td>
   </tr>
-</table>
 
 <p align="center" style="margin: 16px 0 8px 0;">
+<p align="center" style="margin: 16px 0 8px 0;">
   <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/banner-domain-audio-desktop.svg" width="100%" alt="Audio Subsystems and Desktop Compositors Domain Banner"/>
-</p>
 
+<table width="100%">
 <table width="100%">
   <tr>
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #38bdf8; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-emerald.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/C_/_Linux_Core-FCC624?style=flat-square&logo=linux&logoColor=black" align="right" alt="Linux Audio"/>
-          🔊 <b>PipeWire &amp; Audio Subsystem Hardening</b>
+          🔊 <b>Utwardzanie PipeWire &amp; Podsystemu Audio</b>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Engineered 5s <code>spa timer</code> protocol-native connection timeout on <code>pw_protocol_native_connect_local_socket()</code> (<a href="https://github.com/louzt/pipewire/commit/2f747a7">commit 2f747a7</a>), eliminating permanent audio CLI deadlocks (<code>wpctl</code>/<code>pactl</code> hanging). Documented OpenAL Soft &amp; ALSA container buffer overrun resolutions under Distrobox/LXC.
+        </h4>
+          Engineered 5s <code>spa timer</code> protocol-native connection timeout na <code>pw_protocol_native_connect_local_socket()</code> (<a href="https://github.com/louzt/pipewire/commit/2f747a7">commit 2f747a7</a>), eliminating permanent audio CLI deadlocks (<code>wpctl</code>/<code>pactl</code> hanging). Documented OpenAL Soft &amp; ALSA container buffer overrun resolutions under Distrobox/LXC.
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Impact:</b> 100% recovery from deadlocked audio sockets across Fedora, Arch, Ubuntu, and SteamOS.
+        </p>
+          ⚡ <b>Wpływ:</b> 100% recovery z deadlocked audio sockets w całym Fedora, Arch, Ubuntu, i SteamOS.
+        </p>
         </p>
         <div>
-          <a href="https://github.com/louzt/pipewire/commit/2f747a7"><img src="https://img.shields.io/badge/PipeWire_Commit-2f747a7-38BDF8?style=flat-square&logo=github&logoColor=white" alt="PipeWire Commit"/></a>
           &nbsp;
+          <a href="https://gist.github.com/louzt/c175973d8e8bae8c8fef6af4d9d6aca7"><img src="https://img.shields.io/badge/OpenAL_Gist-Notes-7C3AED?style=flat-square&logo=github&logoColor=white" alt="OpenAL Gist"/></a>
           <a href="https://gist.github.com/louzt/c175973d8e8bae8c8fef6af4d9d6aca7"><img src="https://img.shields.io/badge/OpenAL_Gist-Notes-7C3AED?style=flat-square&logo=github&logoColor=white" alt="OpenAL Gist"/></a>
         </div>
       </div>
@@ -1107,20 +1108,20 @@ Public research notes, operational forensics, and upstream patch series — inde
       <div style="background: #0f172a; border-left: 4px solid #14b8a6; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-pink.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Async_Rust-1DB954?style=flat-square&logo=spotify&logoColor=white" align="right" alt="Async Rust"/>
-          🎵 <b>spotify-player &amp; rspotify Terminal Ecosystem</b>
+          🎵 <b>Ekosystem Terminalowy spotify-player &amp; rspotify</b>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Enabled headless terminal-native Spotify playback (TUI) with active session inheritance and zero GUI overhead. Disambiguated <code>is_active</code> Connect device presence from active playback (<code>is_playing</code>) in <code>spotify-player</code> (<a href="https://github.com/aome510/spotify-player/pull/1049">PR #1049</a>), unblocking <code>librespot</code> audio engine starvation on standby speakers. Serialized search requests (<a href="https://github.com/aome510/spotify-player/pull/1048">PR #1048</a>) eliminating 429 quota bursts. Proposed non-breaking Serde <code>#[serde(default)]</code> schema drift fallback in <code>rspotify</code> (<a href="https://github.com/ramsayleung/rspotify/issues/572">Issue #572</a>).
+        </h4>
+          Enabled headless terminal-native Spotify playback (TUI) z active session inheritance i zero GUI overhead. Disambiguated <code>is_active</code> Connect device presence z active playback (<code>is_playing</code>) w <code>spotify-player</code> (<a href="https://github.com/aome510/spotify-player/pull/1049">PR #1049</a>), unblocking <code>librespot</code> audio engine starvation na standby speakers. Serialized search requests (<a href="https://github.com/aome510/spotify-player/pull/1048">PR #1048</a>) eliminating 429 quota bursts. Proposed non-breaking Serde <code>#[serde(default)]</code> schema drift fallback w <code>rspotify</code> (<a href="https://github.com/ramsayleung/rspotify/issues/572">Issue #572</a>).
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Impact:</b> Headless TUI session inheritance, 100% elimination of HTTP 429 rate-limit spikes &amp; standby speaker playback deadlocks.
+        </p>
+          ⚡ <b>Wpływ:</b> Headless TUI session inheritance, 100% elimination z HTTP 429 rate-limit spikes &amp; standby speaker playback deadlocks.
+        </p>
         </p>
         <div>
-          <a href="https://github.com/aome510/spotify-player/pull/1049"><img src="https://img.shields.io/badge/PR_%231049-Merged-10B981?style=flat-square&logo=github&logoColor=white" alt="PR 1049"/></a>
           &nbsp;
           <a href="https://github.com/aome510/spotify-player/pull/1048"><img src="https://img.shields.io/badge/PR_%231048-Merged-10B981?style=flat-square&logo=github&logoColor=white" alt="PR 1048"/></a>
           &nbsp;
+          <a href="https://github.com/ramsayleung/rspotify/issues/572"><img src="https://img.shields.io/badge/Issue_%23572-Triaged-38BDF8?style=flat-square&logo=github&logoColor=white" alt="Issue 572"/></a>
           <a href="https://github.com/ramsayleung/rspotify/issues/572"><img src="https://img.shields.io/badge/Issue_%23572-Triaged-38BDF8?style=flat-square&logo=github&logoColor=white" alt="Issue 572"/></a>
         </div>
       </div>
@@ -1131,18 +1132,18 @@ Public research notes, operational forensics, and upstream patch series — inde
       <div style="background: #0f172a; border-left: 4px solid #10b981; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-emerald.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Rust_IPC-000000?style=flat-square&logo=rust&logoColor=white" align="right" alt="Rust IPC"/>
-          🖼️ <b>Wayland Compositor &amp; Display IPC Diagnostics</b>
+          🖼️ <b>Kompozytor Wayland &amp; Diagnostyka IPC Wyświetlania</b>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Authored pull-based typed IPC diagnostics, semantic asset labeling, and per-output mutex thread isolation across Niri Wayland display pipelines (<a href="https://gist.github.com/louzt/1c5230a2e9471faf9ce4243314361fa1">5 PRs Gist</a>). Exposed scaling filter matrix across swww/awww backends in Waypaper (<a href="https://github.com/louzt/761e227ad8cfe55b29e79cf861214a62">PR #286</a>).
+        </h4>
+          Authored pull-based typed IPC diagnostics, semantic asset labeling, i per-output mutex thread isolation w całym Niri Wayli display potoks (<a href="https://gist.github.com/louzt/1c5230a2e9471faf9ce4243314361fa1">5 PRs Gist</a>). Exposed scaling filter matrix w całym swww/awww backends w Waypaper (<a href="https://github.com/louzt/761e227ad8cfe55b29e79cf861214a62">PR #286</a>).
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Impact:</b> Zero-drop frame pacing across multi-monitor displays with heterogeneous refresh rates.
+        </p>
+          ⚡ <b>Wpływ:</b> Zero-drop frame pacing w całym multi-monitor displays z heterogeneous refresh rates.
+        </p>
         </p>
         <div>
-          <a href="https://gist.github.com/louzt/1c5230a2e9471faf9ce4243314361fa1"><img src="https://img.shields.io/badge/Niri_IPC-5_PRs_Gist-10B981?style=flat-square&logo=github&logoColor=white" alt="Niri Gist"/></a>
           &nbsp;
+          <a href="https://github.com/louzt/761e227ad8cfe55b29e79cf861214a62"><img src="https://img.shields.io/badge/Waypaper-PR_%23286-38BDF8?style=flat-square&logo=github&logoColor=white" alt="Waypaper PR"/></a>
           <a href="https://github.com/louzt/761e227ad8cfe55b29e79cf861214a62"><img src="https://img.shields.io/badge/Waypaper-PR_%23286-38BDF8?style=flat-square&logo=github&logoColor=white" alt="Waypaper PR"/></a>
         </div>
       </div>
@@ -1151,47 +1152,47 @@ Public research notes, operational forensics, and upstream patch series — inde
       <div style="background: #0f172a; border-left: 4px solid #8b5cf6; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-violet.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Web_Security-4285F4?style=flat-square&logo=googlechrome&logoColor=white" align="right" alt="Chromium Security"/>
-          🌐 <b>Chromium 148 CSP Audit &amp; Web Security</b>
+          🌐 <b>Audyt CSP Chromium 148 &amp; Bezpieczeństwo Web</b>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Identified cross-origin <code>srcdoc</code> sandbox CSP Level 3 policy collision regressions in Chromium 148 (<a href="https://gist.github.com/louzt/77f0804ca11bad6636f0ac67928bd384">Gist</a>). Accepted upstream under Opera security disclosure tracking GB-80414.
+        </h4>
+          Identified cross-origin <code>srcdoc</code> sandbox CSP Level 3 policy collision regressions w Chromium 148 (<a href="https://gist.github.com/louzt/77f0804ca11bad6636f0ac67928bd384">Gist</a>). Accepted upstream under Opera bezpieczeństwo disclosure tracking GB-80414.
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Impact:</b> Auditable security triage, CSP sandbox collision isolation, and upstream browser patch validation.
+        </p>
+          ⚡ <b>Wpływ:</b> Auditable bezpieczeństwo triage, CSP sandbox collision isolation, i upstream browser patch walidacja.
+        </p>
         </p>
         <div>
-          <a href="https://gist.github.com/louzt/77f0804ca11bad6636f0ac67928bd384"><img src="https://img.shields.io/badge/Chromium_CSP-Audit_Gist-8B5CF6?style=flat-square&logo=github&logoColor=white" alt="Chromium Gist"/></a>
           &nbsp;
+          <img src="https://img.shields.io/badge/Opera_Tracking-GB--80414-FF1B2D?style=flat-square&logo=opera&logoColor=white" alt="Opera GB-80414"/>
           <img src="https://img.shields.io/badge/Opera_Tracking-GB--80414-FF1B2D?style=flat-square&logo=opera&logoColor=white" alt="Opera GB-80414"/>
         </div>
       </div>
     </td>
   </tr>
-</table>
 
 <p align="center" style="margin: 16px 0 8px 0;">
+<p align="center" style="margin: 16px 0 8px 0;">
   <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/banner-domain-network-security.svg" width="100%" alt="Resilient Network Transport and Web Security Domain Banner"/>
-</p>
 
+<table width="100%">
 <table width="100%">
   <tr>
     <td valign="top" width="100%">
       <div style="background: #0f172a; border-left: 4px solid #f59e0b; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-amber.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Network_Eng-F59E0B?style=flat-square&logo=wireguard&logoColor=white" align="right" alt="Network Eng"/>
-          🛰️ <b>Resilient Transport Proxy &amp; Linux Telemetry</b>
+          🛰️ <b>Proxy Transportu Odpornego &amp; Telemetria Linux</b>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Engineered 5-tier fallback transport proxy racing QUIC / Hysteria2 / TLS / SSH in &lt;200 ms with CA-pinned topology (<a href="https://gist.github.com/louzt/3991f144c7d67726045af3cefc60f42a">Gist</a>). Documented Linux PSI over polling and Redis <code>KEYS</code> → <code>SCAN/COUNT</code> zero-overhead observability (<a href="https://gist.github.com/louzt/b8349629b602a782ac98d0cbfd0df0c0">Gist</a>).
+        </h4>
+          Zaprojektował 5-poziomowy transport proxy fallback wyścigowo konkurujący QUIC / Hysteria2 / TLS / SSH w &lt;200 ms z topologią CA-pinned (<a href="https://gist.github.com/louzt/3991f144c7d67726045af3cefc60f42a">Gist</a>). Udokumentował PSI Linux ponad polling oraz zero-overhead obserwowalność Redis <code>KEYS</code> → <code>SCAN/COUNT</code> (<a href="https://gist.github.com/louzt/b8349629b602a782ac98d0cbfd0df0c0">Gist</a>).
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Impact:</b> Sub-200ms transport racing across restrictive firewalls &amp; 70% reduction in Redis channel bloat.
+        </p>
+          ⚡ <b>Wpływ:</b> Sub-200ms transport racing w całym restrictive firewalls &amp; 70% reduction w Redis channel bloat.
+        </p>
         </p>
         <div>
-          <a href="https://gist.github.com/louzt/3991f144c7d67726045af3cefc60f42a"><img src="https://img.shields.io/badge/Transport-Proxy_Gist-F59E0B?style=flat-square&logo=github&logoColor=white" alt="Transport Gist"/></a>
           &nbsp;
+          <a href="https://gist.github.com/louzt/b8349629b602a782ac98d0cbfd0df0c0"><img src="https://img.shields.io/badge/Observability-PSI_Gist-10B981?style=flat-square&logo=github&logoColor=white" alt="Observability Gist"/></a>
           <a href="https://gist.github.com/louzt/b8349629b602a782ac98d0cbfd0df0c0"><img src="https://img.shields.io/badge/Observability-PSI_Gist-10B981?style=flat-square&logo=github&logoColor=white" alt="Observability Gist"/></a>
         </div>
       </div>
@@ -1202,47 +1203,47 @@ Public research notes, operational forensics, and upstream patch series — inde
       <div style="background: #0f172a; border-left: 4px solid #008000; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-green.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/NGINX_/_Security-008000?style=flat-square&logo=nginx&logoColor=white" align="right" alt="NGINX Security"/>
-          🛡️ <b>NGINX Runtime CRLF Injection Hardening &amp; Branch-Split Validation</b>
+          🛡️ <b>Utwardzanie Wstrzykiwania CRLF w Runtime NGINX &amp; Walidacja Branch-Split</b>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          NGINX powers <b>~30% of the global web</b> and is the canonical reverse-proxy / TLS terminator for the LOUST multi-tenant stack. Documented a runtime CRLF injection vector via <code>$uri</code> propagation through <code>proxy_pass</code>, <code>proxy_set_header</code>, <code>add_header</code>, and <code>add_trailer</code> directives — enabling arbitrary HTTP header smuggling through malformed upstream variables. Authored branch-split validation harness with ApacheBench measurements, plus regression tests in nginx/nginx-tests. Forwarded hardening patches as upstream PRs <a href="https://github.com/nginx/nginx/pull/590">nginx#590</a> (runtime CRLF sanitization), <a href="https://github.com/nginx/nginx/pull/1414">#1414</a> (<code>add_header</code>/<code>add_trailer</code> escape), <a href="https://github.com/nginx/nginx-tests/pull/55">nginx-tests#55</a>, and <a href="https://github.com/nginx/nginx-tests/pull/58">#58</a> (<a href="https://gist.github.com/louzt/7bdf370a28126718e7e7b69d53b0ae86">Evidence Gist</a>).
+        </h4>
+          NGINX obsługuje <b>~30% globalnego web</b> i jest kanonicznym reverse-proxy / TLS terminator dla wielodostępnego stacku LOUST. Udokumentował wektor iniekcji CRLF w runtime poprzez propagację <code>$uri</code> przez dyrektywy <code>proxy_pass</code>, <code>proxy_set_header</code>, <code>add_header</code> i <code>add_trailer</code> — umożliwiający dowolne przemycanie nagłówków HTTP przez zniekształcone zmienne upstream. Autor harnessu walidacji branch-split z pomiarami ApacheBench, plus testy regresji w nginx/nginx-tests. Przekazał patche hardeningowe jako PR-y upstream <a href="https://github.com/nginx/nginx/pull/590">nginx#590</a> (sanityzacja CRLF w runtime), <a href="https://github.com/nginx/nginx/pull/1414">#1414</a> (escape <code>add_header</code>/<code>add_trailer</code>), <a href="https://github.com/nginx/nginx-tests/pull/55">nginx-tests#55</a> i <a href="https://github.com/nginx/nginx-tests/pull/58">#58</a> (<a href="https://gist.github.com/louzt/7bdf370a28126718e7e7b69d53b0ae86">Evidence Gist</a>).
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Impact:</b> Hardens <code>ngx_http_proxy_module.c</code> + <code>ngx_http_headers_filter_module.c</code> against header smuggling · 4.6k–4.9k req/s ApacheBench throughput under sanitization.
+        </p>
+[PL]           ⚡ <b>Wpływ:</b> Hardens <code>ngx_http_proxy_module.c</code> + <code>ngx_http_headers_filter_module.c</code> against header smuggling · 4.6k–4.9k req/s ApacheBench throughput under sanitization.
+        </p>
         </p>
         <div>
-          <a href="https://gist.github.com/louzt/7bdf370a28126718e7e7b69d53b0ae86"><img src="https://img.shields.io/badge/NGINX_CRLF-Evidence_Gist-008000?style=flat-square&logo=github&logoColor=white" alt="NGINX CRLF Gist"/></a>
           &nbsp;
           <a href="https://github.com/nginx/nginx/pull/590"><img src="https://img.shields.io/badge/PR-nginx%23590-009639?style=flat-square&logo=nginx&logoColor=white" alt="PR nginx#590"/></a>
           &nbsp;
           <a href="https://github.com/nginx/nginx/pull/1414"><img src="https://img.shields.io/badge/PR-nginx%231414-009639?style=flat-square&logo=nginx&logoColor=white" alt="PR nginx#1414"/></a>
           &nbsp;
           <a href="https://github.com/nginx/nginx-tests/pull/55"><img src="https://img.shields.io/badge/PR-tests%2355-009639?style=flat-square&logo=nginx&logoColor=white" alt="PR nginx-tests#55"/></a>
+          <a href="https://github.com/nginx/nginx-tests/pull/55"><img src="https://img.shields.io/badge/PR-tests%2355-009639?style=flat-square&logo=nginx&logoColor=white" alt="PR nginx-tests#55"/></a>
         </div>
       </div>
     </td>
   </tr>
-</table>
 
 <p align="center" style="margin: 16px 0 8px 0;">
+<p align="center" style="margin: 16px 0 8px 0;">
   <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/banner-domain-agents-cloud.svg" width="100%" alt="Sovereign Agent Fleets and Kubernetes Substrates Domain Banner"/>
-</p>
 
+<table width="100%">
 <table width="100%">
   <tr>
     <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #ec4899; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-pink.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Agent_Fleet_/_Rust-EC4899?style=flat-square&logo=rust&logoColor=white" align="right" alt="Agent Fleet Rust"/>
-          🤖 <b>Sovereign Agent Fleet Provenance &amp; Git Claim Gates</b>
+          🤖 <b>Pochodzenie Suwerennej Floty Agentów &amp; Git Claim Gates</b>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Designed deterministic <code>agent_id</code> provenance tagging and subagent conversation ID audit traces across hierarchical agentic workflows. Implemented working-tree author classification (mine / foreign / mixed / unknown) with automated author email attribution gates. Engineered F80.14-aware <code>lzt-branch-claim</code> verification, preventing parallel agent branch drift or race conditions during automated PR-slicing and multi-agent code generation pipelines (<a href="https://gist.github.com/louzt/3ba453b2876a4b105a9893b26541ffc3">Gist</a>).
+        </h4>
+          Designed deterministyczny <code>agent_id</code> provenance tagging i subagent conversation ID audit traces w całym hierarchical agentic pracaflows. Implemented pracaing-tree author classification (mine / foreign / mixed / unknown) z zautomatyzowany author email attribution gates. Engineered F80.14-aware <code>lzt-branch-claim</code> verification, preventing parallel agent branch drift or race conditions during zautomatyzowany PR-slicing i multi-agent code generation potoks (<a href="https://gist.github.com/louzt/3ba453b2876a4b105a9893b26541ffc3">Gist</a>).
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Impact:</b> Zero-drift multi-agent git branch claim verification &amp; 100% auditable agent execution provenance.
+        </p>
+[PL]           ⚡ <b>Wpływ:</b> Zero-drift multi-agent git branch claim verification &amp; 100% auditable agent execution provenance.
+        </p>
         </p>
         <div>
           <a href="https://gist.github.com/louzt/3ba453b2876a4b105a9893b26541ffc3"><img src="https://img.shields.io/badge/Agent_Provenance-Gist-EC4899?style=flat-square&logo=github&logoColor=white" alt="Provenance Gist"/></a>
@@ -1253,14 +1254,14 @@ Public research notes, operational forensics, and upstream patch series — inde
       <div style="background: #0f172a; border-left: 4px solid #326ce5; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-cyan.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Netcode_/_Babylon.js-326CE5?style=flat-square&logo=webgl&logoColor=white" align="right" alt="Netcode Babylon.js"/>
-          🎮 <b>H4KKEN Fighting Game Engine &amp; GGPO Rollback Netcode</b>
+          🎮 <b>Silnik Gier Walki H4KKEN &amp; Netcode Rollback GGPO</b>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Online fighting game project with <b>GGPO-style 30-frame rollback netcode</b> and real-time P2P/serverless match orchestration. Authored the WebRTC DataChannel transport layer with Babylon.js 8 WebGPU rendering and sub-frame input prediction. Engineered identity-anchored session binding on a private VPS at <a href="https://h4kken.loust.pro">h4kken.loust.pro</a>. Public artefacts are not yet published; all design notes and benchmarks live behind the VPS firewall.
+        </h4>
+          Projekt gry walki online z <b>netcodem rollback stylu GGPO z 30 klatkami</b> i orkiestracją meczy P2P/serverless w czasie rzeczywistym. Autor warstwy transportowej WebRTC DataChannel z renderowaniem WebGPU na Babylon.js 8 oraz predykcją inputu sub-frame. Zaprojektował identity-anchored session binding na prywatnym VPS pod adresem <a href="https://h4kken.loust.pro">h4kken.loust.pro</a>. Artefakty publiczne nie są jeszcze opublikowane; wszystkie noty projektowe i benchmarki żyją za firewallem VPS.
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Impact:</b> H4KKEN rollback netcode &amp; P2P match orchestration · Sub-frame input prediction · Identity-anchored session binding.
+        </p>
+[PL]           ⚡ <b>Wpływ:</b> H4KKEN rollback netcode &amp; P2P match orchestration · Sub-frame input prediction · Identity-anchored session binding.
+        </p>
         </p>
         <div>
           <a href="https://h4kken.loust.pro"><img src="https://img.shields.io/badge/H4KKEN-Live_VPS-326CE5?style=flat-square&logo=cloudflare&logoColor=white" alt="H4KKEN Live VPS"/></a>
@@ -1273,28 +1274,28 @@ Public research notes, operational forensics, and upstream patch series — inde
       <div style="background: #0f172a; border-left: 4px solid #4caf50; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-green.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
-          <img src="https://img.shields.io/badge/Minecraft_/_k3s-4CAF50?style=flat-square&logo=linux&logoColor=white" align="right" alt="Minecraft k3s"/>
-          ⛏️ <b>Minecraft Servers on k3s Standby Auto-Scaling</b>
+          ⛏️ <b>Serwery Minecraft na Auto-Skalowaniu Standby k3s</b>
         </h4>
-        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
-          Architected serverless standby infrastructure &amp; RCON-driven auto-scaling for two Java-based <b>Minecraft servers</b> (Fabric modded + Paper vanilla) on k3s / Lightweight Kubernetes. Engineered automated RCON state polling via CronJob, atomic save/flushes, and graceful node teardowns. When zero players are active, match pods auto-scale to 0 replicas (reclaiming ~8 GB RSS RAM), achieving fast warm-start spin-up (&lt;15s) upon new player connection probes (<a href="https://gist.github.com/louzt/b333b5601628a159630da13857834246">English Gist</a> · <a href="https://gist.github.com/louzt/8e3b86c7398016964699e87d52222cf7">Español</a>).
+        </h4>
+          Zaprojektował architekturę infrastruktury serverless w standby i auto-skalowania sterowanego RCON dla dwóch serwerów <b>Minecraft</b> w Javie (Fabric modded + Paper vanilla) na k3s / Lightweight Kubernetes. Zaprojektował zautomatyzowany polling stanu RCON poprzez CronJob, atomowe save/flush oraz graceful node teardown. Gdy zero graczy jest aktywnych, pody meczu auto-skalują się do 0 replik (odzyskując ~8 GB RSS RAM), osiągając szybki warm-start spin-up (&lt;15s) na sondach połączenia nowych graczy (<a href="https://gist.github.com/louzt/b333b5601628a159630da13857834246">Gist po angielsku</a> · <a href="https://gist.github.com/louzt/8e3b86c7398016964699e87d52222cf7">po hiszpańsku</a>).
         </p>
-        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
-          ⚡ <b>Impact:</b> Minecraft Fabric+Paper auto-scaling · RCON-driven idle shutdown · &lt;15s warm-start spin-up · 100% idle cost elimination.
+        </p>
+[PL]           ⚡ <b>Wpływ:</b> Minecraft Fabric+Paper auto-scaling · RCON-driven idle shutdown · &lt;15s warm-start spin-up · 100% idle cost elimination.
+        </p>
         </p>
         <div>
-          <a href="https://gist.github.com/louzt/b333b5601628a159630da13857834246"><img src="https://img.shields.io/badge/Minecraft_k3s-Gist_EN-4CAF50?style=flat-square&logo=github&logoColor=white" alt="Minecraft k3s Gist (EN)"/></a>
           &nbsp;
+          <a href="https://gist.github.com/louzt/8e3b86c7398016964699e87d52222cf7"><img src="https://img.shields.io/badge/Minecraft_k3s-Gist_ES-D97706?style=flat-square&logo=github&logoColor=white" alt="Minecraft k3s Gist (ES)"/></a>
           <a href="https://gist.github.com/louzt/8e3b86c7398016964699e87d52222cf7"><img src="https://img.shields.io/badge/Minecraft_k3s-Gist_ES-D97706?style=flat-square&logo=github&logoColor=white" alt="Minecraft k3s Gist (ES)"/></a>
         </div>
       </div>
     </td>
-    <td valign="top" width="50%">
       &nbsp;
     </td>
+    </td>
   </tr>
-</table>
 
+<blockquote style="border-left: 3px solid #10b981; background: #0f172a; padding: 20px; margin: 24px 0; border-radius: 0 8px 8px 0; color: #e2e8f0;">
 <blockquote style="border-left: 3px solid #10b981; background: #0f172a; padding: 20px; margin: 24px 0; border-radius: 0 8px 8px 0; color: #e2e8f0;">
   <h4 align="center">💡 <b>What This Systems Engineering Posture Means For Your Platform</b></h4>
   <p>The formal proofs, upstream PRs, and kernel investigations above reflect a single operational rule: <b>we fix substrate root causes before scaling</b>.</p>
@@ -1304,25 +1305,24 @@ Public research notes, operational forensics, and upstream patch series — inde
     <li><b>Zero-Trust Security & IP Protection:</b> Locked-egress agent runtimes, CA-pinned transport proxies, and auditable 72-hour vulnerability disclosure protect your business data and user trust.</li>
   </ul>
   <p align="center">
-    <a href="mailto:partnership@loust.pro"><img src="https://img.shields.io/badge/Architecture_Audit-partnership%40loust.pro-10B981?style=for-the-badge&logo=mail.ru&logoColor=white" alt="Schedule Architecture Audit"/></a>
     &nbsp;
     <a href="mailto:security@loust.pro"><img src="https://img.shields.io/badge/Security_Triage-security%40loust.pro-38BDF8?style=for-the-badge&logo=hackerone&logoColor=white" alt="Security Triage"/></a>
     &nbsp;
+    <a href="mailto:research@loust.pro"><img src="https://img.shields.io/badge/R%26D_Collaboration-research%40loust.pro-8B5CF6?style=for-the-badge&logo=orcid&logoColor=white" alt="R&D Collaboration"/></a>
     <a href="mailto:badania@loust.pro"><img src="https://img.shields.io/badge/R%26D_Collaboration-research%40loust.pro-8B5CF6?style=for-the-badge&logo=orcid&logoColor=white" alt="R&D Collaboration"/></a>
   </p>
-</blockquote>
 
 <p align="right"><sub><em>LOUST · Leverage Opportunities Unleashing Success and Transformation</em></sub></p>
 
-> _Public gists are linked individually above as they ship. For private work-in-progress and operational forensics, see [LinkedIn](https://www.linkedin.com/in/davidmirelesll/?locale=es_ES) for the curated view._
+> _Public gists są linked individually above as they ship. For prywatne praca-in-progress i operational forensics, see [LinkedIn](https://www.linkedin.com/in/davidmirelesll/?locale=es_ES) dla ten curated view._
 
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/divider-bracket-closing.svg" width="100%" alt="closing bracket divider"/></p>
 
 <!-- ============================================================ -->
+<!-- ============================================================ -->
 <!-- FOOTER: animated squares grid + tagline (no operator name).  -->
 <!-- Served from profile-public static/ alongside the section     -->
 <!-- banners. Editor-only provenance; GitHub strips the comment.  -->
-<!-- ============================================================ -->
+<div align="center">
 <div align="center">
   <img alt="Animated footer tagline" src="https://raw.githubusercontent.com/louzt/louzt/main/static/profile-footer.svg" width="100%" style="display:block;margin:0 auto"/>
-</div>
