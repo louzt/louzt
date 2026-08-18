@@ -135,6 +135,7 @@
       <a href="https://github.com/LOUST-PRO/lzt-broker-stall-reaper"><img src="https://img.shields.io/badge/CI%2FCD_Runner_TCP_Watchdog-lzt--broker--stall--reaper-00ADD8?style=flat-square&logo=linux&logoColor=white" alt="lzt-broker-stall-reaper: CI/CD Runner TCP Watchdog"/></a>
       <a href="https://github.com/LOUST-PRO/unattended-upgrade-stuck-kill"><img src="https://img.shields.io/badge/Apt_Lock_Watchdog_Reaper-unattended--upgrade--kill-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="unattended-upgrade-stuck-kill: Apt Lock Watchdog Reaper"/></a>
       <a href="https://github.com/LOUST-PRO/lzt-algorithms-rs"><img src="https://img.shields.io/badge/Zero--Alloc_Algorithms_Crate-lzt--algorithms--rs-000000?style=flat-square&logo=rust&logoColor=white" alt="lzt-algorithms-rs: Zero-Alloc Algorithms Crate"/></a>
+      <a href="https://crates.io/crates/ttfx-rs"><img src="https://img.shields.io/badge/Terminal_Text_Effects_Engine-ttfx--rs-000000?style=flat-square&logo=rust&logoColor=e43717" alt="ttfx-rs: Terminal Text Effects Engine on Crates.io"/></a>
       <img src="https://img.shields.io/badge/%7C-1e293b?style=flat-square" alt="|"/>
       <img src="https://img.shields.io/badge/Contributed_to_Upstream_FOSS-1e293b?style=flat-square&logo=github&logoColor=white" alt="Contributed to Upstream FOSS"/>
       <a href="#-public-upstream-hardening--core-systems-invariants"><img src="https://img.shields.io/badge/More_info_on_my_contributions_below_%E2%86%93-2563EB?style=flat-square" alt="More info on my contributions below ↓"/></a>
