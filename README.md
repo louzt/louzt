@@ -618,7 +618,7 @@ Any "default + custom list" feature (registries, themes, profiles, agent fleets)
     </td>
   </tr>
   <tr>
-    <td valign="top" width="100%">
+    <td valign="top" width="50%">
       <div style="background: #0f172a; border-left: 4px solid #e91e63; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
         <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-pink.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
         <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
@@ -633,6 +633,26 @@ Any "default + custom list" feature (registries, themes, profiles, agent fleets)
         </p>
         <div>
           <a href="https://github.com/louzt/serpapi-mcp"><img src="https://img.shields.io/badge/serpapi--mcp-Repo-E91E63?style=flat-square&logo=github&logoColor=white" alt="serpapi-mcp Repo"/></a>
+        </div>
+      </div>
+    </td>
+    <td valign="top" width="50%">
+      <div style="background: #0f172a; border-left: 4px solid #e43717; padding: 14px; border-radius: 6px; margin-bottom: 8px;">
+        <img src="https://raw.githubusercontent.com/louzt/louzt/main/static/lava-border-amber.svg" width="100%" height="4" alt="Lava Lamp Glow Border"/>
+        <h4 style="margin: 8px 0 6px 0; color: #f8fafc;">
+          <img src="https://img.shields.io/badge/Rust_/_TUI-E43717?style=flat-square&logo=rust&logoColor=white" align="right" alt="Rust TUI"/>
+          ✨ <a href="https://crates.io/crates/ttfx-rs" style="color: #38bdf8; text-decoration: none;"><b>ttfx-rs — Terminal Text Effects &amp; Animation Engine</b></a>
+        </h4>
+        <p style="margin: 0 0 8px 0; color: #cbd5e1; font-size: 13px;">
+          High-performance terminal text animation engine and TUI visual effects library written in Rust. Features zero-allocation framing, custom ANSI gradient shaders, matrix rain, particle reveals, and deterministic refresh loops for CLI applications.
+        </p>
+        <p style="margin: 0 0 8px 0; color: #94a3b8; font-size: 12px;">
+          ⚡ <b>Highlights:</b> Published on crates.io · Zero-allocation framing · Custom ANSI shaders &amp; text transitions.
+        </p>
+        <div>
+          <a href="https://crates.io/crates/ttfx-rs"><img src="https://img.shields.io/badge/crates.io-v0.1.0-E43717?style=flat-square&logo=rust&logoColor=white" alt="ttfx-rs on crates.io"/></a>
+          &nbsp;
+          <a href="https://github.com/louzt/ttfx-rs"><img src="https://img.shields.io/badge/ttfx--rs-Repo-1E293B?style=flat-square&logo=github&logoColor=white" alt="ttfx-rs Repo"/></a>
         </div>
       </div>
     </td>
