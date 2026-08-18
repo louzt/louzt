@@ -94,9 +94,10 @@
     </td>
   </tr>
   <tr>
-    <!-- Row 4: Direct Channels & Schedule a Meeting -->
+    <!-- Row 4: Direct Channels, Schedule a Meeting & Community -->
     <td align="left" valign="middle">
       <a href="https://calendar.app.google/XR7FkZXWVwfmZ57x6"><img src="https://img.shields.io/badge/%E3%83%9F%E3%83%BC%E3%83%81%E3%83%B3%E3%82%B0%E3%82%92%E4%BA%88%E7%B4%84-34A853?style=flat-square&logo=googlecalendar&logoColor=white" alt="ミーティングを予約 (Google Calendar)"/></a>
+      <a href="https://github.com/LOUST-PRO/LZT-Developers"><img src="https://img.shields.io/badge/Join_our_Dev_Community-LZT--Developers-7C3AED?style=flat-square&logo=github&logoColor=white" alt="Join LZT-Developers Community"/></a>
       <a href="https://www.linkedin.com/in/davidmirelesll/?locale=es_ES"><img src="https://img.shields.io/badge/%E9%80%A3%E7%B5%A1_%26_%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="連絡してLinkedInでつながる"/></a>
       <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab"/>
       <img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X.com"/>
@@ -120,9 +121,12 @@
     <td align="left" valign="middle">
       <img src="https://img.shields.io/badge/Shipped_Open_Source_Systems-1e293b?style=flat-square&logo=git&logoColor=white" alt="Shipped Open Source Systems"/>
       <a href="https://github.com/LOUST-PRO/SnapPipe"><img src="https://img.shields.io/badge/Identity--Anchored_Relay-SnapPipe-2C3E50?style=flat-square&logo=rust&logoColor=white" alt="SnapPipe: Identity-Anchored WireGuard Relay"/></a>
+      <a href="https://github.com/LOUST-PRO/paperforge"><img src="https://img.shields.io/badge/GTK4_Wallpaper_Engine_Frontend-PaperForge-8B5CF6?style=flat-square&logo=rust&logoColor=white" alt="PaperForge: GTK4 Linux Wallpaper Engine Frontend"/></a>
       <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade"><img src="https://img.shields.io/badge/ISP_Intelligence_%26_TCP_Tuning-NetBoozt-F59E0B?style=flat-square&logo=tauri&logoColor=black" alt="NetBoozt: ISP Intelligence & TCP Tuning"/></a>
       <a href="https://github.com/LOUST-PRO/LinkMarks"><img src="https://img.shields.io/badge/Fast_Local--First_CRDT_Bookmarks-LinkMarks-10B981?style=flat-square&logo=rust&logoColor=white" alt="LinkMarks: Fast Local-First CRDT Bookmarks"/></a>
       <a href="https://github.com/LOUST-PRO/TaxonRouter"><img src="https://img.shields.io/badge/Automated_Multi--Agent_PR_Tagger-TaxonRouter-00ADD8?style=flat-square&logo=go&logoColor=white" alt="TaxonRouter: Automated Multi-Agent PR Tagger"/></a>
+      <a href="https://github.com/LOUST-PRO/spec-snapshot-scraper"><img src="https://img.shields.io/badge/Deterministic_Spec_Archiver-spec--snapshot--scraper-10B981?style=flat-square&logo=go&logoColor=white" alt="spec-snapshot-scraper: Deterministic Spec Archiver"/></a>
+      <a href="https://github.com/LOUST-PRO/lzt-virtuoso-tools"><img src="https://img.shields.io/badge/SPARQL_TriG_Knowledge_Engine-lzt--virtuoso--tools-2C3E50?style=flat-square" alt="lzt-virtuoso-tools: SPARQL TriG Knowledge Engine"/></a>
       <a href="https://crates.io/crates/llmmempipe"><img src="https://img.shields.io/badge/Zero--Alloc_Shared_Memory_Pipe-llmmempipe-000000?style=flat-square&logo=rust&logoColor=e43717" alt="llmmempipe: Zero-Alloc Shared-Memory Pipe"/></a>
       <a href="https://github.com/LOUST-PRO/outlook-mcp-suite"><img src="https://img.shields.io/badge/Full--Stack_Graph_%26_Mail_MCP-outlook--mcp--suite-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white" alt="outlook-mcp-suite: Full-Stack Graph & Mail MCP"/></a>
       <a href="https://github.com/LOUST-PRO/vivaldi-workspace-mcp"><img src="https://img.shields.io/badge/Tab_%26_Workspace_Automation-vivaldi--workspace--mcp-EF3939?style=flat-square&logo=vivaldi&logoColor=white" alt="vivaldi-workspace-mcp: Tab & Workspace Automation MCP"/></a>
@@ -138,20 +142,23 @@
       <a href="https://github.com/EpicGames/zen"><img src="https://img.shields.io/badge/Derived_Data_Cache-Epic_Games_Zen-000000?style=flat-square&logo=unrealengine&logoColor=white" alt="Epic Games Zen Storage Server"/></a>
       <a href="https://github.com/ValveSoftware/Fossilize"><img src="https://img.shields.io/badge/Vulkan_Shader_Pre--Caching-Valve_Fossilize-171A21?style=flat-square&logo=steam&logoColor=white" alt="Fossilize (Valve Software): Vulkan Shader Pre-Caching"/></a>
       <a href="https://github.com/louzt/pipewire"><img src="https://img.shields.io/badge/Audio_IPC_Timeout_Hardening-PipeWire-E63946?style=flat-square&logo=linux&logoColor=white" alt="PipeWire: Audio IPC Timeout Hardening"/></a>
+      <a href="https://github.com/Almamu/linux-wallpaperengine"><img src="https://img.shields.io/badge/Wayland_IPC_%26_Engine-Linux_Wallpaper_Engine-171A21?style=flat-square&logo=linux&logoColor=white" alt="Linux Wallpaper Engine (LWE)"/></a>
       <a href="https://github.com/anufrievroman/waypaper"><img src="https://img.shields.io/badge/Wayland_Wallpaper_Manager-Waypaper-00ADD8?style=flat-square&logo=linux&logoColor=white" alt="Waypaper: Wayland Wallpaper Manager"/></a>
       <a href="https://github.com/DankDatabase/DankMaterialShell"><img src="https://img.shields.io/badge/QML_Desktop_Environment-DMS-6366F1?style=flat-square&logo=gnome&logoColor=white" alt="DankMaterialShell: QML Desktop Environment"/></a>
-      <a href="https://github.com/nginx/nginx-tests"><img src="https://img.shields.io/badge/HTTP%2F1.1_Trailer_Sanitization-NGINX-009639?style=flat-square&logo=nginx&logoColor=white" alt="NGINX: HTTP/1.1 Trailer Sanitization"/></a>
+      <a href="https://gist.github.com/louzt/7bdf370a28126718e7e7b69d53b0ae86"><img src="https://img.shields.io/badge/HTTP%2F1.1_Trailer_Sanitization_%26_CRLF_RFC-NGINX-009639?style=flat-square&logo=nginx&logoColor=white" alt="NGINX: HTTP/1.1 Trailer Sanitization & CRLF Hardening Gist"/></a>
+      <a href="https://github.com/nektos/act"><img src="https://img.shields.io/badge/Runner_Cache_Concurrency_Hardening-nektos%2Fact-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="nektos/act Runner Concurrency Hardening"/></a>
+      <a href="https://github.com/appwrite/mcp"><img src="https://img.shields.io/badge/ToolAnnotations_%26_Discovery-Appwrite_MCP-FD366E?style=flat-square&logo=appwrite&logoColor=white" alt="Appwrite MCP ToolAnnotations & Discovery"/></a>
     </td>
   </tr>
   <tr>
-    <!-- Row 7: Sovereign RAG, Open Research Substrates & Developer Community -->
+    <!-- Row 7: Mathematical Research, Sovereign RAG & Open Investigations -->
     <td align="left" valign="middle">
+      <img src="https://img.shields.io/badge/Mathematical_Research_%26_Sovereign_Substrates-7C3AED?style=flat-square" alt="Mathematical Research & Sovereign Substrates"/>
       <a href="https://github.com/LOUST-PRO/deterministic-sovereign-rag"><img src="https://img.shields.io/badge/Sub--Microsecond_Local_RAG-deterministic--sovereign--rag-7C3AED?style=flat-square&logo=rust&logoColor=white" alt="deterministic-sovereign-rag: Sub-Microsecond Local RAG"/></a>
-      <a href="https://github.com/LOUST-PRO/spec-snapshot-scraper"><img src="https://img.shields.io/badge/Deterministic_Spec_Diffing-spec--snapshot--scraper-10B981?style=flat-square&logo=go&logoColor=white" alt="spec-snapshot-scraper: Deterministic Spec Diffing"/></a>
-      <a href="https://github.com/LOUST-PRO/paperforge"><img src="https://img.shields.io/badge/Research_Typography_Suite-PaperForge-D97706?style=flat-square&logo=rust&logoColor=white" alt="PaperForge: Research Typography Suite"/></a>
-      <a href="https://github.com/LOUST-PRO/lzt-virtuoso-tools"><img src="https://img.shields.io/badge/SPARQL_TriG_Knowledge_Engine-lzt--virtuoso--tools-2C3E50?style=flat-square" alt="lzt-virtuoso-tools: SPARQL TriG Knowledge Engine"/></a>
-      <img src="https://img.shields.io/badge/%7C-1e293b?style=flat-square" alt="|"/>
-      <a href="https://github.com/LOUST-PRO/LZT-Developers"><img src="https://img.shields.io/badge/Join_our_Developer_Org-LZT--Developers-7C3AED?style=flat-square&logo=github&logoColor=white" alt="Join LZT-Developers Community"/></a>
+      <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Empirical_RAG_Analysis-Investigaci%C3%B3n-7C3AED?style=flat-square" alt="Empirical RAG Analysis Investigación"/></a>
+      <a href="https://gist.github.com/louzt/376f48c722d4a15d7e78f940818cbade"><img src="https://img.shields.io/badge/Probabilistic_Triage_Harness-Investigaci%C3%B3n-8B5CF6?style=flat-square" alt="Probabilistic Triage Harness Investigación"/></a>
+      <a href="https://gist.github.com/louzt/1c85044d5090d19223c3f5edf426a19e"><img src="https://img.shields.io/badge/NVIDIA_Kernel_7.0+_RFC-Investigaci%C3%B3n-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA Kernel 7.0+ RFC Investigación"/></a>
+      <a href="https://gist.github.com/louzt/7bdf370a28126718e7e7b69d53b0ae86"><img src="https://img.shields.io/badge/NGINX_CRLF_Smuggling_RFC-Investigaci%C3%B3n-009639?style=flat-square&logo=nginx&logoColor=white" alt="NGINX CRLF Smuggling RFC Investigación"/></a>
     </td>
   </tr>
   <tr>
