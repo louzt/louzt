@@ -52,14 +52,15 @@
 <!-- ============================================================ -->
 <table width="100%">
   <tr>
-    <!-- Row 1: Roles, Mindset, Craftsmanship & Community Collaboration -->
+    <!-- Row 1: Roles, Market Positioning, Craftsmanship & Community Collaboration -->
     <td align="left" valign="middle">
+      <img src="https://img.shields.io/badge/Principal_Platform_Architect-0f172a?style=flat-square" alt="Principal Platform Architect"/>
       <img src="https://img.shields.io/badge/%E7%B3%BB%E7%B5%B1%E6%9E%B6%E6%A7%8B%E5%B8%AB-0f172a?style=flat-square" alt="Systems Architect"/>
-      <img src="https://img.shields.io/badge/DevOps_%26_SRE-2563eb?style=flat-square&logo=kubernetes&logoColor=white" alt="DevOps & SRE"/>
-      <img src="https://img.shields.io/badge/%E5%B9%B3%E8%87%BA%E5%B7%A5%E7%A8%8B-0891b2?style=flat-square" alt="Platform Engineering"/>
-      <img src="https://img.shields.io/badge/%E5%AE%89%E5%85%A8%E7%A0%94%E7%A9%B6%E5%93%A1-eb0029?style=flat-square&logo=hackerone&logoColor=white" alt="Security Researcher"/>
-      <img src="https://img.shields.io/badge/%E7%AC%AC%E4%B8%80%E5%8E%9F%E7%90%86%E5%B7%A5%E7%A8%8B-6366f1?style=flat-square" alt="First-Principles Engineering"/>
+      <img src="https://img.shields.io/badge/Intent--Based_Engineering_%28IBE%29-2563eb?style=flat-square" alt="Intent-Based Engineering (IBE)"/>
+      <img src="https://img.shields.io/badge/Site_Reliability_%26_SRE-0891b2?style=flat-square&logo=kubernetes&logoColor=white" alt="Site Reliability & SRE"/>
+      <img src="https://img.shields.io/badge/Cost_Avoidance_%26_Resiliency-059669?style=flat-square" alt="Cost Avoidance & Resiliency"/>
       <img src="https://img.shields.io/badge/Zero--Trust_%E5%9F%BA%E7%A4%8D%E8%A8%AD%E6%96%BD-1e293b?style=flat-square" alt="Zero-Trust Infrastructure"/>
+      <img src="https://img.shields.io/badge/%E5%AE%89%E5%85%A8%E7%A0%94%E7%A9%B6%E5%93%A1-eb0029?style=flat-square&logo=hackerone&logoColor=white" alt="Security Researcher"/>
       <img src="https://img.shields.io/badge/%E6%A0%B8%E5%BF%83%E8%88%87%E7%B3%BB%E7%B5%B1%E7%A0%94%E7%A9%B6-0f172a?style=flat-square&logo=linux&logoColor=white" alt="Kernel & Systems Research"/>
       <img src="https://img.shields.io/badge/%E7%B5%82%E8%BA%AB%E5%AD%B8%E7%BF%92%E8%80%85-7c3aed?style=flat-square" alt="Lifelong Student"/>
       <img src="https://img.shields.io/badge/%E5%B7%A5%E5%8C%A0%E7%B2%BE%E7%A5%9E-%E6%AF%8F%E6%97%A5%E7%B2%BE%E9%80%B2%E6%88%90%E7%82%BA%E6%9B%B4%E5%AE%8C%E6%95%B4%E4%B8%94%E8%B2%A0%E8%B2%AC%E7%9A%84%E5%B7%A5%E7%A8%8B%E5%B8%AB-10b981?style=flat-square" alt="工匠精神：每日精進成為更完整且負責的工程師"/>
@@ -68,11 +69,11 @@
     </td>
   </tr>
   <tr>
-    <!-- Row 2: Research Specializations, Harnesses & FOSS Governance -->
+    <!-- Row 2: Research Specializations, Spec-Driven EDA & FOSS Governance -->
     <td align="left" valign="middle">
       <a href="https://gist.github.com/louzt/376f48c722d4a15d7e78f940818cbade"><img src="https://img.shields.io/badge/%E7%A2%BA%E5%AE%9A%E6%80%A7%E6%B8%AC%E8%A9%A6%E5%A5%97%E4%BB%B6-8b5cf6?style=flat-square" alt="Deterministic Harnesses"/></a>
       <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Sovereign_RAG-7c3aed?style=flat-square" alt="Sovereign RAG"/></a>
-      <img src="https://img.shields.io/badge/%E8%A6%8F%E6%A0%BC%E9%A9%85%E5%8B%95%E5%B7%A5%E7%A8%8B-0284c7?style=flat-square" alt="Spec-Driven Engineering"/>
+      <img src="https://img.shields.io/badge/Spec--Driven_EDA_%26_Contracts-0284c7?style=flat-square" alt="Spec-Driven EDA & Contracts"/>
       <img src="https://img.shields.io/badge/Zero--Egress_%E5%AE%89%E5%85%A8-1F2937?style=flat-square" alt="Zero-Egress Security"/>
       <img src="https://img.shields.io/badge/%E6%A0%B8%E5%BF%83%E8%88%87%E5%9F%B7%E8%A1%8C%E9%9A%8E%E6%AE%B5%E5%A2%9E%E5%BC%B7-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Kernel & Runtime Hardening"/>
       <img src="https://img.shields.io/badge/CLA_%26_FOSS_%E6%B2%BB%E7%90%86-004D40?style=flat-square" alt="CLA & FOSS Governance"/>
@@ -89,7 +90,7 @@
       <a href="https://opensource.org/"><img src="https://img.shields.io/badge/OSI-%E6%9C%83%E5%93%A1-3DA639?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="OSI Member"/></a>
       <a href="https://github.com/django-commons"><img src="https://img.shields.io/badge/Django_Commons-0C4B33?style=flat-square&logo=django&logoColor=white" alt="Django Commons Member"/></a>
       <a href="https://kernel.org/"><img src="https://img.shields.io/badge/Linux_Kernel-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux Kernel"/></a>
-      <a href="https://crates.io/users/louzt"><img src="https://img.shields.io/badge/%E6%8E%A2%E7%B4%A2%E6%88%91%E7%9A%84_Rust_%E9%96%8B%E6%BA%90%E5%B0%88%E6%A1%88-crates.io-000000?style=flat-square&logo=rust&logoColor=e43717" alt="在crates.io上探索我的Rust開源專案"/></a>
+      <a href="https://crates.io/users/louzt"><img src="https://img.shields.io/badge/%E6%8E%A2%E7%B4%A2%E6%88%91%E7%9A%84_Rust_%E9%96%8B%E6%BA%90%E5%B0%88%E6%A1%88-crates.io-E43717?style=flat-square&logo=rust&logoColor=white" alt="在crates.io上探索我的Rust開源專案"/></a>
     </td>
   </tr>
   <tr>
@@ -115,21 +116,26 @@
     </td>
   </tr>
   <tr>
-    <!-- Row 6: Open-Source Systems, Published Crates & Upstream Collaborations -->
+    <!-- Row 6: Open-Source Systems, Published Crates & Upstream Contributions -->
     <td align="left" valign="middle">
       <a href="https://github.com/LOUST-PRO/SnapPipe"><img src="https://img.shields.io/badge/Identity--Anchored_Relay-SnapPipe-2C3E50?style=flat-square&logo=rust&logoColor=white" alt="SnapPipe: Identity-Anchored WireGuard Relay"/></a>
       <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade"><img src="https://img.shields.io/badge/ISP_Intelligence_%26_TCP_Tuning-NetBoozt-F59E0B?style=flat-square&logo=tauri&logoColor=black" alt="NetBoozt: ISP Intelligence & TCP Tuning"/></a>
       <a href="https://github.com/LOUST-PRO/LinkMarks"><img src="https://img.shields.io/badge/Fast_Local--First_CRDT_Bookmarks-LinkMarks-10B981?style=flat-square&logo=rust&logoColor=white" alt="LinkMarks: Fast Local-First CRDT Bookmarks"/></a>
-      <a href="https://github.com/LOUST-PRO/TaxonRouter"><img src="https://img.shields.io/badge/Multi--Agent_PR_Tagger-TaxonRouter-00ADD8?style=flat-square&logo=go&logoColor=white" alt="TaxonRouter: Multi-Agent PR Tagger"/></a>
-      <a href="https://crates.io/crates/llmmempipe"><img src="https://img.shields.io/badge/Zero--Copy_Context_Streaming-llmmempipe-000000?style=flat-square&logo=rust&logoColor=e43717" alt="llmmempipe: Zero-Copy Context Streaming"/></a>
+      <a href="https://github.com/LOUST-PRO/TaxonRouter"><img src="https://img.shields.io/badge/Automated_Multi--Agent_PR_Tagger-TaxonRouter-00ADD8?style=flat-square&logo=go&logoColor=white" alt="TaxonRouter: Automated Multi-Agent PR Tagger"/></a>
+      <a href="https://crates.io/crates/llmmempipe"><img src="https://img.shields.io/badge/Zero--Alloc_Shared_Memory_Pipe-llmmempipe-000000?style=flat-square&logo=rust&logoColor=e43717" alt="llmmempipe: Zero-Alloc Shared-Memory Pipe"/></a>
       <a href="https://github.com/LOUST-PRO/outlook-mcp-suite"><img src="https://img.shields.io/badge/Full--Stack_Graph_%26_Mail_MCP-outlook--mcp--suite-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white" alt="outlook-mcp-suite: Full-Stack Graph & Mail MCP"/></a>
       <a href="https://github.com/LOUST-PRO/lzt-broker-stall-reaper"><img src="https://img.shields.io/badge/CI%2FCD_Runner_TCP_Watchdog-lzt--broker--stall--reaper-00ADD8?style=flat-square&logo=linux&logoColor=white" alt="lzt-broker-stall-reaper: CI/CD Runner TCP Watchdog"/></a>
-      <a href="https://h5kken.loust.pro"><img src="https://img.shields.io/badge/Play_Now_WebGPU_Fighter-H5KKEN-AC162C?style=flat-square&logo=babylondotjs&logoColor=white" alt="H5KKEN: Play Now WebGPU Fighter"/></a>
+      <a href="https://github.com/louzt/lzt-hub"><img src="https://img.shields.io/badge/Zero--Drift_Laptop%E2%86%94VPS_Sync-lzt--hub-7C3AED?style=flat-square&logo=rust&logoColor=white" alt="lzt-hub: Zero-Drift Laptop↔VPS Sync"/></a>
       <img src="https://img.shields.io/badge/%7C-1e293b?style=flat-square" alt="|"/>
-      <img src="https://img.shields.io/badge/Collaborations_%26_Upstream-1e293b?style=flat-square" alt="Collaborations & Upstream"/>
+      <img src="https://img.shields.io/badge/Contributed_to_Upstream_FOSS-1e293b?style=flat-square&logo=github&logoColor=white" alt="Contributed to Upstream FOSS"/>
+      <a href="#-public-upstream-hardening--core-systems-invariants"><img src="https://img.shields.io/badge/More_info_on_my_contributions_below_%E2%86%93-2563EB?style=flat-square" alt="More info on my contributions below ↓"/></a>
+      <a href="https://h5kken.loust.pro"><img src="https://img.shields.io/badge/Rollback_WebGPU_Fighter-H5KKEN-AC162C?style=flat-square&logo=babylondotjs&logoColor=white" alt="H5KKEN: Rollback WebGPU Fighter"/></a>
+      <a href="https://github.com/EpicGames/zen"><img src="https://img.shields.io/badge/Derived_Data_Cache-Epic_Games_Zen-000000?style=flat-square&logo=unrealengine&logoColor=white" alt="Epic Games Zen Storage Server"/></a>
+      <a href="https://github.com/ValveSoftware/Fossilize"><img src="https://img.shields.io/badge/Vulkan_Shader_Pre--Caching-Valve_Fossilize-171A21?style=flat-square&logo=steam&logoColor=white" alt="Fossilize (Valve Software): Vulkan Shader Pre-Caching"/></a>
+      <a href="https://github.com/louzt/pipewire"><img src="https://img.shields.io/badge/Audio_IPC_Timeout_Hardening-PipeWire-E63946?style=flat-square&logo=linux&logoColor=white" alt="PipeWire: Audio IPC Timeout Hardening"/></a>
       <a href="https://github.com/anufrievroman/waypaper"><img src="https://img.shields.io/badge/Wayland_Wallpaper_Manager-Waypaper-00ADD8?style=flat-square&logo=linux&logoColor=white" alt="Waypaper: Wayland Wallpaper Manager"/></a>
-      <a href="https://github.com/ValveSoftware/Fossilize"><img src="https://img.shields.io/badge/Vulkan_Shader_Pre--Caching-Fossilize_(Valve)-171A21?style=flat-square&logo=steam&logoColor=white" alt="Fossilize (Valve Software): Vulkan Shader Pre-Caching"/></a>
       <a href="https://github.com/DankDatabase/DankMaterialShell"><img src="https://img.shields.io/badge/QML_Desktop_Environment-DMS-6366F1?style=flat-square&logo=gnome&logoColor=white" alt="DankMaterialShell: QML Desktop Environment"/></a>
+      <a href="https://github.com/nginx/nginx-tests"><img src="https://img.shields.io/badge/HTTP%2F1.1_Trailer_Sanitization-NGINX-009639?style=flat-square&logo=nginx&logoColor=white" alt="NGINX: HTTP/1.1 Trailer Sanitization"/></a>
     </td>
   </tr>
   <tr>
