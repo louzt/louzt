@@ -119,7 +119,7 @@
   <tr>
     <!-- Row 6: Open-Source Systems, Published Crates & Upstream Contributions -->
     <td align="left" valign="middle">
-      <img src="https://img.shields.io/badge/Shipped_Open_Source_Systems-1e293b?style=flat-square&logo=git&logoColor=white" alt="Shipped Open Source Systems"/>
+      <img src="https://img.shields.io/badge/Shipped_Open_Source_Systems-059669?style=flat-square&logo=git&logoColor=white" alt="Shipped Open Source Systems"/>
       <a href="https://github.com/LOUST-PRO/SnapPipe"><img src="https://img.shields.io/badge/Identity--Anchored_Relay-SnapPipe-2C3E50?style=flat-square&logo=rust&logoColor=white" alt="SnapPipe: Identity-Anchored WireGuard Relay"/></a>
       <a href="https://github.com/LOUST-PRO/paperforge"><img src="https://img.shields.io/badge/GTK4_Wallpaper_Engine_Frontend-PaperForge-8B5CF6?style=flat-square&logo=rust&logoColor=white" alt="PaperForge: GTK4 Linux Wallpaper Engine Frontend"/></a>
       <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade"><img src="https://img.shields.io/badge/ISP_Intelligence_%26_TCP_Tuning-NetBoozt-F59E0B?style=flat-square&logo=tauri&logoColor=black" alt="NetBoozt: ISP Intelligence & TCP Tuning"/></a>
@@ -148,6 +148,7 @@
       <a href="https://gist.github.com/louzt/7bdf370a28126718e7e7b69d53b0ae86"><img src="https://img.shields.io/badge/HTTP%2F1.1_Trailer_Sanitization_%26_CRLF_RFC-NGINX-009639?style=flat-square&logo=nginx&logoColor=white" alt="NGINX: HTTP/1.1 Trailer Sanitization & CRLF Hardening Gist"/></a>
       <a href="https://github.com/nektos/act"><img src="https://img.shields.io/badge/Runner_Cache_Concurrency_Hardening-nektos%2Fact-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="nektos/act Runner Concurrency Hardening"/></a>
       <a href="https://github.com/appwrite/mcp"><img src="https://img.shields.io/badge/ToolAnnotations_%26_Discovery-Appwrite_MCP-FD366E?style=flat-square&logo=appwrite&logoColor=white" alt="Appwrite MCP ToolAnnotations & Discovery"/></a>
+      <a href="https://github.com/serpapi/serpapi-mcp"><img src="https://img.shields.io/badge/ResourceTemplate_%26_Annotations-SerpApi_MCP-4A90E2?style=flat-square&logo=google&logoColor=white" alt="SerpApi MCP ResourceTemplate & Annotations"/></a>
     </td>
   </tr>
   <tr>
