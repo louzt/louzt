@@ -108,7 +108,7 @@
     <td align="left" valign="middle">
       <img src="https://img.shields.io/badge/Blockchain_%26_Web3-121D33?style=flat-square&logo=blockchaindotcom&logoColor=white" alt="Blockchain & Web3"/>
       <img src="https://img.shields.io/badge/Agent_Protocols-MCP_%26_A2A-000000?style=flat-square&logo=github&logoColor=white" alt="MCP & A2A Agent Protocols"/>
-      <img src="https://img.shields.io/badge/Flussi_di_Agenti-Autonomous_Pipelines-7c3aed?style=flat-square" alt="Agentic Workflows"/>
+      <img src="https://img.shields.io/badge/Multi--Agent_Control_Planes-Zero--Slop_Harness_Deterministi-7c3aed?style=flat-square" alt="Multi-Agent Control Planes (Zero-Slop Deterministic Harnesses)"/>
       <img src="https://img.shields.io/badge/Isolamento_RBAC_%26_Multi--Tenant-0f172a?style=flat-square" alt="RBAC & Multi-Tenant Isolation"/>
       <img src="https://img.shields.io/badge/Provenance_Auditing_Harness-Triple_Virtuoso_%2f_SPARQL-2C3E50?style=flat-square" alt="Provenance Auditing Harness (Virtuoso Triples / SPARQL)"/>
       <img src="https://img.shields.io/badge/Grafi_di_Conoscenza-Enterprise_Ontology-0f172a?style=flat-square" alt="Knowledge Graphs"/>
@@ -118,14 +118,19 @@
   <tr>
     <!-- Row 6: Open-Source Systems, Published Crates & Upstream Contributions -->
     <td align="left" valign="middle">
+      <img src="https://img.shields.io/badge/Shipped_Open_Source_Systems-1e293b?style=flat-square&logo=git&logoColor=white" alt="Shipped Open Source Systems"/>
       <a href="https://github.com/LOUST-PRO/SnapPipe"><img src="https://img.shields.io/badge/Identity--Anchored_Relay-SnapPipe-2C3E50?style=flat-square&logo=rust&logoColor=white" alt="SnapPipe: Identity-Anchored WireGuard Relay"/></a>
       <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade"><img src="https://img.shields.io/badge/ISP_Intelligence_%26_TCP_Tuning-NetBoozt-F59E0B?style=flat-square&logo=tauri&logoColor=black" alt="NetBoozt: ISP Intelligence & TCP Tuning"/></a>
       <a href="https://github.com/LOUST-PRO/LinkMarks"><img src="https://img.shields.io/badge/Fast_Local--First_CRDT_Bookmarks-LinkMarks-10B981?style=flat-square&logo=rust&logoColor=white" alt="LinkMarks: Fast Local-First CRDT Bookmarks"/></a>
       <a href="https://github.com/LOUST-PRO/TaxonRouter"><img src="https://img.shields.io/badge/Automated_Multi--Agent_PR_Tagger-TaxonRouter-00ADD8?style=flat-square&logo=go&logoColor=white" alt="TaxonRouter: Automated Multi-Agent PR Tagger"/></a>
       <a href="https://crates.io/crates/llmmempipe"><img src="https://img.shields.io/badge/Zero--Alloc_Shared_Memory_Pipe-llmmempipe-000000?style=flat-square&logo=rust&logoColor=e43717" alt="llmmempipe: Zero-Alloc Shared-Memory Pipe"/></a>
       <a href="https://github.com/LOUST-PRO/outlook-mcp-suite"><img src="https://img.shields.io/badge/Full--Stack_Graph_%26_Mail_MCP-outlook--mcp--suite-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white" alt="outlook-mcp-suite: Full-Stack Graph & Mail MCP"/></a>
+      <a href="https://github.com/LOUST-PRO/vivaldi-workspace-mcp"><img src="https://img.shields.io/badge/Tab_%26_Workspace_Automation-vivaldi--workspace--mcp-EF3939?style=flat-square&logo=vivaldi&logoColor=white" alt="vivaldi-workspace-mcp: Tab & Workspace Automation MCP"/></a>
+      <a href="https://github.com/LOUST-PRO/ical-to-caldav"><img src="https://img.shields.io/badge/Bidirectional_Calendar_Sync-ical--to--caldav-4285F4?style=flat-square&logo=googlecalendar&logoColor=white" alt="ical-to-caldav: Bidirectional Calendar Sync"/></a>
+      <a href="https://github.com/LOUST-PRO/clipboard-wayland-x11-sync"><img src="https://img.shields.io/badge/Wayland%E2%86%94X11_Clipboard_Daemon-clipboard--sync-00ADD8?style=flat-square&logo=linux&logoColor=white" alt="clipboard-wayland-x11-sync: Wayland↔X11 Clipboard Daemon"/></a>
       <a href="https://github.com/LOUST-PRO/lzt-broker-stall-reaper"><img src="https://img.shields.io/badge/CI%2FCD_Runner_TCP_Watchdog-lzt--broker--stall--reaper-00ADD8?style=flat-square&logo=linux&logoColor=white" alt="lzt-broker-stall-reaper: CI/CD Runner TCP Watchdog"/></a>
-      <a href="https://github.com/louzt/lzt-hub"><img src="https://img.shields.io/badge/Zero--Drift_Laptop%E2%86%94VPS_Sync-lzt--hub-7C3AED?style=flat-square&logo=rust&logoColor=white" alt="lzt-hub: Zero-Drift Laptop↔VPS Sync"/></a>
+      <a href="https://github.com/LOUST-PRO/unattended-upgrade-stuck-kill"><img src="https://img.shields.io/badge/Apt_Lock_Watchdog_Reaper-unattended--upgrade--kill-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="unattended-upgrade-stuck-kill: Apt Lock Watchdog Reaper"/></a>
+      <a href="https://github.com/LOUST-PRO/lzt-algorithms-rs"><img src="https://img.shields.io/badge/Zero--Alloc_Algorithms_Crate-lzt--algorithms--rs-000000?style=flat-square&logo=rust&logoColor=white" alt="lzt-algorithms-rs: Zero-Alloc Algorithms Crate"/></a>
       <img src="https://img.shields.io/badge/%7C-1e293b?style=flat-square" alt="|"/>
       <img src="https://img.shields.io/badge/Contributed_to_Upstream_FOSS-1e293b?style=flat-square&logo=github&logoColor=white" alt="Contributed to Upstream FOSS"/>
       <a href="#-public-upstream-hardening--core-systems-invariants"><img src="https://img.shields.io/badge/More_info_on_my_contributions_below_%E2%86%93-2563EB?style=flat-square" alt="More info on my contributions below ↓"/></a>
@@ -139,7 +144,18 @@
     </td>
   </tr>
   <tr>
-    <!-- Row 7: Enterprise Ecosystem & Production Portals -->
+    <!-- Row 7: Sovereign RAG, Open Research Substrates & Developer Community -->
+    <td align="left" valign="middle">
+      <a href="https://github.com/LOUST-PRO/deterministic-sovereign-rag"><img src="https://img.shields.io/badge/Sub--Microsecond_Local_RAG-deterministic--sovereign--rag-7C3AED?style=flat-square&logo=rust&logoColor=white" alt="deterministic-sovereign-rag: Sub-Microsecond Local RAG"/></a>
+      <a href="https://github.com/LOUST-PRO/spec-snapshot-scraper"><img src="https://img.shields.io/badge/Deterministic_Spec_Diffing-spec--snapshot--scraper-10B981?style=flat-square&logo=go&logoColor=white" alt="spec-snapshot-scraper: Deterministic Spec Diffing"/></a>
+      <a href="https://github.com/LOUST-PRO/paperforge"><img src="https://img.shields.io/badge/Research_Typography_Suite-PaperForge-D97706?style=flat-square&logo=rust&logoColor=white" alt="PaperForge: Research Typography Suite"/></a>
+      <a href="https://github.com/LOUST-PRO/lzt-virtuoso-tools"><img src="https://img.shields.io/badge/SPARQL_TriG_Knowledge_Engine-lzt--virtuoso--tools-2C3E50?style=flat-square" alt="lzt-virtuoso-tools: SPARQL TriG Knowledge Engine"/></a>
+      <img src="https://img.shields.io/badge/%7C-1e293b?style=flat-square" alt="|"/>
+      <a href="https://github.com/LOUST-PRO/LZT-Developers"><img src="https://img.shields.io/badge/Join_our_Developer_Org-LZT--Developers-7C3AED?style=flat-square&logo=github&logoColor=white" alt="Join LZT-Developers Community"/></a>
+    </td>
+  </tr>
+  <tr>
+    <!-- Row 8: Enterprise Ecosystem & Production Portals -->
     <td align="left" valign="middle">
       <a href="https://loust.pro"><img src="https://img.shields.io/badge/Flagship_Portal_(Upcoming)-loust.pro-7C3AED?style=flat-square&logo=safari&logoColor=white" alt="loust.pro: Flagship Portal (Upcoming)"/></a>
       <a href="https://showcase.loust.pro"><img src="https://img.shields.io/badge/Live_Portfolio_%26_Showcase-showcase.loust.pro-0093D0?style=flat-square&logo=googlechrome&logoColor=white" alt="showcase.loust.pro: Live Portfolio & Showcase"/></a>
@@ -147,7 +163,7 @@
     </td>
   </tr>
   <tr>
-    <!-- Row 8: MarTech, AdTech, PropTech, Hospitality & Commercial Infrastructure -->
+    <!-- Row 9: MarTech, AdTech, PropTech, Hospitality & Commercial Infrastructure -->
     <td align="left" valign="middle">
       <img src="https://img.shields.io/badge/MarTech_%26_AdTech-FF5722?style=flat-square&logo=googleanalytics&logoColor=white" alt="MarTech & AdTech"/>
       <img src="https://img.shields.io/badge/PropTech_%26_Real_Estate-00897B?style=flat-square&logo=homeassistant&logoColor=white" alt="PropTech & Real Estate Tech"/>
@@ -169,7 +185,7 @@
   </tr>
   <tr>
   <tr>
-    <!-- Row 10: Global Language Switcher Row -->
+    <!-- Row 11: Global Language Switcher Row -->
     <td align="left" valign="middle">
       <img src="https://img.shields.io/badge/Stai_leggendo_in-Italiano-009246?style=flat-square&logo=readme&logoColor=white" alt="Stai leggendo in Italiano"/>
       <a href="https://github.com/louzt/louzt/blob/main/README.md"><img src="https://img.shields.io/badge/Read_in-English-0093D0?style=flat-square&logo=readme&logoColor=white" alt="Read in English"/></a>
@@ -188,7 +204,7 @@
   </tr>
   <tr>
   <tr>
-    <!-- Row 10: Global Language Switcher Row -->
+    <!-- Row 11: Global Language Switcher Row -->
     <td align="left" valign="middle">
       <img src="https://img.shields.io/badge/Stai_leggendo_in-Italiano-009246?style=flat-square&logo=readme&logoColor=white" alt="Stai leggendo in Italiano"/>
       <a href="https://github.com/louzt/louzt/blob/main/README.md"><img src="https://img.shields.io/badge/Read_in-English-0093D0?style=flat-square&logo=readme&logoColor=white" alt="Read in English"/></a>
