@@ -193,7 +193,7 @@
     </td>
   </tr>
   <tr>
-    <!-- Row 10: Core Programming Languages & Engine Technologies -->
+    <!-- Row 10: Core Programming Languages, Cloud Infrastructure & Standards -->
     <td align="left" valign="middle">
       <img src="https://img.shields.io/badge/Constantly_experimenting_with-1e293b?style=flat-square&logo=codeigniter&logoColor=white" alt="Constantly experimenting with:"/>
       <img src="https://img.shields.io/badge/rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
@@ -208,6 +208,16 @@
       <img src="https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white" alt="Ruby"/>
       <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP"/>
       <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+      <img src="https://img.shields.io/badge/%7C-1e293b?style=flat-square" alt="|"/>
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS"/>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
+      <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform"/>
+      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+      <img src="https://img.shields.io/badge/OpenAPI_3.0-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white" alt="OpenAPI"/>
+      <img src="https://img.shields.io/badge/AsyncAPI-2B3441?style=flat-square&logo=asyncapi&logoColor=white" alt="AsyncAPI"/>
+      <img src="https://img.shields.io/badge/JSON_Schema-000000?style=flat-square&logo=json&logoColor=white" alt="JSON Schema"/>
+      <img src="https://img.shields.io/badge/Declarative_YAML-CB171E?style=flat-square&logo=yaml&logoColor=white" alt="YAML"/>
       <img src="https://img.shields.io/badge/%7C-1e293b?style=flat-square" alt="|"/>
       <img src="https://img.shields.io/badge/Vulkan-AC162C?style=flat-square&logo=vulkan&logoColor=white" alt="Vulkan"/>
       <img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white" alt="WebGL"/>
@@ -226,7 +236,6 @@
       <img src="https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"/>
       <img src="https://img.shields.io/badge/%7C-1e293b?style=flat-square" alt="|"/>
       <img src="https://img.shields.io/badge/k3s-ffc61c?style=flat-square&logo=kubernetes&logoColor=black" alt="k3s"/>
-      <img src="https://img.shields.io/badge/docker-2496ed?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
       <img src="https://img.shields.io/badge/Always_curious_to_debug_in_another_tech_stack-8b5cf6?style=flat-square&logoColor=white" alt="Always curious to debug in another tech stack"/>
     </td>
   </tr>
@@ -319,6 +328,20 @@ I maintain a prophylactic, respectful, and deterministic engineering posture —
 | **SaaS & Payment Gateway Integrations** | Stripe, PayPal, MercadoPago, Crypto (BTC/Solana), Webhooks, Microservices | Multi-currency, multi-gateway resilient billing pipelines with automated reconciliation and zero retry amplification. |
 | **Sovereign AI & Agent Control Planes** | Model Context Protocol (MCP), Sovereign RAG, Local Vector Substrates, Zero-Egress Agents | Local-first agentic workflows with bounded latency, VRAM budgeting, and continuous contract verification. |
 | **Security Audits & Zero-Trust Architecture** | SAST, CSP Level 3, Ed25519 identity transport, CA-pinning, HackerOne disclosure track | Hardened network transport, zero-egress sandboxing, and auditable vulnerability mitigation. |
+
+<p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/divider.svg" width="100%" alt="divider"/></p>
+
+<h3 align="center"><b>☁️ CLOUD, PIPELINES &amp; ENTERPRISE ARCHITECTURE MAPPING</b></h3>
+
+<p align="center"><sub>Bridge between high-performance sovereign substrates and native AWS / Enterprise Cloud architectures</sub></p>
+
+| Enterprise Cloud / AWS Service | Sovereign / Bare-Metal Substrate | Specification & Pipeline Stack |
+| :--- | :--- | :--- |
+| **AWS API Gateway / Lambda** | Go / Rust high-throughput proxies (`:5050`) + pre-flight hooks | OpenAPI 3.0, JSON Schema, Custom Go stdio MCP |
+| **AWS EKS / ECS / Fargate** | k3s lightweight Kubernetes, Docker container isolation & `cgroup v2` | Declarative YAML manifests, Helm, GitHub Actions CI/CD |
+| **AWS CloudWatch & X-Ray** | Prometheus, Grafana, Linux `PSI`, `tcp_diag` kernel watchdogs | Structured JSON logging (`--log-json`), OpenTelemetry |
+| **AWS DynamoDB Streams / SQS** | Redis 7 Lua EVAL queues, event-driven webhook engines | AsyncAPI specs, JSONL event streams, idempotency contracts |
+| **AWS S3 / CloudFront** | NGINX edge caching, persistent volume mounts, APQ @ 90.9% hit rate | Infrastructure as Code (IaC), Terraform / OpenTofu |
 
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/section-selected-work.svg" width="100%" alt="Selected Work — section banner"/></p>
 
