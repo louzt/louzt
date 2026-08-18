@@ -306,15 +306,15 @@ I maintain a prophylactic, respectful, and deterministic engineering posture —
 
 <h3 align="center"><b>☁️ CLOUD, PIPELINES &amp; ENTERPRISE ARCHITECTURE MAPPING</b></h3>
 
-<p align="center"><sub>Bridge between high-performance sovereign substrates and native AWS / Enterprise Cloud architectures</sub></p>
+<p align="center"><sub>Translating low-level sovereign substrates and deterministic runtime invariants into native AWS &amp; Enterprise Cloud architectures</sub></p>
 
-| Enterprise Cloud / AWS Service | Sovereign / Bare-Metal Substrate | Specification & Pipeline Stack |
+| Enterprise Cloud / AWS Service | Sovereign / Bare-Metal Substrate | Specification, IaC &amp; Pipeline Stack |
 | :--- | :--- | :--- |
-| **AWS API Gateway / Lambda** | Go / Rust high-throughput proxies (`:5050`) + pre-flight hooks | OpenAPI 3.0, JSON Schema, Custom Go stdio MCP |
-| **AWS EKS / ECS / Fargate** | k3s lightweight Kubernetes, Docker container isolation & `cgroup v2` | Declarative YAML manifests, Helm, GitHub Actions CI/CD |
-| **AWS CloudWatch & X-Ray** | Prometheus, Grafana, Linux `PSI`, `tcp_diag` kernel watchdogs | Structured JSON logging (`--log-json`), OpenTelemetry |
-| **AWS DynamoDB Streams / SQS** | Redis 7 Lua EVAL queues, event-driven webhook engines | AsyncAPI specs, JSONL event streams, idempotency contracts |
-| **AWS S3 / CloudFront** | NGINX edge caching, persistent volume mounts, APQ @ 90.9% hit rate | Infrastructure as Code (IaC), Terraform / OpenTofu |
+| **AWS API Gateway / Lambda Serverless** | **Architect** zero-allocation Go/Rust edge reverse proxies, compile-time schema validation &amp; non-blocking epoll event loops | OpenAPI 3.0, JSON Schema contracts, Model Context Protocol (MCP) stdio servers &amp; pre-flight rate-limiting gates |
+| **AWS EKS / ECS / Fargate Containers** | **Orchestrate** k3s clusters, enforce `cgroup v2` memory/CPU boundaries, and build deterministic container sandboxes | Declarative YAML manifests, GitOps, Helm chart versioning, GitHub Actions multi-arch CI/CD runners |
+| **AWS CloudWatch, X-Ray &amp; Datadog** | **Instrument** Linux Pressure Stall Information (PSI), native `tcp_diag` kernel watchdogs, and Prometheus metrics | Zero-overhead structured logging (`--log-json`), OpenTelemetry (OTel) traces &amp; distributed diagnostic pipelines |
+| **AWS DynamoDB Streams, SQS &amp; EventBridge** | **Engineer** atomic Redis 7 Lua EVAL queues, sub-millisecond event brokers, and idempotent webhook replay pipelines | AsyncAPI specs, JSONL append-only streaming protocols &amp; dead-letter queue (DLQ) retry topologies |
+| **AWS S3, CloudFront CDN &amp; Global Edge** | **Deploy** hardened NGINX reverse-proxy caching, NVMe persistent volume mounts, and 90.9% APQ edge hit-rate optimizers | Infrastructure as Code (IaC) via Terraform / OpenTofu, reproducible Cloudflare edge workers &amp; immutable release artifacts |
 
 <p align="center"><img src="https://raw.githubusercontent.com/louzt/louzt/main/static/section-selected-work.svg" width="100%" alt="Selected Work — section banner"/></p>
 
