@@ -93,47 +93,55 @@
     </td>
   </tr>
   <tr>
-    <!-- Row 4: Direct Channels, Schedule a Meeting & Spoken Languages -->
+    <!-- Row 4: Direct Channels & Schedule a Meeting -->
     <td align="left" valign="middle">
       <a href="https://calendar.app.google/XR7FkZXWVwfmZ57x6"><img src="https://img.shields.io/badge/Schedule_a_Meeting-34A853?style=flat-square&logo=googlecalendar&logoColor=white" alt="Schedule a Meeting (Google Calendar)"/></a>
       <a href="https://www.linkedin.com/in/davidmirelesll/?locale=es_ES"><img src="https://img.shields.io/badge/Write_me_%26_Connect-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Write me & Connect on LinkedIn"/></a>
       <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab"/>
       <img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X.com"/>
       <img src="https://img.shields.io/badge/Matrix-000000?style=flat-square&logo=matrix&logoColor=white" alt="Matrix"/>
-      <img src="https://img.shields.io/badge/%7C-1e293b?style=flat-square" alt="|"/>
-      <img src="https://img.shields.io/badge/Languages-1e293b?style=flat-square&logo=translate&logoColor=white" alt="Spoken Languages"/>
-      <img src="https://img.shields.io/badge/Espa%C3%B1ol-Nativo-D97706?style=flat-square" alt="Español (Nativo)"/>
-      <img src="https://img.shields.io/badge/English-Full_Professional-0093D0?style=flat-square" alt="English (Full Professional)"/>
-      <img src="https://img.shields.io/badge/Portugu%C3%AAs-Working_Knowledge-009B3A?style=flat-square" alt="Português (Working Knowledge)"/>
     </td>
   </tr>
   <tr>
     <!-- Row 5: Web3, Decentralized Infrastructure & Agent Protocols -->
     <td align="left" valign="middle">
       <img src="https://img.shields.io/badge/Blockchain_%26_Web3-121D33?style=flat-square&logo=blockchaindotcom&logoColor=white" alt="Blockchain & Web3"/>
-      <img src="https://img.shields.io/badge/MCP_%26_Agent_Protocols-000000?style=flat-square&logo=github&logoColor=white" alt="MCP & Agent Protocols"/>
-      <img src="https://img.shields.io/badge/Agentic_Workflows-7c3aed?style=flat-square" alt="Agentic Workflows"/>
+      <img src="https://img.shields.io/badge/Agent_Protocols-MCP_%26_A2A-000000?style=flat-square&logo=github&logoColor=white" alt="MCP & A2A Agent Protocols"/>
+      <img src="https://img.shields.io/badge/Agentic_Workflows-Autonomous_Pipelines-7c3aed?style=flat-square" alt="Agentic Workflows"/>
       <img src="https://img.shields.io/badge/RBAC_%26_Multi--Tenant_Isolation-0f172a?style=flat-square" alt="RBAC & Multi-Tenant Isolation"/>
-      <img src="https://img.shields.io/badge/Virtuoso_Triples_%2f_SPARQL-2C3E50?style=flat-square" alt="Virtuoso Triples / SPARQL"/>
-      <img src="https://img.shields.io/badge/Knowledge_Graphs-0f172a?style=flat-square" alt="Knowledge Graphs"/>
-      <img src="https://img.shields.io/badge/Local--First_%26_CRDT-064E3B?style=flat-square" alt="Local-First & CRDT"/>
+      <img src="https://img.shields.io/badge/Provenance_Auditing_Harness-Virtuoso_Triples_%2f_SPARQL-2C3E50?style=flat-square" alt="Provenance Auditing Harness (Virtuoso Triples / SPARQL)"/>
+      <img src="https://img.shields.io/badge/Knowledge_Graphs-Enterprise_Ontology-0f172a?style=flat-square" alt="Knowledge Graphs"/>
+      <img src="https://img.shields.io/badge/Local--First_Sync-CRDT_%26_Automerge-064E3B?style=flat-square" alt="Local-First Sync (CRDT & Automerge)"/>
     </td>
   </tr>
   <tr>
-    <!-- Row 6: Open-Source & Enterprise Products / Substrates -->
+    <!-- Row 6: Open-Source Systems, Published Crates & Upstream Collaborations -->
     <td align="left" valign="middle">
-      <a href="https://github.com/LOUST-PRO/SnapPipe"><img src="https://img.shields.io/badge/Zero--Egress_WireGuard_Relay-SnapPipe-2C3E50?style=flat-square&logo=rust&logoColor=white" alt="SnapPipe: Zero-Egress WireGuard Relay"/></a>
-      <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade"><img src="https://img.shields.io/badge/DNS_Fallback_%26_TCP_Tuning-NetBoozt-F59E0B?style=flat-square&logo=tauri&logoColor=black" alt="NetBoozt: DNS Fallback & TCP Tuning"/></a>
-      <a href="https://socialspheremx.loust.pro"><img src="https://img.shields.io/badge/Multi--Tenant_SaaS_%26_ERP-SocialSphereMX-009EE3?style=flat-square&logo=nextdotjs&logoColor=white" alt="SocialSphereMX: Multi-Tenant SaaS & ERP"/></a>
-      <a href="https://h5kken.loust.pro"><img src="https://img.shields.io/badge/GGPO_Rollback_WebGPU-H5KKEN-AC162C?style=flat-square&logo=babylondotjs&logoColor=white" alt="H5KKEN: GGPO Rollback WebGPU"/></a>
-      <a href="https://github.com/LOUST-PRO/LinkMarks"><img src="https://img.shields.io/badge/Local--First_CRDT_Sync-LinkMarks-10B981?style=flat-square&logo=rust&logoColor=white" alt="LinkMarks: Local-First CRDT Sync"/></a>
-      <a href="https://github.com/LOUST-PRO/TaxonRouter"><img src="https://img.shields.io/badge/Deterministic_PR_Triage-TaxonRouter-00ADD8?style=flat-square&logo=go&logoColor=white" alt="TaxonRouter: Deterministic PR Triage"/></a>
-      <a href="https://github.com/LOUST-PRO/outlook-mcp-suite"><img src="https://img.shields.io/badge/OAuth2_Graph_Gateway-outlook--mcp--suite-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white" alt="outlook-mcp-suite: OAuth2 Graph Gateway"/></a>
-      <a href="https://github.com/LOUST-PRO/lzt-broker-stall-reaper"><img src="https://img.shields.io/badge/Kernel_TCP_Watchdog-lzt--broker--stall--reaper-00ADD8?style=flat-square&logo=linux&logoColor=white" alt="lzt-broker-stall-reaper: Kernel TCP Watchdog"/></a>
+      <a href="https://github.com/LOUST-PRO/SnapPipe"><img src="https://img.shields.io/badge/Identity--Anchored_Relay-SnapPipe-2C3E50?style=flat-square&logo=rust&logoColor=white" alt="SnapPipe: Identity-Anchored WireGuard Relay"/></a>
+      <a href="https://github.com/LOUST-PRO/NetBoozt_InternetUpgrade"><img src="https://img.shields.io/badge/ISP_Intelligence_%26_TCP_Tuning-NetBoozt-F59E0B?style=flat-square&logo=tauri&logoColor=black" alt="NetBoozt: ISP Intelligence & TCP Tuning"/></a>
+      <a href="https://github.com/LOUST-PRO/LinkMarks"><img src="https://img.shields.io/badge/Fast_Local--First_CRDT_Bookmarks-LinkMarks-10B981?style=flat-square&logo=rust&logoColor=white" alt="LinkMarks: Fast Local-First CRDT Bookmarks"/></a>
+      <a href="https://github.com/LOUST-PRO/TaxonRouter"><img src="https://img.shields.io/badge/Multi--Agent_PR_Tagger-TaxonRouter-00ADD8?style=flat-square&logo=go&logoColor=white" alt="TaxonRouter: Multi-Agent PR Tagger"/></a>
+      <a href="https://crates.io/crates/llmmempipe"><img src="https://img.shields.io/badge/Zero--Copy_Context_Streaming-llmmempipe-000000?style=flat-square&logo=rust&logoColor=e43717" alt="llmmempipe: Zero-Copy Context Streaming"/></a>
+      <a href="https://github.com/LOUST-PRO/outlook-mcp-suite"><img src="https://img.shields.io/badge/Full--Stack_Graph_%26_Mail_MCP-outlook--mcp--suite-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white" alt="outlook-mcp-suite: Full-Stack Graph & Mail MCP"/></a>
+      <a href="https://github.com/LOUST-PRO/lzt-broker-stall-reaper"><img src="https://img.shields.io/badge/CI%2FCD_Runner_TCP_Watchdog-lzt--broker--stall--reaper-00ADD8?style=flat-square&logo=linux&logoColor=white" alt="lzt-broker-stall-reaper: CI/CD Runner TCP Watchdog"/></a>
+      <a href="https://h5kken.loust.pro"><img src="https://img.shields.io/badge/Play_Now_WebGPU_Fighter-H5KKEN-AC162C?style=flat-square&logo=babylondotjs&logoColor=white" alt="H5KKEN: Play Now WebGPU Fighter"/></a>
+      <img src="https://img.shields.io/badge/%7C-1e293b?style=flat-square" alt="|"/>
+      <img src="https://img.shields.io/badge/Collaborations_%26_Upstream-1e293b?style=flat-square" alt="Collaborations & Upstream"/>
+      <a href="https://github.com/anufrievroman/waypaper"><img src="https://img.shields.io/badge/Wayland_Wallpaper_Manager-Waypaper-00ADD8?style=flat-square&logo=linux&logoColor=white" alt="Waypaper: Wayland Wallpaper Manager"/></a>
+      <a href="https://github.com/ValveSoftware/Fossilize"><img src="https://img.shields.io/badge/Vulkan_Shader_Pre--Caching-Fossilize_(Valve)-171A21?style=flat-square&logo=steam&logoColor=white" alt="Fossilize (Valve Software): Vulkan Shader Pre-Caching"/></a>
+      <a href="https://github.com/DankDatabase/DankMaterialShell"><img src="https://img.shields.io/badge/QML_Desktop_Environment-DMS-6366F1?style=flat-square&logo=gnome&logoColor=white" alt="DankMaterialShell: QML Desktop Environment"/></a>
     </td>
   </tr>
   <tr>
-    <!-- Row 7: MarTech, AdTech, PropTech, Hospitality & Commercial Infrastructure -->
+    <!-- Row 7: Enterprise Ecosystem & Production Portals -->
+    <td align="left" valign="middle">
+      <a href="https://loust.pro"><img src="https://img.shields.io/badge/Flagship_Portal_(Upcoming)-loust.pro-7C3AED?style=flat-square&logo=safari&logoColor=white" alt="loust.pro: Flagship Portal (Upcoming)"/></a>
+      <a href="https://showcase.loust.pro"><img src="https://img.shields.io/badge/Live_Portfolio_%26_Showcase-showcase.loust.pro-0093D0?style=flat-square&logo=googlechrome&logoColor=white" alt="showcase.loust.pro: Live Portfolio & Showcase"/></a>
+      <a href="https://socialspheremx.loust.pro"><img src="https://img.shields.io/badge/Digital_Agency_%26_Enterprise_SaaS-SocialSphereMX-009EE3?style=flat-square&logo=nextdotjs&logoColor=white" alt="SocialSphereMX: Digital Agency & Enterprise SaaS"/></a>
+    </td>
+  </tr>
+  <tr>
+    <!-- Row 8: MarTech, AdTech, PropTech, Hospitality & Commercial Infrastructure -->
     <td align="left" valign="middle">
       <img src="https://img.shields.io/badge/MarTech_%26_AdTech-FF5722?style=flat-square&logo=googleanalytics&logoColor=white" alt="MarTech & AdTech"/>
       <img src="https://img.shields.io/badge/PropTech_%26_Real_Estate-00897B?style=flat-square&logo=homeassistant&logoColor=white" alt="PropTech & Real Estate Tech"/>
@@ -154,8 +162,9 @@
     </td>
   </tr>
   <tr>
-    <!-- Row 8: Core Programming Languages & Engine Technologies -->
+    <!-- Row 9: Core Programming Languages & Engine Technologies -->
     <td align="left" valign="middle">
+      <img src="https://img.shields.io/badge/Constantly_experimenting_with-1e293b?style=flat-square&logo=codeigniter&logoColor=white" alt="Constantly experimenting with:"/>
       <img src="https://img.shields.io/badge/rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
       <img src="https://img.shields.io/badge/go-00add8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
       <img src="https://img.shields.io/badge/typescript-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
@@ -191,7 +200,7 @@
     </td>
   </tr>
   <tr>
-    <!-- Row 9: Global Language Switcher Row (Active: English) -->
+    <!-- Row 10: Global Language Switcher Row (Active: English) -->
     <td align="left" valign="middle">
       <img src="https://img.shields.io/badge/You_are_reading_in-English-0093D0?style=flat-square&logo=readme&logoColor=white" alt="You are reading in English"/>
       <a href="https://github.com/louzt/louzt/blob/main/README.es.md"><img src="https://img.shields.io/badge/Leer_en-Espa%C3%B1ol-D97706?style=flat-square&logo=readme&logoColor=white" alt="Leer en Español"/></a>
