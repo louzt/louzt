@@ -154,12 +154,12 @@
   <tr>
     <!-- Row 7: Mathematical Research, Sovereign RAG & Open Investigations -->
     <td align="left" valign="middle">
-      <img src="https://img.shields.io/badge/Mathematical_Research_%26_Sovereign_Substrates-7C3AED?style=flat-square" alt="Mathematical Research & Sovereign Substrates"/>
+      <img src="https://img.shields.io/badge/Investigaci%C3%B3n_Matem%C3%A1tica_%26_Sustratos_Soberanos-7C3AED?style=flat-square" alt="Mathematical Research & Sovereign Substrates"/>
       <a href="https://github.com/LOUST-PRO/deterministic-sovereign-rag"><img src="https://img.shields.io/badge/Sub--Microsecond_Local_RAG-deterministic--sovereign--rag-7C3AED?style=flat-square&logo=rust&logoColor=white" alt="deterministic-sovereign-rag: Sub-Microsecond Local RAG"/></a>
-      <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Empirical_RAG_Analysis-Investigaci%C3%B3n-7C3AED?style=flat-square" alt="Empirical RAG Analysis Investigación"/></a>
-      <a href="https://gist.github.com/louzt/376f48c722d4a15d7e78f940818cbade"><img src="https://img.shields.io/badge/Probabilistic_Triage_Harness-Investigaci%C3%B3n-8B5CF6?style=flat-square" alt="Probabilistic Triage Harness Investigación"/></a>
-      <a href="https://gist.github.com/louzt/1c85044d5090d19223c3f5edf426a19e"><img src="https://img.shields.io/badge/NVIDIA_Kernel_7.0+_RFC-Investigaci%C3%B3n-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA Kernel 7.0+ RFC Investigación"/></a>
-      <a href="https://gist.github.com/louzt/7bdf370a28126718e7e7b69d53b0ae86"><img src="https://img.shields.io/badge/NGINX_CRLF_Smuggling_RFC-Investigaci%C3%B3n-009639?style=flat-square&logo=nginx&logoColor=white" alt="NGINX CRLF Smuggling RFC Investigación"/></a>
+      <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/An%C3%A1lisis_Emp%C3%ADrico_RAG-Investigaci%C3%B3n-7C3AED?style=flat-square" alt="Empirical RAG Analysis Research"/></a>
+      <a href="https://gist.github.com/louzt/376f48c722d4a15d7e78f940818cbade"><img src="https://img.shields.io/badge/Arn%C3%A9s_de_Triaje_Probabil%C3%ADstico-Investigaci%C3%B3n-8B5CF6?style=flat-square" alt="Probabilistic Triage Harness Research"/></a>
+      <a href="https://gist.github.com/louzt/1c85044d5090d19223c3f5edf426a19e"><img src="https://img.shields.io/badge/NVIDIA_Kernel_7.0+_RFC-Investigaci%C3%B3n-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA Kernel 7.0+ RFC Research"/></a>
+      <a href="https://gist.github.com/louzt/7bdf370a28126718e7e7b69d53b0ae86"><img src="https://img.shields.io/badge/NGINX_CRLF_Smuggling_RFC-Investigaci%C3%B3n-009639?style=flat-square&logo=nginx&logoColor=white" alt="NGINX CRLF Smuggling RFC Research"/></a>
     </td>
   </tr>
   <tr>
