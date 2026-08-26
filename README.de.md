@@ -54,29 +54,29 @@
   <tr>
     <!-- Row 1: Roles, Market Positioning, Craftsmanship & Community Collaboration -->
     <td align="left" valign="middle">
-      <img src="https://img.shields.io/badge/Principal_Platform_Architect-0f172a?style=flat-square" alt="Principal Platform Architect"/>
-      <img src="https://img.shields.io/badge/Systemarchitekt-0f172a?style=flat-square" alt="Systems Architect"/>
-      <img src="https://img.shields.io/badge/Intent--Based_Engineering_%28IBE%29-2563eb?style=flat-square" alt="Intent-Based Engineering (IBE)"/>
-      <img src="https://img.shields.io/badge/Site_Reliability_%26_SRE-0891b2?style=flat-square&logo=kubernetes&logoColor=white" alt="Site Reliability & SRE"/>
-      <img src="https://img.shields.io/badge/Cost_Avoidance_%26_Resiliency-059669?style=flat-square" alt="Cost Avoidance & Resiliency"/>
-      <img src="https://img.shields.io/badge/Zero--Trust_Infrastruktur-1e293b?style=flat-square" alt="Zero-Trust Infrastructure"/>
-      <img src="https://img.shields.io/badge/Sicherheitsforscher-eb0029?style=flat-square&logo=hackerone&logoColor=white" alt="Security Researcher"/>
-      <img src="https://img.shields.io/badge/Kernel_%26_Systemforschung-0f172a?style=flat-square&logo=linux&logoColor=white" alt="Kernel & Systems Research"/>
-      <img src="https://img.shields.io/badge/Lebenslanger_Lernender-7c3aed?style=flat-square" alt="Lifelong Student"/>
-      <img src="https://img.shields.io/badge/Handwerk-T%C3%A4gliche_Arbeit_ein_vollst%C3%A4ndigerer_%26_verantwortungsvollerer_Entwickler_zu_sein-10b981?style=flat-square" alt="Handwerk: Tägliche Arbeit, ein vollständigerer und verantwortungsvollerer Entwickler zu sein"/>
-      <a href="mailto:partnership@loust.pro?subject=FOSS%20Community%20Collaboration"><img src="https://img.shields.io/badge/Offen_f%C3%BCr_Beitr%C3%A4ge_in-FOSS%2FOSS_Communities-34A853?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="Open to contribute to FOSS/OSS Communities"/></a>
-      <a href="mailto:partnership@loust.pro?subject=Peer%20Collaboration"><img src="https://img.shields.io/badge/Suche_nach_Gleichgesinnten_%26_spannenden_Projekten-0284c7?style=flat-square" alt="Looking for peers & exciting projects"/></a>
+      <a href="#services--engineering-solutions-matrix"><img src="https://img.shields.io/badge/Role-Principal_Platform_Architect-0f172a?style=flat-square&labelColor=1e293b" alt="Principal Platform Architect"/></a>
+      <a href="#services--engineering-solutions-matrix"><img src="https://img.shields.io/badge/Role-Systemarchitekt-0f172a?style=flat-square&labelColor=1e293b" alt="Systems Architect"/></a>
+      <a href="https://gist.github.com/louzt/376f48c722d4a15d7e78f940818cbade"><img src="https://img.shields.io/badge/Methodology-Intent--Based_Engineering_(IBE)-2563eb?style=flat-square&labelColor=0f172a" alt="Intent-Based Engineering (IBE)"/></a>
+      <a href="#-cloud-pipelines--enterprise-architecture-mapping"><img src="https://img.shields.io/badge/Discipline-Site_Reliability_%26_SRE-0891b2?style=flat-square&labelColor=0f172a&logo=kubernetes&logoColor=white" alt="Site Reliability & SRE"/></a>
+      <a href="#-what-this-systems-engineering-posture-means-for-your-platform"><img src="https://img.shields.io/badge/ROI-Cost_Avoidance_%26_Resiliency-059669?style=flat-square&labelColor=0f172a" alt="Cost Avoidance & Resiliency"/></a>
+      <a href="https://github.com/LOUST-PRO/SnapPipe"><img src="https://img.shields.io/badge/Security-Zero--Trust_Infrastruktur-1e293b?style=flat-square&labelColor=0f172a&logo=wireguard&logoColor=white" alt="Zero-Trust Infrastructure"/></a>
+      <a href="mailto:security@loust.pro"><img src="https://img.shields.io/badge/Security-Researcher-eb0029?style=flat-square&labelColor=0f172a&logo=hackerone&logoColor=white" alt="Security Researcher"/></a>
+      <a href="#-public-upstream-hardening--core-systems-invariants"><img src="https://img.shields.io/badge/Domain-Kernel_%26_Systemforschung-0f172a?style=flat-square&labelColor=1e293b&logo=linux&logoColor=white" alt="Kernel & Systems Research"/></a>
+      <img src="https://img.shields.io/badge/Mindset-Lebenslanger_Lernender-7c3aed?style=flat-square&labelColor=0f172a" alt="Lifelong Student"/>
+      <img src="https://img.shields.io/badge/Handwerk-T%C3%A4gliche_Arbeit_ein_vollst%C3%A4ndigerer_%26_verantwortungsvollerer_Entwickler_zu_sein-10b981?style=flat-square&labelColor=0f172a" alt="Handwerk: Tägliche Arbeit, ein vollständigerer und verantwortungsvollerer Entwickler zu sein"/>
+      <a href="mailto:partnership@loust.pro?subject=FOSS%20Community%20Collaboration"><img src="https://img.shields.io/badge/Contribute-FOSS%2FOSS_Communities-34A853?style=flat-square&labelColor=0f172a&logo=opensourceinitiative&logoColor=white" alt="Open to contribute to FOSS/OSS Communities"/></a>
+      <a href="mailto:partnership@loust.pro?subject=Peer%20Collaboration"><img src="https://img.shields.io/badge/Connect-Suche_nach_Gleichgesinnten_%26_spannenden_Projekten-0284c7?style=flat-square&labelColor=0f172a" alt="Looking for peers & exciting projects"/></a>
     </td>
   </tr>
   <tr>
     <!-- Row 2: Research Specializations, Spec-Driven EDA & FOSS Governance -->
     <td align="left" valign="middle">
-      <a href="https://gist.github.com/louzt/376f48c722d4a15d7e78f940818cbade"><img src="https://img.shields.io/badge/Deterministische_Harnesses-8b5cf6?style=flat-square" alt="Deterministic Harnesses"/></a>
-      <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Sovereign_RAG-7c3aed?style=flat-square" alt="Sovereign RAG"/></a>
-      <img src="https://img.shields.io/badge/Spec--Driven_EDA_%26_Contracts-0284c7?style=flat-square" alt="Spec-Driven EDA & Contracts"/>
-      <img src="https://img.shields.io/badge/Zero--Egress_Sicherheit-1F2937?style=flat-square" alt="Zero-Egress Security"/>
-      <img src="https://img.shields.io/badge/Kernel_%26_Runtime_H%C3%A4rtung-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Kernel & Runtime Hardening"/>
-      <img src="https://img.shields.io/badge/CLA_%26_FOSS_Governance-004D40?style=flat-square" alt="CLA & FOSS Governance"/>
+      <a href="https://gist.github.com/louzt/376f48c722d4a15d7e78f940818cbade"><img src="https://img.shields.io/badge/Research_Gist-Deterministische_Harnesses-8b5cf6?style=flat-square&labelColor=0f172a&logo=github&logoColor=white" alt="Deterministic Harnesses Gist"/></a>
+      <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Research_Gist-Sovereign_RAG-7c3aed?style=flat-square&labelColor=0f172a&logo=rust&logoColor=white" alt="Sovereign RAG Gist"/></a>
+      <a href="#-cloud-pipelines--enterprise-architecture-mapping"><img src="https://img.shields.io/badge/Architecture-Spec--Driven_EDA_%26_Contracts-0284c7?style=flat-square&labelColor=0f172a" alt="Spec-Driven EDA & Contracts"/></a>
+      <a href="https://github.com/LOUST-PRO/SnapPipe"><img src="https://img.shields.io/badge/Security-Zero--Egress_Transport-1F2937?style=flat-square&labelColor=0f172a" alt="Zero-Egress Security"/></a>
+      <a href="https://gist.github.com/louzt/1c85044d5090d19223c3f5edf426a19e"><img src="https://img.shields.io/badge/Kernel-Runtime_Hardening-FCC624?style=flat-square&labelColor=0f172a&logo=linux&logoColor=black" alt="Kernel & Runtime Hardening Gist"/></a>
+      <a href="https://github.com/LOUST-PRO/LZT-Developers"><img src="https://img.shields.io/badge/Governance-CLA_%26_FOSS_Legal-004D40?style=flat-square&labelColor=0f172a&logo=git&logoColor=white" alt="CLA & FOSS Governance"/></a>
     </td>
   </tr>
   <tr>
@@ -107,13 +107,13 @@
   <tr>
     <!-- Row 5: Web3, Decentralized Infrastructure & Agent Protocols -->
     <td align="left" valign="middle">
-      <img src="https://img.shields.io/badge/Blockchain_%26_Web3-121D33?style=flat-square&logo=blockchaindotcom&logoColor=white" alt="Blockchain & Web3"/>
-      <img src="https://img.shields.io/badge/Agent_Protocols-MCP_%26_A2A-000000?style=flat-square&logo=github&logoColor=white" alt="MCP & A2A Agent Protocols"/>
-      <img src="https://img.shields.io/badge/Multi--Agent_Control_Planes-Zero--Slop_Deterministische_Harnesses-7c3aed?style=flat-square" alt="Multi-Agent Control Planes (Zero-Slop Deterministic Harnesses)"/>
-      <img src="https://img.shields.io/badge/RBAC_%26_Multi--Tenant_Isolierung-0f172a?style=flat-square" alt="RBAC & Multi-Tenant Isolation"/>
-      <img src="https://img.shields.io/badge/Provenance_Auditing_Harness-Virtuoso_Triples_%2f_SPARQL-2C3E50?style=flat-square" alt="Provenance Auditing Harness (Virtuoso Triples / SPARQL)"/>
-      <img src="https://img.shields.io/badge/Wissensgraphen-Enterprise_Ontology-0f172a?style=flat-square" alt="Knowledge Graphs"/>
-      <img src="https://img.shields.io/badge/Local--First_Sync-CRDT_%26_Automerge-064E3B?style=flat-square" alt="Local-First Sync (CRDT & Automerge)"/>
+      <img src="https://img.shields.io/badge/Web3-Decentralized_Infra-121D33?style=flat-square&labelColor=0f172a&logo=blockchaindotcom&logoColor=white" alt="Blockchain & Web3"/>
+      <a href="https://github.com/serpapi/serpapi-mcp/pull/48"><img src="https://img.shields.io/badge/Protocols-MCP_%26_A2A-000000?style=flat-square&labelColor=0f172a&logo=github&logoColor=white" alt="MCP & A2A Agent Protocols"/></a>
+      <a href="https://gist.github.com/louzt/3ba453b2876a4b105a9893b26541ffc3"><img src="https://img.shields.io/badge/Control_Planes-Zero--Slop_Deterministische_Harnesses-7c3aed?style=flat-square&labelColor=0f172a&logo=github&logoColor=white" alt="Multi-Agent Control Planes Gist"/></a>
+      <a href="https://gist.github.com/louzt/64715cb9c6ec6ffdd98c5712b8fb7bac"><img src="https://img.shields.io/badge/Security-RBAC_%26_Multi--Tenant_Isolierung-0f172a?style=flat-square&labelColor=1e293b" alt="RBAC & Multi-Tenant Isolation Case Study"/></a>
+      <a href="https://github.com/LOUST-PRO/lzt-virtuoso-tools"><img src="https://img.shields.io/badge/Auditing-Virtuoso_Triples_%2f_SPARQL-2C3E50?style=flat-square&labelColor=0f172a" alt="Provenance Auditing Harness"/></a>
+      <img src="https://img.shields.io/badge/Graphs-Enterprise_Ontology-0f172a?style=flat-square&labelColor=1e293b" alt="Knowledge Graphs"/>
+      <a href="https://github.com/LOUST-PRO/LinkMarks"><img src="https://img.shields.io/badge/Sync-CRDT_%26_Automerge-064E3B?style=flat-square&labelColor=0f172a" alt="Local-First Sync"/></a>
     </td>
   </tr>
   <tr>
@@ -139,17 +139,17 @@
       <img src="https://img.shields.io/badge/%7C-1e293b?style=flat-square" alt="|"/>
       <img src="https://img.shields.io/badge/Contributed_to_Upstream_FOSS-1e293b?style=flat-square&logo=github&logoColor=white" alt="Contributed to Upstream FOSS"/>
       <a href="#-public-upstream-hardening--core-systems-invariants"><img src="https://img.shields.io/badge/More_info_on_my_contributions_below_%E2%86%93-2563EB?style=flat-square" alt="More info on my contributions below ↓"/></a>
-      <a href="https://h5kken.loust.pro"><img src="https://img.shields.io/badge/Rollback_WebGPU_Fighter-H5KKEN-AC162C?style=flat-square&logo=babylondotjs&logoColor=white" alt="H5KKEN: Rollback WebGPU Fighter"/></a>
-      <a href="https://github.com/EpicGames/zen"><img src="https://img.shields.io/badge/Derived_Data_Cache-Epic_Games_Zen-000000?style=flat-square&logo=unrealengine&logoColor=white" alt="Epic Games Zen Storage Server"/></a>
-      <a href="https://github.com/ValveSoftware/Fossilize"><img src="https://img.shields.io/badge/Vulkan_Shader_Pre--Caching-Valve_Fossilize-171A21?style=flat-square&logo=steam&logoColor=white" alt="Fossilize (Valve Software): Vulkan Shader Pre-Caching"/></a>
-      <a href="https://github.com/louzt/pipewire"><img src="https://img.shields.io/badge/Audio_IPC_Timeout_Hardening-PipeWire-E63946?style=flat-square&logo=linux&logoColor=white" alt="PipeWire: Audio IPC Timeout Hardening"/></a>
-      <a href="https://github.com/Almamu/linux-wallpaperengine"><img src="https://img.shields.io/badge/Wayland_IPC_%26_Engine-Linux_Wallpaper_Engine-171A21?style=flat-square&logo=linux&logoColor=white" alt="Linux Wallpaper Engine (LWE)"/></a>
-      <a href="https://github.com/anufrievroman/waypaper"><img src="https://img.shields.io/badge/Wayland_Wallpaper_Manager-Waypaper-00ADD8?style=flat-square&logo=linux&logoColor=white" alt="Waypaper: Wayland Wallpaper Manager"/></a>
-      <a href="https://github.com/DankDatabase/DankMaterialShell"><img src="https://img.shields.io/badge/QML_Desktop_Environment-DMS-6366F1?style=flat-square&logo=gnome&logoColor=white" alt="DankMaterialShell: QML Desktop Environment"/></a>
-      <a href="https://gist.github.com/louzt/7bdf370a28126718e7e7b69d53b0ae86"><img src="https://img.shields.io/badge/HTTP%2F1.1_Trailer_Sanitization_%26_CRLF_RFC-NGINX-009639?style=flat-square&logo=nginx&logoColor=white" alt="NGINX: HTTP/1.1 Trailer Sanitization & CRLF Hardening Gist"/></a>
-      <a href="https://github.com/nektos/act"><img src="https://img.shields.io/badge/Runner_Cache_Concurrency_Hardening-nektos%2Fact-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="nektos/act Runner Concurrency Hardening"/></a>
-      <a href="https://github.com/appwrite/mcp"><img src="https://img.shields.io/badge/ToolAnnotations_%26_Discovery-Appwrite_MCP-FD366E?style=flat-square&logo=appwrite&logoColor=white" alt="Appwrite MCP ToolAnnotations & Discovery"/></a>
-      <a href="https://github.com/serpapi/serpapi-mcp"><img src="https://img.shields.io/badge/ResourceTemplate_%26_Annotations-SerpApi_MCP-4A90E2?style=flat-square&logo=google&logoColor=white" alt="SerpApi MCP ResourceTemplate & Annotations"/></a>
+      <a href="https://h4kken.loust.pro"><img src="https://img.shields.io/badge/Fighter-H4KKEN_Rollback_WebGPU-AC162C?style=flat-square&labelColor=0f172a&logo=babylondotjs&logoColor=white" alt="H4KKEN: Rollback WebGPU Fighter"/></a>
+      <a href="https://github.com/EpicGames/zen/commit/14cc6ca40f0ec33b026ffe4cae85b8b04d4ade8f"><img src="https://img.shields.io/badge/Epic_Games_Zen-Derived_Data_Cache-000000?style=flat-square&labelColor=0f172a&logo=unrealengine&logoColor=white" alt="Epic Games Zen Storage Server Commit"/></a>
+      <a href="https://github.com/ValveSoftware/Fossilize/pull/305"><img src="https://img.shields.io/badge/Valve_Fossilize-Vulkan_Shader_Replayer_PR-171A21?style=flat-square&labelColor=0f172a&logo=steam&logoColor=white" alt="Valve Fossilize PR #305"/></a>
+      <a href="https://github.com/louzt/pipewire/commit/2f747a7"><img src="https://img.shields.io/badge/PipeWire-Audio_IPC_Timeout_Commit-E63946?style=flat-square&labelColor=0f172a&logo=linux&logoColor=white" alt="PipeWire Commit"/></a>
+      <a href="https://github.com/Almamu/linux-wallpaperengine"><img src="https://img.shields.io/badge/LWE-Wayland_IPC_%26_Engine-171A21?style=flat-square&labelColor=0f172a&logo=linux&logoColor=white" alt="Linux Wallpaper Engine (LWE)"/></a>
+      <a href="https://github.com/anufrievroman/waypaper/pull/286"><img src="https://img.shields.io/badge/Waypaper-HiDPI_Filter_Matrix_PR-00ADD8?style=flat-square&labelColor=0f172a&logo=linux&logoColor=white" alt="Waypaper PR #286"/></a>
+      <a href="https://github.com/AvengeMedia/DankMaterialShell/pull/2972"><img src="https://img.shields.io/badge/DMS-Plugin_Registry_Rewrite_PR-6366F1?style=flat-square&labelColor=0f172a&logo=gnome&logoColor=white" alt="DankMaterialShell PR #2972"/></a>
+      <a href="https://gist.github.com/louzt/7bdf370a28126718e7e7b69d53b0ae86"><img src="https://img.shields.io/badge/NGINX-CRLF_RFC_%26_Evidence_Gist-009639?style=flat-square&labelColor=0f172a&logo=nginx&logoColor=white" alt="NGINX CRLF Gist"/></a>
+      <a href="https://github.com/nektos/act"><img src="https://img.shields.io/badge/nektos%2Fact-Runner_Cache_Hardening-2088FF?style=flat-square&labelColor=0f172a&logo=githubactions&logoColor=white" alt="nektos/act Runner Concurrency Hardening"/></a>
+      <a href="https://github.com/appwrite/mcp"><img src="https://img.shields.io/badge/Appwrite_MCP-ToolAnnotations_%26_Discovery-FD366E?style=flat-square&labelColor=0f172a&logo=appwrite&logoColor=white" alt="Appwrite MCP ToolAnnotations & Discovery"/></a>
+      <a href="https://github.com/serpapi/serpapi-mcp/pull/48"><img src="https://img.shields.io/badge/SerpApi_MCP-ResourceTemplate_PR_%2348-4A90E2?style=flat-square&labelColor=0f172a&logo=google&logoColor=white" alt="SerpApi MCP PR #48"/></a>
     </td>
   </tr>
   <tr>
@@ -157,10 +157,10 @@
     <td align="left" valign="middle">
       <img src="https://img.shields.io/badge/Mathematical_Research_%26_Sovereign_Substrates-7C3AED?style=flat-square" alt="Mathematical Research & Sovereign Substrates"/>
       <a href="https://github.com/LOUST-PRO/deterministic-sovereign-rag"><img src="https://img.shields.io/badge/Sub--Microsecond_Local_RAG-deterministic--sovereign--rag-7C3AED?style=flat-square&logo=rust&logoColor=white" alt="deterministic-sovereign-rag: Sub-Microsecond Local RAG"/></a>
-      <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Empirical_RAG_Analysis-Research-7C3AED?style=flat-square" alt="Empirical RAG Analysis Research"/></a>
-      <a href="https://gist.github.com/louzt/376f48c722d4a15d7e78f940818cbade"><img src="https://img.shields.io/badge/Probabilistic_Triage_Harness-Research-8B5CF6?style=flat-square" alt="Probabilistic Triage Harness Research"/></a>
-      <a href="https://gist.github.com/louzt/1c85044d5090d19223c3f5edf426a19e"><img src="https://img.shields.io/badge/NVIDIA_Kernel_7.0+_RFC-Research-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA Kernel 7.0+ RFC Research"/></a>
-      <a href="https://gist.github.com/louzt/7bdf370a28126718e7e7b69d53b0ae86"><img src="https://img.shields.io/badge/NGINX_CRLF_Smuggling_RFC-Research-009639?style=flat-square&logo=nginx&logoColor=white" alt="NGINX CRLF Smuggling RFC Research"/></a>
+      <a href="https://gist.github.com/louzt/d1ce71c05460c2c32bf31342cd0c6a3f"><img src="https://img.shields.io/badge/Research_Gist-Empirical_RAG_Analysis-7C3AED?style=flat-square&labelColor=0f172a&logo=github&logoColor=white" alt="Empirical RAG Analysis Research"/></a>
+      <a href="https://gist.github.com/louzt/376f48c722d4a15d7e78f940818cbade"><img src="https://img.shields.io/badge/Research_Gist-Probabilistic_Triage_Harness-8B5CF6?style=flat-square&labelColor=0f172a&logo=github&logoColor=white" alt="Probabilistic Triage Harness Research"/></a>
+      <a href="https://gist.github.com/louzt/1c85044d5090d19223c3f5edf426a19e"><img src="https://img.shields.io/badge/RFC_Gist-NVIDIA_Kernel_7.0+-76B900?style=flat-square&labelColor=0f172a&logo=nvidia&logoColor=white" alt="NVIDIA Kernel 7.0+ RFC Research"/></a>
+      <a href="https://gist.github.com/louzt/7bdf370a28126718e7e7b69d53b0ae86"><img src="https://img.shields.io/badge/RFC_Gist-NGINX_CRLF_Smuggling-009639?style=flat-square&labelColor=0f172a&logo=nginx&logoColor=white" alt="NGINX CRLF Smuggling RFC Research"/></a>
     </td>
   </tr>
   <tr>
